@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="44fc-2846-12b5-766a" name="Heroes" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="81bc-012c-665b-9b3d" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="44fc-2846-12b5-766a" name="Heroes" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="81bc-012c-665b-9b3d" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="eb4e-d55b-c663-c712" name="Gamma Wave Sweeps Across Midwest" hidden="false" collective="false" import="true" targetId="db27-2d52-016b-dbe4" type="selectionEntry">
       <categoryLinks>
@@ -1682,6 +1682,225 @@ Wild - Bleed: After this attack is resolved, the target character gains the Blee
       </profiles>
       <costs>
         <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b53b-8751-1e0a-f143" name="Battle Lust" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="6bba-36d6-6a9f-73bd" name="Battle Lust" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
+            <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
+            <characteristic name="Details" typeId="3c65-5213-7979-ed33">At the end of a move action action made during an allied characters activation, the moving character may spend Power equal to it&apos;s size to play this card. 
+The next attack made by the moving character this activation adds dice to the attack equal to its size. If the attack dealsdamage, aftter the attack is resolved, push the target character away Speed Short. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c370-f25f-ae04-a5ff" name="Black Panther" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="ebe8-5ac3-2bb5-5bfb" name="Black Panther" hidden="false" typeId="fde4-96d9-2028-2529" typeName="Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">6</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">L</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">2</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">4</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">4</characteristic>
+            <characteristic name="Energy Defese" typeId="0509-5c52-7571-39ad">3</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7f72-04b2-d79d-361d" name="Strike" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Physical</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">2</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">5</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">After this attack is resolved, this character gains Power equal to the Damage dealt.
+Before Damage is dealt, push the target character away from this character Speed Short.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8ee1-5458-5753-d72a" name="Kinetic Burst" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Energy</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">2</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">6</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">3</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">When making this attack, during the pay Power cost step of the attack, this character may send up to 3 additional Power. Add one die to this attack for each Power spent this way.
+Wild - Explosive Force : After this attack is resolved, other characters within Range 2 of this character are Pushed away from this character Speed Short. Pushed characters suffer one Damage. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8f8f-5b73-e1de-7073" name="King of Wakanda (Affiliation: Wakanda)" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">After an allied character rolls attack, defense, or dodge dice, it may spend 1 Power. If it does, that character may reroll one of the dice in that roll. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Leadership</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="96b5-49fd-7a52-359e" name="Mantle of the Black Panther" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">2</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">When making attacks this turn this character may reroll any number of its attack dice. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b56d-1dd3-7612-5161" name="Pounce" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">2</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">This character is thrown Speed Short. It does not suffer damage if it collides with another character or terrain feature. This superpower can be used only once per activation. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9f42-8051-b079-b04a" name="Vibranium Armor" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">When defending against Physical or Energy attacks, this character adds blanks in its defense roll to its total success. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="eecf-d8ec-58b9-c6d4" name="Vibranium Armor - Injured" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">2</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">When this character is targeted by a Physical or Energy attack, it may used this superpower. Add two dice to this character defense roll against that attack. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Reactive. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4045-ec62-ae9e-9213" name="Killmonger" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="2574-40ef-eda3-bf50" name="Killmonger" hidden="false" typeId="fde4-96d9-2028-2529" typeName="Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">6</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">M</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">2</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">4</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">4</characteristic>
+            <characteristic name="Energy Defese" typeId="0509-5c52-7571-39ad">3</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5a44-7b99-dd84-c467" name="Killmonger - Injured" hidden="false" typeId="fde4-96d9-2028-2529" typeName="Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">5</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">M</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">2</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">4</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">4</characteristic>
+            <characteristic name="Energy Defese" typeId="0509-5c52-7571-39ad">3</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0f7f-0133-32e8-f1b7" name="Vibranium Weapons" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Energy</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">2</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">5</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">After this attack is resolved, this character gains Power equal to the Damage dealt.
+Wild - Pierce: Change one of the defending character&apos;s Critical, Wild, or Shield results to a blank.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="14cc-097a-eb57-2c43" name="Black Ops Strike" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Physical</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">3</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">7</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">3</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">If this attack deals Damage, after this attack is resolved, place this character within Range 1 of the target.
+Wild - Stagger : Aftet this attack is resolved the target character gains the Stagger special condition.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="de2b-abe5-d4cf-2494" name="Charge" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">2</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Action: This character immediately makes a move action followed by an attack action. This superpower can be used onle once per turn.</characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="14e6-16ad-53e4-f22a" name="Special Forces" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">1</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">When this character is attacking, it may use this superpower during the Calculate Success step of the attack. This character may choose to count Shield results instead of hit results as successes. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Reactive</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9ca4-6971-7ad8-fd0d" name="Focused on the Kill" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">If this character makes an attack against a character it has already made an attack against this turn, add two dice to the attack roll. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="bacc-97f4-81fc-e4cd" name="Kill Count" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">When this character Dazes or KO&apos;s an enemy character it gains a Kill Count token. When this character is attacking it may reroll one die in its attack roll for each Kill Count token it has. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ad4c-3ee1-7474-86da" name="Mystic Wakandan Herbs: Fact or Fiction" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="4637-9ef3-568e-a350" name="Mystic Wakandan Herbs: Fact or Fiction" hidden="false" typeId="e274-6fe8-7f95-a012" typeName="Crisis">
+          <characteristics>
+            <characteristic name="Setup" typeId="99b3-ec42-38d9-2d3a">Place two Herb (Asset) onto the central points on map A. Place two Vessels (Target of Opportunity) on the other two points.</characteristic>
+            <characteristic name="Scoring" typeId="3561-4e9e-55ca-a37d">Players score 4 VPs if an allied character is holding their Herb while contesting their Vessel during the Cleanup Phase. </characteristic>
+            <characteristic name="Details" typeId="7116-4232-08b5-42bc">Interact (Herb): Pick up your Herb
+
+A character holding an Herb cannot perform more than one move action per turn, adds one die to physical attack rolls, and has the Innate Immunity [Slow, Stagger] superpower. 
+
+Herbs placed farthers from a player&apos;s board edge and Vessels placed closest to a player&apos;s board edgeare their Herbs and Vessels.</characteristic>
+            <characteristic name="Threat" typeId="81f5-e239-dd2d-2b7c">15</characteristic>
+            <characteristic name="Type" typeId="fc23-59e6-7090-77fa">Extraction</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="a7d3-a1bc-7a21-b7cb" name="Extraction Crisis" hidden="false" targetId="67a0-a10a-a572-55c8" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="98d1-3205-1471-2170" name="Usurp the Throne" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="f6db-9741-4e06-2aca" name="Usurp the Throne" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
+            <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
+            <characteristic name="Details" typeId="3c65-5213-7979-ed33">Killmonger may spend 3 Power to play this card. 
+This round, Killmonger adds two dice to his attack rolls when attacking the enemy character with the highest threat value. If Killmonger Dazes or KOs that character this round, his controlling player scores 2 VPs. 
+If there is a tie for highest threat value, Killmonger&apos;s controller chooses one to be affected by this card. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ee9d-6370-e9ed-6502" name="Wakanda Forever" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="f80c-cbed-a52c-2f68" name="Wakanda Forever" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Wakanda</characteristic>
+            <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
+            <characteristic name="Details" typeId="3c65-5213-7979-ed33">Any number of allied Wakanda characters may spend 1 Power to play this card. 
+Each character that spent Power may immediately perform an attack with a Power cost of 0. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
