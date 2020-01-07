@@ -250,6 +250,7 @@
       <categoryLinks>
         <categoryLink id="3c21-599a-9091-f7d9" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="true"/>
         <categoryLink id="5acf-8db5-9523-abd9" name="Avengers" hidden="false" targetId="d6c4-f011-cd8c-5451" primary="false"/>
+        <categoryLink id="465f-df56-fb89-692a" name="Wakanda" hidden="false" targetId="f26a-4939-f603-307c" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="1202-f19b-79a3-23cb" name="Battle Lust" hidden="false" collective="false" import="true" targetId="b53b-8751-1e0a-f143" type="selectionEntry">
@@ -261,6 +262,7 @@
       <categoryLinks>
         <categoryLink id="909d-9ee8-f2e3-11e8" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="true"/>
         <categoryLink id="c6dc-0b93-a976-4a39" name="Cabal" hidden="false" targetId="54a5-69c1-3540-3c6e" primary="false"/>
+        <categoryLink id="ed23-b80b-65b2-181e" name="Wakanda" hidden="false" targetId="f26a-4939-f603-307c" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="0bb1-8fbb-c985-639e" name="Mystic Wakandan Herbs: Fact or Fiction" hidden="false" collective="false" import="true" targetId="ad4c-3ee1-7474-86da" type="selectionEntry">
@@ -276,6 +278,7 @@
     <entryLink id="8dba-aab5-519d-823a" name="Wakanda Forever" hidden="false" collective="false" import="true" targetId="ee9d-6370-e9ed-6502" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="60ef-d9a0-6be4-49b8" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
+        <categoryLink id="9f6b-d8f7-46c9-e0ed" name="Wakanda" hidden="false" targetId="f26a-4939-f603-307c" primary="false"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>

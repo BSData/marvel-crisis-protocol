@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="81bc-012c-665b-9b3d" name="Marvel Crisis Protocol" revision="1" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="81bc-012c-665b-9b3d" name="Marvel Crisis Protocol" revision="2" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="2de3-a5e2-23d8-2859" name=" Threat Value" defaultCostLimit="-1.0"/>
   </costTypes>
@@ -56,6 +56,7 @@
     <categoryEntry id="54a5-69c1-3540-3c6e" name="Cabal" hidden="false"/>
     <categoryEntry id="d6c4-f011-cd8c-5451" name="Avengers" hidden="false"/>
     <categoryEntry id="67a0-a10a-a572-55c8" name="Extraction Crisis" hidden="false"/>
+    <categoryEntry id="f26a-4939-f603-307c" name="Wakanda" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="fc8b-e3b6-b2a4-5d8b" name="Roster" hidden="false">
@@ -87,6 +88,7 @@
         <categoryLink id="c17e-e7a5-9ed8-2a65" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
         <categoryLink id="df0b-5f55-6b36-8c7e" name="Crisis" hidden="false" targetId="75ba-74ce-7452-509c" primary="false"/>
         <categoryLink id="1be6-57b7-7d90-35af" name="Team Tactics" hidden="false" targetId="d643-5175-ae87-9385" primary="false"/>
+        <categoryLink id="ef3d-f2c1-c68d-dfd2" name="Extraction Crisis" hidden="false" targetId="67a0-a10a-a572-55c8" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
