@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="44fc-2846-12b5-766a" name="Heroes" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="81bc-012c-665b-9b3d" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="44fc-2846-12b5-766a" name="Heroes" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="81bc-012c-665b-9b3d" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="eb4e-d55b-c663-c712" name="Gamma Wave Sweeps Across Midwest" hidden="false" collective="false" import="true" targetId="db27-2d52-016b-dbe4" type="selectionEntry">
       <categoryLinks>
@@ -279,6 +279,44 @@
       <categoryLinks>
         <categoryLink id="60ef-d9a0-6be4-49b8" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
         <categoryLink id="9f6b-d8f7-46c9-e0ed" name="Wakanda" hidden="false" targetId="f26a-4939-f603-307c" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="467e-0526-de40-5d7a" name="Okoye" hidden="false" collective="false" import="true" targetId="d8e4-5461-f2e7-dd1c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8e68-f228-c1da-3271" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="true"/>
+        <categoryLink id="fa29-fe85-b990-946d" name="Wakanda" hidden="false" targetId="f26a-4939-f603-307c" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="93be-c876-c757-5995" name="Shuri" hidden="false" collective="false" import="true" targetId="d38f-7e5c-f59f-c3e3" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7a66-89ac-edb0-9340" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="true"/>
+        <categoryLink id="0353-efb0-33ef-5f85" name="Wakanda" hidden="false" targetId="f26a-4939-f603-307c" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a094-907c-6d2d-9f03" name="Vibranium Shielding" hidden="false" collective="false" import="true" targetId="77d3-2c72-5baf-d024" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="030b-a1c4-037e-f262" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
+        <categoryLink id="2b11-a010-04e7-50df" name="Wakanda" hidden="false" targetId="f26a-4939-f603-307c" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a0d5-6bd4-3606-8665" name="Advanced R&amp;D" hidden="false" collective="false" import="true" targetId="5377-33b3-f682-bfb6" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="70f2-d83c-d7cc-9100" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6d3b-376d-767e-4780" name="Venom" hidden="false" collective="false" import="true" targetId="6744-cf93-1f89-3c4e" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="d32d-61dd-c42d-00ad" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="2b2c-8e58-28f5-78f0" name="Uneasy Allies" hidden="false" collective="false" import="true" targetId="8a44-2c77-320c-0697" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="145d-fbdc-59a7-3ca6" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a48a-8270-4074-8825" name="Lethal Protector" hidden="false" collective="false" import="true" targetId="0e66-d2bf-39d1-c0b3" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="360a-7e08-5cda-2041" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -1861,7 +1899,7 @@ Wild - Stagger : Aftet this attack is resolved the target character gains the St
         <profile id="14e6-16ad-53e4-f22a" name="Special Forces" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
           <characteristics>
             <characteristic name="Cost" typeId="2b18-3d86-a415-5584">1</characteristic>
-            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">When this character is attacking, it may use this superpower during the Calculate Success step of the attack. This character may choose to count Shield results instead of hit results as successes. </characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">When this character is attacking, it may use this superpower during the Calculate Success step of the attack. This character may choose to count Shield results instead of Hit results as successes. </characteristic>
             <characteristic name="Type" typeId="f37d-f045-0646-cf61">Reactive</characteristic>
           </characteristics>
         </profile>
@@ -1937,6 +1975,260 @@ Each character that spent Power may immediately perform an attack with a Power c
       <costs>
         <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="d8e4-5461-f2e7-dd1c" name="Okoye" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="5e8b-fff8-14fc-995e" name="Okoye" hidden="false" typeId="fde4-96d9-2028-2529" typeName="Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">4</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">M</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">2</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">2</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">3</characteristic>
+            <characteristic name="Energy Defese" typeId="0509-5c52-7571-39ad">3</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="dddf-aef4-1eb6-e359" name="Strike" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Physical</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">2</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">4</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">After this attack is resolved, this character gains Power equal to the Damage dealt.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9910-1992-91cc-879a" name="Vibranium Spear Blast" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Energy</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">4</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">4</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">After this attack is resolved, this character gains 1 Power. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7fdb-d4ab-a7d9-8705" name="Vibranium Spear Thrust" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Physical</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">2</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">5</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">4</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">Wild - Pierce: Change one of the defending character&apos;s Critical, Wild, or Shield results to a blank.
+Wild - Flurry: After this attack is resolved, this character may make a Strike attack. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f7c9-c9c2-ff05-ba2f" name="Bodyguard" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">2</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">When another allied character within Range 2 is targeted by an attack, this character may use this superpower. This character becomes the target of the attack regardless of range and LOS.</characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Reactive</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5876-a042-7bcb-8245" name="Martial Artist" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">When this character is defending against a Physical or Energy attack targeting it from within Range 2, this character adds blanks in its defense rolls to its total successes.</characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="625d-9b65-f384-f192" name="General of the Dora Milaje" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">This character may reroll one die in its attack or defense rolls. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d38f-7e5c-f59f-c3e3" name="Shuri" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="0f41-8939-2b3a-1c8d" name="Shuri" hidden="false" typeId="fde4-96d9-2028-2529" typeName="Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">5</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">M</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">2</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">3</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">3</characteristic>
+            <characteristic name="Energy Defese" typeId="0509-5c52-7571-39ad">3</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1bb7-b2c0-1f4a-888c" name="Panther Gauntlets" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Energy</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">5</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">6</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">If this attack would deal one or more Damage it deald 1 Damage instead.
+After this attack is resolved, push the target character away speed Short. 
+After this attack is resolved, this character gains 1 Power. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="677d-4051-03a2-6c0a" name="Sonic Crush" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Energy</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">2</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">7</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">4</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">After this attack is resolved the target character gains the Stun special condition. 
+Wild - Stagger: After this attack is resolved the target character gains the Stagger special condition. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5a38-303f-9f5b-db80" name="Super Genius" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">1</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">When this character is attacking, it may use this superpower during the Calculate Success step of the attack. This character may choose to count Shield results instead of Hit results as successes. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Reactive</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d273-8e75-dd99-a5aa" name="Upgrades" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">X</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">After another allied character within Range 4 rolls attack or defense dice, this character may use this superpower. If it does, spend up to 3 Power. For each Power spent the allied attacking or defending character may reroll one of their dice. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Reactive</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c411-d9eb-a309-a1fc" name="Head of Wakanda R&amp;D" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Whenever this character rolls dice, after the effect is resolved it gains 1 Power if it rolled at least one Skull. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="77d3-2c72-5baf-d024" name="Vibranium Shielding" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="5729-4d28-1170-ab12" name="Vibranium Shielding" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Wakanda</characteristic>
+            <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
+            <characteristic name="Details" typeId="3c65-5213-7979-ed33">Black Panther or Shuri may spend X Power to play this card. X must be at least 1 and no more than 5. 
+This round, this character and allied characters while they are within Range X of this character, gain the Invulnerability Innate superpower. X is equal to the amount of Power spent to play this card. 
+
+Innate superpower - Invulnerability: When this character would suffer Damage from an enemy effect, reduce the amount suffered by 1, to a minimum of 1. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="5377-33b3-f682-bfb6" name="Advanced R&amp;D" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="b559-d210-80d8-6229" name="Advanced R&amp;D" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
+            <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
+            <characteristic name="Details" typeId="3c65-5213-7979-ed33">A character may spend up to 5 Power to play this card. 
+Choose a number of other allied characters equal to the Power spent. Each chosen character gains 1 Power. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="6744-cf93-1f89-3c4e" name="Venom" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="4fa5-4285-8bd1-e60e" name="Venom" hidden="false" typeId="fde4-96d9-2028-2529" typeName="Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">7</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">S</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">3</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">4</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">4</characteristic>
+            <characteristic name="Energy Defese" typeId="0509-5c52-7571-39ad">2</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6771-fba4-8f99-bfcd" name="Venom - Injured" hidden="false" typeId="fde4-96d9-2028-2529" typeName="Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">6</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">S</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">3</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">4</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">4</characteristic>
+            <characteristic name="Energy Defese" typeId="0509-5c52-7571-39ad">2</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e97c-1ef9-0331-71fb" name="Symbiote Tendrils" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Physical</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">3</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">5</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">After this attack is resolved, this character gains Power equal to the Damage dealt.
+After this attack is resolved, the target character gains the Bleed special condition. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="47d3-8ed7-5065-6e4a" name="We Are Venom" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Physical</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">3</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">7</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">3</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">After this attack is resolved, this character removes 1 Damage from itself for each Damage inflicted. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3140-e787-3eae-e0d7" name="Klyntar Rage" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">3</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Choose an interactive terrain feature or an enemy character, both of Size 3 or less and within Range 2, and throw it Speed Medium. This superpower can be used only once per turn.</characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="220c-736d-d394-000a" name="Web Snare" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">2</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Push an enemy character within Range 4 toward this character Speed Medium. A character can by pushed by this superpower only once per turn.</characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="408f-a090-933a-c62e" name="So Many Snacks" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">2</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">After an attack against this character is resolved, it may use this superpower. If the attacker is within Range 3, this character may make an attack against the attacker. This superpower can be used only once per turn. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Reactive</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6e39-760b-c724-c520" name="Venom" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">When this character us attacking, the defending character cannot modify their defense dice. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c00a-c55c-daae-68b0" name="Wall Crawler" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef"/>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="8a44-2c77-320c-0697" name="Uneasy Allies" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="facc-8358-8a39-d0ca" name="Uneasy Allies" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
+            <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
+            <characteristic name="Details" typeId="3c65-5213-7979-ed33">During their activation, when Spider-Man or Venom targets an enemy character with an attack that is within Range 2 of the other allied character, both characters may suffer 1 Damage to play this card. 
+Add 3 dice to the attack roll. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="0e66-d2bf-39d1-c0b3" name="Lethal Protector" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="7771-4eb0-21fb-0562" name="Lethal Protector" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
+            <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
+            <characteristic name="Details" typeId="3c65-5213-7979-ed33">When an enemy character targets an allied character within Range 3 of an allied Venom with an attack, Venom may spend 2 to play this card. 
+Place Venom within Range 1 of the allied character. Venom becomes the target of the attack regardless of range and LOS. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
   </sharedSelectionEntries>
 </catalogue>
