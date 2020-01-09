@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="44fc-2846-12b5-766a" name="Heroes" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="81bc-012c-665b-9b3d" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="44fc-2846-12b5-766a" name="Heroes" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="81bc-012c-665b-9b3d" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="eb4e-d55b-c663-c712" name="Gamma Wave Sweeps Across Midwest" hidden="false" collective="false" import="true" targetId="db27-2d52-016b-dbe4" type="selectionEntry">
       <categoryLinks>
@@ -2099,6 +2099,9 @@ Wild - Stagger: After this attack is resolved the target character gains the Sta
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="3.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="77d3-2c72-5baf-d024" name="Vibranium Shielding" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -2113,6 +2116,9 @@ Innate superpower - Invulnerability: When this character would suffer Damage fro
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="5377-33b3-f682-bfb6" name="Advanced R&amp;D" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -2125,6 +2131,9 @@ Choose a number of other allied characters equal to the Power spent. Each chosen
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="6744-cf93-1f89-3c4e" name="Venom" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -2205,6 +2214,9 @@ After this attack is resolved, the target character gains the Bleed special cond
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="4.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="8a44-2c77-320c-0697" name="Uneasy Allies" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -2217,6 +2229,9 @@ Add 3 dice to the attack roll. </characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="0e66-d2bf-39d1-c0b3" name="Lethal Protector" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -2229,6 +2244,9 @@ Place Venom within Range 1 of the allied character. Venom becomes the target of 
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
 </catalogue>
