@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="44fc-2846-12b5-766a" name="Heroes" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="81bc-012c-665b-9b3d" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="44fc-2846-12b5-766a" name="Heroes" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="81bc-012c-665b-9b3d" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="eb4e-d55b-c663-c712" name="Gamma Wave Sweeps Across Midwest" hidden="false" collective="false" import="true" targetId="db27-2d52-016b-dbe4" type="selectionEntry">
       <categoryLinks>
@@ -100,11 +100,6 @@
     <entryLink id="0e42-c630-80bb-8e97" name="Patch Up" hidden="false" collective="false" import="true" targetId="2dac-fed9-8c51-bc3b" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="4e27-b2e8-462e-28e6" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="6693-7730-07fc-cece" name="One-Two Punch" hidden="false" collective="false" import="true" targetId="13d1-3719-9d7b-59a1" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="1982-4b87-4c79-87a7" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="525f-af2f-343f-395f" name="Heave Ho" hidden="false" collective="false" import="true" targetId="99ec-5a79-feb7-019c" type="selectionEntry">
@@ -317,6 +312,48 @@
     <entryLink id="a48a-8270-4074-8825" name="Lethal Protector" hidden="false" collective="false" import="true" targetId="0e66-d2bf-39d1-c0b3" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="360a-7e08-5cda-2041" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e0f0-5af1-7348-26e5" name="Valkyrie" hidden="false" collective="false" import="true" targetId="b34c-a28a-bc3e-739b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b6c6-faa2-5128-3b4a" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="3cd7-7cb5-3eb6-a206" name="Fear Grips World as &quot;Worthy&quot; Terrorize Cities" hidden="false" collective="false" import="true" targetId="27ad-78f9-25b7-8c49" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="5960-9628-13bf-e0a7" name="New CategoryLink" hidden="false" targetId="67a0-a10a-a572-55c8" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="fa2c-ac18-07be-919f" name="Odin&apos;s Blessing" hidden="false" collective="false" import="true" targetId="e0da-3f48-9609-f532" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="14f5-51a8-f9dc-754e" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e5b2-b39f-cc5c-f5aa" name="Thunderwave" hidden="false" collective="false" import="true" targetId="5234-570d-71fc-b986" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="197f-c9b3-760e-b472" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e975-9d63-626d-51c6" name="Infinity Gem: Mind" hidden="false" collective="false" import="true" targetId="89f9-ce10-9697-9f54" type="selectionEntry"/>
+    <entryLink id="4bd0-3ab9-afca-757e" name="Loki, God of Mischief" hidden="false" collective="false" import="true" targetId="bde3-cc0c-114b-a620" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="202f-aaf1-141f-6894" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="true"/>
+        <categoryLink id="3892-6338-37a7-a477" name="Cabal" hidden="false" targetId="54a5-69c1-3540-3c6e" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="42bb-6bbd-b31e-10c0" name="Doomed Prophecy" hidden="false" collective="false" import="true" targetId="874e-dcff-f087-1bfd" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="de3c-e1b2-7b5a-b244" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6b7f-d94b-601c-2155" name="Hela" hidden="false" collective="false" import="true" targetId="b472-c4c6-89ff-e34a" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="a4e8-897e-7dec-60f9" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="fe76-41ec-2d27-5c3e" name="Sibling Rivalry " hidden="false" collective="false" import="true" targetId="00a4-4b64-16d2-d06b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="117d-7335-2f24-6ad4" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -1308,7 +1345,7 @@ This character may reroll any number of attack dice for this attack.</characteri
           <characteristics>
             <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
             <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef"/>
-            <characteristic name="Type" typeId="f37d-f045-0646-cf61"/>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1447,7 +1484,7 @@ Wild - Pierce: Change one of the defending character&apos;s Critical, Wild, or S
           <characteristics>
             <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
             <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef"/>
-            <characteristic name="Type" typeId="f37d-f045-0646-cf61"/>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1506,7 +1543,7 @@ Wild - Explosive: Before damage is dealt, other enemy characters within Range 2 
           <characteristics>
             <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
             <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef"/>
-            <characteristic name="Type" typeId="f37d-f045-0646-cf61"/>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
           </characteristics>
         </profile>
         <profile id="66ef-3bef-d348-4198" name="UniBeam - Injured" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
@@ -1664,7 +1701,7 @@ Wild - Push: If the target character is Size 2 or less, before damage is dealt t
           <characteristics>
             <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
             <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef"/>
-            <characteristic name="Type" typeId="f37d-f045-0646-cf61"/>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1749,7 +1786,7 @@ Wild - Bleed: After this attack is resolved, the target character gains the Blee
           <characteristics>
             <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
             <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef"/>
-            <characteristic name="Type" typeId="f37d-f045-0646-cf61"/>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2246,6 +2283,450 @@ Place Venom within Range 1 of the allied character. Venom becomes the target of 
       </profiles>
       <costs>
         <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b34c-a28a-bc3e-739b" name="Valkyrie" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="e2c4-f7b6-574a-d0f4" name="Valkyrie" hidden="false" typeId="fde4-96d9-2028-2529" typeName="Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">6</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">M</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">2</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">3</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">3</characteristic>
+            <characteristic name="Energy Defese" typeId="0509-5c52-7571-39ad">3</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d46d-c016-06f3-6ae4" name="Strike" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Physical</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">2</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">5</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">After this attack is resolved, this character gains Power equal to the Damage dealt.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="15df-0ddf-9b71-3fcb" name="Dagon Fang" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Physical</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">2</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">7</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">3</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">After the attack is resolved, the target character gains the Bleed special condition. 
+Wild - Flurry: After this attacked is resolved, this character may make a Strike attack. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a952-a837-9f67-7075" name="Asgardian Might" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">2</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Choose an interactive terrain feature or an enemy character, both of Size 2 or less and within Range 2, and throw it Speed Short. This superpower can be used only once per turn.</characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="538f-3dff-f029-76bc" name="Charge" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">2</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Action: This character immediately makes a move action followed by an attack action. This superpower can be used onle once per turn.</characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="fdd5-275e-f25f-0b60" name="Warrior of Legend" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">2</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">During the next attack made by this character this turn, it may change one die to a hit for each Critl or Wild in its attack roll. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7290-9dbf-1a84-807f" name="Asgardian" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">During the Power Phase, this character gains 1 additionnal Power. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9a2e-46e9-2584-9b65" name="Valkyrie - Injured" hidden="false" typeId="fde4-96d9-2028-2529" typeName="Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">5</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">M</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">2</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">3</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">3</characteristic>
+            <characteristic name="Energy Defese" typeId="0509-5c52-7571-39ad">3</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="27ad-78f9-25b7-8c49" name="Fear Grips World as &quot;Worthy&quot; Terrorize Cities" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="e475-cb6e-00e1-4d32" name="Fear Grips World as &quot;Worthy&quot; Terrorize Cities" hidden="false" typeId="e274-6fe8-7f95-a012" typeName="Crisis">
+          <characteristics>
+            <characteristic name="Setup" typeId="99b3-ec42-38d9-2d3a">Place four Celestial Hammers as shown map D</characteristic>
+            <characteristic name="Scoring" typeId="3561-4e9e-55ca-a37d">Players score 1 VP for each Celestial Hammer held by a character they control during the Cleanup Phase</characteristic>
+            <characteristic name="Details" typeId="7116-4232-08b5-42bc">Interact (Celestial Hammer) Pick up a Celestial Hammer.
+
+Characters add one die to their attack rolls for each Celestial Hammer they are holding. When a character plays a Team Tactic card, they must pay 1 additional  Power for each Celestial Hammer they are holding. </characteristic>
+            <characteristic name="Threat" typeId="81f5-e239-dd2d-2b7c">18</characteristic>
+            <characteristic name="Type" typeId="fc23-59e6-7090-77fa">Extraction</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e0da-3f48-9609-f532" name="Odin&apos;s Blessing" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="bef9-582c-ac68-33e4" name="Odin&apos;s Blessing" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Asgard</characteristic>
+            <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
+            <characteristic name="Details" typeId="3c65-5213-7979-ed33">When an allied Asgard character would be damaged by an enemy effect they may spend 3 Power to play this card. 
+Reduce the amount of damage suffered to one. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="5234-570d-71fc-b986" name="Thunderwave" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="7d40-97aa-14fa-beb7" name="Thunderwave" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Blast</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">B5</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">6</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb"/>
+          </characteristics>
+        </profile>
+        <profile id="5686-e6fa-bd78-12bc" name="Thunderwave" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
+            <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
+            <characteristic name="Details" typeId="3c65-5213-7979-ed33">If it is Thor, Prince of Asgard&apos;s activation and he is within Range 1 of an allied Captain America, they may spend 2 Power each to play this card. 
+
+While within Range 1 of Captain America, Thor, Prince of Asgard may use the Thunderwave attack shown above once. Range and LOS are measured from Captain America instead of Thor, Prince of Asgard when making this attack. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="89f9-ce10-9697-9f54" name="Infinity Gem: Mind" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="06eb-2d4a-08f6-2516" name="Infinity Gem: Mind" hidden="false" typeId="fde4-96d9-2028-2529" typeName="Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363"/>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70"/>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953"/>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">1</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335"/>
+            <characteristic name="Energy Defese" typeId="0509-5c52-7571-39ad"/>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292"/>
+          </characteristics>
+        </profile>
+        <profile id="924e-a131-a78c-0f41" name="Mind Gem" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">2</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Choose an enemy character within Range 3 and advance it Speed Short. This superpower may be used only once per turn. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bde3-cc0c-114b-a620" name="Loki, God of Mischief" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="d511-06f2-af98-2692" name="Loki, God of Mischief" hidden="false" typeId="fde4-96d9-2028-2529" typeName="Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">5</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">M</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">2</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">4</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">3</characteristic>
+            <characteristic name="Energy Defese" typeId="0509-5c52-7571-39ad">3</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">4</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="29d3-9d2e-0940-24fd" name="Strike" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Physical</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">2</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">5</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">After this attack is resolved, this character gains Power equal to the Damage dealt.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5f90-1111-6f10-000e" name="Frost Blast" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Energy</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">B3</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">4</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">If this attack deals Damage, after the attack ia resolved, the target character gains the Slow special condition. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5486-5285-27fa-b8c7" name="Illusions" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Mystic</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">4</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">6</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">3</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">2x Wild Mesmerize: After this attack is resolved you may advance the target character its Speed. After the advance is resolved, all other chracters within Range 2 of the target character suffer 1 Damage. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="88ce-b264-b346-1e03" name="I am a GOD!" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">2</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Before rolling attack or defense dice you may use this superpower. During this attack, this character adds blanks in its attack or defense rolls to its total successes.</characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Reactive</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1819-a1c4-fe89-fd02" name="Trickster" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">3</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">When this character is targeted by an attack you may use this superpower. This character makes a Speed Short advance. If at the end of the advance this character is outside of the attack&apos;s Range or the attacker&apos;s LOS, the attacks ends. If it&apos;s the attacker&apos;s activation, and the attack did not target  multiple characters, the attacker may make another action. This superpower can be used only once per turn. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Reactive</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e45f-b883-820a-29ef" name="Asgardian" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">During the Power Phase, this character gains 1 additionnal Power. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="445c-5f8a-be95-bb97" name="God of Mischief" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">While within Range 4 of this character, enemy characters must spend 1 Power before using an Active or Reactive super power. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="91b1-f0ba-f1a0-2f09" name="Gem Bearer [Mind, Space]" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef"/>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="944e-b73f-7f6b-93d2" name="God of Mischief - Injured" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">While within Range 4 of this character, enemy characters must spend 1 Power before using an Active or Reactive super power. Additionnaly, while within Range 4 of this character, enemy characters do not roll additional dice for Critical results. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="874e-dcff-f087-1bfd" name="Doomed Prophecy" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="87da-c95a-4219-a41c" name="Doomed Prophecy" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
+            <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
+            <characteristic name="Details" typeId="3c65-5213-7979-ed33">At the start of the activation phadsr, any allied character may spend 3 Power to play this card. 
+
+This character cannot roll defense dice against Physical attacks. Addtionally, this character adds dice to it&apos;s Physical attacks equak to its Physical defense until the beginning of their next activation. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="b472-c4c6-89ff-e34a" name="Hela" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="e19d-0f34-decd-e960" name="Hela" hidden="false" typeId="fde4-96d9-2028-2529" typeName="Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">6</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">M</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">2</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">4</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">4</characteristic>
+            <characteristic name="Energy Defese" typeId="0509-5c52-7571-39ad">4</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">4</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8c8f-9796-a4ee-da0d" name="Hel Forged Blade" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Physical</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">2</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">5</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">After this attack is resolved, this character gains Power equal to the Damage dealt.
+Wild - Bleed: After this attack os resolved the target character gains the Bleed special condition.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c6e1-6aee-495f-ec19" name="Claim Soul" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Mystic</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">4</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">6</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">2</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">If this attack deals damage, after the attack is resolved this character gets one Captured Soul Token. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a6b1-3690-b977-259e" name="Rain of Hel" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Physical</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">3</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">7</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">4</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">If the target character has the Bleed special condition, it does not count shield results as successes when defending against this attack. 
+Wild - Explosive: Before damage is dealt, other enemy characters within Range 2 of the target character suffer 1 Damage. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9bed-dce6-e6c6-f7b6" name="Army of Hel" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">0</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Discard 1 - 3 Captured Soul tokens. During the next attack made by this character this turn, add one die to its attack roll for each Captured Soul token that was discarded. If a Captured Soul token was discarded, after is resolved the target character gains the Bleed special condition. This superpower can be used only once per turn. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="127d-baa4-f44a-9999" name="Asgardian" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">During the Power Phase, this character gains 1 additionnal Power. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d8c5-318c-90c0-cbbb" name="Goddess of Death" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">When another character is Dazed or Ko&apos;d this character gains a Captured Soul token. This character may have a maximum of three Captured Soul tokens at any time. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9204-090f-015e-ec7f" name="Hela - Injured" hidden="false" typeId="fde4-96d9-2028-2529" typeName="Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">4</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">M</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">2</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">4</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">4</characteristic>
+            <characteristic name="Energy Defese" typeId="0509-5c52-7571-39ad">4</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">4</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9578-01e1-943e-3348" name="Queen of Hel - Injured" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">0</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">If this character has three Captured soul tokens, when it would be KO&apos;d you may use this superpower. Remove all Damage and Captured Soul tokens from this character, it is not KO&apos;d. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Reactive</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="00a4-4b64-16d2-d06b" name="Sibling Rivalry " hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="e905-4eab-8d1d-4e5b" name="Sibling Rivalry " hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
+            <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
+            <characteristic name="Details" typeId="3c65-5213-7979-ed33">If Thor, Prince of Asgard is within Range 2 of an allied Loki, God of Mischief, both characters may spend 1 Power to play this card. 
+
+Throw the allied Loki, God of Mischief Speed Medium. Loki, God of Mischief does not suffer collision damage durinbg this throw. Enemy characters that he collides with roll two fewer Dodge dice and suffer the Staggered special condition. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="4e0d-0382-fb8f-236f" name="Thor, Prince of Asgard" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="3a0e-2c5b-7a48-0743" name="Thor, Prince of Asgard" hidden="false" typeId="fde4-96d9-2028-2529" typeName="Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">6</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">M</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">2</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">5</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">4</characteristic>
+            <characteristic name="Energy Defese" typeId="0509-5c52-7571-39ad">4</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="edc6-0b96-42ec-b212" name="Strike" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Physical</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">2</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">6</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">After this attack is resolved, this character gains Power equal to the Damage dealt.
+Wild - Throw: Before Damage is dealt, if the target character is size 4 or less, this character may throw it away Speed Short. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2acd-60d1-e069-f97e" name="Hammer Throw" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Physical</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">5</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">5</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">1</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">After this attack is resolved, the target character gains the Shock special condition. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="89ff-6dd1-e3a1-6c4b" name="God of Thunder" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Energy</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">A2</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">7</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">6</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb"></characteristic>
+          </characteristics>
+        </profile>
+        <profile id="fb82-38e4-8e1b-8022" name="Prince of Asgard (Affiliation: Asgard) " hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">At the start of each of your turns, one allied character may spend one Power. If they do, remove one damage or one special condition from that character. Each allied character may use this leadership once per round. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Leadership</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="064c-56b5-745c-1222" name="For Asgard!" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">3</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Action: This character immediately makes a move action followed by a Strike attack action. If this attack action deals at least 1 Damage, the target character gains the Stagger special condition. This superpower can be used only once per turn. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c02c-2c7c-7472-9e92" name="Strongest Avenger" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">3</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Choose an interactive terrain feature or an enemy character, both of Size 4 or less and within Range 2, and throw it Speed Medium. This superpower can only be used once per turn.</characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="66b7-4dd6-e445-ddef" name="Asgardian" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">During the Power Phase, this character gains 1 additionnal Power. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a132-52d8-1225-935b" name="Flight" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef"/>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b699-dd07-d951-7b80" name="Thor, Prince of Asgard - Injured" hidden="false" typeId="fde4-96d9-2028-2529" typeName="Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">8</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">M</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">2</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">5</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">4</characteristic>
+            <characteristic name="Energy Defese" typeId="0509-5c52-7571-39ad">4</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="5.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
