@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="44fc-2846-12b5-766a" name="Heroes" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="81bc-012c-665b-9b3d" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="44fc-2846-12b5-766a" name="Heroes" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="81bc-012c-665b-9b3d" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="eb4e-d55b-c663-c712" name="Gamma Wave Sweeps Across Midwest" hidden="false" collective="false" import="true" targetId="db27-2d52-016b-dbe4" type="selectionEntry">
       <categoryLinks>
@@ -317,6 +317,7 @@
     <entryLink id="e0f0-5af1-7348-26e5" name="Valkyrie" hidden="false" collective="false" import="true" targetId="b34c-a28a-bc3e-739b" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="b6c6-faa2-5128-3b4a" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="true"/>
+        <categoryLink id="e3a1-4de2-9b14-cba2" name="Asgard" hidden="false" targetId="a554-55ad-02b3-3342" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="3cd7-7cb5-3eb6-a206" name="Fear Grips World as &quot;Worthy&quot; Terrorize Cities" hidden="false" collective="false" import="true" targetId="27ad-78f9-25b7-8c49" type="selectionEntry">
@@ -334,11 +335,17 @@
         <categoryLink id="197f-c9b3-760e-b472" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="e975-9d63-626d-51c6" name="Infinity Gem: Mind" hidden="false" collective="false" import="true" targetId="89f9-ce10-9697-9f54" type="selectionEntry"/>
+    <entryLink id="e975-9d63-626d-51c6" name="Infinity Gem: Mind" hidden="false" collective="false" import="true" targetId="89f9-ce10-9697-9f54" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="955e-9f47-e1f7-b46e" name="Infinity Gems" hidden="false" targetId="e7d2-fc4f-e67b-f877" primary="false"/>
+        <categoryLink id="827e-b7cd-3ce1-45c0" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="true"/>
+      </categoryLinks>
+    </entryLink>
     <entryLink id="4bd0-3ab9-afca-757e" name="Loki, God of Mischief" hidden="false" collective="false" import="true" targetId="bde3-cc0c-114b-a620" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="202f-aaf1-141f-6894" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="true"/>
         <categoryLink id="3892-6338-37a7-a477" name="Cabal" hidden="false" targetId="54a5-69c1-3540-3c6e" primary="false"/>
+        <categoryLink id="6218-1eb0-005d-4429" name="Asgard" hidden="false" targetId="a554-55ad-02b3-3342" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="42bb-6bbd-b31e-10c0" name="Doomed Prophecy" hidden="false" collective="false" import="true" targetId="874e-dcff-f087-1bfd" type="selectionEntry">
@@ -349,11 +356,19 @@
     <entryLink id="6b7f-d94b-601c-2155" name="Hela" hidden="false" collective="false" import="true" targetId="b472-c4c6-89ff-e34a" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="a4e8-897e-7dec-60f9" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="true"/>
+        <categoryLink id="2c94-abb9-920a-1f2e" name="Asgard" hidden="false" targetId="a554-55ad-02b3-3342" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="fe76-41ec-2d27-5c3e" name="Sibling Rivalry " hidden="false" collective="false" import="true" targetId="00a4-4b64-16d2-d06b" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="117d-7335-2f24-6ad4" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7923-4a75-f2e2-84b3" name="Thor, Prince of Asgard" hidden="false" collective="false" import="true" targetId="4e0d-0382-fb8f-236f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="930f-7f72-c8ea-ac10" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="true"/>
+        <categoryLink id="8c55-811c-f533-084c" name="Asgard" hidden="false" targetId="a554-55ad-02b3-3342" primary="false"/>
+        <categoryLink id="80a6-e6b2-4a7c-6ca5" name="Avengers" hidden="false" targetId="d6c4-f011-cd8c-5451" primary="false"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -2390,6 +2405,9 @@ Reduce the amount of damage suffered to one. </characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="5234-570d-71fc-b986" name="Thunderwave" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -2412,6 +2430,9 @@ While within Range 1 of Captain America, Thor, Prince of Asgard may use the Thun
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="89f9-ce10-9697-9f54" name="Infinity Gem: Mind" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -2537,6 +2558,9 @@ This character cannot roll defense dice against Physical attacks. Addtionally, t
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b472-c4c6-89ff-e34a" name="Hela" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -2636,6 +2660,9 @@ Throw the allied Loki, God of Mischief Speed Medium. Loki, God of Mischief does 
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="4e0d-0382-fb8f-236f" name="Thor, Prince of Asgard" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -2675,7 +2702,7 @@ Wild - Throw: Before Damage is dealt, if the target character is size 4 or less,
             <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">A2</characteristic>
             <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">7</characteristic>
             <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">6</characteristic>
-            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb"></characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb"/>
           </characteristics>
         </profile>
         <profile id="fb82-38e4-8e1b-8022" name="Prince of Asgard (Affiliation: Asgard) " hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
