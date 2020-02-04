@@ -371,6 +371,37 @@
         <categoryLink id="80a6-e6b2-4a7c-6ca5" name="Avengers" hidden="false" targetId="d6c4-f011-cd8c-5451" primary="false"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="bfd5-c9ee-aa3d-020f" name="Vision" hidden="false" collective="false" import="true" targetId="1b8a-1965-1066-c909" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="9f27-1cf0-d810-9066" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="true"/>
+        <categoryLink id="63f5-f57c-0a58-9f51" name="Avengers" hidden="false" targetId="d6c4-f011-cd8c-5451" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="745f-88c8-adbd-229a" name="Winter Soldier" hidden="false" collective="false" import="true" targetId="98ce-75b6-7b83-3d6e" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="4039-3609-e936-af11" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7759-dd0a-05f2-1326" name="Till the End of the Line" hidden="false" collective="false" import="true" targetId="237d-8b40-d6a0-1d5c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="56d2-c505-32ef-4dd7" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="dc71-d45f-807b-e280" name="Tactical Analysis" hidden="false" collective="false" import="true" targetId="af68-5698-d9fb-5141" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="1b0f-34be-3a32-b749" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="900c-9db0-d363-4669" name="Field Dressing" hidden="false" collective="false" import="true" targetId="d6bf-6fda-35be-5f8e" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="22b3-a47d-34be-e2ee" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="fd15-ccd3-83ed-27a6" name="Psychic Shielding Device (P.S.D.)" hidden="false" collective="false" import="true" targetId="91cb-aeea-2fca-569c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7e30-879b-0bb4-cd0d" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="a67b-5bc0-a6ec-3df3" name="Hulk" hidden="false" collective="false" import="true" type="model">
@@ -2755,6 +2786,210 @@ Wild - Throw: Before Damage is dealt, if the target character is size 4 or less,
       <costs>
         <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="5.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="1b8a-1965-1066-c909" name="Vision" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="1b85-f52e-b8bd-2533" name="Vision" hidden="false" typeId="fde4-96d9-2028-2529" typeName="Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">6</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">M</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">2</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">4</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">2</characteristic>
+            <characteristic name="Energy Defese" typeId="0509-5c52-7571-39ad">2</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">4</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0536-bade-cb29-db8c" name="Solar Energy Beam" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Energy</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">B4</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">5</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">After this attacked is resolved, this character gains 1 Power. 
+Wild - Sap Power: Before damage is dealt, the target character loses 1 Power for each Wild in the attack roll, and this character gains that amount of Power.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7fbb-9789-c2cb-cfbf" name="Synthezoid Avenger" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Physical</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">3</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">7</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">4</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">The defending character does not add Critical results in its defense roll to its total success and cannot add additional dice to their defense roll as a result of Critical results. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="bc0a-ce9b-1d02-6493" name="Calculated Trajectory" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">2</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Choose an interactive terrain feature or an enemy character, both of Size 3 or less and within Range 2, and throw it Speed Medium. This superpower can be used only once per turn.</characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1a82-74ed-f1ab-434e" name="Synthesis" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">0</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Action: This character gains 2 Power. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2e3c-c416-3433-9c6a" name="Rapid Phase" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">2</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">When this character is targeted by an enemy attack, this character may use this superpower. Remove the current P^hasing Type then choose a new Phasing Type. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Reactive</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5e12-cb29-35e0-3ecf" name="Phasing" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">During the Power Phase, this character chooses a Phasing Type:
+
+Enhanced Density: This character rolls three additional dice when defending against Physical attacks and cannot be pushed until the start of the next Power Phase. 
+
+Phased: This character rolls three additional dice when defending against Energy attacks and does not suffer collision damage until the start of the next Power Phase. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ea75-76dd-ffa5-8d67" name="Flight, Immunity [Bleed, Poison]" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef"/>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="98ce-75b6-7b83-3d6e" name="Winter Soldier" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="e2f8-30d9-0956-b73a" name="Winter Soldier" hidden="false" typeId="fde4-96d9-2028-2529" typeName="Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">5</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">M</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">2</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">3</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">3</characteristic>
+            <characteristic name="Energy Defese" typeId="0509-5c52-7571-39ad">3</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="cc4c-de05-3297-5de3" name="Winter Soldier - Injured" hidden="false" typeId="fde4-96d9-2028-2529" typeName="Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">6</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">M</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">2</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">3</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">3</characteristic>
+            <characteristic name="Energy Defese" typeId="0509-5c52-7571-39ad">3</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="016b-9a49-3c10-6f8b" name="Assault Rifle" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Physical</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">5</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">4</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">After this attack is resolved, this character gains Power equal to the Damage dealt.
+Wild - Bleed: After this attack is resolved, the target character gains the Bleed special condition.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9a0c-3c13-c7eb-05cc" name="Red Fury" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Physical</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">2</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">7</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">4</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">After this attack is resolved, the target character is pushed away from this character Speed Short. Then immediately make an Assault Rifle attack targeting that character. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="84c0-56cc-eebc-5149" name="Got Your Back" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">2</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">If an allied character is Dazed or KO&apos;d by an enemy effect, this character may use this superpower after the effect is resolved. This character makes an Assault Rifle attack against the enemy character that caused the effect. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Reactive</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="bd92-8c39-b3c5-5a00" name="Hydra Tactics" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">2</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Choose another allied character within 2 of this character. Place this character within 1 of that character. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="cbc4-63dc-4baa-df53" name="Rogue Agent" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">One character with Rogue Agent countd as an affiliated character during squad building. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="cca4-35df-7ef2-b155" name="Spetsnaz Training" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">This character may reroll one die when either attacking or being attacked by a character that is within Range 1. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="237d-8b40-d6a0-1d5c" name="Till the End of the Line" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="40cb-9b46-d0f8-ad46" name="Till the End of the Line" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
+            <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
+            <characteristic name="Details" typeId="3c65-5213-7979-ed33">Winter Soldier and Captain America may both spend 2 Power each to play this card. 
+
+While within Range 1 of each other this round, these characters cannot be moved by enemy effects and combine their defensive values when creating the defense dice pool when defending against physical or energy attacks. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="af68-5698-d9fb-5141" name="Tactical Analysis" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="996c-973b-070c-e1b0" name="Tactical Analysis" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
+            <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
+            <characteristic name="Details" typeId="3c65-5213-7979-ed33">The active character may spend 2 Power to play this card. 
+
+Choose another allied character within Range 3 of the character playing this card. The chosen character may advance Speed Short. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="d6bf-6fda-35be-5f8e" name="Field Dressing" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="896c-4893-ccbd-5d82" name="Field Dressing" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
+            <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
+            <characteristic name="Details" typeId="3c65-5213-7979-ed33">A character within Range 2 of a Dazed allied character may spend 4 Power to play this card. 
+
+Remove a Dazed token and 1 Damage from the allied character. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="91cb-aeea-2fca-569c" name="Psychic Shielding Device (P.S.D.)" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="2819-6ccf-3fb0-c1a9" name="Psychic Shielding Device (P.S.D.)" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
+            <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
+            <characteristic name="Details" typeId="3c65-5213-7979-ed33">Any character mays spend 1-5 Power to play this card. 
+
+This round, while within Range X of this character (X is equal to the Power spent to play this card), when allied characters are targeted by Mystic attacks, add one die to their defense rolls and allied characters cannot be advanced or pushed by the effects of enemy Mystic attacks or enemy superpowers. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
   </sharedSelectionEntries>
 </catalogue>
