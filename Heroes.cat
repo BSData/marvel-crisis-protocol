@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="44fc-2846-12b5-766a" name="Heroes" revision="8" battleScribeVersion="2.03" library="false" gameSystemId="81bc-012c-665b-9b3d" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="44fc-2846-12b5-766a" name="Heroes" revision="9" battleScribeVersion="2.03" library="false" gameSystemId="81bc-012c-665b-9b3d" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="eb4e-d55b-c663-c712" name="Gamma Wave Sweeps Across Midwest" hidden="false" collective="false" import="true" targetId="db27-2d52-016b-dbe4" type="selectionEntry">
       <categoryLinks>
@@ -400,6 +400,34 @@
     <entryLink id="fd15-ccd3-83ed-27a6" name="Psychic Shielding Device (P.S.D.)" hidden="false" collective="false" import="true" targetId="91cb-aeea-2fca-569c" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="7e30-879b-0bb4-cd0d" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="fe0d-4b3e-a701-d593" name="Star-Lord" hidden="false" collective="false" import="true" targetId="9857-30fa-c5c2-5fd0" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="eba5-a7a2-7a1e-bce7" name="Guardians of the Galaxy" hidden="false" targetId="7e9f-5493-2fb7-0723" primary="false"/>
+        <categoryLink id="1ade-c2ba-dfaa-76d1" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e4aa-ec4a-7bcb-c371" name="Infinity Gem: Power" hidden="false" collective="false" import="true" targetId="370c-2938-6c35-b069" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="dadc-4601-5687-e261" name="New CategoryLink" hidden="false" targetId="e7d2-fc4f-e67b-f877" primary="false"/>
+        <categoryLink id="2c09-08ec-ba97-e874" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="bbc0-b507-1994-dd1a" name="Rocket Boots?!" hidden="false" collective="false" import="true" targetId="e14e-5919-bdf4-3f88" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="19cc-c0c7-52e9-d98f" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="cda0-1050-6b24-c4c1" name="Crew of the Milano" hidden="false" collective="false" import="true" targetId="3118-35b3-f905-6b30" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="235f-3713-449f-d64b" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
+        <categoryLink id="c45c-7ad0-af45-4d1d" name="Guardians of the Galaxy" hidden="false" targetId="7e9f-5493-2fb7-0723" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="3f1d-008a-7b16-59a5" name="Panic Grips City as Evacuation Efforts Continue!" hidden="false" collective="false" import="true" targetId="3884-ac64-0505-2808" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="631d-6f10-60a7-2a64" name="New CategoryLink" hidden="false" targetId="67a0-a10a-a572-55c8" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -2585,7 +2613,7 @@ While within Range 1 of Captain America, Thor, Prince of Asgard may use the Thun
             <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
             <characteristic name="Details" typeId="3c65-5213-7979-ed33">At the start of the activation phase, any allied character may spend 3 Power to play this card. 
 
-This character cannot roll defense dice against Physical attacks. Addtionally, this character adds dice to it&apos;s Physical attacks equal to its Physical defense until the beginning of their next activation. </characteristic>
+This character cannot roll defense dice against Physical attacks. Addtionally, this character adds dice to it&apos;s Physical attacks equal to its Physical defense until the the nect Cleanup phase. </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2951,6 +2979,9 @@ While within Range 1 of each other this round, these characters cannot be moved 
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="af68-5698-d9fb-5141" name="Tactical Analysis" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -2964,6 +2995,9 @@ Choose another allied character within Range 3 of the character playing this car
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="d6bf-6fda-35be-5f8e" name="Field Dressing" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -2977,6 +3011,9 @@ Remove a Dazed token and 1 Damage from the allied character. </characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="91cb-aeea-2fca-569c" name="Psychic Shielding Device (P.S.D.)" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -2987,6 +3024,143 @@ Remove a Dazed token and 1 Damage from the allied character. </characteristic>
             <characteristic name="Details" typeId="3c65-5213-7979-ed33">Any character mays spend 1-5 Power to play this card. 
 
 This round, while within Range X of this character (X is equal to the Power spent to play this card), when allied characters are targeted by Mystic attacks, add one die to their defense rolls and allied characters cannot be advanced or pushed by the effects of enemy Mystic attacks or enemy superpowers. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9857-30fa-c5c2-5fd0" name="Star-Lord" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="663a-b39a-b8cd-d1fb" name="Star-Lord" hidden="false" typeId="fde4-96d9-2028-2529" typeName="Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">6</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">M</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">2</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">3</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">3</characteristic>
+            <characteristic name="Energy Defese" typeId="0509-5c52-7571-39ad">3</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9ace-f5b4-4f1d-d6f7" name="Star-Lord - Injured" hidden="false" typeId="fde4-96d9-2028-2529" typeName="Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">5</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">M</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">2</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">3</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">3</characteristic>
+            <characteristic name="Energy Defese" typeId="0509-5c52-7571-39ad">3</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="acd6-f486-3b64-a29f" name="Element Gun" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Energy</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">4</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">5</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">After this attack is resolved, this character gains Power equal to the Damage dealt.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="32fb-5b9d-1a70-9056" name="Full Auto" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Energy</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">4</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">7</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">3</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">Wild - Elemental Blast: After this attack ia resolved, for each Wild in the attack roll the defending character gains one of the following special conditions: Bleed, Shock, Slow, or Stun. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8a22-041d-778b-9505" name="Winging It (Affiliation: Guardians of the Galaxy)" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Once per round, at the start of your turn you may chose an allied character and discard a Team Tactic card to use this leadership ability. The chosen character gains 3 Winging It tokens. After rolling attack dice, defense dice, or dodge dice, it may discard one Winging It token to reroll up to 2 of its dice. Only one Winging it token may be discarded per roll. Remove all Winging It tokens from that character during the next Cleanup Phase. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Leadership</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9221-c49d-9178-1461" name="Star-Lord" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">When attacking, if this character rolled hits (Hit Symbol), it may reroll all of its current attack dice. When defending, if this character roller no blocks (Shield Symbol), it may reroll all of of its current defense dice. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6315-002f-9818-2e82" name="Flight, Gem Bearer [Power]" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef"/>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="370c-2938-6c35-b069" name="Infinity Gem: Power" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="cd0b-98f9-99bc-1f54" name="Infinity Gem: Power" hidden="false" typeId="fde4-96d9-2028-2529" typeName="Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363"/>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70"/>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953"/>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">1</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335"/>
+            <characteristic name="Energy Defese" typeId="0509-5c52-7571-39ad"/>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292"/>
+          </characteristics>
+        </profile>
+        <profile id="f70f-2d20-5870-541d" name="Power Gem" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">During the Power Phase, this character gains 2 additional Power instead of the normal 1 for having an Infinity Gem. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e14e-5919-bdf4-3f88" name="Rocket Boots?!" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="9b70-02e6-2b14-0ca5" name="Rocket Boots?!" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
+            <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
+            <characteristic name="Details" typeId="3c65-5213-7979-ed33">An alllied character may play this card. 
+The character gains the Flight Innate superpower this round. At the end of the round, roll 1 die. If the result is a blank, the character gains the Stun special condition. If it is a Skull, the character gains the Stagger and Stun special conditions. On any other result, the character may advance Movement Short. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="3118-35b3-f905-6b30" name="Crew of the Milano" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="b124-7be4-baf8-7e31" name="Crew of the Milano" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Guardians of the Galaxy</characteristic>
+            <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
+            <characteristic name="Details" typeId="3c65-5213-7979-ed33">Any number of allied Guardians of the Galaxy characters may spend 1 Power to play this card.
+Each character that Power removes all special conditions and cannot suffer special conditions this round. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="3884-ac64-0505-2808" name="Panic Grips City as Evacuation Efforts Continue!" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="65c6-f568-3c1f-8b11" name="Panic Grips City as Evacuation Efforts Continue!" hidden="false" typeId="e274-6fe8-7f95-a012" typeName="Crisis">
+          <characteristics>
+            <characteristic name="Setup" typeId="99b3-ec42-38d9-2d3a">Place four Citizens (Civilian tokens) as indicated on map B.</characteristic>
+            <characteristic name="Scoring" typeId="3561-4e9e-55ca-a37d">Players score 1 VP for each Citizen held by a character they control during the Cleanup Phase.</characteristic>
+            <characteristic name="Details" typeId="7116-4232-08b5-42bc">Interact (Citizen): Pick up a Citizen. 
+
+A character cannot hold more than one Citizen. 
+
+During its activation, a character holding a Citizen may evacuate the Citizen by spending 6 Power. The character&apos;s controlling player immediately scores 2 VPs and removes the Citizen hel by that character from the game. </characteristic>
+            <characteristic name="Threat" typeId="81f5-e239-dd2d-2b7c">19</characteristic>
+            <characteristic name="Type" typeId="fc23-59e6-7090-77fa">Extraction</characteristic>
           </characteristics>
         </profile>
       </profiles>
