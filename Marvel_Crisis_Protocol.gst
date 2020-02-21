@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="81bc-012c-665b-9b3d" name="Marvel Crisis Protocol" revision="3" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="81bc-012c-665b-9b3d" name="Marvel Crisis Protocol" revision="4" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="2de3-a5e2-23d8-2859" name=" Threat Value" defaultCostLimit="-1.0"/>
   </costTypes>
@@ -59,6 +59,7 @@
     <categoryEntry id="f26a-4939-f603-307c" name="Wakanda" hidden="false"/>
     <categoryEntry id="e7d2-fc4f-e67b-f877" name="Infinity Gems" hidden="false"/>
     <categoryEntry id="a554-55ad-02b3-3342" name="Asgard" hidden="false"/>
+    <categoryEntry id="41a5-1f4b-b6f9-bf19" name="Guardians of the Galaxy" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="fc8b-e3b6-b2a4-5d8b" name="Roster" hidden="false">
