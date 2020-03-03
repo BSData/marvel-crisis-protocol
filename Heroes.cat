@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="44fc-2846-12b5-766a" name="Heroes" revision="9" battleScribeVersion="2.03" library="false" gameSystemId="81bc-012c-665b-9b3d" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="44fc-2846-12b5-766a" name="Heroes" revision="10" battleScribeVersion="2.03" library="false" gameSystemId="81bc-012c-665b-9b3d" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="eb4e-d55b-c663-c712" name="Gamma Wave Sweeps Across Midwest" hidden="false" collective="false" import="true" targetId="db27-2d52-016b-dbe4" type="selectionEntry">
       <categoryLinks>
@@ -428,6 +428,28 @@
     <entryLink id="3f1d-008a-7b16-59a5" name="Panic Grips City as Evacuation Efforts Continue!" hidden="false" collective="false" import="true" targetId="3884-ac64-0505-2808" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="631d-6f10-60a7-2a64" name="New CategoryLink" hidden="false" targetId="67a0-a10a-a572-55c8" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="c4b2-89ec-1c95-6fea" name="Rocket Raccoon" hidden="false" collective="false" import="true" targetId="6997-0836-2f12-0805" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="dadd-677e-0bc5-e266" name="Guardians of the Galaxy" hidden="false" targetId="7e9f-5493-2fb7-0723" primary="false"/>
+        <categoryLink id="f2b3-96be-871a-ab64" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7803-dfb4-4fe9-b8c8" name="Groot" hidden="false" collective="false" import="true" targetId="7dc6-2296-84c8-bbf3" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="1ed2-91d0-f1b9-f375" name="Guardians of the Galaxy" hidden="false" targetId="7e9f-5493-2fb7-0723" primary="false"/>
+        <categoryLink id="244b-9ee0-17dd-209b" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="86b6-507b-5379-8cc4" name="Deadly Duo" hidden="false" collective="false" import="true" targetId="9eee-2d45-f07a-442f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="816a-9ce1-f54c-66ea" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="cc16-9817-e505-c581" name="We are Groot" hidden="false" collective="false" import="true" targetId="091d-2945-9194-28ca" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="5367-12fa-770d-0bca" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -3135,6 +3157,9 @@ The character gains the Flight Innate superpower this round. At the end of the r
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="3118-35b3-f905-6b30" name="Crew of the Milano" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -3147,6 +3172,9 @@ Each character that Power removes all special conditions and cannot suffer speci
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="3884-ac64-0505-2808" name="Panic Grips City as Evacuation Efforts Continue!" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -3161,6 +3189,140 @@ A character cannot hold more than one Citizen.
 During its activation, a character holding a Citizen may evacuate the Citizen by spending 6 Power. The character&apos;s controlling player immediately scores 2 VPs and removes the Citizen hel by that character from the game. </characteristic>
             <characteristic name="Threat" typeId="81f5-e239-dd2d-2b7c">19</characteristic>
             <characteristic name="Type" typeId="fc23-59e6-7090-77fa">Extraction</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6997-0836-2f12-0805" name="Rocket Raccoon" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="25e0-6e05-694d-f773" name="Rocket Raccoon" hidden="false" typeId="fde4-96d9-2028-2529" typeName="Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">3</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">M</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">1</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">2</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">2</characteristic>
+            <characteristic name="Energy Defese" typeId="0509-5c52-7571-39ad">2</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1c7d-732e-d0ba-4a56" name="Plasma Rifle" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Energy</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">5</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">5</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">After this attack is resolved, this character gains Power equal to the Damage dealt.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a367-8d2e-9299-3d45" name="Hadron Enforcer" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Energy</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">5</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">7</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">4</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">Wild - Vortex: Before damage is dealt, other enemy characters within Range 2 of the target character suffer 1 Damage and are pushed toward the target character Speed Short. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="565d-bd7b-34e8-0039" name="Booby Traps" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">3</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">When an enemy character ends a movement within Range 3 of this character, this character may use this superpower. Roll 4 dice. The enemy character suffes 1 Damage for each Crit or Wild rolled. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Reactive</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0c49-a25a-f14b-6023" name="Personal Bodyguard" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">0</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">When this character is the target of an attack and an allied Groot is within Range 1 of this character, you may use this superpower. The allied Groot becomes the target of the attack regardless of range and LOS. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Reactive</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e13b-5163-c0ef-2b71" name="Small Stature" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">This character always benefits from cover.</characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7dc6-2296-84c8-bbf3" name="Groot" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="bc62-6d67-ae78-087e" name="Groot" hidden="false" typeId="fde4-96d9-2028-2529" typeName="Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">7</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">Small</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">3</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">3</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">4</characteristic>
+            <characteristic name="Energy Defese" typeId="0509-5c52-7571-39ad">2</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c325-f001-8c9a-6cbe" name="Strike" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Physical</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">2</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">5</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">After this attack is resolved, this character gains Power equal to the Damage dealt.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="887f-e033-b2ea-247d" name="I AM GROOT!" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Physical</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">2</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">8</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">6</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">Before damage is dealt, this character may throw the target character Speed Medium
+After this attack is resolved, the target character gains the Stagger special condition. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="be8f-27e1-19d2-0a95" name="Living Plant" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">2</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Remove three Damage from this character.</characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e7d1-6c72-0f2f-3aa6" name="Tangling Vines" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">2</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Choose an enemy character within Range 3. It gains the Root special condition.</characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9eee-2d45-f07a-442f" name="Deadly Duo" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="1de7-0b8f-0150-d62d" name="Deadly Duo" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
+            <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
+            <characteristic name="Details" typeId="3c65-5213-7979-ed33">During Rocket Raccon&apos;s activation, if he is within Range 2 of an allied Groot, both characters may spend 2 Power each to play this card. 
+Rocket Raccoon may immediately perform up to three Plasma Rifle attacks. Each attack must target a different enemy character. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="091d-2945-9194-28ca" name="We are Groot" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="fc90-36c4-6a47-97ea" name="We are Groot" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
+            <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
+            <characteristic name="Details" typeId="3c65-5213-7979-ed33">Groot may spend 3 Power to play this card. Groot and allied characters within Range 4 of him remove 2 Damage. </characteristic>
           </characteristics>
         </profile>
       </profiles>
