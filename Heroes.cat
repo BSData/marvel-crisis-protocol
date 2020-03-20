@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="44fc-2846-12b5-766a" name="Heroes" revision="10" battleScribeVersion="2.03" library="false" gameSystemId="81bc-012c-665b-9b3d" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="44fc-2846-12b5-766a" name="Heroes" revision="11" battleScribeVersion="2.03" library="false" gameSystemId="81bc-012c-665b-9b3d" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="eb4e-d55b-c663-c712" name="Gamma Wave Sweeps Across Midwest" hidden="false" collective="false" import="true" targetId="db27-2d52-016b-dbe4" type="selectionEntry">
       <categoryLinks>
@@ -404,7 +404,6 @@
     </entryLink>
     <entryLink id="fe0d-4b3e-a701-d593" name="Star-Lord" hidden="false" collective="false" import="true" targetId="9857-30fa-c5c2-5fd0" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="eba5-a7a2-7a1e-bce7" name="Guardians of the Galaxy" hidden="false" targetId="7e9f-5493-2fb7-0723" primary="false"/>
         <categoryLink id="1ade-c2ba-dfaa-76d1" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="true"/>
       </categoryLinks>
     </entryLink>
@@ -422,7 +421,6 @@
     <entryLink id="cda0-1050-6b24-c4c1" name="Crew of the Milano" hidden="false" collective="false" import="true" targetId="3118-35b3-f905-6b30" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="235f-3713-449f-d64b" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
-        <categoryLink id="c45c-7ad0-af45-4d1d" name="Guardians of the Galaxy" hidden="false" targetId="7e9f-5493-2fb7-0723" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="3f1d-008a-7b16-59a5" name="Panic Grips City as Evacuation Efforts Continue!" hidden="false" collective="false" import="true" targetId="3884-ac64-0505-2808" type="selectionEntry">
@@ -432,13 +430,11 @@
     </entryLink>
     <entryLink id="c4b2-89ec-1c95-6fea" name="Rocket Raccoon" hidden="false" collective="false" import="true" targetId="6997-0836-2f12-0805" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="dadd-677e-0bc5-e266" name="Guardians of the Galaxy" hidden="false" targetId="7e9f-5493-2fb7-0723" primary="false"/>
         <categoryLink id="f2b3-96be-871a-ab64" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="7803-dfb4-4fe9-b8c8" name="Groot" hidden="false" collective="false" import="true" targetId="7dc6-2296-84c8-bbf3" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="1ed2-91d0-f1b9-f375" name="Guardians of the Galaxy" hidden="false" targetId="7e9f-5493-2fb7-0723" primary="false"/>
         <categoryLink id="244b-9ee0-17dd-209b" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="true"/>
       </categoryLinks>
     </entryLink>
@@ -450,6 +446,12 @@
     <entryLink id="cc16-9817-e505-c581" name="We are Groot" hidden="false" collective="false" import="true" targetId="091d-2945-9194-28ca" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="5367-12fa-770d-0bca" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6f4d-d89d-ca98-29a7" name="Gamora" hidden="false" collective="false" import="true" targetId="43d5-2390-fdf0-9f6a" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="d295-54ab-6781-8dc3" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="true"/>
+        <categoryLink id="8677-dfba-a48b-cfbd" name="Guardians of the Galaxy" hidden="false" targetId="41a5-1f4b-b6f9-bf19" primary="false"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -3315,6 +3317,9 @@ Rocket Raccoon may immediately perform up to three Plasma Rifle attacks. Each at
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="091d-2945-9194-28ca" name="We are Groot" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -3326,6 +3331,69 @@ Rocket Raccoon may immediately perform up to three Plasma Rifle attacks. Each at
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="43d5-2390-fdf0-9f6a" name="Gamora" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="fd90-e997-5f9b-4621" name="Gamora" hidden="false" typeId="fde4-96d9-2028-2529" typeName="Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">5</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">L</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">2</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">4</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">3</characteristic>
+            <characteristic name="Energy Defese" typeId="0509-5c52-7571-39ad">3</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8121-16f7-d8bc-3ab2" name="God Slayer" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Physical</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">2</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">6</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">After the attack is resolved, this character gains Power equal to the Damage dealt.
+If this attackl deals Damage, after this attack is resolved, the target character gains the Bleed special condition.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="76d1-b2b1-4306-77f4" name="Cosmic Assassin" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Physical </characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">3</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">6</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">4</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">Wild - Pierce: Change one of the defending character&apos;s Critical, Wild, or Shield results to a blank.
+Rapid Strike: After this attack is resolved, this character may make an additional Cosmic Assassin attack without paying the Power cost. The additional attack must target another character within Range 2 of the original target character and may be any distance from this character. This additional attack does not have the Rapid Strike special rule.
+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5ea9-5d31-a6dc-15dd" name="Assassin Leap" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">2</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">This character is thrown Speed Short. It does not suffer damage if it collides with another character or terrain feature. This superpower may be used only once per activation. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1fa5-4cf8-9260-6297" name="Martial Prowess" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">2</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">When this character is targeted by an attack within Range 2, it may use this superpower. Instead of rolling dice equal to its Defense, it rolls five defense dice. If this character suffers no Damage from the attack, after the attack is resolved, the attacker suffers 2 Damage. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Reactive</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4e5f-cd7b-0ee1-82ac" name="Deadliest Woman in the Galaxy" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">When this character makes an attack, it may change 1 die result to a Hit for each Wild in the attack roll. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="4.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
 </catalogue>
