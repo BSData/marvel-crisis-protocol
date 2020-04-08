@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="44fc-2846-12b5-766a" name="Heroes" revision="11" battleScribeVersion="2.03" library="false" gameSystemId="81bc-012c-665b-9b3d" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="44fc-2846-12b5-766a" name="Heroes" revision="12" battleScribeVersion="2.03" library="false" gameSystemId="81bc-012c-665b-9b3d" gameSystemRevision="11" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="eb4e-d55b-c663-c712" name="Gamma Wave Sweeps Across Midwest" hidden="false" collective="false" import="true" targetId="db27-2d52-016b-dbe4" type="selectionEntry">
       <categoryLinks>
@@ -452,6 +452,22 @@
       <categoryLinks>
         <categoryLink id="d295-54ab-6781-8dc3" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="true"/>
         <categoryLink id="8677-dfba-a48b-cfbd" name="Guardians of the Galaxy" hidden="false" targetId="41a5-1f4b-b6f9-bf19" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="71e6-2af9-90d4-b37e" name="Nebula" hidden="false" collective="false" import="true" targetId="5301-9350-3a6b-c5fb" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="9356-3f2e-9659-b5f4" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="true"/>
+        <categoryLink id="e8ac-7f29-cb91-2a5e" name="Guardians of the Galaxy" hidden="false" targetId="41a5-1f4b-b6f9-bf19" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="34c1-1fde-8274-601d" name="Medpack" hidden="false" collective="false" import="true" targetId="5315-c20f-3dc0-68d3" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7f39-e9a9-be42-7a3f" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="8e23-823c-6282-72cc" name="Daughters of Thanos" hidden="false" collective="false" import="true" targetId="5706-4836-58cf-b5bd" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="98e5-e3cd-22ad-01d2" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -3394,6 +3410,109 @@ Rapid Strike: After this attack is resolved, this character may make an addition
       <costs>
         <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="4.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="5301-9350-3a6b-c5fb" name="Nebula" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="b317-e9a7-2825-4a44" name="Nebula" hidden="false" typeId="fde4-96d9-2028-2529" typeName="Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">4</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">L</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">2</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">2</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">3</characteristic>
+            <characteristic name="Energy Defese" typeId="0509-5c52-7571-39ad">3</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="dff9-65a1-a71b-2feb" name="Nebula - Injured" hidden="false" typeId="fde4-96d9-2028-2529" typeName="Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">5</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">L</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">2</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">2</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">3</characteristic>
+            <characteristic name="Energy Defese" typeId="0509-5c52-7571-39ad">3</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8490-3aaa-1066-e0b9" name="Strike" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Physical</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">2</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">4</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">After this attack is resolved, this character gains Power equal to the Damage dealt.
+Wild - Shock: After this attack is resolved, the target character gains the Shock special condition. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="defe-e21f-4c10-c730" name="Blaster Pistol" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Energy</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">3</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">4</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">After this attack is resolved, this character gains 1 Power.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7496-a39d-7801-519d" name="Shock Sword Assault" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Energy</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">3</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">6</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">3</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">After this attack is resolved,place this character within Range 1 of the target.
+Wild - Stun: After this attack is resolved, the target character gains the Stun special condition. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7cb6-537d-0657-57ef" name="Assassin" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">This character cannot contest, interact with or hold Objectives tokens. Additionally, this character may reroll any number of its attack dice when attacking a character that is holdng or contesting an Objective token. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="80b7-5f7b-f1bc-e1ce" name="Cybernetic Enhancements" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">This character may reroll one die in its defense rolls. Additionally, at the start of this character&apos;s activation, remove one Damage from it. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="18b6-b60d-9541-a166" name="Immunity [Bleed, Poison, Stun]" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef"/>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5315-c20f-3dc0-68d3" name="Medpack" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="710b-cc79-c850-d066" name="Medpack" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
+            <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
+            <characteristic name="Details" typeId="3c65-5213-7979-ed33">During a character&apos;s activation, it may spend 2 Power to play this card. 
+Remove up to 3 Damage from this character or an allied character without a Dazed token within Range 3 of this character. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="5706-4836-58cf-b5bd" name="Daughters of Thanos" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="1e52-cd03-3a0c-b833" name="Daughters of Thanos" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
+            <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
+            <characteristic name="Details" typeId="3c65-5213-7979-ed33">When either an allied Gamora or an allied Nebula makes an attack action, after the attack is resolved, both characters may spend 2 Power each to play this card. 
+The character(Gamora or Nebula) that did not make the initial attack may make an attack targeting the same target character. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
   </sharedSelectionEntries>
 </catalogue>
