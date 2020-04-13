@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="44fc-2846-12b5-766a" name="Heroes" revision="12" battleScribeVersion="2.03" library="false" gameSystemId="81bc-012c-665b-9b3d" gameSystemRevision="11" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="44fc-2846-12b5-766a" name="Heroes" revision="12" battleScribeVersion="2.03" library="false" gameSystemId="81bc-012c-665b-9b3d" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="eb4e-d55b-c663-c712" name="Gamma Wave Sweeps Across Midwest" hidden="false" collective="false" import="true" targetId="db27-2d52-016b-dbe4" type="selectionEntry">
       <categoryLinks>
@@ -468,6 +468,41 @@
     <entryLink id="8e23-823c-6282-72cc" name="Daughters of Thanos" hidden="false" collective="false" import="true" targetId="5706-4836-58cf-b5bd" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="98e5-e3cd-22ad-01d2" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="23a6-f7c1-1962-41b0" name="Proxima Midnight" hidden="false" collective="false" import="true" targetId="9516-f432-5ff1-af27" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="702a-7ed8-31bb-8ef0" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="true"/>
+        <categoryLink id="208d-6375-b790-7b9f" name="Black Order" hidden="false" targetId="01c6-f9aa-a521-8f23" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7e0b-f85f-685c-1175" name="Corvus Glaive" hidden="false" collective="false" import="true" targetId="7a2c-f39a-0dcb-b126" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="77c9-d4e8-66df-707a" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="true"/>
+        <categoryLink id="25e2-63fe-ce48-d51a" name="Black Order" hidden="false" targetId="01c6-f9aa-a521-8f23" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a6ef-7cc4-0da1-9ec7" name="Infinity Gem: Time" hidden="false" collective="false" import="true" targetId="57b8-f884-ba45-11ce" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="821c-bfbb-4214-808b" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="true"/>
+        <categoryLink id="5682-3475-3b97-57ce" name="Infinity Gems" hidden="false" targetId="e7d2-fc4f-e67b-f877" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="95ba-f5fc-8952-b9fd" name="Price of Failure" hidden="false" collective="false" import="true" targetId="48fd-e618-d0f3-eeba" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8692-7aca-8fb3-293c" name="Black Order" hidden="false" targetId="01c6-f9aa-a521-8f23" primary="false"/>
+        <categoryLink id="4d96-969e-66fd-7b2e" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="63bc-f142-a347-b7ec" name="Execute" hidden="false" collective="false" import="true" targetId="5ae3-7cd4-c779-80c8" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="3246-4bf0-de7c-ed68" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7c1c-6547-85d6-f3ad" name="Blood to Spare" hidden="false" collective="false" import="true" targetId="0e12-12e0-4d10-f91a" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="d22d-49cb-3109-3a0a" name="Black Order" hidden="false" targetId="01c6-f9aa-a521-8f23" primary="false"/>
+        <categoryLink id="6428-6d73-c59f-249a" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -2421,7 +2456,7 @@ Place Venom within Range 1 of the allied character. Venom becomes the target of 
             <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">After this attack is resolved, this character gains Power equal to the Damage dealt.</characteristic>
           </characteristics>
         </profile>
-        <profile id="15df-0ddf-9b71-3fcb" name="Dagon Fang" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+        <profile id="15df-0ddf-9b71-3fcb" name="Dragon Fang" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
           <characteristics>
             <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Physical</characteristic>
             <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">2</characteristic>
@@ -3501,6 +3536,9 @@ Remove up to 3 Damage from this character or an allied character without a Dazed
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="5706-4836-58cf-b5bd" name="Daughters of Thanos" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -3510,6 +3548,213 @@ Remove up to 3 Damage from this character or an allied character without a Dazed
             <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
             <characteristic name="Details" typeId="3c65-5213-7979-ed33">When either an allied Gamora or an allied Nebula makes an attack action, after the attack is resolved, both characters may spend 2 Power each to play this card. 
 The character(Gamora or Nebula) that did not make the initial attack may make an attack targeting the same target character. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9516-f432-5ff1-af27" name="Proxima Midnight" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="87e3-8185-e348-f8bb" name="Proxima Midnight" hidden="false" typeId="fde4-96d9-2028-2529" typeName="Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">5</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">L</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">2</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">3</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">3</characteristic>
+            <characteristic name="Energy Defese" typeId="0509-5c52-7571-39ad">3</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6ead-516e-fc2d-43c5" name="Strike" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Physical</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">2</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">5</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">After this attack is resolved, this character gains Power equal to the Damage dealt.
+Wild - Pierce: Change one of the defending character&apos;s Critical, Wild, or Shield results to a blank.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="733f-0db2-e591-4ad1" name="Spear Throw" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Energy</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">3</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">5</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">After this attack is resolved, place this character within Range 1 of the target. 
+Wild - Poison: After this attack is resolved, the target character gains the Poison special condition. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0958-c8b2-a000-c2a1" name="Quantum Starburst" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Energy</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">4</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">6</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">4</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">If this attack deals Damage, after this attack is resolved the target character gains the Bleed, Poison and Stun special conditions. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a02c-24f1-f0d5-5a4f" name="Martial Prowess" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">2</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">When this character is targeted by an attack within Range 2, it may use this superpower. Instead of rolling dice equal to its Defense, it rolls five defense dice. If this character suffers no Damage from the attack, after the attack is resolved, the attacker suffers 2 Damage. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Reactive</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c62a-509f-7711-ae56" name="Wife of Corvus Glaive" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">0</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">At the end of this character&apos;s activation, if it is within Range 4 of an allied Corvus Glaive, this character may use this superpower. If the allied Corvus Glaive does not have an activated token, he may activate before your turn ends. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Reactive</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2fa4-9c8d-1e6d-7e36" name="Invulnerability" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">When this character would suffer Damage from an enemy effect, reduce the amount suffered by 1, to a minimum of 1.</characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7a2c-f39a-0dcb-b126" name="Corvus Glaive" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="f497-6df8-dcb8-9578" name="Corvus Glaive" hidden="false" typeId="fde4-96d9-2028-2529" typeName="Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">6</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">M</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">2</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">4</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">3</characteristic>
+            <characteristic name="Energy Defese" typeId="0509-5c52-7571-39ad">3</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f82a-7e82-43eb-06e2" name="Strike" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Physical</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">2</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">5</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">After this attack is resolved, this character gains Power equal to the Damage dealt.
+Wild - Pierce: Change one of the defending character&apos;s Critical, Wild, or Shield results to a blank.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a7f1-d10f-182e-67e7" name="Atom Splitter" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Energy</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">4</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">4</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">After the attack is resolved, this character gains 1 Power.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1ead-ad8a-cd7b-592d" name="Death Blow" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Physical</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">3</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">7</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">4</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">After this attack is resolved, this character may advance Speed Medium.
+Wild - Flurry: After this attacked is resolved, this character may make a Strike attack. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9a87-4ded-436a-9870" name="Glaive&apos;s Edge" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">3</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">During the next Strike or Death Blow attack this turn, this character adds blanks in its attack roll to its total successes.</characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5c80-6e37-82be-2651" name="Husband of Proxima Midnight" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">0</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">At the end of this character&apos;s activation, if it is within Range 4 of an allied Proxima Midnight, this character may use this superpower. If the allied Proxima Midnight does not have an activated token, she may activate before your turn ends. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Reactive</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9d33-338d-e47e-4b8e" name="Glaive of Immortality" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">When this character would suffer Damage from an enemy effect, reduce the amount suffered by 1, to a minimum of 1.</characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5161-cd69-91d0-131c" name="Gem Bearer [Reality, Time]" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef"/>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="57b8-f884-ba45-11ce" name="Infinity Gem: Time" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="c592-b08e-1577-6b67" name="Infinity Gem: Time" hidden="false" typeId="fde4-96d9-2028-2529" typeName="Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363"/>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70"/>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953"/>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">2</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335"/>
+            <characteristic name="Energy Defese" typeId="0509-5c52-7571-39ad"/>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292"/>
+          </characteristics>
+        </profile>
+        <profile id="89d3-cc47-89dc-7db1" name="Time Gem" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">2</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">This character may perform an additional action this activation. This superpower may be used only once per turn. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="48fd-e618-d0f3-eeba" name="Price of Failure" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="758c-9e67-fc25-3c2d" name="Price of Failure" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Black Order</characteristic>
+            <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
+            <characteristic name="Details" typeId="3c65-5213-7979-ed33">Choose an injured allied character to play this card. 
+Other allied characters gain 3 Power. The chosen character is KO&apos;d. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="5ae3-7cd4-c779-80c8" name="Execute" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="c33c-23a0-f69b-f673" name="Execute" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
+            <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
+            <characteristic name="Details" typeId="3c65-5213-7979-ed33">When Corvus Glaives targets an enemy character with an attack that is within Range 1 of an allied Proxima Midnight, or when Proxima Midnight targets an enemy character with an attack that is within Range 1 of an allied Corvus Glaive, both characters may spend 2 Power to play this card. 
+The enemy character rolls no defense dice during this attack. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="0e12-12e0-4d10-f91a" name="Blood to Spare" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="daea-535e-c7af-c7ff" name="Blood to Spare" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Black Order</characteristic>
+            <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
+            <characteristic name="Details" typeId="3c65-5213-7979-ed33">When a Black Order character would be Dazed by an enemy effect, it may spend 3 Power to play this card. 
+The character immediately permorms an attack before gaining the Dazed token. If this attack results in the character removing damage, it is not Dazed. </characteristic>
           </characteristics>
         </profile>
       </profiles>
