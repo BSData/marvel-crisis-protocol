@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="44fc-2846-12b5-766a" name="Heroes" revision="13" battleScribeVersion="2.03" library="false" gameSystemId="81bc-012c-665b-9b3d" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="44fc-2846-12b5-766a" name="Heroes" revision="14" battleScribeVersion="2.03" library="false" gameSystemId="81bc-012c-665b-9b3d" gameSystemRevision="13" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="eb4e-d55b-c663-c712" name="Gamma Wave Sweeps Across Midwest" hidden="false" collective="false" import="true" targetId="db27-2d52-016b-dbe4" type="selectionEntry">
       <categoryLinks>
@@ -503,6 +503,17 @@
       <categoryLinks>
         <categoryLink id="d22d-49cb-3109-3a0a" name="Black Order" hidden="false" targetId="01c6-f9aa-a521-8f23" primary="false"/>
         <categoryLink id="6428-6d73-c59f-249a" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="76af-6bc9-6d62-5a46" name="Hawkeye" hidden="false" collective="false" import="true" targetId="4373-3469-33d9-7c05" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7490-9c49-3d1d-0149" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="true"/>
+        <categoryLink id="3591-52a3-b3c3-8296" name="Avengers" hidden="false" targetId="d6c4-f011-cd8c-5451" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6070-ec09-c8f2-a54b" name="Professionals" hidden="false" collective="false" import="true" targetId="3473-dea8-8085-7226" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="6286-3aac-41ce-e705" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -3734,6 +3745,9 @@ Other allied characters gain 3 Power. The chosen character is KO&apos;d. </chara
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="5ae3-7cd4-c779-80c8" name="Execute" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -3746,6 +3760,9 @@ The enemy character rolls no defense dice during this attack. </characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="0e12-12e0-4d10-f91a" name="Blood to Spare" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -3755,6 +3772,83 @@ The enemy character rolls no defense dice during this attack. </characteristic>
             <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
             <characteristic name="Details" typeId="3c65-5213-7979-ed33">When a Black Order character would be Dazed by an enemy effect, it may spend 3 Power to play this card. 
 The character immediately permorms an attack before gaining the Dazed token. If this attack results in the character removing damage, it is not Dazed. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4373-3469-33d9-7c05" name="Hawkeye" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="53d8-1d4a-22c0-6a5a" name="Hawkeye" hidden="false" typeId="fde4-96d9-2028-2529" typeName="Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">4</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">M</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">2</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">3</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">4</characteristic>
+            <characteristic name="Energy Defese" typeId="0509-5c52-7571-39ad">2</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d9f8-f1b2-83bc-0b08" name="Hawkeye - Injured" hidden="false" typeId="fde4-96d9-2028-2529" typeName="Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">5</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">M</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">2</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">3</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">4</characteristic>
+            <characteristic name="Energy Defese" typeId="0509-5c52-7571-39ad">2</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8930-b582-7cc7-e5de" name="Arrow Shot" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Physical</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">5</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">5</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">After this attack is resolved, this character gains Power equal to the Damage dealt.
+Before choosing a target, this character may choose wether this attacks type is Physical or Energy
+Wild - Full Quiver: After this attack is resolved, the defending character gains one of the following special conditions: Bleed, Shock, Slow or Poison. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2d8d-d85a-3017-a262" name="Hook Arrow" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">2</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Place this character within Range 3 of its current position. This superpower can be used only once per turn. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2d2d-66fd-6c5f-19ee" name="Trick Shot " hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">1</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">The next Arrow Shot this character makes ignore LOS, and the defending character does not benefit from cover. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e8d5-ebd4-8345-fdaf" name="Fast Draw" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">2</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">When this character is targeted by an attack, if the attacker is not within Range 3 of this character, it may use this superpower. This character makes an Arrow Shot attack targeting the attacking character. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Reactive</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3473-dea8-8085-7226" name="Professionals" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="392a-6900-0af9-789e" name="Professionals" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
+            <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
+            <characteristic name="Details" typeId="3c65-5213-7979-ed33">Natasha Romanoff and Clinton Barton may spend 2 Power each to play this card. 
+
+If Clinton Barton damages a character with an attackthis round and Natasha Romanoff is within Range 2 of the damaged character, you may move one Asset or Civilian token from the damaged character to Natasha Romanoff. She is now holding that token. This card does not allow a character to hold more tokens than the Crisis specifies. </characteristic>
           </characteristics>
         </profile>
       </profiles>
