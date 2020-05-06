@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="44fc-2846-12b5-766a" name="Heroes" revision="15" battleScribeVersion="2.03" library="false" gameSystemId="81bc-012c-665b-9b3d" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="44fc-2846-12b5-766a" name="Heroes" revision="16" battleScribeVersion="2.03" library="false" gameSystemId="81bc-012c-665b-9b3d" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="eb4e-d55b-c663-c712" name="Gamma Wave Sweeps Across Midwest" hidden="false" collective="false" import="true" targetId="db27-2d52-016b-dbe4" type="selectionEntry">
       <categoryLinks>
@@ -520,6 +520,18 @@
       <categoryLinks>
         <categoryLink id="f0c0-85a3-c52e-9005" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="true"/>
         <categoryLink id="97ca-ff76-f5ef-f6b8" name="Black Order" hidden="false" targetId="01c6-f9aa-a521-8f23" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="0452-fd47-3369-f130" name="Black Widow Agent of S.H.I.E.L.D." hidden="false" collective="false" import="true" targetId="2bac-8d8b-7203-38ec" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="3257-7793-2595-5b06" name="Avengers" hidden="false" targetId="d6c4-f011-cd8c-5451" primary="false"/>
+        <categoryLink id="2844-b883-0d6e-751f" name="Avengers" hidden="false" targetId="d6c4-f011-cd8c-5451" primary="false"/>
+        <categoryLink id="25b2-ae41-d3f0-b413" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="2170-e936-5823-01e0" name="Heavy Firepower" hidden="false" collective="false" import="true" targetId="7305-909d-3888-3cd2" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="73ac-b245-d42e-e587" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -3871,7 +3883,7 @@ If Clinton Barton damages a character with an attackthis round and Natasha Roman
             <characteristic name="Size" typeId="40df-7d54-a856-5953">2</characteristic>
             <characteristic name="Threat" typeId="b915-b25f-cb12-b651">5</characteristic>
             <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">2</characteristic>
-            <characteristic name="Energy Defese" typeId="0509-5c52-7571-39ad"/>
+            <characteristic name="Energy Defese" typeId="0509-5c52-7571-39ad">2</characteristic>
             <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">6</characteristic>
           </characteristics>
         </profile>
@@ -3882,7 +3894,7 @@ If Clinton Barton damages a character with an attackthis round and Natasha Roman
             <characteristic name="Size" typeId="40df-7d54-a856-5953">2</characteristic>
             <characteristic name="Threat" typeId="b915-b25f-cb12-b651">5</characteristic>
             <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">2</characteristic>
-            <characteristic name="Energy Defese" typeId="0509-5c52-7571-39ad"/>
+            <characteristic name="Energy Defese" typeId="0509-5c52-7571-39ad">2</characteristic>
             <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">6</characteristic>
           </characteristics>
         </profile>
@@ -3938,6 +3950,87 @@ Wild - Throw: If the target character is Size 2 or less, after this attack is re
       <costs>
         <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="5.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="2bac-8d8b-7203-38ec" name="Black Widow Agent of S.H.I.E.L.D." hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="173d-81be-63d9-d8b0" name="Black Widow Agent of S.H.I.E.L.D." hidden="false" typeId="fde4-96d9-2028-2529" typeName="Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">5</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">M</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">2</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">3</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">4</characteristic>
+            <characteristic name="Energy Defese" typeId="0509-5c52-7571-39ad">3</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="add6-74ba-ce28-e609" name="Automatic Pistol" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Physical</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">3</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">4</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">After this attack is resolved, this character gains 1 Power. 
+Rapid Fire: After this attack is resolved, this character may make one additional Automatic Pistol attack. The additional attack must target the original target character. The additional attack does not have the Rapid Fire special rule. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0e83-de61-6207-b2fb" name="Tear Gas" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Physical</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">A2</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">4</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">2</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">The target character does not gain Power for Damage dealt by this attack. 
+After this attack is resolved, the target character gains the poison special condition. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e493-53e2-5a3d-b951" name="Widow&apos;s Kiss" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Energy</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">2</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">6</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">3</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">Add  1 die to this attack roll for each special condition the target character has. 
+Wild - Push: Before damage is dealt, this character may push the target character away Speed Short. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="467e-caed-a819-1f6a" name="Interrogate" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">3</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">At the start of the Cleanup Phase, if this character is within Range 2 of one or more Dazed enemy characters, it may use this superpower. Its controlling player increase the amount of VPs they score from Crisis cards during this Cleanup Phase by 1. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Reactive</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="47dc-7eae-6744-6895" name="Parting Shot" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">2</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">After an attack targeting this character is resolved, this character may use this superpower. The attacking character suffers 1 Damage. This character may advance away from the attacking character Speed Short. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Reactive</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="15d8-c041-2c19-1179" name="Stealth" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Characters mst be within Range 3 of this character to target it with attacks.</characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7305-909d-3888-3cd2" name="Heavy Firepower" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="767e-62fb-010a-4b95" name="Heavy Firepower" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
+            <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
+            <characteristic name="Details" typeId="3c65-5213-7979-ed33">During a character&apos;s activation, it may spend 2 Power to play this card. 
+The next attack made by this character this turn targeting an enemy character that is not within Range 3 of any allied characters adds 2 dice to the attack roll. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
   </sharedSelectionEntries>
 </catalogue>
