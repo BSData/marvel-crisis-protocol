@@ -534,6 +534,13 @@
         <categoryLink id="73ac-b245-d42e-e587" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="52cf-693a-9cf7-75f2" name="Black Dwarf" hidden="false" collective="false" import="true" targetId="19f2-4aee-c8ec-f096" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="6fbb-2a69-5f1f-771f" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
+        <categoryLink id="9c0c-4c4e-9739-9815" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="true"/>
+        <categoryLink id="2aca-864f-ba0c-7c41" name="Black Order" hidden="false" targetId="01c6-f9aa-a521-8f23" primary="false"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="a67b-5bc0-a6ec-3df3" name="Hulk" hidden="false" collective="false" import="true" type="model">
