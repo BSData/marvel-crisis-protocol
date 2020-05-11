@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="44fc-2846-12b5-766a" name="Heroes" revision="17" battleScribeVersion="2.03" library="false" gameSystemId="81bc-012c-665b-9b3d" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="44fc-2846-12b5-766a" name="Heroes" revision="18" battleScribeVersion="2.03" library="false" gameSystemId="81bc-012c-665b-9b3d" gameSystemRevision="17" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="eb4e-d55b-c663-c712" name="Gamma Wave Sweeps Across Midwest" hidden="false" collective="false" import="true" targetId="db27-2d52-016b-dbe4" type="selectionEntry">
       <categoryLinks>
@@ -539,6 +539,28 @@
         <categoryLink id="6fbb-2a69-5f1f-771f" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
         <categoryLink id="9c0c-4c4e-9739-9815" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="true"/>
         <categoryLink id="2aca-864f-ba0c-7c41" name="Black Order" hidden="false" targetId="01c6-f9aa-a521-8f23" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="dd48-91e3-9b4c-e38b" name="Drax the Destroyer" hidden="false" collective="false" import="true" targetId="d762-ca9d-12f4-ceac" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="46b8-00b6-196c-2826" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="true"/>
+        <categoryLink id="0cb3-f63a-34ac-90be" name="Guardians of the Galaxy" hidden="false" targetId="41a5-1f4b-b6f9-bf19" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6f6b-d2d2-cfcd-2ec4" name="Ronan the Accuser" hidden="false" collective="false" import="true" targetId="ed7d-1c0b-cc11-7c66" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="5a24-a170-30db-e0d4" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="true"/>
+        <categoryLink id="7a89-e2e2-fecb-454a" name="Guardians of the Galaxy" hidden="false" targetId="41a5-1f4b-b6f9-bf19" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="684f-53f8-29b3-3adc" name="No Matter the Cost" hidden="false" collective="false" import="true" targetId="8f19-95cd-3141-14f8" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="785d-1fca-548c-d42b" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a47b-591d-1eee-d1b6" name="Unearthly Rage" hidden="false" collective="false" import="true" targetId="9902-1db8-a64c-a6d6" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="ae4a-2825-0e58-a45c" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -4116,6 +4138,170 @@ The next attack made by this character this turn targeting an enemy character th
       <costs>
         <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="4.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="d762-ca9d-12f4-ceac" name="Drax the Destroyer" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="f08d-9d01-45c9-e5b4" name="Drax the Destroyer" hidden="false" typeId="fde4-96d9-2028-2529" typeName="Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">6</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">M</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">2</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">3</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">3</characteristic>
+            <characteristic name="Energy Defese" typeId="0509-5c52-7571-39ad">3</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e006-6015-5f1b-b78b" name="Blades" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Physical</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">2</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">5</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">After the attack is resolved, this character gains Power equal to the Damage dealt.
+If the target character has the Bleed special condition, you may reroll two attack dice during this attack. 
+Wild - Bleed: After this attack is resolved, the target character gains the Bleed special condition.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e4d2-7db2-a4e7-5d7c" name="Headbutt" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Physical</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">2</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">4</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">2</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">Wild - Stun: After this attack is resolved, the target character gains the Stun special condition.
+If the target character si size 3 or less, after this attack is resolved, it may be pushed away from this character Speed Short. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3720-db3b-f5b7-b7e0" name="Titan Killer" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Physical</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">2</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">3</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">3</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">Add one die to this attack roll for every Power token on this character.
+Wild - Throw: Before Damage is dealt, if the target character is Size 4 or less,  this character may throw the target character away Speed Short. 
+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="20e5-a4e7-9900-57cd" name="The Destroyer" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">3</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Choose an interactive terrain feature or an enemy character, both of Size 3 or less and within Range 2, and throw it Speed Short. This superpower can only be used once per turn.</characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="58b5-77fb-5dcf-bbcd" name="Driven by Vengeance" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">0</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">When this character is damaged by an enemy attack, you may use this superpower. Place a Vengeance token on or move an existing Vengeance token to the enemy character that caused the effect. When this character targets a character that has a Vengeance token with an attack, this character rolls 3 additional attack dice. After this attack is resolved, the Vengeance token is removed. This character may have only one Vengeance token in play at a time. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Reactive</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7989-f2f8-381f-5eb0" name="I Can Take it" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">When this character would suffer Damage from an enemy effect, reduce the amount suffered by 1, to a minimum of 1.</characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ed7d-1c0b-cc11-7c66" name="Ronan the Accuser" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="e89b-7b8a-a481-998a" name="Ronan the Accuser" hidden="false" typeId="fde4-96d9-2028-2529" typeName="Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">6</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">M</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">3</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">4</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">3</characteristic>
+            <characteristic name="Energy Defese" typeId="0509-5c52-7571-39ad">4</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">4</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8583-6f95-99fe-8e4b" name="Strike" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Physical</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">2</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">5</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">After this attack is resolved, this character gains Power equal to the Damage dealt.
+Wild - Throw: Before Damage is dealt, if the target character is size 4 or less, this character may throw it away Speed Short. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4bee-f5f3-8ca2-8903" name="Universal Weapon" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Energy</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">4</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">5</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">Wild - Push: If the target character is Size 4 or less, before damage is dealt, it may be pushed away from this character Speed Short. 
+If this attack deals Damage, sfter this attack is resolved, the target character gains the Shock special condition. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1ccf-8ecf-1cac-d3e1" name="Kree Justice" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Energy</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">2</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">8</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">4</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">If this attack deals Damage, after this attack is resolved the target character gains the Stun and Stagger special conditions. 
+Wild - Explosive: Before damage is dealt, other enemy characters within Range 2 of the target character suffer 1 Damage.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4ebb-a9fa-3308-8b68" name="Judgement" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">2</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">When this character or an allied character within Range 3 of this character is damaged by an enemy effect, after the effect is resolved you may use this superpower. The character that caused the effect gains the Judgement special condition. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Reactive</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2469-4248-9c3d-9d2a" name="The Accuser" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">0</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">If an enemy effect would cause this character to be Dazed or KO&apos;sd, after the effect is resolved, you may use this superpower. This character immediately advances Speed Short and may make one attack targetting the enemy character that caused the effect, then this character is Dazed or KO&apos;d. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Reactive</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0c92-3f99-80ea-3029" name="Ronan the Accuser" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Gem Bearer [Power], Immunity [Poison]</characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8f19-95cd-3141-14f8" name="No Matter the Cost" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="103b-4fbb-3d62-af11" name="No Matter the Cost" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
+            <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
+            <characteristic name="Details" typeId="3c65-5213-7979-ed33">When a character declares an attack action during their activation, it may suffer 1 to 3 Damage to play this card. 
+Reduce the cost of the attack by the amount of damage suffered. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="9902-1db8-a64c-a6d6" name="Unearthly Rage" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="acc4-fb0c-ebaa-d10f" name="Unearthly Rage" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
+            <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
+            <characteristic name="Details" typeId="3c65-5213-7979-ed33">During a character&apos;s activation, it may spend 2 Power to play this card. 
+This activation, if the character is within Range 2 of two or more enemy characters while making its next attack, add 2 dice to the attack roll. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
   </sharedSelectionEntries>
 </catalogue>
