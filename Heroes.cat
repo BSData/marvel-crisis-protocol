@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="44fc-2846-12b5-766a" name="Heroes" revision="19" battleScribeVersion="2.03" library="false" gameSystemId="81bc-012c-665b-9b3d" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="44fc-2846-12b5-766a" name="Heroes" revision="20" battleScribeVersion="2.03" library="false" gameSystemId="81bc-012c-665b-9b3d" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="eb4e-d55b-c663-c712" name="Gamma Wave Sweeps Across Midwest" hidden="false" collective="false" import="true" targetId="db27-2d52-016b-dbe4" type="selectionEntry">
       <categoryLinks>
@@ -3980,7 +3980,7 @@ Wild - Throw: If the target character is Size 2 or less, after this attack is re
         <profile id="5fc1-589e-c454-4375" name="Mind Over Matter" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
           <characteristics>
             <characteristic name="Cost" typeId="2b18-3d86-a415-5584">2</characteristic>
-            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">When this character is targeted by an attack or would make a dodge roll, you may use this superpower. This character uses its Defense to defend or dodge. </characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">When this character is targeted by an attack or would make a dodge roll, you may use this superpower. This character uses its Mystic Defense to defend or dodge. </characteristic>
             <characteristic name="Type" typeId="f37d-f045-0646-cf61">Reactive</characteristic>
           </characteristics>
         </profile>
