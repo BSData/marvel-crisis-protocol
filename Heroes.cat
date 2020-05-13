@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="44fc-2846-12b5-766a" name="Heroes" revision="18" battleScribeVersion="2.03" library="false" gameSystemId="81bc-012c-665b-9b3d" gameSystemRevision="17" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="44fc-2846-12b5-766a" name="Heroes" revision="19" battleScribeVersion="2.03" library="false" gameSystemId="81bc-012c-665b-9b3d" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="eb4e-d55b-c663-c712" name="Gamma Wave Sweeps Across Midwest" hidden="false" collective="false" import="true" targetId="db27-2d52-016b-dbe4" type="selectionEntry">
       <categoryLinks>
@@ -561,6 +561,29 @@
     <entryLink id="a47b-591d-1eee-d1b6" name="Unearthly Rage" hidden="false" collective="false" import="true" targetId="9902-1db8-a64c-a6d6" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="ae4a-2825-0e58-a45c" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="dd41-eb34-3877-8008" name="Infinity Gem: Space" hidden="false" collective="false" import="true" targetId="a1d8-c59f-a938-d5dd" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="d7a6-8450-5663-5349" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="true"/>
+        <categoryLink id="dbc1-aaf9-efd7-8977" name="Infinity Gems" hidden="false" targetId="e7d2-fc4f-e67b-f877" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="abd4-e882-0729-fa61" name="Marked for Death" hidden="false" collective="false" import="true" targetId="f6f3-05b2-08f5-9a66" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="dc8b-41c7-a060-a0ae" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="false"/>
+        <categoryLink id="5ea1-9d55-cb37-db80" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="ae26-3d03-1384-1341" name="Mothership" hidden="false" collective="false" import="true" targetId="7b24-b798-1f89-9d81" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7486-d75c-b4ed-ab37" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
+        <categoryLink id="bebd-bee6-8871-b0c0" name="Black Order" hidden="false" targetId="01c6-f9aa-a521-8f23" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="8762-7da8-3bc4-9023" name="Shhh..." hidden="false" collective="false" import="true" targetId="5a29-13c2-c791-54a6" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="3b4d-3173-3f4d-52bf" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -4290,6 +4313,9 @@ Reduce the cost of the attack by the amount of damage suffered. </characteristic
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="9902-1db8-a64c-a6d6" name="Unearthly Rage" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -4299,6 +4325,70 @@ Reduce the cost of the attack by the amount of damage suffered. </characteristic
             <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
             <characteristic name="Details" typeId="3c65-5213-7979-ed33">During a character&apos;s activation, it may spend 2 Power to play this card. 
 This activation, if the character is within Range 2 of two or more enemy characters while making its next attack, add 2 dice to the attack roll. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a1d8-c59f-a938-d5dd" name="Infinity Gem: Space" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="2c10-1d5a-390c-9a62" name="Space Gem" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">2</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Choose this character or another allied character within Range 3 and place it within Range 2 of its current position. This superpower can be used only once per turn. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="afd2-b54a-4ded-f1cb" name="Infinity Gem: Space" hidden="false" typeId="fde4-96d9-2028-2529" typeName="Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363"/>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70"/>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953"/>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">2</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335"/>
+            <characteristic name="Energy Defese" typeId="0509-5c52-7571-39ad"/>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f6f3-05b2-08f5-9a66" name="Marked for Death" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="a209-3b95-832e-3ddb" name="Marked for Death" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
+            <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
+            <characteristic name="Details" typeId="3c65-5213-7979-ed33">Two allied characters that are within Range 5 of the same enemy character may spend 1 Power each to play this card. 
+This round, the enemy character loses and cannot gain Stealth, its speed become Short and it cannot modify or reroll its defense dice. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="7b24-b798-1f89-9d81" name="Mothership" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="0293-2142-38be-6a0e" name="Mothership" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Black Order</characteristic>
+            <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
+            <characteristic name="Details" typeId="3c65-5213-7979-ed33">Two Black Order characters may both spend 2 Power each to play this card. 
+Place one of the two characters not holding an objective token within Range 1 of the other character. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="5a29-13c2-c791-54a6" name="Shhh..." hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="21c7-e76a-4f5a-7c98" name="Shhh..." hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
+            <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
+            <characteristic name="Details" typeId="3c65-5213-7979-ed33">When an enemy character within Range 5 of an allied Ebony Maw may spend 3 Power to play this card. 
+The enemy superpower has no effect and cannot be used again for the rest of this turn, but the character still spends the Power cost of that superpower and is considered to have used the superpower. </characteristic>
           </characteristics>
         </profile>
       </profiles>
