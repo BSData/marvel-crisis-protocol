@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="44fc-2846-12b5-766a" name="Heroes" revision="20" battleScribeVersion="2.03" library="false" gameSystemId="81bc-012c-665b-9b3d" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="44fc-2846-12b5-766a" name="Heroes" revision="21" battleScribeVersion="2.03" library="false" gameSystemId="81bc-012c-665b-9b3d" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="eb4e-d55b-c663-c712" name="Gamma Wave Sweeps Across Midwest" hidden="false" collective="false" import="true" targetId="db27-2d52-016b-dbe4" type="selectionEntry">
       <categoryLinks>
@@ -584,6 +584,34 @@
     <entryLink id="8762-7da8-3bc4-9023" name="Shhh..." hidden="false" collective="false" import="true" targetId="5a29-13c2-c791-54a6" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="3b4d-3173-3f4d-52bf" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="278f-8474-2897-e865" name="Thanos, The Mad Titan" hidden="false" collective="false" import="true" targetId="f02f-c42d-aadb-e3c6" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="6741-95e0-9208-5238" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="true"/>
+        <categoryLink id="e2db-f750-f1c9-7b60" name="Black Order" hidden="false" targetId="01c6-f9aa-a521-8f23" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="acd5-ffaa-432a-d524" name="Infinity Gem: Reality" hidden="false" collective="false" import="true" targetId="83ab-c862-f0b2-b8c4" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="e2d7-1629-d6e0-8f20" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="true"/>
+        <categoryLink id="b48c-2cd1-54d8-4133" name="Infinity Gems" hidden="false" targetId="e7d2-fc4f-e67b-f877" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="8644-2f34-8544-310d" name="Infinity Gem: Soul" hidden="false" collective="false" import="true" targetId="2f6f-8f82-cc77-6ccc" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="81de-6e0c-b707-c27f" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="true"/>
+        <categoryLink id="e2f3-38ef-4831-14f3" name="Infinity Gems" hidden="false" targetId="e7d2-fc4f-e67b-f877" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="5086-4683-c728-37ce" name="Power of the Cosmos" hidden="false" collective="false" import="true" targetId="9efc-1863-0267-293a" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="1aba-c72f-369f-43cb" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9c80-a857-562c-a09a" name="Cosmic Invasion! Black Order Descends on Earth" hidden="false" collective="false" import="true" targetId="5ff9-9565-cca0-ecb3" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="3233-e0b8-93a6-3c08" name="New CategoryLink" hidden="false" targetId="75ba-74ce-7452-509c" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -4368,6 +4396,9 @@ This round, the enemy character loses and cannot gain Stealth, its speed become 
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="7b24-b798-1f89-9d81" name="Mothership" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -4380,6 +4411,9 @@ Place one of the two characters not holding an objective token within Range 1 of
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="5a29-13c2-c791-54a6" name="Shhh..." hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -4392,6 +4426,190 @@ The enemy superpower has no effect and cannot be used again for the rest of this
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f02f-c42d-aadb-e3c6" name="Thanos, The Mad Titan" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="729b-f243-a459-2e4d" name="Thanos, The Mad Titan" hidden="false" typeId="fde4-96d9-2028-2529" typeName="Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">8</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">M</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">3</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">6</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">3</characteristic>
+            <characteristic name="Energy Defese" typeId="0509-5c52-7571-39ad">3</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">4</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="60ec-5901-1993-cace" name="Strike" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Physical</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">2</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">6</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">After this attack is resolved, this character gains Power equal to the Damage dealt.
+Wild - Throw: Before Damage is dealt, this character may throw the target character away Speed Short. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="826f-3cca-d4d5-559d" name="Cosmic Blast" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Energy</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">3</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">5</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">When creating the dice pool for this attack, this character may spend up to 3 Power. Add 1 die to this attack roll for each Power spent this way. 
+Wild - Titan&apos;s Will: After this attack is resolved, this character pushes the target character away Speed Short. The pushed character gains the Slow special condition. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3a3a-9b91-003b-0ba9" name="Death&apos;s Agenda (Affiliation: Black Order)" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">When an enemy character is KO&apos;d, this character&apos;s controlling players scores 1 VP.</characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Leadership</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a2f8-b772-2b73-1b20" name="Thanos, The Mad Titan - Injured" hidden="false" typeId="fde4-96d9-2028-2529" typeName="Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">9</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">M</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">3</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">6</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">3</characteristic>
+            <characteristic name="Energy Defese" typeId="0509-5c52-7571-39ad">3</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">4</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7821-5123-c363-3bb0" name="Death&apos;s Agenda (Affiliation: Black Order) - Injured" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">During the Modify Dice step of an attack, an allied character may suffer up to 3 Damage. For each Damage suffered, it may reroll one of its attack dice. (If an attacking character becomes Dazed or KO&apos;d during the attack, the attack ends immediately.)</characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Leadership</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ace1-3f4d-471b-d72e" name="Cosmic Portal - Healthy" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">2</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Choose another character within Range 4 of this Character. Place the chosen character within Range 2 of its current position. A character can be placed by this superpower only once per turn. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="907c-c480-b592-c790" name="Death&apos;s Decree" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">2</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">When another allied character within Range 4 of this character targets an enemy character with an attack, this character may use this superpower. If the attacking character is Healthy, it adds 2 dice to its attack roll. If the attacking character is Injured, it adds 4 dice to its attack roll. This superpower may be used only once per turn. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Reactive</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0e49-248f-468e-eb85" name="Being of Immeasurable Power" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">When this character would suffer Damage from an enemy effect, reduce the amount suffered by 1. Additionally, this character may have  two infinity Gems rather than the normally allowed one and may use the Active or Reactive superpowers of Infinity Gems without paying the Power Cost.  </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="22e4-01ef-f795-e2d7" name="Gem Bearer [Mind, Power, Reality, Soul, Space, Time], Immunity [Stun]" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef"/>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="83ab-c862-f0b2-b8c4" name="Infinity Gem: Reality" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="83e5-24f9-b0fe-d9d2" name="Infinity Gem: Reality" hidden="false" typeId="fde4-96d9-2028-2529" typeName="Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363"/>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70"/>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953"/>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">1</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335"/>
+            <characteristic name="Energy Defese" typeId="0509-5c52-7571-39ad"/>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292"/>
+          </characteristics>
+        </profile>
+        <profile id="0796-ba72-3bee-bcf4" name="Reality Gem" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">When rolling dice as part of an attack, defense, dodge or interact roll, this character treats one Fail results as a Critical result. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2f6f-8f82-cc77-6ccc" name="Infinity Gem: Soul" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="e9d3-d19d-d0e1-4d5b" name="Infinity Gem: Soul" hidden="false" typeId="fde4-96d9-2028-2529" typeName="Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363"/>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70"/>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953"/>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">1</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335"/>
+            <characteristic name="Energy Defese" typeId="0509-5c52-7571-39ad"/>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292"/>
+          </characteristics>
+        </profile>
+        <profile id="5835-c587-7a79-f890" name="Soul Gem" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">When an enemy character within Range 4 of this character uses an Active or Reactive superpower this character gains 1 Power after the effect is resolved. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9efc-1863-0267-293a" name="Power of the Cosmos" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="f821-9507-50a3-71f8" name="Power of the Cosmos" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
+            <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
+            <characteristic name="Details" typeId="3c65-5213-7979-ed33">During his activation, Thsnod may spend 4 Power to play this card.
+
+Thanos may use the Power of the Cosmos attack shown above once this activation. Add 1 to the Range of this attack for each Infinity Gem this character has, to a maximum of A5. 
+
+An enemy character damaged by this attack is pushed Speed Short away from this character. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="42e7-3d98-13fa-d035" name="Power of the Cosmos" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Energy</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">A1</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">6</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="5ff9-9565-cca0-ecb3" name="Cosmic Invasion! Black Order Descends on Earth" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="eec6-af71-7608-0822" name="Cosmic Invasion! Black Order Descends on Earth" hidden="false" typeId="e274-6fe8-7f95-a012" typeName="Crisis">
+          <characteristics>
+            <characteristic name="Setup" typeId="99b3-ec42-38d9-2d3a">Place four Cosmic Vaults (Target of Opportunity) onto the battlefield as indicated on map D.</characteristic>
+            <characteristic name="Scoring" typeId="3561-4e9e-55ca-a37d">Players score 1 VP for each Cosmic Vault they secure during the Cleanup Phase</characteristic>
+            <characteristic name="Details" typeId="7116-4232-08b5-42bc">During the Power Phase, some Cosmic Vaults will radiate cosmic energy. Starting with the player with Priority, players roll a die for each character they control within Range 1 of a Cosmic Vault. If the results is a Critical or a Wild, that character gains 2 Power and is pushed Away from the Vault Speed Short before rolling for the next character. The opposing player resolves this push. </characteristic>
+            <characteristic name="Threat" typeId="81f5-e239-dd2d-2b7c">16</characteristic>
+            <characteristic name="Type" typeId="fc23-59e6-7090-77fa">Secure</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="1.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
 </catalogue>
