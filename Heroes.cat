@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="44fc-2846-12b5-766a" name="Heroes" revision="21" battleScribeVersion="2.03" library="false" gameSystemId="81bc-012c-665b-9b3d" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="44fc-2846-12b5-766a" name="Heroes" revision="22" battleScribeVersion="2.03" library="false" gameSystemId="81bc-012c-665b-9b3d" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="eb4e-d55b-c663-c712" name="Gamma Wave Sweeps Across Midwest" hidden="false" collective="false" import="true" targetId="db27-2d52-016b-dbe4" type="selectionEntry">
       <categoryLinks>
@@ -233,6 +233,7 @@
     <entryLink id="1b6f-e728-e3e1-b649" name="Spider-Man" hidden="false" collective="false" import="true" targetId="ff6d-4bdb-17a7-1ffb" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="be3b-94d9-09c3-f199" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="true"/>
+        <categoryLink id="8ef2-edec-1283-1ab0" name="Web Warriors" hidden="false" targetId="d7f0-71df-050d-5c5e" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="c1a7-0021-61d3-67ec" name="Ultron" hidden="false" collective="false" import="true" targetId="eecc-4793-c99c-af6f" type="selectionEntry">
@@ -612,6 +613,19 @@
     <entryLink id="9c80-a857-562c-a09a" name="Cosmic Invasion! Black Order Descends on Earth" hidden="false" collective="false" import="true" targetId="5ff9-9565-cca0-ecb3" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="3233-e0b8-93a6-3c08" name="New CategoryLink" hidden="false" targetId="75ba-74ce-7452-509c" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9a5c-d732-f0b3-8d90" name="Spider-Man (Miles Morales)" hidden="false" collective="false" import="true" targetId="5ba6-89c0-3164-4aea" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="9b09-78a3-4f80-41a9" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="true"/>
+        <categoryLink id="01e6-fd36-533a-3b6d" name="Web Warriors" hidden="false" targetId="d7f0-71df-050d-5c5e" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="5f8d-4969-6e8a-45fb" name="All Webbed Up" hidden="false" collective="false" import="true" targetId="5417-90a9-b808-f136" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="17cc-2d6f-e747-c636" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="false"/>
+        <categoryLink id="50bb-46dc-1909-62d8" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
+        <categoryLink id="3e75-f82e-74cb-86e0" name="Web Warriors" hidden="false" targetId="d7f0-71df-050d-5c5e" primary="false"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -4594,6 +4608,9 @@ An enemy character damaged by this attack is pushed Speed Short away from this c
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="5ff9-9565-cca0-ecb3" name="Cosmic Invasion! Black Order Descends on Earth" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -4610,6 +4627,90 @@ An enemy character damaged by this attack is pushed Speed Short away from this c
       <costs>
         <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="1.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="5ba6-89c0-3164-4aea" name="Spider-Man (Miles Morales)" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="29cb-e022-60d8-ec8a" name="Spider-Man (Miles Morales)" hidden="false" typeId="fde4-96d9-2028-2529" typeName="Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">5</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">M</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">2</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">3</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">3</characteristic>
+            <characteristic name="Energy Defese" typeId="0509-5c52-7571-39ad">3</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8ae8-8c3c-e889-dafb" name="Spider-Sense" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">When this character is defending against an Physical or Energy attack or making a dodge roll, it may reroll two of its defense or dodge dice.</characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="019d-10e1-97e5-ce31" name="Wall Crawler" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef"/>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="fb4e-5074-86b7-1851" name="Stealth" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Characters mst be within Range 3 of this character to target it with attacks.</characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2cd3-37ba-1ef1-ba76" name="Webline Kick" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Physical</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">3</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">4</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">After this attack is resolved, this character gains Power equal to the Damage dealt.
+Wild - Throw: If the target character is Size 3 or less, before Damage is dealt this character may throw the target character away Speed Short.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2de4-dc5a-f4b6-946a" name="Venom Blast" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Energy</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">2</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">7</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">3</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">After the attack is resolved, the target character drops all objective tokens they are holding. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5f7f-4966-8f54-f4ae" name="Great Responsibility (Affiliation: Web Warriors)" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Allied characters may reroll one defense die. Additionnally, they may modify and reroll Fail results while they are holding or contesting an objective</characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Leadership</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="bf60-7eeb-b9b5-03e7" name="Web Swing" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">2</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Place this character within Range 3 of its current position. The next time it makes a Web Line Kick attack this turn, add two dice to that attack roll. This superpower can be used only once per turn. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5417-90a9-b808-f136" name="All Webbed Up" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="50a3-6ef5-a8b2-ba4c" name="All Webbed Up" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Web Warriors</characteristic>
+            <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
+            <characteristic name="Details" typeId="3c65-5213-7979-ed33">A Web Warriors character may spend 3 Power to play this card. 
+Each enemy character within Range 3 of the character that played this card suffers the Slow special condition. When an allied Web Warriors character is attacking a character suffering the Slow special condition this round, add two dice to the attack roll. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
   </sharedSelectionEntries>
 </catalogue>
