@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="81bc-012c-665b-9b3d" name="Marvel Crisis Protocol" revision="7" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="81bc-012c-665b-9b3d" name="Marvel Crisis Protocol" revision="8" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="2de3-a5e2-23d8-2859" name=" Threat Value" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
@@ -63,6 +63,7 @@
     <categoryEntry id="01c6-f9aa-a521-8f23" name="Black Order" hidden="false"/>
     <categoryEntry id="d7f0-71df-050d-5c5e" name="Web Warriors" hidden="false"/>
     <categoryEntry id="71ff-5d57-e3a0-5322" name="Spider Foes" hidden="false"/>
+    <categoryEntry id="65b9-6527-31f8-65c2" name="Defenders" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="fc8b-e3b6-b2a4-5d8b" name="Roster" hidden="false">
