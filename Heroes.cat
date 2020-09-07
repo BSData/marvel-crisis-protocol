@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="44fc-2846-12b5-766a" name="Heroes" revision="24" battleScribeVersion="2.03" library="false" gameSystemId="81bc-012c-665b-9b3d" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="44fc-2846-12b5-766a" name="Heroes" revision="25" battleScribeVersion="2.03" library="false" gameSystemId="81bc-012c-665b-9b3d" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="eb4e-d55b-c663-c712" name="Gamma Wave Sweeps Across Midwest" hidden="false" collective="false" import="true" targetId="db27-2d52-016b-dbe4" type="selectionEntry">
       <categoryLinks>
@@ -193,6 +193,7 @@
       <categoryLinks>
         <categoryLink id="4245-a158-a2d1-67b0" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="true"/>
         <categoryLink id="ccd6-8230-2c3d-4f4e" name="Avengers" hidden="false" targetId="d6c4-f011-cd8c-5451" primary="false"/>
+        <categoryLink id="274c-6fe1-1f9b-c082" name="Defenders" hidden="false" targetId="65b9-6527-31f8-65c2" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="0e5e-45bb-9b3d-cbec" name="Captain America" hidden="false" collective="false" import="true" targetId="0ea4-0856-e561-be8a" type="selectionEntry">
@@ -230,10 +231,11 @@
         <categoryLink id="a5a5-0f28-b50b-42dd" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="1b6f-e728-e3e1-b649" name="Spider-Man" hidden="false" collective="false" import="true" targetId="ff6d-4bdb-17a7-1ffb" type="selectionEntry">
+    <entryLink id="1b6f-e728-e3e1-b649" name="Spider-Man (Peter Parker)" hidden="false" collective="false" import="true" targetId="ff6d-4bdb-17a7-1ffb" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="be3b-94d9-09c3-f199" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="true"/>
         <categoryLink id="8ef2-edec-1283-1ab0" name="Web Warriors" hidden="false" targetId="d7f0-71df-050d-5c5e" primary="false"/>
+        <categoryLink id="54cb-41ab-11e6-c5e5" name="Defenders" hidden="false" targetId="65b9-6527-31f8-65c2" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="c1a7-0021-61d3-67ec" name="Ultron" hidden="false" collective="false" import="true" targetId="eecc-4793-c99c-af6f" type="selectionEntry">
@@ -319,6 +321,7 @@
       <categoryLinks>
         <categoryLink id="b6c6-faa2-5128-3b4a" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="true"/>
         <categoryLink id="e3a1-4de2-9b14-cba2" name="Asgard" hidden="false" targetId="a554-55ad-02b3-3342" primary="false"/>
+        <categoryLink id="c51a-fef2-a6e4-2c6b" name="Defenders" hidden="false" targetId="65b9-6527-31f8-65c2" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="3cd7-7cb5-3eb6-a206" name="Fear Grips World as &quot;Worthy&quot; Terrorize Cities" hidden="false" collective="false" import="true" targetId="27ad-78f9-25b7-8c49" type="selectionEntry">
@@ -510,6 +513,7 @@
       <categoryLinks>
         <categoryLink id="7490-9c49-3d1d-0149" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="true"/>
         <categoryLink id="3591-52a3-b3c3-8296" name="Avengers" hidden="false" targetId="d6c4-f011-cd8c-5451" primary="false"/>
+        <categoryLink id="b7e7-10ba-e605-de75" name="Defenders" hidden="false" targetId="65b9-6527-31f8-65c2" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="6070-ec09-c8f2-a54b" name="Professionals" hidden="false" collective="false" import="true" targetId="3473-dea8-8085-7226" type="selectionEntry">
@@ -645,6 +649,49 @@
       <categoryLinks>
         <categoryLink id="cfb4-daed-f007-a587" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
         <categoryLink id="50b8-4947-a334-9b1a" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="01cb-5f5e-eb52-184c" name="Portals Overrun City with Spider People" hidden="false" collective="false" import="true" targetId="7313-5704-944a-1128" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="6bd5-0c3c-4191-5c12" name="New CategoryLink" hidden="false" targetId="75ba-74ce-7452-509c" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="da79-eb11-ae5e-2236" name="Web Barrier" hidden="false" collective="false" import="true" targetId="fb3f-fb05-d0d7-162f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="ff30-534f-c123-bf4c" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
+        <categoryLink id="3d77-2651-0392-d5c2" name="Web Warriors" hidden="false" targetId="d7f0-71df-050d-5c5e" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="46a9-ccb8-6021-ca30" name="All You&apos;ve Got" hidden="false" collective="false" import="true" targetId="2511-b7b3-e6c4-a189" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="1841-ac50-1dcb-7d47" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="03f6-3eac-3047-5da6" name="Blind Obsession" hidden="false" collective="false" import="true" targetId="ca1a-4380-53bb-fa82" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="0def-21a7-05b1-1379" name="Team Tactics" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="c496-0506-bb86-b8c1" name="Ghost Rider" hidden="false" collective="false" import="true" targetId="f677-4e00-fd4e-074a" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="31c4-e5e7-d61b-4862" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="true"/>
+        <categoryLink id="d820-1e87-161b-601c" name="Defenders" hidden="false" targetId="65b9-6527-31f8-65c2" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="33b2-d1b1-18ec-fb2a" name="Deal with the Devil" hidden="false" collective="false" import="true" targetId="29af-6dc1-a559-32bc" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="6f65-255d-0d69-fd52" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
+        <categoryLink id="22b1-d7e2-99c7-8413" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="3c03-f9c4-4f1e-6789" name="Highway to Hell" hidden="false" collective="false" import="true" targetId="040c-b9f5-8589-95d5" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="a5bc-6434-5501-cfd4" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f778-bba9-e8d2-2379" name="Demons Downtown! Has our Comeuppance Come Due?" hidden="false" collective="false" import="true" targetId="f096-c223-4f2c-3e74" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b841-0f9a-1f75-5bf5" name="New CategoryLink" hidden="false" targetId="75ba-74ce-7452-509c" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -4932,6 +4979,177 @@ If this attack deals Damage, after this attack is resolved the target character 
             <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
             <characteristic name="Details" typeId="3c65-5213-7979-ed33">Green Goblin and Doctor Octopus may spend 3 Power each to play this card. 
 Roll 5 dice for each enemy character holding an objective token. The enemy character suffers one damage for each Critical and Wild result rolled. A character damaged in this way drops all objective tokens it is holding. The player playing this this card chooses the order in which enemy characters are affected. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7313-5704-944a-1128" name="Portals Overrun City with Spider People" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="47c8-f60e-9a16-99c9" name="Portals Overrun City with Spider People" hidden="false" typeId="e274-6fe8-7f95-a012" typeName="Crisis">
+          <characteristics>
+            <characteristic name="Setup" typeId="99b3-ec42-38d9-2d3a">Place four Inheritor Portals (Target of Opportunity) as indicated on map D. </characteristic>
+            <characteristic name="Scoring" typeId="3561-4e9e-55ca-a37d">Players score 1 VP for each Portal they Control during the Cleanup Phase. </characteristic>
+            <characteristic name="Details" typeId="7116-4232-08b5-42bc">Interact (Inheritor Portal): Roll dice equal to the interacting character&apos;s Defense. If the roll contains more Critical, Wild and Hit results than the number of Healthy contesting enemy characters, the interacting character&apos;s controlling player now controls the Portal. If the roll contains at least one Skull, the interacting character is placed within Range 2 of its current position. The opposing player resolves this placement. </characteristic>
+            <characteristic name="Threat" typeId="81f5-e239-dd2d-2b7c">18</characteristic>
+            <characteristic name="Type" typeId="fc23-59e6-7090-77fa">Secure</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="fb3f-fb05-d0d7-162f" name="Web Barrier" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="7acb-5047-a4b9-abf0" name="Web Barrier" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Web Warriors</characteristic>
+            <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
+            <characteristic name="Details" typeId="3c65-5213-7979-ed33">Two Web Warriors characters may both spebd 1 Power to play this card. 
+While these characters are within Range 3 of each other this round they cannot be pushed, thrown, or placed by enemy effects and while advancing enemy characters cannot place a movement tool that would overlap either allied character, or a straight line drawn between these characters unless they are Climbing. Characters cannot draw Line of Sight through these characters or straight line drawn between them this round. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="2511-b7b3-e6c4-a189" name="All You&apos;ve Got" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="5ee4-a47d-bdb0-717f" name="All You&apos;ve Got" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
+            <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
+            <characteristic name="Details" typeId="3c65-5213-7979-ed33">When a character with a Threat Level of 6 or less would gain an activated token at the end of its activation, they may spend 4 Power to play this card. 
+They do not gain an activated token, your turn does not end, and you must activate that character again. At the end of this character&apos;s second activation, if they are Healthy they gain a Dazed token. If they are injured they are KO&apos;d. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="ca1a-4380-53bb-fa82" name="Blind Obsession" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="6449-919c-9d4d-24a1" name="Blind Obsession" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
+            <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
+            <characteristic name="Details" typeId="3c65-5213-7979-ed33">At the start of the Activation Phase, any character may spend 3 Power to play this card.
+
+The character that played this card gains an Obsession token. Choose an enemy character. While the character that played this card has an Obsession token, it adds 2 dice to its attack rolls when targeting the chosen character. When the character with the Obsession token rolls defense dice, if the chosen character is attacking, add 2 dice to the defense roll. If it is not the chosen character attacking, remove 2 dice from the defense roll. The character that played this card loses the Obsession token when the chosen character is KO&apos;d. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="f677-4e00-fd4e-074a" name="Ghost Rider" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="a98f-b468-e38f-a8fd" name="Ghost Rider" hidden="false" typeId="fde4-96d9-2028-2529" typeName="Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">7</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">M</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">3</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">5</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">3</characteristic>
+            <characteristic name="Energy Defese" typeId="0509-5c52-7571-39ad">4</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">4</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0ab9-e3cb-d0e6-e299" name="Ghost Rider - Injured" hidden="false" typeId="fde4-96d9-2028-2529" typeName="Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">6</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">M</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">3</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">5</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">3</characteristic>
+            <characteristic name="Energy Defese" typeId="0509-5c52-7571-39ad">4</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">4</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4f22-597c-9871-70ad" name="Chains of Damnation" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Energy</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">3</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">6</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">After this attack is resolved, this character gains Power equal to the Damage dealt.
+Wild - Hex: After this attack os resolved the target character gains the Hex special condition.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8e5b-1609-3aa9-a1ea" name="Flames of Hell" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Energy</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">B3</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">5</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">2</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">If this attack deals Damage, after this attack is resolved the target character gains the Incinerate special condition.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="cda2-dfd2-9211-f41b" name="Penance Stare" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Mystic</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">3</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">5</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">5</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">Add dice to the attack roll equal to the amount of Power the target character has, to a maximum of 5. 
+Instead of gaining Power for the Damage dealt by this attack, the target character loses one Power for each Damage dealt. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d552-0956-ab18-458e" name="Hell on Wheels" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">3</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Advance the character Speed Long. This superpower can be used only once per turn. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="38e4-8778-98f4-21df" name="Wicked&apos;s Judgement" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">2</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">After an attack made by a character within Range 3 of this character is resolved, if the attack targeted another allied character, this character may use this superpower. The attacking character suffers 1 Damage for each Critical in its attack roll. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Reactive</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5cd8-384f-be15-5e90" name="Spirit of Veangeance" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">After an attack made by an enemy character that is within Range 3 of this character is resolved, if that attack targeted another allied character, this character gains 1 Power. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="29af-6dc1-a559-32bc" name="Deal with the Devil" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="28a7-91ec-9b92-58f3" name="Deal with the Devil" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
+            <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
+            <characteristic name="Details" typeId="3c65-5213-7979-ed33">If Ghost Rider is KO&apos;d, he may spend 4 Power to play this card before he is removed from the battlefield. 
+
+Choose another allied character. Ghost Rider removes all special conditions, removes all Damage and Activated tokens, drops all objective tokens and is then placed within Range 1 of the chosen character. If the chosen character was Healthy, flip Ghost Rider&apos;s card to the Healthy side. Enemy characters within Range 2 of Ghost Rider then suffer the Incinerate special condition. The chosen character is KO&apos;d. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="040c-b9f5-8589-95d5" name="Highway to Hell" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="d868-4941-be10-6d34" name="Highway to Hell" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
+            <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
+            <characteristic name="Details" typeId="3c65-5213-7979-ed33">When an allied Ghost Rider begins an advance during his activation while within Range 1 of an enemy character, he may spend 3 Power to play this card. 
+
+When Ghost Rider ends this move, place that enemy character within Range 1 of him. The enemy character suffers the Incinerate special condition. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="f096-c223-4f2c-3e74" name="Demons Downtown! Has our Comeuppance Come Due?" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="0a02-63c1-2e92-e733" name="Demons Downtown! Has our Comeuppance Come Due?" hidden="false" typeId="e274-6fe8-7f95-a012" typeName="Crisis">
+          <characteristics>
+            <characteristic name="Setup" typeId="99b3-ec42-38d9-2d3a">Place three Flaming Portals (Target of Opportunity) as indicated on Map E. </characteristic>
+            <characteristic name="Scoring" typeId="3561-4e9e-55ca-a37d">Players score 1 VP for each Flaming Portal they are securing during the Cleanup Phase.</characteristic>
+            <characteristic name="Details" typeId="7116-4232-08b5-42bc">During the Power Phase, all characters within Range 1 of a Flaming Portal gain the Incinerate special condition. </characteristic>
+            <characteristic name="Threat" typeId="81f5-e239-dd2d-2b7c">19</characteristic>
+            <characteristic name="Type" typeId="fc23-59e6-7090-77fa">Secure</characteristic>
           </characteristics>
         </profile>
       </profiles>
