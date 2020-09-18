@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="44fc-2846-12b5-766a" name="Heroes" revision="25" battleScribeVersion="2.03" library="false" gameSystemId="81bc-012c-665b-9b3d" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="44fc-2846-12b5-766a" name="Heroes" revision="26" battleScribeVersion="2.03" library="false" gameSystemId="81bc-012c-665b-9b3d" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="eb4e-d55b-c663-c712" name="Gamma Wave Sweeps Across Midwest" hidden="false" collective="false" import="true" targetId="db27-2d52-016b-dbe4" type="selectionEntry">
       <categoryLinks>
@@ -692,6 +692,71 @@
     <entryLink id="f778-bba9-e8d2-2379" name="Demons Downtown! Has our Comeuppance Come Due?" hidden="false" collective="false" import="true" targetId="f096-c223-4f2c-3e74" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="b841-0f9a-1f75-5bf5" name="New CategoryLink" hidden="false" targetId="75ba-74ce-7452-509c" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="5ba5-04b6-df01-6678" name="Doctor Strange" hidden="false" collective="false" import="true" targetId="dc47-71e4-233e-b994" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="2048-0366-cd12-a45c" name="Defenders" hidden="false" targetId="65b9-6527-31f8-65c2" primary="false"/>
+        <categoryLink id="f707-4b72-73e5-b966" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="bba9-e808-7978-15d5" name="Wong" hidden="false" collective="false" import="true" targetId="c81a-dc2a-910b-8569" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="e0f2-bf46-e3f4-23b6" name="Defenders" hidden="false" targetId="65b9-6527-31f8-65c2" primary="false"/>
+        <categoryLink id="f469-02b3-dd0e-ac9c" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="86a2-2bc3-0d81-96a2" name="Seven Suns of Cinnibus" hidden="false" collective="false" import="true" targetId="8168-982c-aae8-cd7d" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="694f-5d78-1394-c542" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="2ce6-2c58-1550-9150" name="Vapors of Valtorr" hidden="false" collective="false" import="true" targetId="dd14-2bd1-9f36-c3f6" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="400d-7c68-04ad-ea88" name="Team Tactics" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="8dda-8503-4554-9155" name="Pentagram of Farallah" hidden="false" collective="false" import="true" targetId="7236-55c5-84cb-68eb" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="69c0-2789-a842-6b40" name="Defenders" hidden="false" targetId="65b9-6527-31f8-65c2" primary="false"/>
+        <categoryLink id="e55a-6582-5789-11b3" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7205-308d-e692-5956" name="Face Me" hidden="false" collective="false" import="true" targetId="be6c-b3ee-07c1-ed3d" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="5e6e-afb5-a33b-86ad" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="22d3-37dd-e0fa-a19a" name="The Montesi Formula Found" hidden="false" collective="false" import="true" targetId="e0ec-6811-a78f-3a8e" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="457b-0157-78c8-7b7a" name="New CategoryLink" hidden="false" targetId="67a0-a10a-a572-55c8" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f765-e609-2c77-e712" name="Ant-Man" hidden="false" collective="false" import="true" targetId="1fab-4591-c0ee-2d22" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="593f-8319-c2ce-ed92" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="true"/>
+        <categoryLink id="cb80-8521-0cde-ed41" name="Avengers" hidden="false" targetId="d6c4-f011-cd8c-5451" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="2956-63cd-6a81-d92e" name="Wasp" hidden="false" collective="false" import="true" targetId="fa3b-db70-4863-632f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="9ce7-0b37-baac-d225" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="true"/>
+        <categoryLink id="e143-0f87-43da-dfed" name="Avengers" hidden="false" targetId="d6c4-f011-cd8c-5451" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="deca-cc2c-0943-7f6b" name="No Escape" hidden="false" collective="false" import="true" targetId="70b9-05c1-6558-a22d" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="e076-8b42-7b3d-a5d9" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="eb8a-ede5-d3dc-9764" name="Reversal" hidden="false" collective="false" import="true" targetId="f719-939f-866e-029e" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="f308-aca5-1685-1d72" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="34dd-dac1-5866-f268" name="Pym Particles" hidden="false" collective="false" import="true" targetId="2bd0-abc2-d2f3-a268" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="75df-dc77-ac55-3cc6" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -1522,7 +1587,7 @@ Wild - Elusive: After this attack is resolved, this character may advance Speed 
         <profile id="f782-8031-f378-5eb7" name="Stealth" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
           <characteristics>
             <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
-            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Characters mst be within Range 3 of this character to target it with attacks.</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Characters must be within Range 3 of this character to target it with attacks.</characteristic>
             <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
           </characteristics>
         </profile>
@@ -4171,7 +4236,7 @@ Wild - Push: Before damage is dealt, this character may push the target characte
         <profile id="15d8-c041-2c19-1179" name="Stealth" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
           <characteristics>
             <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
-            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Characters mst be within Range 3 of this character to target it with attacks.</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Characters must be within Range 3 of this character to target it with attacks.</characteristic>
             <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
           </characteristics>
         </profile>
@@ -4690,9 +4755,6 @@ An enemy character damaged by this attack is pushed Speed Short away from this c
           </characteristics>
         </profile>
       </profiles>
-      <costs>
-        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="1.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="5ba6-89c0-3164-4aea" name="Spider-Man (Miles Morales)" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -4724,7 +4786,7 @@ An enemy character damaged by this attack is pushed Speed Short away from this c
         <profile id="fb4e-5074-86b7-1851" name="Stealth" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
           <characteristics>
             <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
-            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Characters mst be within Range 3 of this character to target it with attacks.</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Characters must be within Range 3 of this character to target it with attacks.</characteristic>
             <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
           </characteristics>
         </profile>
@@ -4998,6 +5060,9 @@ Roll 5 dice for each enemy character holding an objective token. The enemy chara
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="fb3f-fb05-d0d7-162f" name="Web Barrier" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -5010,6 +5075,9 @@ While these characters are within Range 3 of each other this round they cannot b
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="2511-b7b3-e6c4-a189" name="All You&apos;ve Got" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -5022,6 +5090,9 @@ They do not gain an activated token, your turn does not end, and you must activa
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="ca1a-4380-53bb-fa82" name="Blind Obsession" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -5035,6 +5106,9 @@ The character that played this card gains an Obsession token. Choose an enemy ch
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="f677-4e00-fd4e-074a" name="Ghost Rider" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -5127,6 +5201,9 @@ Choose another allied character. Ghost Rider removes all special conditions, rem
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="040c-b9f5-8589-95d5" name="Highway to Hell" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -5140,6 +5217,9 @@ When Ghost Rider ends this move, place that enemy character within Range 1 of hi
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="f096-c223-4f2c-3e74" name="Demons Downtown! Has our Comeuppance Come Due?" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -5150,6 +5230,477 @@ When Ghost Rider ends this move, place that enemy character within Range 1 of hi
             <characteristic name="Details" typeId="7116-4232-08b5-42bc">During the Power Phase, all characters within Range 1 of a Flaming Portal gain the Incinerate special condition. </characteristic>
             <characteristic name="Threat" typeId="81f5-e239-dd2d-2b7c">19</characteristic>
             <characteristic name="Type" typeId="fc23-59e6-7090-77fa">Secure</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dc47-71e4-233e-b994" name="Doctor Strange" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="69d5-74b7-e7e5-d14f" name="Doctor Strange" hidden="false" typeId="fde4-96d9-2028-2529" typeName="Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">6</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">M</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">2</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">5</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">3</characteristic>
+            <characteristic name="Energy Defese" typeId="0509-5c52-7571-39ad">4</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">4</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6e9e-340c-c592-1ce0" name="Bolts of Bedevilment" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Energy</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">4</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">5</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">After the attack is resolved, this character gains Power equal to the Damage dealt.
+If this attack deals Damage, after this attack is resolved this character may pushed the target character Speed Short. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="331a-49d2-6ceb-7164" name="Crimson Bands of Cyttorak" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Mystic</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">3</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">6</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">4</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">After this attack is resolved, the target character gains the Stagger special condition. 
+Critical Willd and Hit: After this attack is resolved, instead of inflicting the Stagger special condition, if the target character does not have an Activated token, you may give it an Activated token. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="fd97-f2a2-2a00-bd2c" name="Mystic Empowerment (Affiliation: Defenders)" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Once per turn, when an allied character declares an attack, before choosing a target it may spend 1 Power. If it does, you may choose wether this attacks type is Physical, Energy or Mystic. If this attack deals Damage, the target character gains the Hex special condition. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Leadership</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3548-3f8a-bc59-2daa" name="Oshtur&apos;s Refuge " hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">3</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">This character or an allied character within Range 2 of this character removes up to 3 Damage. This superpower can be used only once per turn. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="745e-90fd-5b7a-fa3a" name="Hoggoth&apos;s Hoary Wisdom" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">2</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">When this character or an allied character within Range 3 of this character is targeted by an attack, this character may use this superpower. Add 2 dice to the target character&apos;s defense roll against this attack. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Reactive</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8011-26ee-2444-07c6" name="Eye of Agamoto" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">This character may modify and reroll skull dice results. This character may reroll all of its attack or defense dice once per attack.</characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a12c-4ae0-c25e-35ce" name="Shield of the Seraphim" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Whenever this character rolls dice, after the effect is resolved, it gains 1 Power if it rolled at least one Shield. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4e4a-2db7-a096-c20f" name="Flight, Gem Bearer [Soul, Time]" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177"/>
+            <characteristic name="Type" typeId="8155-f1de-0a5a-1f71"/>
+            <characteristic name="Details" typeId="3c65-5213-7979-ed33">Innate</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c81a-dc2a-910b-8569" name="Wong" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="878b-817d-2769-ddf5" name="Wong" hidden="false" typeId="fde4-96d9-2028-2529" typeName="Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">4</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">M</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">2</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">2</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">2</characteristic>
+            <characteristic name="Energy Defese" typeId="0509-5c52-7571-39ad">3</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ca9a-1213-e143-7ba2" name="Strike" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Physical</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">2</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">4</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">After this attack is resolved, this character gains Power equal to the Damage dealt.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="538b-4e36-f833-87d2" name="Faithful Assistant" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">2</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Choose another allied character within Range 3 of this character. It gains 1 Power. A character may be affected by this superpower once per round. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1d80-0138-3bd3-6e48" name="Meditate" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">0</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Action: This character gains 1 Power. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8254-c5e1-5ab6-aecd" name="The Vishanti&apos;s Blessing" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">1</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Action: This character or an allied character within Range 3 of this character removes up to 2 Damage or one special condition. A character may beaffected by this superpower only once per round. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="580e-dfca-7118-1e31" name="Servant to the Sorcerer Supreme" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">While within Range 3 of an allied Doctor Strange, this character adds 1 die to its defense rolls. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8168-982c-aae8-cd7d" name="Seven Suns of Cinnibus" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="15e0-40fa-b3ec-71e9" name="Seven Suns of Cinnibus" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
+            <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
+            <characteristic name="Details" typeId="3c65-5213-7979-ed33">If it is Doctor Strange&apos;s activation and there are two other non dazed allied character within Range 2 of him, he may spend 3 Power to play this card. 
+
+Doctor Strange may use the Seven Suns of Cinnibus attack shown above once this turn. 
+
+If this attack deals Damage, after the attack is resolved the target enemy character gains the incinerate special condition. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0ad5-3e00-e2dd-c22b" name="Seven Suns of Cinnibus" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Energy </characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">B5</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">8</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398"/>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="dd14-2bd1-9f36-c3f6" name="Vapors of Valtorr" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="92d0-330e-bd17-05a3" name="Vapors of Valtorr" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
+            <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
+            <characteristic name="Details" typeId="3c65-5213-7979-ed33">If there are two other non dazed allied characters within Range 2 of Doctor Strange, he may spend 3 Power to play this card. 
+
+Choose a character within Range 3 of Doctor Strange. That character gains three Obscuring Mist tokens. Each time the character is targeted by an attack, shuffle the tokens and reveal one at random. If the token has a blank on the back, you may reroll any number of the attacker&apos;s dice. If it has a silhouette, the attack continues as normal. At the end of the round, remove all Obscuring Mist tokens from the character. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="7236-55c5-84cb-68eb" name="Pentagram of Farallah" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="412e-434a-ff20-69dc" name="Pentagram of Farallah" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Defenders</characteristic>
+            <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
+            <characteristic name="Details" typeId="3c65-5213-7979-ed33">During the Power Phase, Doctor Strange or Wong may spend 2 Power to play this card. 
+
+Place a Mystic Portal token within Range 1 of the character that played this card, then place a Mystic Portal token within Range 5 of the same character. At any time during a character&apos;s activation, while within Range 1 of a Mystic Portal, it may spend 1 Power once per turn to be placed within Range 1 of another Mystic Portal. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="be6c-b3ee-07c1-ed3d" name="Face Me" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="f0c4-9188-d2c6-49fd" name="Face Me" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
+            <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
+            <characteristic name="Details" typeId="3c65-5213-7979-ed33">During an allied character&apos;s activation, it may spend 3 Power to play this card. 
+
+Choose an enemy character within Range 4 of this character. Advance the enemy character its Speed towards this character. After the advance, the chosen character&apos;s controller may make one attack with the chosen character. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="e0ec-6811-a78f-3a8e" name="The Montesi Formula Found" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="5b24-4448-2da5-e71a" name="The Montesi Formula Found" hidden="false" typeId="e274-6fe8-7f95-a012" typeName="Crisis">
+          <characteristics>
+            <characteristic name="Setup" typeId="99b3-ec42-38d9-2d3a">Place three Spellbooks(Asset) as indicated on map E.</characteristic>
+            <characteristic name="Scoring" typeId="3561-4e9e-55ca-a37d">Players score 1 VP for each Spellbook held by a character they control during the Cleanup Phase.</characteristic>
+            <characteristic name="Details" typeId="7116-4232-08b5-42bc">Interact (Spellbook): Pick up a Spellbook.
+
+A charactercannot hold more than one Spellbook. A character holding a Spellbook can use the following attack once per turn: Mystic Beam</characteristic>
+            <characteristic name="Threat" typeId="81f5-e239-dd2d-2b7c">17</characteristic>
+            <characteristic name="Type" typeId="fc23-59e6-7090-77fa">Extraction</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="af59-3590-f155-bac2" name="Mystic Beam" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Energy</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">B3</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">6</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="1fab-4591-c0ee-2d22" name="Ant-Man" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="ab07-3b6e-0aeb-a576" name="Normal - Ant-Man" hidden="false" typeId="fde4-96d9-2028-2529" typeName="Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">5</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">M</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">2</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">3</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">3</characteristic>
+            <characteristic name="Energy Defese" typeId="0509-5c52-7571-39ad">2</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="33f5-f137-4112-2d64" name="Normal - Pym Particle Punch" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Physical</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">2</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">4</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">After the attack is resolved, this character gains Power equal to the Damage dealt.
+After this attack is resolved, this character may transformer into Ant-Man (Tiny). If it transforms, it drops all objective tokens it is holding before transforming.	</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a80d-8da5-a06e-9a0e" name="Normal - Bullet Ant Barrage" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Physical</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">B3</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">7</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">4</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">If this attacks deals Damage, after this attack is resolved the target character gains the Poison and Stun Special conditions. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5803-4a9d-37a2-dcab" name="Normal - Change Size" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">1</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">This character drops all objective tokens it is holding, then transforms into Ant-Man(Tiny). The Change Size superpower can be used only once per turn. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3220-2738-68a4-33ce" name="Normal - Pym Particle Control" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">1</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">When this character is targeted by an enemy attack or would suffer a collision you may use this superpower. This character drops all objective tokens it is holding, then transforms into Ant-Man (Tiny) before the attack or collision continues. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Reactive</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ab11-af0d-c640-14ff" name="Tiny - Ant-Man" hidden="false" typeId="fde4-96d9-2028-2529" typeName="Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">5</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">S</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">1</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">3</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">3</characteristic>
+            <characteristic name="Energy Defese" typeId="0509-5c52-7571-39ad">2</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3642-f466-04cd-0def" name="Tiny - Ant-Sized Uppercut" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Physical</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">1</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">6</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">After the attack is resolved, this character gains Power equal to the Damage dealt.
+After this attack is resolved, this character transformes into Ant-Man (Normal)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="72fe-ee7b-d62e-0848" name="Tiny - Change Size" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">1</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">This character transforms into Ant-Man(Normal). The Change Size superpower can be used only once per turn. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c118-cc85-9fd1-dc86" name="Tiny - Hitch a Ride" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">0</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Place this character within Range 3 of its current position. This superpower can be used only once per turn. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4c12-b60f-2cce-2d7c" name="Tiny - Stealth" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Characters must be within Range 3 of this character to target it with attacks.</characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="604e-a166-29ea-79a1" name="Tiny -Tiny Superhero" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">This character may reroll any number of defense or dodge dice. Additionally, this character cannot hold objective tokens. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fa3b-db70-4863-632f" name="Wasp" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="c84f-57e6-b5aa-94cf" name="Normal - Wasp" hidden="false" typeId="fde4-96d9-2028-2529" typeName="Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">5</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">M</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">2</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">3</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">3</characteristic>
+            <characteristic name="Energy Defese" typeId="0509-5c52-7571-39ad">2</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="dd08-9cbc-12ff-aad3" name="Normal - Size-Changing Smack Down" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Physical</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">3</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">5</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">After the attack is resolved, this character gains Power equal to the Damage dealt.
+After this attack is resolved, this character may transformer into Wasp (Tiny). If it transforms, it drops all objective tokens it is holding before transforming.	</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b487-beb9-6cef-a166" name="Normal - Change Size" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">1</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">This character drops all objective tokens it is holding, then transforms into Ant-Man(Tiny). The Change Size superpower can be used only once per turn. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6a78-3fb1-23ca-a93a" name="Normal - Pym Particle Control" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">1</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">When this character is targeted by an enemy attack or would suffer a collision you may use this superpower. This character drops all objective tokens it is holding, then transforms into Wasp (Tiny) before the attack or collision continues. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Reactive</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7810-6171-3ab0-70c5" name="Tiny - Stealth" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Characters must be within Range 3 of this character to target it with attacks.</characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5027-5465-6cc3-d1bd" name="Tiny -Tiny Superhero" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">This character may reroll any number of defense or dodge dice. Additionally, this character cannot hold objective tokens. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1c13-5bbc-3992-f236" name="Tiny - Change Size" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">1</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">This character transforms into Wasp(Normal). The Change Size superpower can be used only once per turn. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e2c4-1ade-6570-9565" name="Normal - Pym Discs" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">3</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Choose an interactive terrain feature of Size 3 or less and within Range 2, and throw it Speed Medium. This superpower can be used only once per turn.</characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="76c1-11c9-0c68-0c27" name="Flight" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef"/>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61"/>
+          </characteristics>
+        </profile>
+        <profile id="987e-0f9f-d255-82d8" name="Tiny - Wasp" hidden="false" typeId="fde4-96d9-2028-2529" typeName="Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">5</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">L</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">1</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">3</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">3</characteristic>
+            <characteristic name="Energy Defese" typeId="0509-5c52-7571-39ad">2</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8dfb-90dd-5753-c7ce" name="Tiny - Stinger Blast" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Energy</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">2</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">5</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">After the attack is resolved, this character gains Power equal to the Damage dealt.
+The target character does not gain Power for Damage Dealt by this attack. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e065-9920-80a0-ad30" name="Tiny- Wasp&apos;s Fury" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Energy</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">3</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">6</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">2</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">After this attack is resolved, this character may advance Speed Medium. 
+After this attack is resolved, this character transformes into Wasp (Normal).</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="70b9-05c1-6558-a22d" name="No Escape" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="3646-0028-ac1c-0bd2" name="No Escape" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
+            <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
+            <characteristic name="Details" typeId="3c65-5213-7979-ed33">During an enemy character&apos;s activation, when it begins a move action and is within Range 2 of two or more allied characters, before the enemy character moves, both allied characters may spend 1 Power each to play this card. 
+
+Before the move is resolved, roll 4 dice. Deal 1 Damage to the enemy character for each Critical and each Wild rolled. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="f719-939f-866e-029e" name="Reversal" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="94d1-d058-ff11-5d29" name="Reversal" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
+            <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
+            <characteristic name="Details" typeId="3c65-5213-7979-ed33">After an attack that targeted an allied character is resolved, another allied character within Range 3 of the attacking character may spend 2 Power to play this card. 
+Roll 4 dice. Deal 1 Damage to the atacker for each Critical and each Wild rolled. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="2bd0-abc2-d2f3-a268" name="Pym Particles" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="42c5-26a6-5b36-fed3" name="Pym Particles" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
+            <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
+            <characteristic name="Details" typeId="3c65-5213-7979-ed33">Ant-Man or Wasp may spend 2 Power to play this card.
+
+Choose another allied character within Range 3 of this character. Then, choose an interactive terrain feature of size 3 or less within Range 3 of the chosen character. The chosen character throws it Speed Medium. </characteristic>
           </characteristics>
         </profile>
       </profiles>
