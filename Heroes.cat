@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="44fc-2846-12b5-766a" name="Heroes" revision="26" battleScribeVersion="2.03" library="false" gameSystemId="81bc-012c-665b-9b3d" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="44fc-2846-12b5-766a" name="Heroes" revision="27" battleScribeVersion="2.03" library="false" gameSystemId="81bc-012c-665b-9b3d" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="eb4e-d55b-c663-c712" name="Gamma Wave Sweeps Across Midwest" hidden="false" collective="false" import="true" targetId="db27-2d52-016b-dbe4" type="selectionEntry">
       <categoryLinks>
@@ -35,6 +35,7 @@
       <categoryLinks>
         <categoryLink id="bc45-9b74-19d7-9ef4" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="true"/>
         <categoryLink id="3ab4-384b-0337-ab82" name="Cabal" hidden="false" targetId="54a5-69c1-3540-3c6e" primary="false"/>
+        <categoryLink id="7260-aabf-8ca0-88e3" name="Crime Syndicate" hidden="false" targetId="62e3-8aa2-ed7a-9e44" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="92c3-6839-0cde-410a" name="Psychic Fortress" hidden="false" collective="false" import="true" targetId="2bdc-bf9e-96fb-8cac" type="selectionEntry">
@@ -212,6 +213,7 @@
       <categoryLinks>
         <categoryLink id="5c23-a085-10d6-4204" name="Cabal" hidden="false" targetId="54a5-69c1-3540-3c6e" primary="false"/>
         <categoryLink id="aa1a-f293-3beb-9f98" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="true"/>
+        <categoryLink id="b84d-161f-b21a-7322" name="Crime Syndicate" hidden="false" targetId="62e3-8aa2-ed7a-9e44" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="4c19-6321-0b06-4a84" name="Doctor Octopus" hidden="false" collective="false" import="true" targetId="f4da-7cd7-4f63-21b6" type="selectionEntry">
@@ -261,6 +263,7 @@
         <categoryLink id="909d-9ee8-f2e3-11e8" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="true"/>
         <categoryLink id="c6dc-0b93-a976-4a39" name="Cabal" hidden="false" targetId="54a5-69c1-3540-3c6e" primary="false"/>
         <categoryLink id="ed23-b80b-65b2-181e" name="Wakanda" hidden="false" targetId="f26a-4939-f603-307c" primary="false"/>
+        <categoryLink id="509d-7784-8339-1ec9" name="Crime Syndicate" hidden="false" targetId="62e3-8aa2-ed7a-9e44" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="0bb1-8fbb-c985-639e" name="Mystic Wakandan Herbs: Fact or Fiction" hidden="false" collective="false" import="true" targetId="ad4c-3ee1-7474-86da" type="selectionEntry">
@@ -643,6 +646,7 @@
         <categoryLink id="76d5-5357-f109-119c" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="true"/>
         <categoryLink id="13aa-d459-b252-13db" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
         <categoryLink id="6bd8-35de-3b50-182f" name="Spider Foes" hidden="false" targetId="71ff-5d57-e3a0-5322" primary="false"/>
+        <categoryLink id="13a6-9ff5-f37a-d9e1" name="Crime Syndicate" hidden="false" targetId="62e3-8aa2-ed7a-9e44" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="b903-bae9-47b6-9f83" name="Well-Laid Plans" hidden="false" collective="false" import="true" targetId="c0dc-5b9f-b0f4-9a45" type="selectionEntry">
@@ -757,6 +761,37 @@
     <entryLink id="34dd-dac1-5866-f268" name="Pym Particles" hidden="false" collective="false" import="true" targetId="2bd0-abc2-d2f3-a268" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="75df-dc77-ac55-3cc6" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="2536-3601-9987-e801" name="Kingpin" hidden="false" collective="false" import="true" targetId="b775-ae03-0423-122e" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="d767-7b30-98ab-bb11" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="true"/>
+        <categoryLink id="9533-7b58-1fe4-8604" name="Cabal" hidden="false" targetId="54a5-69c1-3540-3c6e" primary="false"/>
+        <categoryLink id="775c-3c9d-306e-ff5c" name="Crime Syndicate" hidden="false" targetId="62e3-8aa2-ed7a-9e44" primary="false"/>
+        <categoryLink id="d1cb-73f5-5de6-329a" name="Spider Foes" hidden="false" targetId="71ff-5d57-e3a0-5322" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="47dd-1386-8554-f007" name="All According to Plan" hidden="false" collective="false" import="true" targetId="5461-b55a-821a-88ac" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="801a-37b6-bdb7-b0ba" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
+        <categoryLink id="5f2b-2280-57bd-e300" name="Crime Syndicate" hidden="false" targetId="62e3-8aa2-ed7a-9e44" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="40f7-fe46-4a18-12ba" name="Hired Muscle" hidden="false" collective="false" import="true" targetId="25bd-c474-a9b8-fc12" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="0398-47f1-08a4-fafa" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6898-70cc-f8a7-4220" name="Shadow Organization" hidden="false" collective="false" import="true" targetId="4b6c-d4bf-a212-fc17" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="91f1-d13f-bd4b-2a55" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
+        <categoryLink id="3910-bba2-58ef-b32b" name="Crime Syndicate" hidden="false" targetId="62e3-8aa2-ed7a-9e44" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="2534-f2f8-cb7d-8a2e" name="Mayor Fisk Vows to Find Missing Witnesses" hidden="false" collective="false" import="true" targetId="bcd8-d9a7-baf0-d947" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="f5a4-89db-4051-ad9f" name="New CategoryLink" hidden="false" targetId="75ba-74ce-7452-509c" primary="true"/>
+        <categoryLink id="c64f-7f43-ff00-657b" name="New CategoryLink" hidden="false" targetId="75ba-74ce-7452-509c" primary="false"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -4755,6 +4790,9 @@ An enemy character damaged by this attack is pushed Speed Short away from this c
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="5ba6-89c0-3164-4aea" name="Spider-Man (Miles Morales)" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -5395,6 +5433,9 @@ If this attack deals Damage, after the attack is resolved the target enemy chara
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="dd14-2bd1-9f36-c3f6" name="Vapors of Valtorr" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -5408,6 +5449,9 @@ Choose a character within Range 3 of Doctor Strange. That character gains three 
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="7236-55c5-84cb-68eb" name="Pentagram of Farallah" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -5421,6 +5465,9 @@ Place a Mystic Portal token within Range 1 of the character that played this car
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="be6c-b3ee-07c1-ed3d" name="Face Me" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -5434,6 +5481,9 @@ Choose an enemy character within Range 4 of this character. Advance the enemy ch
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="e0ec-6811-a78f-3a8e" name="The Montesi Formula Found" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -5458,6 +5508,9 @@ A charactercannot hold more than one Spellbook. A character holding a Spellbook 
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="1fab-4591-c0ee-2d22" name="Ant-Man" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -5679,6 +5732,9 @@ Before the move is resolved, roll 4 dice. Deal 1 Damage to the enemy character f
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="f719-939f-866e-029e" name="Reversal" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -5691,6 +5747,9 @@ Roll 4 dice. Deal 1 Damage to the atacker for each Critical and each Wild rolled
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="2bd0-abc2-d2f3-a268" name="Pym Particles" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -5701,6 +5760,135 @@ Roll 4 dice. Deal 1 Damage to the atacker for each Critical and each Wild rolled
             <characteristic name="Details" typeId="3c65-5213-7979-ed33">Ant-Man or Wasp may spend 2 Power to play this card.
 
 Choose another allied character within Range 3 of this character. Then, choose an interactive terrain feature of size 3 or less within Range 3 of the chosen character. The chosen character throws it Speed Medium. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b775-ae03-0423-122e" name="Kingpin" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="2a38-519b-93ef-3ece" name="Kingpin" hidden="false" typeId="fde4-96d9-2028-2529" typeName="Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">7</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">S</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">3</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">4</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">4</characteristic>
+            <characteristic name="Energy Defese" typeId="0509-5c52-7571-39ad">3</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1f13-18ef-733e-cf1f" name="Headbutt" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Physical</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">2</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">5</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">After this attack is resolved, this character gains Power equal to the Damage dealt.
+Wild - Stun: After this attack is resolved, the target character gains the Stun special condition.
+Wild - Push: If the target character is Size 3 or less, before Damage is dealt it may be pushed away from this character Speed Short.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3f80-879e-d7ab-8283" name="Cane Laser" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Energy</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">B3</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">4</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">This attack ignores LOS, and the defending character does not benefit from cover. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5b5e-791d-e693-018a" name="Hail to the King" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Physical</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">2</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">7</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">3</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">Before Damage is dealt, this character may throw the target character Speed Short.
+After this attack is resolved, the target character gains the Stagger special condition.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a61c-4528-e6b8-f181" name="Illicit Network (Affiliation: Crime Syndicate)" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Once per turn at any time during an allied character&apos;s activation it may spend 2 Power to use this Leadership Ability. Move one asset or Civilian token being held by the active character to another allied character within Range 3. A character cannot hold more tokens than allowed by the Crisis due to this Leadership. 
+
+Additionally, each allied Healthy character contesting an objective token counts as two Healthy characters when determining who is securing the objective token.</characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Leadership</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7aa8-bae2-89a4-d98c" name="Street-Level Negotiations" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">2</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Choose an interactive terrain feature or an enemy character, both of Size 3 or less and within Range 2, and throw it Speed Medium. This superpower can only be used once per turn.</characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="98f6-9874-fbc4-9bad" name="Intense Physical Conditioning" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">1</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">If this character would suffer Damage, it may use this superpower. Reduce the amount of Damage suffered by 1.</characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Reactive</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7e98-46a6-0169-321f" name="Solid Frame" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">This character does not suffer damage from collisions with other characters. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5461-b55a-821a-88ac" name="All According to Plan" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="cc27-5742-9772-9396" name="All According to Plan" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Crime Syndicate </characteristic>
+            <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
+            <characteristic name="Details" typeId="3c65-5213-7979-ed33">During the Power Phase any number of allied Crime Syndicate characters may spend Power to play this card. 
+If 10 or more Power was spent to play this card, take the Priority token. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="25bd-c474-a9b8-fc12" name="Hired Muscle" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="b6e5-1002-0078-6eca" name="Hired Muscle" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
+            <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
+            <characteristic name="Details" typeId="3c65-5213-7979-ed33">Any character may spend 1 Power to play this card. Each Civilian token within Range 3 of this character is placed within Range 2 of its current position. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="4b6c-d4bf-a212-fc17" name="Shadow Organization" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="2ea3-2a9b-21c3-75ff" name="Shadow Organization" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Crime Syndicate</characteristic>
+            <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
+            <characteristic name="Details" typeId="3c65-5213-7979-ed33">During the Power Phase, any number of allied Crime Syndicate characters may spend 2 Power to play this card. 
+Enemy characters must be within Range 2 of characters that spent Power to target them with attack this round. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="bcd8-d9a7-baf0-d947" name="Mayor Fisk Vows to Find Missing Witnesses" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="2ee7-6079-4737-bf1a" name="Mayor Fisk Vows to Find Missing Witnesses" hidden="false" typeId="e274-6fe8-7f95-a012" typeName="Crisis">
+          <characteristics>
+            <characteristic name="Setup" typeId="99b3-ec42-38d9-2d3a">Place two Witnesses (Civilian) on the points near each board edge as shown on map C.</characteristic>
+            <characteristic name="Scoring" typeId="3561-4e9e-55ca-a37d">Players score 2 VPs for each Witness they are securing during the Cleanup Phase</characteristic>
+            <characteristic name="Details" typeId="7116-4232-08b5-42bc">During the Cleanup Phase, each of the Witnesses may flee. Starting with the player with priority, each places all Witness tokens secured by their opponents within Range 2 of their current position. Each token may be placed in this way only once per round. Then each character within Range 1 of a Witness suffers 1 Damage and gains the Stun special condition. </characteristic>
+            <characteristic name="Threat" typeId="81f5-e239-dd2d-2b7c">16</characteristic>
+            <characteristic name="Type" typeId="fc23-59e6-7090-77fa">Secure</characteristic>
           </characteristics>
         </profile>
       </profiles>
