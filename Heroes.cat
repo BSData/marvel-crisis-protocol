@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="44fc-2846-12b5-766a" name="Heroes" revision="27" battleScribeVersion="2.03" library="false" gameSystemId="81bc-012c-665b-9b3d" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="44fc-2846-12b5-766a" name="Heroes" revision="28" battleScribeVersion="2.03" library="false" gameSystemId="81bc-012c-665b-9b3d" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="eb4e-d55b-c663-c712" name="Gamma Wave Sweeps Across Midwest" hidden="false" collective="false" import="true" targetId="db27-2d52-016b-dbe4" type="selectionEntry">
       <categoryLinks>
@@ -792,6 +792,63 @@
       <categoryLinks>
         <categoryLink id="f5a4-89db-4051-ad9f" name="New CategoryLink" hidden="false" targetId="75ba-74ce-7452-509c" primary="true"/>
         <categoryLink id="c64f-7f43-ff00-657b" name="New CategoryLink" hidden="false" targetId="75ba-74ce-7452-509c" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f87c-8fb5-243a-63b8" name="Bullseye" hidden="false" collective="false" import="true" targetId="746a-c153-1469-cd2b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="af88-1405-6bee-bad4" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="true"/>
+        <categoryLink id="10eb-0117-836d-7760" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
+        <categoryLink id="03d2-d9e8-d517-b1d4" name="Cabal" hidden="false" targetId="54a5-69c1-3540-3c6e" primary="false"/>
+        <categoryLink id="c4de-6b64-50e8-b3f8" name="Crime Syndicate" hidden="false" targetId="62e3-8aa2-ed7a-9e44" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="2167-d997-0d33-3c3d" name="Daredevil" hidden="false" collective="false" import="true" targetId="917d-052b-32d4-a909" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="81aa-7f57-4902-fcd5" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="true"/>
+        <categoryLink id="4566-5989-f8c8-5ef5" name="Defenders" hidden="false" targetId="65b9-6527-31f8-65c2" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="8fc9-9670-9087-5e81" name="Cruelty" hidden="false" collective="false" import="true" targetId="f687-97ff-3d2b-8c39" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8985-4f41-cf15-22e3" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
+        <categoryLink id="a6f8-ae69-71f2-1b8d" name="Crime Syndicate" hidden="false" targetId="62e3-8aa2-ed7a-9e44" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7b35-1089-4a58-7d71" name="Acute Senses" hidden="false" collective="false" import="true" targetId="a6b7-64c2-2e7f-ef05" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="2ab0-6cda-ed70-b9bb" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="4be5-92f8-6bc0-9628" name="Climbing Gear" hidden="false" collective="false" import="true" targetId="df84-e5a9-8bbf-d102" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="01e6-d25d-4058-1b96" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f309-06c9-abed-1f14" name="Taskmaster" hidden="false" collective="false" import="true" targetId="b41e-a634-af72-8abc" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="054a-57e2-a1fd-d3d0" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="true"/>
+        <categoryLink id="2219-88c5-eea6-846f" name="Cabal" hidden="false" targetId="54a5-69c1-3540-3c6e" primary="false"/>
+        <categoryLink id="d8eb-f908-e9db-abfe" name="Crime Syndicate" hidden="false" targetId="62e3-8aa2-ed7a-9e44" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e411-cec2-c168-9673" name="Punisher" hidden="false" collective="false" import="true" targetId="2174-e0a4-cb4f-73e6" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="2fb4-6ac3-55c8-6f89" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="bd2d-b94b-aef6-436b" name="Blood Red and Personal" hidden="false" collective="false" import="true" targetId="552b-50e7-044f-d27c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="156c-6a1f-11f9-fd63" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="11cb-71b7-9462-bfd7" name="Extreme Conditioning" hidden="false" collective="false" import="true" targetId="45d1-deee-1df3-2705" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="ee5c-fe0f-dcd1-cda8" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="46d8-3b1c-6c30-87a4" name="Heavy Ordnance" hidden="false" collective="false" import="true" targetId="869a-2332-4059-fdff" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="6c15-b31e-f21b-6db7" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -4410,7 +4467,7 @@ If the target character si size 3 or less, after this attack is resolved, it may
             <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">2</characteristic>
             <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">3</characteristic>
             <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">3</characteristic>
-            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">Add one die to this attack roll for every Power token on this character.
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">Add one die to this attack roll for every Damage token on this character.
 Wild - Throw: Before Damage is dealt, if the target character is Size 4 or less,  this character may throw the target character away Speed Short. 
 </characteristic>
           </characteristics>
@@ -5856,6 +5913,9 @@ If 10 or more Power was spent to play this card, take the Priority token. </char
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="25bd-c474-a9b8-fc12" name="Hired Muscle" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -5867,6 +5927,9 @@ If 10 or more Power was spent to play this card, take the Priority token. </char
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="4b6c-d4bf-a212-fc17" name="Shadow Organization" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -5879,6 +5942,9 @@ Enemy characters must be within Range 2 of characters that spent Power to target
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="bcd8-d9a7-baf0-d947" name="Mayor Fisk Vows to Find Missing Witnesses" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -5889,6 +5955,413 @@ Enemy characters must be within Range 2 of characters that spent Power to target
             <characteristic name="Details" typeId="7116-4232-08b5-42bc">During the Cleanup Phase, each of the Witnesses may flee. Starting with the player with priority, each places all Witness tokens secured by their opponents within Range 2 of their current position. Each token may be placed in this way only once per round. Then each character within Range 1 of a Witness suffers 1 Damage and gains the Stun special condition. </characteristic>
             <characteristic name="Threat" typeId="81f5-e239-dd2d-2b7c">16</characteristic>
             <characteristic name="Type" typeId="fc23-59e6-7090-77fa">Secure</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="746a-c153-1469-cd2b" name="Bullseye" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="6127-2872-38a3-878f" name="Bullseye" hidden="false" typeId="fde4-96d9-2028-2529" typeName="Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">5</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">M</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">2</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">3</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">3</characteristic>
+            <characteristic name="Energy Defese" typeId="0509-5c52-7571-39ad">3</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4861-11e3-5b09-9fae" name="Throwing Knife" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Physical</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">4</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">4</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">The defending character does not benefit from cover.
+After the attack is resolved, this character gains Power equal to the Damage dealt.
+Wild - Bleed: After this attack is resolved, the target character gains the Bleed special condition.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="fea3-9008-eeef-254a" name="Pin Cushion" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Physical</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">4</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">5</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">4</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">The defending character does not benefit from cover.
+Bleed: After this attack is resolved, the target character gains the Bleed special condition.
+Rapid Fire: After this attack is resolved, this character may make one additional Pin Cushion attack without paying the Power cost. The additional attack must target the original target character. The additional attack does not have the Rapid Fire special rule. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5ab0-81a2-fa2e-9419" name="Hit and Run" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">2</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Action: This character makes an attack action followed by a move action. This superpower can only be used once per turn.</characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="77cc-7a56-652f-cab2" name="I Never Miss" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">1</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">After an attack made by this character is resolved, if no damage was dealt as a result of that attack, this character may use this superpower. The target character suffers 1 Damage. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Reactive</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="dc14-2990-512b-c741" name="Parting Shot" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">2</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">After an attack targeting this character is resolved, this character may use this superpower. The attacking character suffers 1 Damage. This character may advance away from the attacking character Speed Short. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Reactive</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="917d-052b-32d4-a909" name="Daredevil" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="94f0-355d-d739-f8d8" name="Daredevil - Injured" hidden="false" typeId="fde4-96d9-2028-2529" typeName="Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">6</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">L</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">2</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">4</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">3</characteristic>
+            <characteristic name="Energy Defese" typeId="0509-5c52-7571-39ad">3</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="bdd7-1621-31b8-803e" name="Daredevil" hidden="false" typeId="fde4-96d9-2028-2529" typeName="Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">5</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">L</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">2</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">4</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">3</characteristic>
+            <characteristic name="Energy Defese" typeId="0509-5c52-7571-39ad">3</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f226-4cb2-8c4f-9ecd" name="Strike" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Physical</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">2</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">5</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">After this attack is resolved, this character gains Power equal to the Damage dealt.
+Wild - Stun: After this attack is resolved, the target character gains the Stun special condition. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9cde-697c-bbe7-e381" name="Baton Hook" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Physical</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">4</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">4</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">This attack ignores LOS, and the defending character does not benefit from Cover.
+Wild - Push: If the target character is Size 2 or less, it may be pushed toward this character Speed Short.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9951-4b4c-a4b0-1e5e" name="Devil&apos;s Deliverance" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Physical</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">A2</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">2</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">5</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">This attack adds 2 dice to each of its attack rolls for each non-Dazed enemy character within Range 2 of this character when this attack was chosen. 
+After this attack is resolved, the target character is pushed away from this character Speed Short. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6d1f-6502-1e47-85b3" name="Man Without Fear - Healthy" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">2</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">After an attack targeting this character is resolved, this character may use this superpower. If the attack is within Range 2, this character may make a Strike attack targeting it. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Reactive</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c8e7-79ec-5d42-1978" name="Radar Sense" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">When defending against Physical or Energy attacks, this character adds blanks in its defense roll to its total success. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b1f2-4155-88aa-481c" name="Devil&apos;s of Hell&apos;s Kitchen" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">2</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">This character may immediately perform an attack with a Power cost of 0 against an enemy character within Range 2. After the attack is resolved, if the attack roll contains any Skull results this character suffers 1 Damage. This superpower can only be used once per turn.</characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="feb4-4e21-fc0e-207a" name="Wall Crawler" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef"/>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f687-97ff-3d2b-8c39" name="Cruelty" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="f295-bdb2-39d4-67b0" name="Cruelty" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Crime Symdicate</characteristic>
+            <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
+            <characteristic name="Details" typeId="3c65-5213-7979-ed33">If an allied character damages an enemy character with an attack during its activation, after the attack is resolved, the attacking character may spend 2 Power to play this card. 
+The attacking character immediately performs the attack listed above targeting the damaged character.
+This attack can only have dice added to the attack from Critical results, and this character cannot modify its attack dice during this attack. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ac2f-7519-e40c-be48" name="Twist the Knife" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Mystic</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">5</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">5</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398"/>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="a6b7-64c2-2e7f-ef05" name="Acute Senses" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="d17d-02cb-a4dd-cd0e" name="Acute Senses" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
+            <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
+            <characteristic name="Details" typeId="3c65-5213-7979-ed33">During a character&apos;s activation, it may spend 1 Power to play this card.
+Enemies do not benefit from the Stealth superpower and this character ignores LOS when attacking this activation. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="df84-e5a9-8bbf-d102" name="Climbing Gear" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="529a-9237-605e-0f65" name="Climbing Gear" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
+            <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
+            <characteristic name="Details" typeId="3c65-5213-7979-ed33">Any character may spend 3 Power to play this card. 
+This character gains Wall Crawler until the end of the round. This character immediately advances Speed Short.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="b41e-a634-af72-8abc" name="Taskmaster" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="7e74-de10-2432-4cf1" name="Taskmaster" hidden="false" typeId="fde4-96d9-2028-2529" typeName="Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">6</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">M</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">2</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">3</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">3</characteristic>
+            <characteristic name="Energy Defese" typeId="0509-5c52-7571-39ad">3</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="64fb-bc03-1c0e-f394" name="Taskmaster - Injured" hidden="false" typeId="fde4-96d9-2028-2529" typeName="Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">5</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">M</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">2</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">3</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">3</characteristic>
+            <characteristic name="Energy Defese" typeId="0509-5c52-7571-39ad">3</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="120b-6d9b-7e4e-a7e6" name="Sword Strike" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Physical</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">2</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">5</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">After the attack is resolved, this character gains Power equal to the Damage dealt.
+Wild - Bleed: After this attack is resolved, the target character gains the Bleed special condition.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d626-85a7-8ee7-00f9" name="Shield Throw" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Physical</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">4</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">4</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">This attack ignores LOS, and the defending character does not benefit from Cover.
+Wild - Ricochet: After this attack is resolved, this character may make an additional Shield Throw attack. This attack must target another character within Range 3 of the original target character and may be any distance from this character. This additional attack does not have the Ricochet special rule.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2229-dfdf-cb5d-07c4" name="Mnemonic Technique" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Physical</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">2</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">4</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">2</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">Add dice to the attack roll equal to the target&apos;s Physical Defense.
+The target character cannot modify or reroll dice in the defense roll during this attack.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a287-93be-ed44-3942" name="Rogue Agent" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">One character with Rogue Agent countd as an affiliated character during squad building. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0131-845c-946c-4bc7" name="Martial Artist" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">When this character is defending against a Physical or Energy attack targeting it from within Range 2, this character adds blanks in its defense rolls to its total successes.</characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9af3-aa1f-6a05-a9a4" name="Photographic Reflexes" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">2</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">After an attack targeting this character is resolved, this character may use this superpower. If the attacker is within Range 3, roll 4 dice. Deal 1 Damage to the attacker for each Critical and each Wild rolled. If the attacker has already attacked this character with an attack this turn, roll 6 dice instead of 4.</characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Reactive</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="08c6-54e9-0e80-343a" name="Intuitive Pattern Recognition" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">If an enemy character targets this character with an attack and has already targeted this character with an attack this turn, add 2 dice to the defense roll. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2174-e0a4-cb4f-73e6" name="Punisher" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="1927-2bfc-99ea-206c" name="Punisher" hidden="false" typeId="fde4-96d9-2028-2529" typeName="Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">6</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">M</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">2</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">3</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">3</characteristic>
+            <characteristic name="Energy Defese" typeId="0509-5c52-7571-39ad">3</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="de80-b890-6491-07f8" name="Punisher - Injured" hidden="false" typeId="fde4-96d9-2028-2529" typeName="Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">5</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">M</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">2</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">3</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">3</characteristic>
+            <characteristic name="Energy Defese" typeId="0509-5c52-7571-39ad">3</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2ac6-f354-7ef5-8fef" name="Hip Fire" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Physical</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">3</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">4</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">After this attack is resolved, this character gains 1 Power. 
+Rapid Fire: After this attack is resolved, this character may make one additional Hip Fire attack. The additional attack must target the original target character. The additional attack does not have the Rapid Fire special rule. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4c5d-ce26-699b-7e71" name="Aimed Shot" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Physical</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">5</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">7</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">3</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">Wild - Pierce: Change one of the defending character&apos;s Critical, Wild, or Shield results to a blank.
+If this attack deals Damage, after this attack is resolved the target character gains the Stun and Slow special conditions. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="09c2-77ab-b692-0ba5" name="No More Second Chances" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">0</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Discard 1-3 Punishment tokens. During the next attack made by this character this turn, add 1 die to its attack roll for each Punishment token that was discarded. This superpower can be used once per turn. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7e08-4c7c-c27b-4e37" name="Spec Ops Training" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">2</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">This character advances Speed Short. This superpower can be used once per turn. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7b9d-323a-4fda-5714" name="War Zone" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">3</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Action: Choose an interactive terrain feature of Size 3 or less within Range 4 of this character. Enemy characters within Range 1 of the terrain feature suffers 2 Damage. The terrain feature is destroyed and removed from the battlefield. This superpower can be used once per turn. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9744-5119-bfa9-e6e9" name="The Fallen" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">When another allied character is Dazed or KO&apos;d by an enemy effect, this character gains a Punishment token. This character may have a maximum of three Punishment tokens at any time. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="552b-50e7-044f-d27c" name="Blood Red and Personal" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="f8eb-0d55-45ef-7fbd" name="Blood Red and Personal" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
+            <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
+            <characteristic name="Details" typeId="3c65-5213-7979-ed33">During the Power Phase, an allied Punisher may spend 4 Power to play this card. Each time an enemy character is KO&apos;d this round, this character&apos;s controlling player gains 1 VP. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="45d1-deee-1df3-2705" name="Extreme Conditioning" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="93c7-d865-43ae-fe7a" name="Extreme Conditioning" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
+            <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
+            <characteristic name="Details" typeId="3c65-5213-7979-ed33">When a character begins a move action during its activation, it may spend 2 Power to play this card. 
+If the active character advances, it may use the Speed Long movement tool during this movement. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="869a-2332-4059-fdff" name="Heavy Ordnance" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="457d-34a7-bd50-f5d4" name="Heavy Ordnance" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
+            <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
+            <characteristic name="Details" typeId="3c65-5213-7979-ed33">Any character may spend 2 Power during its activation to play this card. 
+This character may use the attack listed above once this activation. 
+This attack can only have dice added to the attack from Critical results, and this character cannot modify its attack dice during this attack. Additionally, this attack has the following special rule:
+Explosive: Before damage is dealt, other enemy characters within Range 2 of the target suffer 1 Damage.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3a0e-c2c9-3b60-3c2c" name="Explosive Barrage" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Physical</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">4</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">6</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb"/>
           </characteristics>
         </profile>
       </profiles>
