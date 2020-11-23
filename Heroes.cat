@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="44fc-2846-12b5-766a" name="Heroes" revision="28" battleScribeVersion="2.03" library="false" gameSystemId="81bc-012c-665b-9b3d" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="44fc-2846-12b5-766a" name="Heroes" revision="29" battleScribeVersion="2.03" library="false" gameSystemId="81bc-012c-665b-9b3d" gameSystemRevision="10" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="eb4e-d55b-c663-c712" name="Gamma Wave Sweeps Across Midwest" hidden="false" collective="false" import="true" targetId="db27-2d52-016b-dbe4" type="selectionEntry">
       <categoryLinks>
@@ -849,6 +849,31 @@
     <entryLink id="46d8-3b1c-6c30-87a4" name="Heavy Ordnance" hidden="false" collective="false" import="true" targetId="869a-2332-4059-fdff" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="6c15-b31e-f21b-6db7" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7c93-e31d-6de3-0bf3" name="Wolverine" hidden="false" collective="false" import="true" targetId="e26f-4e13-e106-3643" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="1fce-de84-a698-a3ca" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="true"/>
+        <categoryLink id="6f4b-9dc7-64cd-a307" name="Avengers" hidden="false" targetId="d6c4-f011-cd8c-5451" primary="false"/>
+        <categoryLink id="3e7c-c82a-fdc9-b015" name="Defenders" hidden="false" targetId="65b9-6527-31f8-65c2" primary="false"/>
+        <categoryLink id="301f-8bcc-8021-674f" name="Uncanny X-Men" hidden="false" targetId="60b3-f8b0-e59a-faca" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="ede8-c872-a9ad-3035" name="Sabretooth" hidden="false" collective="false" import="true" targetId="6eee-6289-81e8-86d3" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="88b6-c6af-f669-4910" name="New CategoryLink" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="true"/>
+        <categoryLink id="e0ff-ca32-a4d9-7fe6" name="Brotherhood of Mutants" hidden="false" targetId="ece5-46c6-abdb-39d6" primary="false"/>
+        <categoryLink id="16ed-9de7-619c-ce68" name="Cabal" hidden="false" targetId="54a5-69c1-3540-3c6e" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="5f49-d112-c35b-64ba" name="Weapon X Program" hidden="false" collective="false" import="true" targetId="4011-bc94-00e4-7d84" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b20c-aac6-3a46-4422" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="37c6-00c2-fd2c-1e2e" name="X-Ceptional Healing" hidden="false" collective="false" import="true" targetId="57bb-0e30-fb71-f891" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="813e-7b2e-20f2-7edc" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -6131,6 +6156,9 @@ This attack can only have dice added to the attack from Critical results, and th
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="a6b7-64c2-2e7f-ef05" name="Acute Senses" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -6143,6 +6171,9 @@ Enemies do not benefit from the Stealth superpower and this character ignores LO
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="df84-e5a9-8bbf-d102" name="Climbing Gear" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -6155,6 +6186,9 @@ This character gains Wall Crawler until the end of the round. This character imm
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b41e-a634-af72-8abc" name="Taskmaster" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -6330,6 +6364,9 @@ If this attack deals Damage, after this attack is resolved the target character 
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="45d1-deee-1df3-2705" name="Extreme Conditioning" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -6342,6 +6379,9 @@ If the active character advances, it may use the Speed Long movement tool during
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="869a-2332-4059-fdff" name="Heavy Ordnance" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -6362,6 +6402,179 @@ Explosive: Before damage is dealt, other enemy characters within Range 2 of the 
             <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">6</characteristic>
             <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
             <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e26f-4e13-e106-3643" name="Wolverine" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="c92d-1f41-b094-380b" name="Wolverine" hidden="false" typeId="fde4-96d9-2028-2529" typeName="Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">7</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">M</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">2</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">4</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">4</characteristic>
+            <characteristic name="Energy Defese" typeId="0509-5c52-7571-39ad">3</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a302-d3c9-e07d-aab5" name="Wolverine - Injured" hidden="false" typeId="fde4-96d9-2028-2529" typeName="Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">5</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">M</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">2</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">4</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">4</characteristic>
+            <characteristic name="Energy Defese" typeId="0509-5c52-7571-39ad">3</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9d55-7a51-a7ac-7027" name="Adamantium Slash" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Physical</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">2</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">5</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">After this attack is resolved, this character gains Power equal to the Damage dealt.
+Wild - Bleed: After this attack is resolved, the target character gains the Bleed special condition. 
+Wild - Pierce: Change one of the defending character&apos;s Critical, Wild, or Shield results to a blank.
+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6211-4561-7711-738c" name="Berserker Barrage" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Physical</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">3</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">7</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">3</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">Before Damage is dealt, place this character within Range 1 of the target.
+If this attack deals Damage, after the attack is resolved, if the target character is size 3 or less, this character may throw it Speed Short. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3203-0ec6-574c-610a" name="The Best at What I Do..." hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">3</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Action: This character immediately makes a move action followe by an Adamantium Slash attack action. When making this attack, each Wild in the attack roll counts as two successes. This superpower can only be used once per turn. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f265-b435-3937-2765" name="Adamentium Skeleton" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">When determining if this character can be thrown or pushed by an effect or a special rule or when it is colliding with another character or terrain feature, this character counts as Size 3. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e041-5c4a-0815-3599" name="Healing Factor [2], Immunity [Stun]" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef"/>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="159f-3f9a-0d27-9951" name="Wild Rage - Injured" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Add 1 die to this character&apos;s attack roll for each Damage token it has. Additionnaly, this character cannot interact with or hold objectives tokens. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6eee-6289-81e8-86d3" name="Sabretooth" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="f9f0-96db-e999-1f26" name="Sabretooth" hidden="false" typeId="fde4-96d9-2028-2529" typeName="Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">6</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">L</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">3</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">4</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">3</characteristic>
+            <characteristic name="Energy Defese" typeId="0509-5c52-7571-39ad">3</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="93b7-1f18-f11f-4c84" name="Claw Slash" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Physical</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">2</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">5</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">After this attack is resolved, this character gains Power equal to the Damage dealt.
+Wild - Bleed: After this attack is resolved, the target character gains the Bleed special condition. 
+Wild - Pierce: Change one of the defending character&apos;s Critical, Wild, or Shield results to a blank.
+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6486-12c9-2632-d146" name="Savage Predator" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="Attack">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Physical</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">2</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">7</characteristic>
+            <characteristic name="Power Cost" typeId="711d-c2bc-e2d4-f398">4</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">Wild Hit - Finisher: After this attack is resolved, this character may make a Claw Slash attack. This character may reroll any number of attack dice during that attack. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0c6f-365b-4c6b-6c70" name="No Mercy" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">3</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">During the next attack this character makes this turn, add 1 die to its attack roll for each Damage the target character has, to a maximum of 3. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5c68-6617-52cd-3671" name="Untamed Force" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">2</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">After an attack, against this character is resolved, it may use this superpower. If the attacker is within Range 2, this character may make a Claw Slash attack targeting the attacker. This superpower can be used only once per turn. </characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Reactive</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1d14-820f-1b6f-d5e5" name="Aggressive" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">After an attack targeting this character is resolved, if this character suffered Damage, it may advance Speed Short toward the attacking character.</characteristic>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8b39-14b1-3dfc-637e" name="Healing Factor [1]" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="Superpower">
+          <characteristics>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584"/>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef"/>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Innate</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4011-bc94-00e4-7d84" name="Weapon X Program" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="4251-f088-b6ca-d738" name="Weapon X Program" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
+            <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
+            <characteristic name="Details" typeId="3c65-5213-7979-ed33">Wolverine or Sabretooth may spend 3 Power to play this card. 
+This character is thrown Speed Short. It does not suffer damage if it collides with another character or terrain feature. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="57bb-0e30-fb71-f891" name="X-Ceptional Healing" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="df10-f1fd-3d9e-136f" name="X-Ceptional Healing" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+          <characteristics>
+            <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
+            <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
+            <characteristic name="Details" typeId="3c65-5213-7979-ed33">When an allied character with the Healing Factor superpower would be damaged by an enemy effect, it may spend 3 Power to play this card. 
+Reduce the amount of damage suffered to 1. 	</characteristic>
           </characteristics>
         </profile>
       </profiles>
