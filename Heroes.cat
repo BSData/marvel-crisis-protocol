@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="44fc-2846-12b5-766a" name="Heroes" revision="30" battleScribeVersion="2.03" library="false" gameSystemId="81bc-012c-665b-9b3d" gameSystemRevision="10" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="44fc-2846-12b5-766a" name="Heroes" revision="31" battleScribeVersion="2.03" library="false" gameSystemId="81bc-012c-665b-9b3d" gameSystemRevision="10" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="eb4e-d55b-c663-c712" name="Gamma Wave Sweeps Across Midwest" hidden="false" collective="false" import="true" targetId="db27-2d52-016b-dbe4" type="selectionEntry">
       <categoryLinks>
@@ -960,7 +960,12 @@
         <categoryLink id="6a91-aa11-1d0a-0ce6" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="0e6c-eb74-f139-b482" name="To Me, My X-Men!" hidden="false" collective="false" import="true" targetId="b4bf-26af-5272-f973" type="selectionEntry"/>
+    <entryLink id="0e6c-eb74-f139-b482" name="To Me, My X-Men!" hidden="false" collective="false" import="true" targetId="b4bf-26af-5272-f973" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="77d7-20ed-ae11-1851" name="Uncanny X-Men" hidden="false" targetId="60b3-f8b0-e59a-faca" primary="false"/>
+        <categoryLink id="b9ed-813f-7339-3366" name="New CategoryLink" hidden="false" targetId="d643-5175-ae87-9385" primary="true"/>
+      </categoryLinks>
+    </entryLink>
     <entryLink id="34dc-118e-132f-5522" name="Mutant Madman Turns City Center Into Lethal Amusement Park" hidden="false" collective="false" import="true" targetId="7cf0-546a-1bff-61bb" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="2ab6-c21f-0aa5-5c5f" name="New CategoryLink" hidden="false" targetId="75ba-74ce-7452-509c" primary="true"/>
