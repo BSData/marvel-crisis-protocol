@@ -6369,7 +6369,7 @@ The target character cannot modify or reroll dice in the defense roll during thi
         </profile>
       </profiles>
       <costs>
-        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="4.0"/>
+        <cost name=" Threat Value" typeId="2de3-a5e2-23d8-2859" value="3.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2174-e0a4-cb4f-73e6" name="Punisher" hidden="false" collective="false" import="true" type="model">
