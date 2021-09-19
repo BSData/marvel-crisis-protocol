@@ -50,23 +50,30 @@
     </profileType>
   </profileTypes>
   <categoryEntries>
-    <categoryEntry id="b2c6-4f4b-967e-2218" name="Character" hidden="false"/>
-    <categoryEntry id="75ba-74ce-7452-509c" name="Secure Crisis" hidden="false"/>
-    <categoryEntry id="d643-5175-ae87-9385" name="Team Tactics" hidden="false"/>
-    <categoryEntry id="54a5-69c1-3540-3c6e" name="Cabal" hidden="false"/>
-    <categoryEntry id="d6c4-f011-cd8c-5451" name="Avengers" hidden="false"/>
-    <categoryEntry id="67a0-a10a-a572-55c8" name="Extraction Crisis" hidden="false"/>
-    <categoryEntry id="f26a-4939-f603-307c" name="Wakanda" hidden="false"/>
-    <categoryEntry id="e7d2-fc4f-e67b-f877" name="Infinity Gems" hidden="false"/>
+    <categoryEntry id="a257-98a8-62db-5553" name="A-Force" hidden="false"/>
     <categoryEntry id="a554-55ad-02b3-3342" name="Asgard" hidden="false"/>
-    <categoryEntry id="41a5-1f4b-b6f9-bf19" name="Guardians of the Galaxy" hidden="false"/>
+    <categoryEntry id="d6c4-f011-cd8c-5451" name="Avengers" hidden="false"/>
     <categoryEntry id="01c6-f9aa-a521-8f23" name="Black Order" hidden="false"/>
-    <categoryEntry id="d7f0-71df-050d-5c5e" name="Web Warriors" hidden="false"/>
-    <categoryEntry id="71ff-5d57-e3a0-5322" name="Spider Foes" hidden="false"/>
-    <categoryEntry id="65b9-6527-31f8-65c2" name="Defenders" hidden="false"/>
-    <categoryEntry id="62e3-8aa2-ed7a-9e44" name="Crime Syndicate" hidden="false"/>
-    <categoryEntry id="60b3-f8b0-e59a-faca" name="Uncanny X-Men" hidden="false"/>
     <categoryEntry id="ece5-46c6-abdb-39d6" name="Brotherhood of Mutants" hidden="false"/>
+    <categoryEntry id="54a5-69c1-3540-3c6e" name="Cabal" hidden="false"/>
+    <categoryEntry id="b2c6-4f4b-967e-2218" name="Character" hidden="false"/>
+    <categoryEntry id="d653-c6c3-4845-a79f" name="Convocation" hidden="false"/>
+    <categoryEntry id="62e3-8aa2-ed7a-9e44" name="Criminal Syndicate" hidden="false"/>
+    <categoryEntry id="1126-7085-3271-b4b2" name="Dark Dimension" hidden="false"/>
+    <categoryEntry id="65b9-6527-31f8-65c2" name="Defenders" hidden="false"/>
+    <categoryEntry id="67a0-a10a-a572-55c8" name="Extraction Crisis" hidden="false"/>
+    <categoryEntry id="41a5-1f4b-b6f9-bf19" name="Guardians of the Galaxy" hidden="false"/>
+    <categoryEntry id="e7d2-fc4f-e67b-f877" name="Infinity Gems" hidden="false"/>
+    <categoryEntry id="4e3d-0504-cab0-b7d0" name="Inhumans" hidden="false"/>
+    <categoryEntry id="1ab1-7a14-d6d6-68cf" name="Midnight Sons" hidden="false"/>
+    <categoryEntry id="75ba-74ce-7452-509c" name="Secure Crisis" hidden="false"/>
+    <categoryEntry id="71ff-5d57-e3a0-5322" name="Spider Foes" hidden="false"/>
+    <categoryEntry id="d643-5175-ae87-9385" name="Team Tactics" hidden="false"/>
+    <categoryEntry id="6af1-42c8-edee-4250" name="Unaffiliated" hidden="false"/>
+    <categoryEntry id="60b3-f8b0-e59a-faca" name="Uncanny X-Men" hidden="false"/>
+    <categoryEntry id="f26a-4939-f603-307c" name="Wakanda" hidden="false"/>
+    <categoryEntry id="d7f0-71df-050d-5c5e" name="Web Warriors" hidden="false"/>
+    <categoryEntry id="5b94-ea1f-061e-35c3" name="X-Force" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="fc8b-e3b6-b2a4-5d8b" name="Roster" hidden="false">
