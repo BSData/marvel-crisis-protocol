@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="9c66-3ecf-4508-3b47" name="Marvel Crisis Protocol" revision="2101" battleScribeVersion="2.03" authorName="Uplink" authorContact="Uplink.MCP@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
-  <readme>Info Key:
-*Completely rebuilt with all models and AMG Ban/Restricted/Errata as of 9/27/2021. ***Old roster files will not work.*** Models not currently available to me in the US are fully accessible but are marked {BETA} until I can obtain and verify all included data. Colossus, Gambit, Rogue, and Juggernaut are masked until the confirmed final stat cards become available.
+<gameSystem id="9c66-3ecf-4508-3b47" name="Marvel Crisis Protocol" revision="2201" battleScribeVersion="2.03" authorName="Uplink" authorContact="Uplink.MCP@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+  <readme>*Updated to 11/22/2021 AMG Ban/Restricted/Errata/Rules
+Sorry for the delay. Blame Asmodee&apos;s handling of US release dates and not allowing other region stores to ship here.
 
+Models and cards not currently available in the US are fully accessible but are marked {BETA} and use AMG &quot;Panel to Play&quot; info until I can obtain and verify all included data. (Not) Fury, and the S.H.I.E.L.D. agents are masked until the confirmed final stat cards become available.
+
+Info Key:
 All game symbols are in the format {SYMBOL}. ie. {PWR} = Power Symbol, {DMG} = Damage Symbol, {RNG} = Range Symbol, {FAIL} = Skull, etc.
 
-Restricted and Banned items will have {restricted} or {banned} after their name for reference. Organized Play Rosters and Squads will adhere to current Restricted and Banned lists and alert you if you are using items in excess of these rules. Open Play Rosters and Squads will not alert you or flag the items.
+Restricted and Banned items will have {Restricted} or {Banned} after their name for reference. Organized Play Rosters and Squads will adhere to current Restricted and Banned lists and alert you if you are using items in excess of these rules. Open Play Rosters and Squads will not alert you or flag the items.
 
 Selecting the &apos;Game Rules: Special Conditions&apos; force option will include a cheat sheet in your roster of all current condition markers in the game.
 
@@ -116,6 +119,7 @@ If you find any info incorrect, please send correction requests to the address a
     <categoryEntry id="44ea-115a-c4be-377a" name="Inhumans" hidden="false"/>
     <categoryEntry id="6a20-2f6b-5867-386a" name="Midnight Sons" hidden="false"/>
     <categoryEntry id="00c8-776e-76c9-c6bb" name="Restricted" hidden="false"/>
+    <categoryEntry id="44da-2d91-089d-8aad" name="S.H.I.E.L.D." hidden="false"/>
     <categoryEntry id="71ff-5d57-e3a0-5322" name="Spider-Foes" hidden="false"/>
     <categoryEntry id="d643-5175-ae87-9385" name="Team Tactics" hidden="false"/>
     <categoryEntry id="7de0-86ce-229b-637e" name="Team Tactics Cards" hidden="false"/>
@@ -161,8 +165,8 @@ If you find any info incorrect, please send correction requests to the address a
         </categoryLink>
         <categoryLink id="859c-650e-244f-40c7" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false">
           <constraints>
-            <constraint field="selections" scope="3a4a-aa25-5bf6-e2ce" value="8.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="db5a-01c9-3f02-df9a" type="min"/>
-            <constraint field="selections" scope="3a4a-aa25-5bf6-e2ce" value="8.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="eab7-ec3c-6ccf-52bd" type="max"/>
+            <constraint field="selections" scope="3a4a-aa25-5bf6-e2ce" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="db5a-01c9-3f02-df9a" type="min"/>
+            <constraint field="selections" scope="3a4a-aa25-5bf6-e2ce" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="eab7-ec3c-6ccf-52bd" type="max"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
@@ -212,8 +216,8 @@ If you find any info incorrect, please send correction requests to the address a
         </categoryLink>
         <categoryLink id="c110-d9c8-2270-f1e5" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false">
           <constraints>
-            <constraint field="selections" scope="4ac1-f263-b6af-1d26" value="8.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c7a6-d76c-dc6b-b29c" type="min"/>
-            <constraint field="selections" scope="4ac1-f263-b6af-1d26" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f3c-6dbb-b9cd-6737" type="max"/>
+            <constraint field="selections" scope="4ac1-f263-b6af-1d26" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c7a6-d76c-dc6b-b29c" type="min"/>
+            <constraint field="selections" scope="4ac1-f263-b6af-1d26" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f3c-6dbb-b9cd-6737" type="max"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
