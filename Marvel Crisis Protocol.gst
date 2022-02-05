@@ -1,18 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="9c66-3ecf-4508-3b47" name="Marvel Crisis Protocol" revision="2201" battleScribeVersion="2.03" authorName="Uplink" authorContact="Uplink.MCP@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
-  <readme>*Updated to 11/22/2021 AMG Ban/Restricted/Errata/Rules
-Sorry for the delay. Blame Asmodee&apos;s handling of US release dates and not allowing other region stores to ship here.
+<gameSystem id="9c66-3ecf-4508-3b47" name="Marvel Crisis Protocol" revision="2202" battleScribeVersion="2.03" authorName="Uplink" authorContact="Uplink.MCP@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+  <readme>*VERSION INFO*
+Core Rules: 11/22/2021
+FAQ &amp; Errata: 2/3/2022
+Affiliations: 2/3/2022
+Ban/Restricted: 2/3/2022
 
-Models and cards not currently available in the US are fully accessible but are marked {BETA} and use AMG &quot;Panel to Play&quot; info until I can obtain and verify all included data. (Not) Fury, and the S.H.I.E.L.D. agents are masked until the confirmed final stat cards become available.
+*UPDATES*
+- Corrected some entries on Hulkbuster and Ms. Marvel.
 
-Info Key:
-All game symbols are in the format {SYMBOL}. ie. {PWR} = Power Symbol, {DMG} = Damage Symbol, {RNG} = Range Symbol, {FAIL} = Skull, etc.
+- Added the Panel to Play data for Nick Jr., Shadowland Daredevil, and their associated Grunts.
 
-Restricted and Banned items will have {Restricted} or {Banned} after their name for reference. Organized Play Rosters and Squads will adhere to current Restricted and Banned lists and alert you if you are using items in excess of these rules. Open Play Rosters and Squads will not alert you or flag the items.
+- Grunts are listed in their own category and do not have a Threat cost. Model(s) required in your force to take specific Grunts are listed after the Grunt name in [  ]. If you receive a validation error that you are limited to (maximum 0) of a specific Grunt, you have not taken a required &quot;parent&quot; model.
 
-Selecting the &apos;Game Rules: Special Conditions&apos; force option will include a cheat sheet in your roster of all current condition markers in the game.
+*DATAFILE REFERENCE*
+- Any entries listed as {Beta} are ones I do not own, have not seen in person, or have not been officially published in AMG living documents (Rules/FAQ/etc.). Panel to Play data is considered Beta.
 
-If you find any info incorrect, please send correction requests to the address above. (Some grammatical errors are as they exist on the original cards pending errata.) If you would like CP pack numbers included in future updates as references for where to obtain cards and items, let me know.
+- All game symbols are in the format {SYMBOL}. ie. {PWR} = Power Symbol, {DMG} = Damage Symbol, {RNG} = Range Symbol, {FAIL} = Skull, etc.
+
+- Restricted and Banned items will have {Restricted} or {Banned} after their name for reference. Organized Play Rosters and Squads will adhere to current Restricted and Banned lists and alert you if you are using items in excess of these rules. Open Play Rosters and Squads will not alert you or flag the items.
+
+- Selecting the &apos;Game Rules: Special Conditions&apos; force option will include a cheat sheet in your roster of all current condition markers and effects in the game.
+
+*****
+
+If you find any incorrect data, please send correction requests to the address above. (Some grammatical errors are as they exist on the original cards pending errata.) If you would like CP pack numbers included in future updates as references for where to obtain cards and items, or Base Size info let me know.
 
 -Uplink</readme>
   <costTypes>
@@ -114,6 +126,7 @@ If you find any info incorrect, please send correction requests to the address a
     <categoryEntry id="73d9-28cf-a36e-9c84" name="Dark Dimension" hidden="false"/>
     <categoryEntry id="65b9-6527-31f8-65c2" name="Defenders" hidden="false"/>
     <categoryEntry id="c34e-b4ff-8bc1-6216" name="Game Rules" hidden="false"/>
+    <categoryEntry id="efe0-86c9-4b57-7046" name="Grunts" hidden="false"/>
     <categoryEntry id="41a5-1f4b-b6f9-bf19" name="Guardians of the Galaxy" hidden="false"/>
     <categoryEntry id="e7d2-fc4f-e67b-f877" name="Infinity Gems" hidden="false"/>
     <categoryEntry id="44ea-115a-c4be-377a" name="Inhumans" hidden="false"/>
@@ -144,6 +157,7 @@ If you find any info incorrect, please send correction requests to the address a
           </constraints>
         </categoryLink>
         <categoryLink id="b849-5d38-3935-6543" name="Characters" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="false"/>
+        <categoryLink id="8c08-fa6e-66b7-bc11" name="Grunts" hidden="false" targetId="efe0-86c9-4b57-7046" primary="false"/>
         <categoryLink id="640e-1632-a228-d563" name="Crisis - Extraction" hidden="false" targetId="67a0-a10a-a572-55c8" primary="false">
           <constraints>
             <constraint field="selections" scope="3a4a-aa25-5bf6-e2ce" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="acfa-1013-a74f-1fd5" type="min"/>
@@ -190,6 +204,7 @@ If you find any info incorrect, please send correction requests to the address a
           </constraints>
         </categoryLink>
         <categoryLink id="763f-536c-d0d4-532e" name="Characters" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="false"/>
+        <categoryLink id="272c-2d74-2036-b26d" name="Grunts" hidden="false" targetId="efe0-86c9-4b57-7046" primary="false"/>
         <categoryLink id="db8a-31c5-d253-2194" name="Crisis - Extraction" hidden="false" targetId="67a0-a10a-a572-55c8" primary="false">
           <constraints>
             <constraint field="selections" scope="4ac1-f263-b6af-1d26" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="49cd-b53a-7fe7-ec9e" type="min"/>
@@ -236,6 +251,7 @@ If you find any info incorrect, please send correction requests to the address a
           </constraints>
         </categoryLink>
         <categoryLink id="8ec3-4efd-3cde-6caf" name="Characters" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="false"/>
+        <categoryLink id="305c-a1ad-03c6-435d" name="Grunts" hidden="false" targetId="efe0-86c9-4b57-7046" primary="false"/>
         <categoryLink id="36d8-6da4-96bd-7ff8" name="Crisis - Extraction" hidden="false" targetId="67a0-a10a-a572-55c8" primary="false">
           <constraints>
             <constraint field="selections" scope="6410-8f39-4ae6-85fa" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d5d1-e3cc-e911-54cf" type="min"/>
@@ -282,6 +298,7 @@ If you find any info incorrect, please send correction requests to the address a
           </constraints>
         </categoryLink>
         <categoryLink id="1d3c-c215-f829-736b" name="Characters" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="false"/>
+        <categoryLink id="be19-609d-9887-d06f" name="Grunts" hidden="false" targetId="efe0-86c9-4b57-7046" primary="false"/>
         <categoryLink id="ed8a-1cec-6729-10b9" name="Crisis - Extraction" hidden="false" targetId="67a0-a10a-a572-55c8" primary="false">
           <constraints>
             <constraint field="selections" scope="0a69-e244-78ad-974e" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ee4e-8800-790d-f30b" type="min"/>
