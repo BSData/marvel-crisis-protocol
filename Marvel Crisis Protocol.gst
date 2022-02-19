@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="9c66-3ecf-4508-3b47" name="Marvel Crisis Protocol" revision="2202" battleScribeVersion="2.03" authorName="Uplink" authorContact="Uplink.MCP@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="9c66-3ecf-4508-3b47" name="Marvel Crisis Protocol" revision="2203" battleScribeVersion="2.03" authorName="Uplink" authorContact="Uplink.MCP@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>*VERSION INFO*
 Core Rules: 11/22/2021
 FAQ &amp; Errata: 2/3/2022
@@ -7,11 +7,9 @@ Affiliations: 2/3/2022
 Ban/Restricted: 2/3/2022
 
 *UPDATES*
-- Corrected some entries on Hulkbuster and Ms. Marvel.
+- Finalized current X-Men Wave (Rogue, Gambit, Colosus, Magik, Honey Badger, X-23, Juggernaut) and removed {BETA} tags.
 
-- Added the Panel to Play data for Nick Jr., Shadowland Daredevil, and their associated Grunts.
-
-- Grunts are listed in their own category and do not have a Threat cost. Model(s) required in your force to take specific Grunts are listed after the Grunt name in [  ]. If you receive a validation error that you are limited to (maximum 0) of a specific Grunt, you have not taken a required &quot;parent&quot; model.
+- Added Secure Crisis: Super-Powered Scoundrels.
 
 *DATAFILE REFERENCE*
 - Any entries listed as {Beta} are ones I do not own, have not seen in person, or have not been officially published in AMG living documents (Rules/FAQ/etc.). Panel to Play data is considered Beta.
@@ -21,6 +19,8 @@ Ban/Restricted: 2/3/2022
 - Restricted and Banned items will have {Restricted} or {Banned} after their name for reference. Organized Play Rosters and Squads will adhere to current Restricted and Banned lists and alert you if you are using items in excess of these rules. Open Play Rosters and Squads will not alert you or flag the items.
 
 - Selecting the &apos;Game Rules: Special Conditions&apos; force option will include a cheat sheet in your roster of all current condition markers and effects in the game.
+
+- Grunts are listed in their own category and do not have a Threat cost. Model(s) required in your force to take specific Grunts are listed after the Grunt name in [  ]. If you receive a validation error that you are limited to (maximum 0) of a specific Grunt, you have not taken a required &quot;parent&quot; model.
 
 *****
 

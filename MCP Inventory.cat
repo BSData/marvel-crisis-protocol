@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b5fb-20f9-0dce-3f02" name="MCP Inventory" revision="2202" battleScribeVersion="2.03" authorName="Uplink" authorContact="Uplink.MCP@gmail.com" library="false" gameSystemId="9c66-3ecf-4508-3b47" gameSystemRevision="2202" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b5fb-20f9-0dce-3f02" name="MCP Inventory" revision="2203" battleScribeVersion="2.03" authorName="Uplink" authorContact="Uplink.MCP@gmail.com" library="false" gameSystemId="9c66-3ecf-4508-3b47" gameSystemRevision="2203" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="cc3a-be8e-3248-8036" name=" Affiliations (Future Use)" hidden="true" collective="false" import="true" targetId="1537-dd64-b659-3a8e" type="selectionEntry"/>
     <entryLink id="add7-cf4a-08e3-6cf3" name=" Crisis Cards - Extraction" hidden="false" collective="false" import="true" targetId="aade-9898-c12d-e090" type="selectionEntry">
@@ -222,7 +222,7 @@
         <categoryLink id="9817-c541-bab8-7c5c" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="cd10-6823-cebb-aee5" name="GAMBIT (Remy LeBeau) {BETA}" hidden="false" collective="false" import="true" targetId="2645-5373-1001-2277" type="selectionEntry">
+    <entryLink id="cd10-6823-cebb-aee5" name="GAMBIT (Remy LeBeau)" hidden="false" collective="false" import="true" targetId="2645-5373-1001-2277" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="d511-1cf5-ecfd-0442" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
       </categoryLinks>
@@ -452,7 +452,7 @@
         <categoryLink id="90c5-7045-34e5-1815" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="6e6f-47f9-4ae2-6d00" name="SHADOWLAND DAREDEVIL {BETA}" hidden="false" collective="false" import="true" targetId="6474-0172-5646-8388" type="selectionEntry">
+    <entryLink id="6e6f-47f9-4ae2-6d00" name="SHADOWLAND DAREDEVIL (MATT MURDOCK) {BETA}" hidden="false" collective="false" import="true" targetId="6474-0172-5646-8388" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="09f8-af56-099d-2524" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
       </categoryLinks>
@@ -562,12 +562,12 @@
         <categoryLink id="8293-a455-964d-843d" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="c911-1cfe-f43b-fffd" name="X-23 (Laura Kinney) {BETA}" hidden="false" collective="false" import="true" targetId="7dd0-e00b-4f36-2c83" type="selectionEntry">
+    <entryLink id="c911-1cfe-f43b-fffd" name="X-23 (Laura Kinney)" hidden="false" collective="false" import="true" targetId="7dd0-e00b-4f36-2c83" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="5c73-96a7-10cd-4266" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="3459-14a2-b83a-2edd" name="HAND NINJAS {BETA}" hidden="false" collective="false" import="true" targetId="0036-82f8-1c18-a61d" type="selectionEntry">
+    <entryLink id="3459-14a2-b83a-2edd" name="HAND NINJAS [ELEKTRA, SHADOWLAND DAREDEVIL] {BETA}" hidden="false" collective="false" import="true" targetId="0036-82f8-1c18-a61d" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="541b-9e79-dd18-dd44" name="New CategoryLink" hidden="false" targetId="efe0-86c9-4b57-7046" primary="true"/>
       </categoryLinks>
@@ -1097,6 +1097,25 @@ If the roll contains at least one {FAIL}, the interacting character is placed wi
               <categoryLinks>
                 <categoryLink id="df79-2244-b199-cb5d" name="Crisis - Secure" hidden="false" targetId="75ba-74ce-7452-509c" primary="false"/>
               </categoryLinks>
+              <costs>
+                <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="fa18-c261-f933-c874" name="(20) SUPER-POWERED SCOUNDRELS FORM SINISTER SYNDICATE" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9307-ff57-3684-070c" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="6ca3-91f0-9a14-b328" name="(20) SUPER-POWERED SCOUNDRELS FORM SINISTER SYNDICATE" hidden="false" typeId="e274-6fe8-7f95-a012" typeName="Crisis">
+                  <characteristics>
+                    <characteristic name="Type" typeId="99b3-ec42-38d9-2d3a">Secure</characteristic>
+                    <characteristic name="Threat" typeId="3561-4e9e-55ca-a37d">20</characteristic>
+                    <characteristic name="Setup" typeId="7116-4232-08b5-42bc">Place 5 Ambush Tokens (Target of Opportunity) as shown on map F.</characteristic>
+                    <characteristic name="Scoring" typeId="81f5-e239-dd2d-2b7c">Players score 1 VP for each Ambush they secure during the Cleanup Phase.</characteristic>
+                    <characteristic name="Details" typeId="fc23-59e6-7090-77fa">Characters contesting an Ambush token have cover from attacks made by characters not contesting the same Ambush token.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <costs>
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
               </costs>
@@ -2516,12 +2535,12 @@ Choose an enemy character within {RNG} 4 of Carnage. Advance the chosen characte
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="9d06-dae9-ea57-6d48" name="CHARMING THIEF {BETA}" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="9d06-dae9-ea57-6d48" name="CHARMING THIEF" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2bcd-4953-0330-11db" type="max"/>
               </constraints>
               <profiles>
-                <profile id="5e96-e48b-ee80-22b7" name="CHARMING THIEF {BETA}" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+                <profile id="5e96-e48b-ee80-22b7" name="CHARMING THIEF" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
                   <characteristics>
                     <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
                     <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
@@ -2604,12 +2623,12 @@ If you do, place an unused character from your roster with a Threat Value equal 
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="c748-9fb5-9a90-75ae" name="DARK PAST {BETA}" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="c748-9fb5-9a90-75ae" name="DARK PAST" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="023c-129f-6ee1-f3a7" type="max"/>
               </constraints>
               <profiles>
-                <profile id="e948-623f-64b5-d26d" name="DARK PAST {BETA}" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+                <profile id="e948-623f-64b5-d26d" name="DARK PAST" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
                   <characteristics>
                     <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
                     <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
@@ -2731,12 +2750,12 @@ The enemy character rolls two fewer dice on all attacks this round, to a minimum
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="a20a-0092-4761-ca4d" name="DO YOU KNOW WHO I AM? {BETA}" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="a20a-0092-4761-ca4d" name="DO YOU KNOW WHO I AM?" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7ce-e297-a395-0857" type="max"/>
               </constraints>
               <profiles>
-                <profile id="0746-c961-3b82-2032" name="DO YOU KNOW WHO I AM? {BETA}" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+                <profile id="0746-c961-3b82-2032" name="DO YOU KNOW WHO I AM?" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
                   <characteristics>
                     <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
                     <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
@@ -2944,12 +2963,12 @@ If Captain Marvel used the Rocket Punch attack, Ms. Marvel may advance {M} towar
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="df33-5d89-39a5-0525" name="FASTBALL SPECIAL! {BETA}" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="df33-5d89-39a5-0525" name="FASTBALL SPECIAL!" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a4c-275d-cdc4-e9c6" type="max"/>
               </constraints>
               <profiles>
-                <profile id="466a-1c70-2e09-2e6c" name="FASTBALL SPECIAL! {BETA}" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+                <profile id="466a-1c70-2e09-2e6c" name="FASTBALL SPECIAL!" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
                   <characteristics>
                     <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
                     <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
@@ -3295,12 +3314,12 @@ This attack can only have dice added to the attack roll from {CRIT} results, and
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="693c-29f8-c254-ca93" name="INDOMITABLE {BETA}" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="693c-29f8-c254-ca93" name="INDOMITABLE" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="86ea-224e-ab8d-2d20" type="max"/>
               </constraints>
               <profiles>
-                <profile id="dc8e-bc74-f8d0-e8ed" name="INDOMITABLE {BETA}" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+                <profile id="dc8e-bc74-f8d0-e8ed" name="INDOMITABLE" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
                   <characteristics>
                     <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
                     <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
@@ -3358,12 +3377,12 @@ The character that played this card may immediately perform an attack.</characte
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="f1c7-55f1-6211-eeec" name="JONATHAN THE UNSTOPPABLE {BETA}" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="f1c7-55f1-6211-eeec" name="JONATHAN THE UNSTOPPABLE" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0c0-7c7f-b882-a74b" type="max"/>
               </constraints>
               <profiles>
-                <profile id="1de2-8949-2f66-0ea2" name="JONATHAN THE UNSTOPPABLE {BETA}" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+                <profile id="1de2-8949-2f66-0ea2" name="JONATHAN THE UNSTOPPABLE" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
                   <characteristics>
                     <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
                     <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
@@ -3380,12 +3399,12 @@ During the Cleanup Phase, if an allied Honey Badger is on the battlefield and th
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="5159-8102-fc58-fbb6" name="JOURNEY THROUGH LIMBO {BETA}" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="5159-8102-fc58-fbb6" name="JOURNEY THROUGH LIMBO" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae4f-7574-8cde-c1bd" type="max"/>
               </constraints>
               <profiles>
-                <profile id="c9ec-adbd-f4e0-f8ff" name="JOURNEY THROUGH LIMBO {BETA}" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+                <profile id="c9ec-adbd-f4e0-f8ff" name="JOURNEY THROUGH LIMBO" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
                   <characteristics>
                     <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
                     <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
@@ -3532,12 +3551,12 @@ If your squad is using the Brotherhood of Mutants affiliation, return this card 
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="9ff8-5423-132a-c07e" name="MAKIN&apos; A RUCKUS {BETA}" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="9ff8-5423-132a-c07e" name="MAKIN&apos; A RUCKUS" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb86-6c8d-47ea-3b6b" type="max"/>
               </constraints>
               <profiles>
-                <profile id="da86-b84b-1536-3f74" name="MAKIN&apos; A RUCKUS {BETA}" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+                <profile id="da86-b84b-1536-3f74" name="MAKIN&apos; A RUCKUS" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
                   <characteristics>
                     <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
                     <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
@@ -3621,12 +3640,12 @@ You may reroll any number of opposing defense dice in the defense roll.</charact
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="96a8-48e0-8bfb-55bc" name="MIND IF I CUT IN? {BETA}" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="96a8-48e0-8bfb-55bc" name="MIND IF I CUT IN?" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a6d-4afb-89a2-3c39" type="max"/>
               </constraints>
               <profiles>
-                <profile id="cc48-4f61-0061-c6f6" name="MIND IF I CUT IN? {BETA}" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+                <profile id="cc48-4f61-0061-c6f6" name="MIND IF I CUT IN?" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
                   <characteristics>
                     <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
                     <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
@@ -3771,12 +3790,12 @@ Add two dice to the attack roll.</characteristic>
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="a4fb-382c-cfce-aec0" name="PARDON ME, SUGAH {BETA}" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="a4fb-382c-cfce-aec0" name="PARDON ME, SUGAH" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="130c-2563-6aef-30e1" type="max"/>
               </constraints>
               <profiles>
-                <profile id="07c7-614a-e991-bc2b" name="PARDON ME, SUGAH {BETA}" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+                <profile id="07c7-614a-e991-bc2b" name="PARDON ME, SUGAH" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
                   <characteristics>
                     <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
                     <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
@@ -4544,12 +4563,12 @@ Choose a character within {RNG} 3 of Doctor Strange. That character gains three 
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="931b-61fa-7e08-9716" name="VERSATILE STRATEGY {BETA}" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="931b-61fa-7e08-9716" name="VERSATILE STRATEGY" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51db-98d2-b01f-50dc" type="max"/>
               </constraints>
               <profiles>
-                <profile id="e9be-ac40-af6a-5c10" name="VERSATILE STRATEGY {BETA}" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+                <profile id="e9be-ac40-af6a-5c10" name="VERSATILE STRATEGY" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
                   <characteristics>
                     <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
                     <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
@@ -4650,12 +4669,12 @@ A character damaged in this way drops all objective tokens it is holding. The pl
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="de41-1742-30ff-20e4" name="WOLVERINES {BETA}" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="de41-1742-30ff-20e4" name="WOLVERINES" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe32-1c50-5922-4591" type="max"/>
               </constraints>
               <profiles>
-                <profile id="fd50-7260-302e-966f" name="WOLVERINES {BETA}" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+                <profile id="fd50-7260-302e-966f" name="WOLVERINES" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
                   <characteristics>
                     <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
                     <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
@@ -7208,7 +7227,7 @@ If, at any time, this is the only character you control, you lose the game.</cha
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="3.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cb5b-26ba-f52b-cebc" name="COLOSSUS (Piotr Rasputin) {BETA}" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="cb5b-26ba-f52b-cebc" name="COLOSSUS (Piotr Rasputin)" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="356c-36ea-d742-b451" type="max"/>
       </constraints>
@@ -8793,7 +8812,7 @@ Additionally, when calculating successes or failure of this character&apos;s att
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="4.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2645-5373-1001-2277" name="GAMBIT (Remy LeBeau) {BETA}" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="2645-5373-1001-2277" name="GAMBIT (Remy LeBeau)" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdce-b5ea-d74f-9757" type="max"/>
       </constraints>
@@ -9579,7 +9598,7 @@ Additionally, when calculating successes or failure of this character&apos;s att
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="4.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cc53-00a0-f123-9546" name="HONEY BADGER (Gabrielle Kinney) {BETA}" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="cc53-00a0-f123-9546" name="HONEY BADGER (Gabrielle Kinney)" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c07a-83ad-64dc-8415" type="max"/>
       </constraints>
@@ -10305,7 +10324,7 @@ Additionally, during the Power Phase, this character gains 1 additional {PWR}.</
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a2dc-ea59-38da-b3c4" name="JUGGERNAUT (Cain Marko) {BETA}" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="a2dc-ea59-38da-b3c4" name="JUGGERNAUT (Cain Marko)" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0877-4b9d-7c15-48bd" type="max"/>
       </constraints>
@@ -11121,7 +11140,7 @@ Additionally, each allied Healthy allied character contesting an objective token
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2a33-a95b-077e-ca00" name="MAGIK (Illyana Rasputin) {BETA}" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="2a33-a95b-077e-ca00" name="MAGIK (Illyana Rasputin)" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b196-dc22-eac2-bfeb" type="max"/>
       </constraints>
@@ -12673,7 +12692,7 @@ Additionally, at the end of this character&apos;s activation, enemy characters w
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="2.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="515b-1edf-0e1e-97b1" name="ROGUE (Anna Marie LeBeau) {BETA}" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="515b-1edf-0e1e-97b1" name="ROGUE (Anna Marie LeBeau)" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6593-e6a2-d95d-8fbd" type="max"/>
       </constraints>
@@ -15246,7 +15265,7 @@ Phased: This character rolls three additional dice when defending against {ENRG}
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="2.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7dd0-e00b-4f36-2c83" name="X-23 (Laura Kinney) {BETA}" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="7dd0-e00b-4f36-2c83" name="X-23 (Laura Kinney)" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c381-09f0-c32f-c1f7" type="max"/>
       </constraints>
