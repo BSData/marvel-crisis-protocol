@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b5fb-20f9-0dce-3f02" name="MCP Inventory" revision="2203" battleScribeVersion="2.03" authorName="Uplink" authorContact="Uplink.MCP@gmail.com" library="false" gameSystemId="9c66-3ecf-4508-3b47" gameSystemRevision="2203" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b5fb-20f9-0dce-3f02" name="MCP Inventory" revision="2204" battleScribeVersion="2.03" authorName="Uplink" authorContact="Uplink.MCP@gmail.com" library="false" gameSystemId="9c66-3ecf-4508-3b47" gameSystemRevision="2204" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="cc3a-be8e-3248-8036" name=" Affiliations (Future Use)" hidden="true" collective="false" import="true" targetId="1537-dd64-b659-3a8e" type="selectionEntry"/>
     <entryLink id="add7-cf4a-08e3-6cf3" name=" Crisis Cards - Extraction" hidden="false" collective="false" import="true" targetId="aade-9898-c12d-e090" type="selectionEntry">
@@ -212,7 +212,7 @@
         <categoryLink id="d52e-fd8d-7589-3bbb" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="c4dd-4a3b-1332-62eb" name="ELEKTRA {BETA INCOMPLETE}" hidden="true" collective="false" import="true" targetId="b805-8cf9-625c-3b1a" type="selectionEntry">
+    <entryLink id="c4dd-4a3b-1332-62eb" name="ELEKTRA (Elektra Natchios) {BETA}" hidden="false" collective="false" import="true" targetId="b805-8cf9-625c-3b1a" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="cc36-ae01-35b5-66e2" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
       </categoryLinks>
@@ -8677,31 +8677,81 @@ Additionally, when calculating successes or failure of this character&apos;s att
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b805-8cf9-625c-3b1a" name="ELEKTRA {BETA INCOMPLETE}" hidden="true" collective="false" import="true" type="model">
+    <selectionEntry id="b805-8cf9-625c-3b1a" name="ELEKTRA (Elektra Natchios) {BETA}" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b4e-9531-29fc-0fc6" type="max"/>
       </constraints>
       <profiles>
         <profile id="34dd-3ec2-20e2-bfe9" name="Healthy" hidden="false" typeId="fde4-96d9-2028-2529" typeName="    Character">
           <characteristics>
-            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363"/>
-            <characteristic name="Speed" typeId="ba74-030d-982e-7e70"/>
-            <characteristic name="Size" typeId="40df-7d54-a856-5953"/>
-            <characteristic name="Threat" typeId="b915-b25f-cb12-b651"/>
-            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335"/>
-            <characteristic name="Energy Defense" typeId="0509-5c52-7571-39ad"/>
-            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292"/>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">6</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">M</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">2</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">4</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">3</characteristic>
+            <characteristic name="Energy Defense" typeId="0509-5c52-7571-39ad">3</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">3</characteristic>
           </characteristics>
         </profile>
         <profile id="443b-8ab6-33b8-d191" name="Injured" hidden="false" typeId="fde4-96d9-2028-2529" typeName="    Character">
           <characteristics>
-            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363"/>
-            <characteristic name="Speed" typeId="ba74-030d-982e-7e70"/>
-            <characteristic name="Size" typeId="40df-7d54-a856-5953"/>
-            <characteristic name="Threat" typeId="b915-b25f-cb12-b651"/>
-            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335"/>
-            <characteristic name="Energy Defense" typeId="0509-5c52-7571-39ad"/>
-            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292"/>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">5</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">M</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">2</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">4</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">3</characteristic>
+            <characteristic name="Energy Defense" typeId="0509-5c52-7571-39ad">3</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ce17-2fc2-0610-0004" name="ANCIENT THROWING BLADES" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="   Attacks">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Myst</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">3</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">5</characteristic>
+            <characteristic name="Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">- {WILD} Pierce: Change one of the defending character&apos;s {CRIT}, {WILD}, or {BLOCK} results to a blank.
+- {WILD} Bleed: After this attack is resolved, the target character gains the Bleed special condition.
+- After this attack is resolved, if there is not an allied Hand Ninjas character in play, place it in play within {RNG} 1 of this character with an Activated token. It is part of your squad.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e24f-fa9e-643f-c6a7" name="IMPALE" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="   Attacks">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Phys</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">1</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">8</characteristic>
+            <characteristic name="Cost" typeId="711d-c2bc-e2d4-f398">5</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">- If an allied Hand Ninjas character is within {RNG} 2 of the target character, add 2 dice to the attack roll.
+- The defending character does not add {CRIT} results in its defense roll to its total successes and cannot add additional dice to its defense roll as a result of {CRIT} results.
+- After this attack is resolved, this character may advance {M}.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a750-0c39-44be-4c0a" name="ASSASSIN&apos;S STEP" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="  Active Superpowers">
+          <characteristics>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">2</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">When this character damages an enemy character with an attack, after the attack is resolved it may use this superpower. Place this character within {RNG} 1 of the damaged character. This superpower can be used only once per turn.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8bf9-115a-370c-be2c" name="MARTIAL PROWESS" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="  Active Superpowers">
+          <characteristics>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">2</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">When this character is targeted by an attack within {RNG} 2, it may use this superpower. Instead of rolling dice equal to its Defense, it rolls 5 defense dice. Then, if this character suffered no {DMG} from the attack, after the attack is resolved, the attacker suffers 2 {DMG}.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="27d8-8b19-445d-7c59" name="OUT FOR BLOOD" hidden="false" typeId="6b81-fb1a-574f-32e2" typeName=" Innate Superpowers">
+          <characteristics>
+            <characteristic name="Type" typeId="e9b9-de48-7a91-1e15">Innate</characteristic>
+            <characteristic name="Cost" typeId="f183-829f-8371-8b7c">-</characteristic>
+            <characteristic name="Special Rules" typeId="052f-28a4-12f9-0691">When this character deals damage to an enemy character with an attack or superpower, after the attack or superpower is resolved, this character gains 1 {PWR}.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="89af-e0ff-e9d4-2517" name="STEALTH" hidden="false" typeId="6b81-fb1a-574f-32e2" typeName=" Innate Superpowers">
+          <characteristics>
+            <characteristic name="Type" typeId="e9b9-de48-7a91-1e15">Innate</characteristic>
+            <characteristic name="Cost" typeId="f183-829f-8371-8b7c">-</characteristic>
+            <characteristic name="Special Rules" typeId="052f-28a4-12f9-0691">Characters must be within {RNG} 3 of this character to target it with attacks.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8709,7 +8759,7 @@ Additionally, when calculating successes or failure of this character&apos;s att
         <categoryLink id="3e1b-1596-b3e0-1c68" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+        <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="4.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fba2-eb28-2620-dbfc" name="ENCHANTRESS (Amora)" hidden="false" collective="false" import="true" type="model">
