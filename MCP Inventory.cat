@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b5fb-20f9-0dce-3f02" name="MCP Inventory" revision="2204" battleScribeVersion="2.03" authorName="Uplink" authorContact="Uplink.MCP@gmail.com" library="false" gameSystemId="9c66-3ecf-4508-3b47" gameSystemRevision="2204" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b5fb-20f9-0dce-3f02" name="MCP Inventory" revision="2205" battleScribeVersion="2.03" authorName="Uplink" authorContact="Uplink.MCP@gmail.com" library="false" gameSystemId="9c66-3ecf-4508-3b47" gameSystemRevision="2205" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="cc3a-be8e-3248-8036" name=" Affiliations (Future Use)" hidden="true" collective="false" import="true" targetId="1537-dd64-b659-3a8e" type="selectionEntry"/>
     <entryLink id="add7-cf4a-08e3-6cf3" name=" Crisis Cards - Extraction" hidden="false" collective="false" import="true" targetId="aade-9898-c12d-e090" type="selectionEntry">
@@ -387,7 +387,7 @@
         <categoryLink id="f449-8682-0dc2-8986" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="dcab-d657-6ab6-ecae" name="NICK FURY (Nicholas J. Fury, Jr.) {BETA}" hidden="false" collective="false" import="true" targetId="6e4f-99c9-feb5-cdae" type="selectionEntry">
+    <entryLink id="dcab-d657-6ab6-ecae" name="NICK FURY (Nicholas J. Fury, Jr.)" hidden="false" collective="false" import="true" targetId="6e4f-99c9-feb5-cdae" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="95ec-a993-4ca9-fad4" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
       </categoryLinks>
@@ -427,7 +427,7 @@
         <categoryLink id="db07-59b0-8179-3a07" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="8a60-23bc-069d-3cc8" name="ROGUE (Anna Marie LeBeau) {BETA}" hidden="false" collective="false" import="true" targetId="515b-1edf-0e1e-97b1" type="selectionEntry">
+    <entryLink id="8a60-23bc-069d-3cc8" name="ROGUE (Anna Marie LeBeau)" hidden="false" collective="false" import="true" targetId="515b-1edf-0e1e-97b1" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="a91f-83c3-7acc-cd40" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
       </categoryLinks>
@@ -437,7 +437,7 @@
         <categoryLink id="2618-b86a-5d05-78ea" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="ec86-6162-69d4-fce5" name="S.H.I.E.L.D. AGENTS {BETA}" hidden="false" collective="false" import="true" targetId="fed0-8226-baec-5073" type="selectionEntry">
+    <entryLink id="ec86-6162-69d4-fce5" name="S.H.I.E.L.D. AGENTS [NICK FURY] {BETA}" hidden="false" collective="false" import="true" targetId="fed0-8226-baec-5073" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="ee1e-7157-90db-afa0" name="New CategoryLink" hidden="false" targetId="efe0-86c9-4b57-7046" primary="true"/>
       </categoryLinks>
@@ -1871,6 +1871,49 @@ If 10 or more {PWR} was spent to play this card, take the Priority token.</chara
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="a393-171f-50bd-29be" name="BOUNTY HUNTERS" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a94-71cf-f54d-57d2" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="5695-0aa8-531f-c93a" name="BOUNTY HUNTERS" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+                  <characteristics>
+                    <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Criminal Syndicate</characteristic>
+                    <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
+                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">After deployment is complete, an allied Elektra or allied Taskmaster may play this card.
+Mark the enemy character with the highest Threat Value with a Bounty token. If the marked character is Dazed or KO&apos;d by the character that played this card during its activation, the character that played this card immediately makes one action after the effect is resolved, and the Bounty token is removed from the marked character.
+If there is a tie for the highest Threat Value, choose one of the tied characters to receive the Bounty token.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="b03b-ac0c-5ff4-7a8f" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7b17-1a83-19f4-b653" name="CRUEL TUTELAGE" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4db1-cc83-fbc2-a62f" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="00bf-b025-b59d-19d7" name="CRUEL TUTELAGE" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+                  <characteristics>
+                    <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Criminal Syndicate</characteristic>
+                    <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
+                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">During a Criminal Syndicate character&apos;s activation, it may spend 1 {PWR} to play this card.
+The next attack made by this character this turn adds 3 dice to its attack roll. If the attack roll contains one or more {FAIL} results, the attacking character gains the Stagger special condition at the end of its activation.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="cea3-be9e-a5f6-1637" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+              </costs>
+            </selectionEntry>
             <selectionEntry id="73d0-8647-5bb8-c9d7" name="CRUELTY" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6bb9-b53c-5fe2-98a1" type="max"/>
@@ -1889,6 +1932,26 @@ This attack can only have dice added to the attack from {CRIT} results, and this
               </profiles>
               <categoryLinks>
                 <categoryLink id="e62b-7358-2e7d-fd0c" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c80b-a420-6885-c7d4" name="NO MERCY" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53c8-d16c-8183-fcfe" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="9ea5-eb0e-f06c-a903" name="NO MERCY" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+                  <characteristics>
+                    <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Criminal Syndicate</characteristic>
+                    <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
+                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">When an allied character would Daze an enemy character, the allied character may play this card. This character gains 3 {PWR}.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="7a78-2728-e04d-7289" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
@@ -2168,7 +2231,165 @@ Each character that spent {PWR} may immediately perform an attack with a {PWR} c
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="a6a9-8778-981a-74a9" name="S.H.I.E.L.D. {BETA INCOMPLETE}" hidden="true" collective="false" import="true"/>
+        <selectionEntryGroup id="a6a9-8778-981a-74a9" name="S.H.I.E.L.D." hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="f29e-63f2-426d-e2a2" name="BATTLEFIELD MEDICINE" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b28a-30eb-f485-f2a3" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="ce39-e912-aa87-843c" name="BATTLEFIELD MEDICINE" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+                  <characteristics>
+                    <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">S.H.I.E.L.D.</characteristic>
+                    <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
+                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">During a S.H.I.E.L.D. character&apos;s activation, it may spend 2 {PWR} to play this card.
+Remove up to 3 {DMG} and one special condition from this character or an allied character without a Dazed token within {RNG} 3 of this character.
+This card may not be included in a roster or a squad with the Medpack Team Tactic card.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="fa0c-70d3-4f7c-4975" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a112-43b8-53d4-5bcb" name="DEFENSIVE PROTOTYPE" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a526-e280-f0de-c13e" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="b1be-0201-6920-2202" name="DEFENSIVE PROTOTYPE" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+                  <characteristics>
+                    <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">S.H.I.E.L.D.</characteristic>
+                    <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
+                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">Two S.H.I.E.L.D. characters may both spend 1 {PWR} to play this card.
+While these characters are within {RNG} 3 of each other this round, they cannot be pushed, thrown, or placed by enemy effects, and advancing enemy characters cannot place a movement tool that would overlap either allied character or a straight line drawn between them, unless the enemy characters are climbing. Characters cannot draw LOS through these characters or through a straight line drawn between them this round.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="255e-73c0-e3b1-1b35" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f86a-0ff5-6676-9f4a" name="HARD RESET" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1bd4-0b50-f42d-5792" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="3778-aa90-e227-da4b" name="HARD RESET" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+                  <characteristics>
+                    <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">S.H.I.E.L.D.</characteristic>
+                    <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
+                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">When an allied S.H.I.E.L.D. character is attacking or defending, before the &quot;Calculate Success or Failure&quot; step of the attack (at the end of the &quot;Modify Dice&quot; step), it may spend 3 {PWR} to play this card.
+The attacking and defending characters reroll all of their attack and defense dice, including {FAIL} results.
+This card may not be included in a roster or a squad with the Recalibration Matrix Team Tactic card.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="4370-5816-141d-8c96" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f43b-8eca-8a6b-34b1" name="HELICARRIER STRIKE" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f8a-dc97-60f7-f2ff" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="8c69-ea45-a9f3-c94a" name="HELICARRIER STRIKE" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+                  <characteristics>
+                    <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">S.H.I.E.L.D.</characteristic>
+                    <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
+                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">{PHYS} HELICARRIER STRIKE {RNG} 5 {STR} 6 {COST} 0
+- This attack ignores LOS, and the defending character does not benefit from cover.
+- Before choosing a target, this character chooses whether this attack&apos;s type is {PHYS} or {ENRG}.
+- {WILD} Scorched Earth: After this attack is resolved, other enemy characters within {RNG} 2 of the target character suffer 1 {DMG}. If the attack type was {PHYS}, the target character and other enemy characters within {RNG} 2 of the target character gain the Bleed special condition. If the attack type was {ENRG}, the target character and other enemy characters within {RNG} 2 of the target character gain the Incinerate special condition.
+
+During its activation, and allied S.H.I.E.L.D. character may spend 3 {PWR} to play this card.
+This character may use the attack listed above once this activation.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="d8db-62e4-cad1-0154" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="80ae-98b6-c942-5f78" name="LIFE MODEL DECOY" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e96c-cc8b-42e3-3e0f" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="2bc5-f808-ffa7-7912" name="LIFE MODEL DECOY" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+                  <characteristics>
+                    <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">S.H.I.E.L.D.</characteristic>
+                    <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
+                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">Nick Fury may spend 3 {PWR} to play this card.
+Nick Fury gains three LMD tokens. Each time Nick Fury is targeted by an attack, shuffle the tokens and reveal one at random. If the token has an LMD on the back, you may reroll any number of the attacker&apos;s dice. If it has Nick Fury on the back, the attack continues as normal. At the end of the round, remove all LMD tokens from the character.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="0432-4bd4-7463-da80" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d444-d5f2-63e7-94a8" name="SITREP" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="76fc-a3ce-b3d6-b8a5" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="a4e5-15bf-edb3-2512" name="SITREP" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+                  <characteristics>
+                    <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">S.H.I.E.L.D.</characteristic>
+                    <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
+                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">During a S.H.I.E.L.D. character&apos;s activation, it may spend 1 {PWR} to play this card.
+Choose another allied character within {RNG} 3 of the character that played this card. The chosen character may advance {S}.
+This card may not be included in roster or squad with the Tactical Analysis Team Tactic card.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="f1e0-642e-b1e3-477c" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b2a0-d206-324e-9739" name="THE SHIELDMOBILE" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b671-66a6-d21d-5398" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="44fb-fec4-4daa-404d" name="THE SHIELDMOBILE" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+                  <characteristics>
+                    <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">S.H.I.E.L.D.</characteristic>
+                    <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
+                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">An allied S.H.I.E.L.D. character may spend 3 {PWR} to play this card.
+This character gains the Flight {INNATE} superpower this round. It immediately advances {L}.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="9104-0c50-7893-cd3f" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
         <selectionEntryGroup id="0428-1739-bfe3-0cd3" name="Spider-Foes" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="21b4-54ab-7029-ce9a" name="NEOGENETIC RECOMBINATOR" hidden="false" collective="false" import="true" type="upgrade">
@@ -2872,6 +3093,28 @@ If the active character advances, it may use the {L} movement tool during this m
               </profiles>
               <categoryLinks>
                 <categoryLink id="0b2f-4677-88f5-b088" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0c21-eef2-693b-7793" name="EYE IN THE SKY" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8353-7253-a694-f68e" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="cfc6-c797-d445-9177" name="EYE IN THE SKY" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+                  <characteristics>
+                    <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
+                    <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
+                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">When an allied character is targeted by an attack, Nick Fury may spend 3 {PWR} to play this card.
+The targeted character makes a {S} advance. If at the end of the advance the character is outside of the attack&apos;s {RNG} or the attacker&apos;s LOS, the attack ends. If it is the attacker&apos;s activation and the attack did not target multiple characters, the attacker may make another action.
+If your squad is using the S.H.I.E.L.D. affiliation, return this card to your available Team Tactic cards during the Cleanup Phase. This card may be played again this game.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="4e1e-d234-3274-4f03" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
@@ -3988,6 +4231,27 @@ This character gains the Stealth {INNATE} superpower until the end of the round.
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="4344-016d-2711-39d9" name="REPOSITION" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd99-ce5a-8e2d-596b" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="2d53-1d1c-f665-f117" name="REPOSITION" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+                  <characteristics>
+                    <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
+                    <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
+                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">Nick Fury may spend 2 {PWR} to play this card.
+If an allied S.H.I.E.L.D. Agents character is on the battlefield, place an allied Nick Fury within {RNG} 1 of the allied S.H.I.E.L.D. Agents character.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="713f-1f2b-873e-746c" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+              </costs>
+            </selectionEntry>
             <selectionEntry id="8bb1-1254-df8f-a122" name="REVERSAL" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e8f-1619-778d-2ee0" type="max"/>
@@ -4155,6 +4419,31 @@ The enemy superpower has no effect and cannot be used again for the rest of this
               </profiles>
               <categoryLinks>
                 <categoryLink id="a5f3-26fb-ec14-ecf7" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="bf39-fc6c-c351-2c5e" name="SHURIKEN ARASHI" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c1e-458c-40f3-d7b6" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="0c07-4fa3-18e1-1d79" name="SHURIKEN ARASHI" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+                  <characteristics>
+                    <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
+                    <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
+                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">{PHYS} SHURIKEN ARASHI {RNG} 3 {STR} 10 {COST} 0
+- Before creating the dice pool for this attack, the target character may advance {S}. Then, if the target character is benefitting from cover from this attack, this attack rolls 5 fewer attack dice.
+- After this attack is resolved, remove all allied Hand Ninjas from the battlefield.
+
+During Shadowland Daredevil&apos;s activation, he may spend 2 {PWR} to play this card.
+If there is an allied Hand Ninjas character within {RNG} 2 of Shadowland Daredevil, Shadowland Daredevil may use the Shuriken Arashi attack shown above once this activation. Range, cover, and LOS are measured from the Hand Ninjas instead of Shadowland Daredevil.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="6940-f069-8425-4da0" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
@@ -4346,6 +4635,30 @@ Until the end of the Cleanup Phase, when an enemy character makes an attack, def
               </profiles>
               <categoryLinks>
                 <categoryLink id="94ec-b430-45e3-034c" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e992-c2cf-5555-63e5" name="THE INITIATIVE" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f91-7828-489c-b7a6" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="0606-2b7f-22bb-b0fc" name="THE INITIATIVE" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+                  <characteristics>
+                    <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
+                    <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
+                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">When you include this card in your squad, choose one non-S.H.I.E.L.D. affiliated character in your squad. It is now a S.H.I.E.L.D. affiliated character. If your squad is using the S.H.I.E.L.D. affiliation, when the chosen character is deployed it gains a Gadget token. After all characters are deployed, discard this Team Tactic card.
+The character with the Gadget token may use any of the following special rules:
+- When this character is defending, it may discard the Gadget token to reroll one of its defense dice.
+- During this character&apos;s activation, it may discard the Gadget token to remove one special condition from itself.
+- During this character&apos;s activation, it may discard the Gadget token to move one objective token it is holding from itself to an allied character within {RNG} 1 of itself or from an allied character within {RNG} 1 of this character to this character. This card does not allow a character to hold more tokens than the crisis specifies.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="459b-4534-9ba6-4f95" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
@@ -4558,6 +4871,27 @@ Choose a character within {RNG} 3 of Doctor Strange. That character gains three 
               </profiles>
               <categoryLinks>
                 <categoryLink id="51bf-1a27-0e52-0051" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6bf4-ba77-e7fa-6ea1" name="VENDETTA" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6bfd-36bc-97ab-e949" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="ec2f-4d7d-7e3f-7161" name="VENDETTA" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+                  <characteristics>
+                    <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
+                    <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
+                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">When an allied character is Dazed or KO&apos;d by an enemy effect, an allied Elektra may play this card.
+Mark the enemy character that caused the effect with a Vendetta token. The next attack made by Elektra targeting the character with the Vendetta token adds 3 dice to its attack roll. After the attack is resolved, remove the Vendetta token.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="a884-11c5-75cf-d621" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
@@ -5733,7 +6067,7 @@ Additionally, during the Power Phase, this character gains 1 additional {PWR}.</
           <characteristics>
             <characteristic name="Type" typeId="f59f-a16c-8938-4be1">Reactive</characteristic>
             <characteristic name="Cost" typeId="3a1f-904d-3b3e-abfb">X</characteristic>
-            <characteristic name="Special Rules" typeId="e05d-5a10-9d52-550c">After this character rolls defense or dodge dice, it may spend up to 3 {PWR} to use this superpower. For each 1 {PWR} spent, this character may reroll one of its defense or dodge dice.</characteristic>
+            <characteristic name="Special Rules" typeId="e05d-5a10-9d52-550c">While this character is defending or dodging, during the Modify Dice step, it may spend up to 3 {PWR} to use this superpower. For each 1 {PWR} spent, this character may reroll one of its defense or dodge dice.</characteristic>
           </characteristics>
         </profile>
         <profile id="59bc-27f3-80b2-8a40" name="DISCONCERTING, YET PROVOCATIVE!" hidden="false" typeId="6b81-fb1a-574f-32e2" typeName=" Innate Superpowers">
@@ -6210,6 +6544,7 @@ Additionally, during the Power Phase, this character gains 1 additional {PWR}.</
         <categoryLink id="2b3e-2b0e-bdd5-0ce5" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
         <categoryLink id="84a7-0a2e-6f2f-563e" name="A-Force" hidden="false" targetId="55c4-9af0-608a-49ab" primary="false"/>
         <categoryLink id="0bea-ac76-1e16-3443" name="Avengers" hidden="false" targetId="d6c4-f011-cd8c-5451" primary="false"/>
+        <categoryLink id="3938-2bc3-5a83-ff97" name="S.H.I.E.L.D." hidden="false" targetId="44da-2d91-089d-8aad" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="2.0"/>
@@ -6298,6 +6633,7 @@ Additionally, during the Power Phase, this character gains 1 additional {PWR}.</
         <categoryLink id="530b-767a-3c57-e143" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
         <categoryLink id="7667-2299-22b9-6289" name="A-Force" hidden="false" targetId="55c4-9af0-608a-49ab" primary="false"/>
         <categoryLink id="2495-a908-3e10-df6e" name="Avengers" hidden="false" targetId="d6c4-f011-cd8c-5451" primary="false"/>
+        <categoryLink id="e9a1-5149-9a68-9fb3" name="S.H.I.E.L.D." hidden="false" targetId="44da-2d91-089d-8aad" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="3.0"/>
@@ -6378,7 +6714,7 @@ Additionally, during the Power Phase, this character gains 1 additional {PWR}.</
           <characteristics>
             <characteristic name="Type" typeId="f59f-a16c-8938-4be1">Reactive</characteristic>
             <characteristic name="Cost" typeId="3a1f-904d-3b3e-abfb">2</characteristic>
-            <characteristic name="Special Rules" typeId="e05d-5a10-9d52-550c">When this character is defending against a {PHYS} or {MYST} attack, after rolling its defense dice it may use this superpower. This character may reroll any number of its defense dice, including {FAIL} results.</characteristic>
+            <characteristic name="Special Rules" typeId="e05d-5a10-9d52-550c">While this character is defending against a {PHYS} or {MYST} attack, during the Modify Dice step of the attack, it may use this superpower. This character may reroll any number of its defense dice, including {FAIL} results.</characteristic>
           </characteristics>
         </profile>
         <profile id="6ae9-14f9-5482-b9c7" name="VAMPIRIC IMMORTALITY" hidden="false" typeId="6b81-fb1a-574f-32e2" typeName=" Innate Superpowers">
@@ -8677,7 +9013,7 @@ Additionally, when calculating successes or failure of this character&apos;s att
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b805-8cf9-625c-3b1a" name="ELEKTRA (Elektra Natchios) {BETA}" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="b805-8cf9-625c-3b1a" name="ELEKTRA (Elektra Natchios)" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b4e-9531-29fc-0fc6" type="max"/>
       </constraints>
@@ -8757,6 +9093,8 @@ Additionally, when calculating successes or failure of this character&apos;s att
       </profiles>
       <categoryLinks>
         <categoryLink id="3e1b-1596-b3e0-1c68" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
+        <categoryLink id="cf17-f4d9-7ec9-14c5" name="Criminal Syndicate" hidden="false" targetId="62e3-8aa2-ed7a-9e44" primary="false"/>
+        <categoryLink id="3a3b-841b-0a88-6d9a" name="Defenders" hidden="false" targetId="65b9-6527-31f8-65c2" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="4.0"/>
@@ -9410,7 +9748,7 @@ Additionally, when calculating successes or failure of this character&apos;s att
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="3.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0036-82f8-1c18-a61d" name="HAND NINJAS [ELEKTRA, SHADOWLAND DAREDEVIL] {BETA}" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="0036-82f8-1c18-a61d" name="HAND NINJAS [ELEKTRA, SHADOWLAND DAREDEVIL]" hidden="false" collective="false" import="true" type="model">
       <modifierGroups>
         <modifierGroup>
           <conditionGroups>
@@ -9550,6 +9888,7 @@ Additionally, when calculating successes or failure of this character&apos;s att
         <categoryLink id="4340-a198-1c66-e90a" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
         <categoryLink id="b953-e7b5-b890-18cf" name="Avengers" hidden="false" targetId="d6c4-f011-cd8c-5451" primary="false"/>
         <categoryLink id="515a-9698-ea72-b86f" name="Defenders" hidden="false" targetId="65b9-6527-31f8-65c2" primary="false"/>
+        <categoryLink id="85a6-b738-9c08-da40" name="S.H.I.E.L.D." hidden="false" targetId="44da-2d91-089d-8aad" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="3.0"/>
@@ -10278,6 +10617,7 @@ Additionally, during the Power Phase, this character gains 1 additional {PWR}.</
       <categoryLinks>
         <categoryLink id="ab09-374e-4df1-40aa" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
         <categoryLink id="5ffb-3016-fbcc-4447" name="Avengers" hidden="false" targetId="d6c4-f011-cd8c-5451" primary="false"/>
+        <categoryLink id="cfa2-ae89-8e0f-346f" name="S.H.I.E.L.D." hidden="false" targetId="44da-2d91-089d-8aad" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="3.0"/>
@@ -10616,8 +10956,8 @@ Additionally, during the Power Phase, this character gains 1 additional {PWR}.</
         </profile>
         <profile id="fb50-d674-948a-a429" name="ILLICIT NETWORK (AFFILIATION: CRIMINAL SYNDICATE)" hidden="false" typeId="aa85-0b33-2742-db0e" typeName="   Leadership">
           <characteristics>
-            <characteristic name="Special Rules" typeId="c95d-3ead-781d-3833">Once per turn at any time during an allied character&apos;s activation it may spend 2 {PWR} to use this Leadership Ability. Move one Asset or Civilian token being held by the active character to another allied character within {RNG} 3. A character cannot hold more tokens than allowed by the Crisis due to this leadership ability.
-Additionally, each allied Healthy allied character contesting an objective token counts as two Healthy characters when determining who is securing the objective token.</characteristic>
+            <characteristic name="Special Rules" typeId="c95d-3ead-781d-3833">Once per turn, at any time during an allied character’s activation, it may spend 2 {PWR} to use this Leadership Ability. Move one Asset or Civilian token being held by the active character to another allied character within {RNG} 3. A character cannot hold more tokens than allowed by the crisis due to this Leadership Ability.
+Additionally, each Healthy non-Grunt allied character contesting an objective token counts as two Healthy characters when determining who is securing the objective token.</characteristic>
           </characteristics>
         </profile>
         <profile id="2c1f-3eb1-87e6-879d" name="STREET-LEVEL NEGOTIATIONS" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="  Active Superpowers">
@@ -12047,7 +12387,7 @@ Interact (Secure Objective Token): Place a token on this objective token. While 
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="2.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6e4f-99c9-feb5-cdae" name="NICK FURY (Nicholas J. Fury, Jr.) {BETA}" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="6e4f-99c9-feb5-cdae" name="NICK FURY (Nicholas J. Fury, Jr.)" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ec3-1697-101a-8061" type="max"/>
       </constraints>
@@ -12946,7 +13286,7 @@ Additionally, at the end of this character&apos;s activation, enemy characters w
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="4.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fed0-8226-baec-5073" name="S.H.I.E.L.D. AGENTS [NICK FURY] {BETA}" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="fed0-8226-baec-5073" name="S.H.I.E.L.D. AGENTS [NICK FURY]" hidden="false" collective="false" import="true" type="model">
       <modifierGroups>
         <modifierGroup>
           <conditionGroups>
@@ -13195,7 +13535,7 @@ Additionally, at the end of this character&apos;s activation, enemy characters w
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6474-0172-5646-8388" name="SHADOWLAND DAREDEVIL (MATT MURDOCK) {BETA}" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="6474-0172-5646-8388" name="SHADOWLAND DAREDEVIL (MATT MURDOCK)" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cb6-5b8b-4d8b-7c77" type="max"/>
       </constraints>
@@ -13394,6 +13734,7 @@ Additionally, at the end of this character&apos;s activation, enemy characters w
         <categoryLink id="702a-33b1-3bad-95e7" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
         <categoryLink id="299b-9976-e798-49cd" name="A-Force" hidden="false" targetId="55c4-9af0-608a-49ab" primary="false"/>
         <categoryLink id="d1ac-cea4-f6b5-9607" name="Avengers" hidden="false" targetId="d6c4-f011-cd8c-5451" primary="false"/>
+        <categoryLink id="15e2-eb43-0c7b-4eac" name="S.H.I.E.L.D." hidden="false" targetId="44da-2d91-089d-8aad" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="6.0"/>
@@ -14045,6 +14386,7 @@ Additionally, when an allied character is targeted by an attack and the attacker
       <categoryLinks>
         <categoryLink id="11bc-821a-11ca-8da2" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
         <categoryLink id="171a-e6d6-3439-75da" name="Criminal Syndicate" hidden="false" targetId="62e3-8aa2-ed7a-9e44" primary="false"/>
+        <categoryLink id="5352-75b4-01f5-8b41" name="S.H.I.E.L.D." hidden="false" targetId="44da-2d91-089d-8aad" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="3.0"/>
@@ -14911,6 +15253,7 @@ Phased: This character rolls three additional dice when defending against {ENRG}
       <categoryLinks>
         <categoryLink id="4ef4-3d71-c84a-3984" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
         <categoryLink id="e733-b55f-5d7b-6cef" name="Avengers" hidden="false" targetId="d6c4-f011-cd8c-5451" primary="false"/>
+        <categoryLink id="0938-1955-b8e2-e886" name="S.H.I.E.L.D." hidden="false" targetId="44da-2d91-089d-8aad" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="3.0"/>
@@ -15140,6 +15483,7 @@ Phased: This character rolls three additional dice when defending against {ENRG}
       <categoryLinks>
         <categoryLink id="48db-ef8b-a0ce-6824" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
         <categoryLink id="d490-aa7f-4f7a-b37f" name="Unaffiliated" hidden="false" targetId="8ded-f44e-e059-108b" primary="false"/>
+        <categoryLink id="822b-3dcd-2204-001d" name="S.H.I.E.L.D." hidden="false" targetId="44da-2d91-089d-8aad" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="3.0"/>

@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="9c66-3ecf-4508-3b47" name="Marvel Crisis Protocol" revision="2204" battleScribeVersion="2.03" authorName="Uplink" authorContact="Uplink.MCP@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="9c66-3ecf-4508-3b47" name="Marvel Crisis Protocol" revision="2205" battleScribeVersion="2.03" authorName="Uplink" authorContact="Uplink.MCP@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>*VERSION INFO*
-Core Rules: 11/22/2021
-FAQ &amp; Errata: 2/3/2022
-Affiliations: 2/3/2022
+Core Rules: 3/31/2022
+FAQ &amp; Errata: 3/31/2022
+Affiliations: 3/31/2022
 Ban/Restricted: 2/3/2022
 
 *UPDATES*
-- Added Elektra Panel to Play data.
+- Finalized data for Fury, Elektra, SL Daredevil and associated Grunts and removed {BETA} tags.
+- Updated Affiliations.
+- Added S.H.I.E.L.D. Team Tactics cards.
+- Updated with 3/31/2022 Errata.
 
 *DATAFILE REFERENCE*
 - Any entries listed as {Beta} are ones I do not own, have not seen in person, or have not been officially published in AMG living documents (Rules/FAQ/etc.). Panel to Play data is considered Beta.
