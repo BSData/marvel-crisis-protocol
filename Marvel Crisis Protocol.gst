@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="9c66-3ecf-4508-3b47" name="Marvel Crisis Protocol" revision="2205" battleScribeVersion="2.03" authorName="Uplink" authorContact="Uplink.MCP@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="9c66-3ecf-4508-3b47" name="Marvel Crisis Protocol" revision="2206" battleScribeVersion="2.03" authorName="Uplink" authorContact="Uplink.MCP@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>*VERSION INFO*
 Core Rules: 3/31/2022
-FAQ &amp; Errata: 3/31/2022
-Affiliations: 3/31/2022
+FAQ &amp; Errata: 6/6/2022
+Affiliations: 6/6/2022
 Ban/Restricted: 2/3/2022
 
 *UPDATES*
-- Finalized data for Fury, Elektra, SL Daredevil and associated Grunts and removed {BETA} tags.
-- Updated Affiliations.
-- Added S.H.I.E.L.D. Team Tactics cards.
-- Updated with 3/31/2022 Errata.
+- Fixed bug where Soul Gems were counting as characters.
+- Fixed some typos.
+- Updated with 2022 Card Pack data.
+- Finalized data for Black Swan and Supergiant.
+- Added Panel to Play Heimdall &amp; Skurge data (flagged as {Beta}).
+- Updated with 6/6/2022 Errata.
+- Prepped for upcoming reveals from Ministavaganza &apos;22.
 
 *DATAFILE REFERENCE*
 - Any entries listed as {Beta} are ones I do not own, have not seen in person, or have not been officially published in AMG living documents (Rules/FAQ/etc.). Panel to Play data is considered Beta.

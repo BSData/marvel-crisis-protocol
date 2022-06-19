@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b5fb-20f9-0dce-3f02" name="MCP Inventory" revision="2205" battleScribeVersion="2.03" authorName="Uplink" authorContact="Uplink.MCP@gmail.com" library="false" gameSystemId="9c66-3ecf-4508-3b47" gameSystemRevision="2205" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b5fb-20f9-0dce-3f02" name="MCP Inventory" revision="2206" battleScribeVersion="2.03" authorName="Uplink" authorContact="Uplink.MCP@gmail.com" library="false" gameSystemId="9c66-3ecf-4508-3b47" gameSystemRevision="2206" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="cc3a-be8e-3248-8036" name=" Affiliations (Future Use)" hidden="true" collective="false" import="true" targetId="1537-dd64-b659-3a8e" type="selectionEntry"/>
     <entryLink id="add7-cf4a-08e3-6cf3" name=" Crisis Cards - Extraction" hidden="false" collective="false" import="true" targetId="aade-9898-c12d-e090" type="selectionEntry">
@@ -42,9 +42,19 @@
         <categoryLink id="c7a9-6a49-5d3c-6a5c" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="f860-c4f9-183a-2315" name="ARNIM ZOLA (x) {BETA}" hidden="true" collective="false" import="true" targetId="c465-2cca-c4c9-2c6e" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="cf82-92c4-b2cc-5b41" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
+      </categoryLinks>
+    </entryLink>
     <entryLink id="617c-eb1e-27f1-fee0" name="BARON MORDO (Karl Amadeus Mordo) {BETA}" hidden="false" collective="false" import="true" targetId="9e14-b2dd-0b1f-5a78" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="3e60-6ccd-d298-acc7" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6602-a6e9-d1b0-5747" name="BARON STRUCKER (x) {BETA}" hidden="true" collective="false" import="true" targetId="42b9-24cc-b7bd-cd38" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="af1d-67f8-4aae-2d6b" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="5dc3-6656-a7f0-5c09" name="BARON ZEMO (Helmut Zemo)" hidden="false" collective="false" import="true" targetId="6c63-776e-a7a4-64e0" type="selectionEntry">
@@ -75,6 +85,11 @@
     <entryLink id="4459-cbdc-5b6f-da6b" name="BLACK PANTHER (T&apos;Challa)" hidden="false" collective="false" import="true" targetId="1d04-2cc5-49b7-574d" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="368e-0ea4-410b-ff28" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a077-e1e7-2baf-81d4" name="BLACK SWAN (Black Swan) {BETA}" hidden="false" collective="false" import="true" targetId="13ce-a33d-62a3-ed2f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="1dee-0943-fbc3-5bb8" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="1c0d-0539-f2a7-a572" name="BLACK WIDOW (Natasha Romanoff)" hidden="false" collective="false" import="true" targetId="dc24-b673-bd87-becc" type="selectionEntry">
@@ -115,6 +130,11 @@
     <entryLink id="15d4-84db-2365-b258" name="CAPTAIN AMERICA (Steve Rogers)" hidden="false" collective="false" import="true" targetId="076d-92cf-3f6f-34cc" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="a32e-cbe7-28ad-41c1" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="0b4e-af2d-a5e7-5d3b" name="CAPTAIN AMERICA 2 (Steve Rogers) {BETA}" hidden="true" collective="false" import="true" targetId="4745-6f0e-59f6-1b58" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7a99-90bc-a1cf-3ba0" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="6c80-fa2d-d2f2-a24d" name="CAPTAIN MARVEL (Carol Danvers)" hidden="false" collective="false" import="true" targetId="006c-18c4-9121-0cb0" type="selectionEntry">
@@ -252,9 +272,19 @@
         <categoryLink id="33cd-e248-9899-6abe" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="3459-14a2-b83a-2edd" name="HAND NINJAS [ELEKTRA, SHADOWLAND DAREDEVIL] {BETA}" hidden="false" collective="false" import="true" targetId="0036-82f8-1c18-a61d" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="541b-9e79-dd18-dd44" name="New CategoryLink" hidden="false" targetId="efe0-86c9-4b57-7046" primary="true"/>
+      </categoryLinks>
+    </entryLink>
     <entryLink id="374d-a32c-f309-b918" name="HAWKEYE (Clint Barton)" hidden="false" collective="false" import="true" targetId="b13b-4a21-5270-4c44" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="ccb5-df61-4537-556b" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="06c5-0ffc-8b88-b954" name="HEIMDALL, THE ALL-SEEING (Heimdall) {BETA}" hidden="false" collective="false" import="true" targetId="6b9f-d96e-a477-5609" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="952f-c25f-b3ea-9b1d" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="df18-1a29-3ad4-0dba" name="HELA, QUEEN OF HEL (Hela)" hidden="false" collective="false" import="true" targetId="f53f-79d4-bab3-d91e" type="selectionEntry">
@@ -352,6 +382,11 @@
         <categoryLink id="9394-be37-a221-5bfa" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="b82e-4fa5-a7c1-57e3" name="MALEKITH (x) {BETA}" hidden="true" collective="false" import="true" targetId="b81f-bec9-4452-0b2e" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8223-30f6-5f7c-78d2" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
+      </categoryLinks>
+    </entryLink>
     <entryLink id="d2af-f4ca-a26d-109c" name="MEDUSA (Medusalith Amaquelin-Boltagon)" hidden="false" collective="false" import="true" targetId="c80e-29f4-3ac1-7e9a" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="4e82-a55e-5ae1-5900" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
@@ -392,6 +427,11 @@
         <categoryLink id="95ec-a993-4ca9-fad4" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="da31-2da5-e8c6-9b23" name="NICK FURY AND HOWLING COMMANDOS (x) {BETA}" hidden="true" collective="false" import="true" targetId="e80b-298b-60eb-bf2f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="2b98-c4f6-2f50-fb72" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
+      </categoryLinks>
+    </entryLink>
     <entryLink id="2d33-daf7-7a35-2b1f" name="OKOYE (Okoye)" hidden="false" collective="false" import="true" targetId="7fb4-8fe8-33a3-9c9c" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="7dc0-a85b-f2fb-7221" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
@@ -400,6 +440,11 @@
     <entryLink id="6c85-4f4d-57d6-52de" name="OMEGA RED (Arkady Gregorivich Rossovich)" hidden="false" collective="false" import="true" targetId="1e19-2e04-14db-ec3e" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="0ea0-06c7-a396-7ca5" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="dfbc-9090-0e82-8f07" name="ORIGINAL HUMAN TORCH (Jim Hammond) {BETA}" hidden="true" collective="false" import="true" targetId="7dce-e382-7bd9-a029" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="a24f-6ed7-a123-5bf3" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="a2d4-e70a-90fd-3320" name="PROXIMA MIDNIGHT (Proxima Midnight)" hidden="false" collective="false" import="true" targetId="5e5d-bb7a-efd1-f888" type="selectionEntry">
@@ -472,6 +517,11 @@
         <categoryLink id="db65-05df-df86-f91d" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="eff1-93fa-f0e5-f46d" name="SKURGE, THE EXECUTIONER (Skurge) {BETA}" hidden="false" collective="false" import="true" targetId="ce87-940d-e58a-5d98" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="651e-3d3a-dbe4-5b98" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
+      </categoryLinks>
+    </entryLink>
     <entryLink id="e588-cb16-562c-7a66" name="SPIDER-MAN (Miles Morales)" hidden="false" collective="false" import="true" targetId="d581-f6da-ba25-1af7" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="1fa1-7857-35ec-135c" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
@@ -490,6 +540,11 @@
     <entryLink id="15d8-6a66-cb35-ab9a" name="STORM (Ororo Munroe)" hidden="false" collective="false" import="true" targetId="1bc7-460c-8391-d8bd" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="73d8-d283-87e0-5c03" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7a7b-bc29-8539-5e80" name="SUPERGIANT (Supergiant) {BETA}" hidden="false" collective="false" import="true" targetId="d457-508d-3c3c-c7b1" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="d805-70c4-f081-035b" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="4c5d-5567-0265-bda3" name="TASKMASTER (Anthony Masters)" hidden="false" collective="false" import="true" targetId="2e17-06e6-a851-f5c9" type="selectionEntry">
@@ -565,11 +620,6 @@
     <entryLink id="c911-1cfe-f43b-fffd" name="X-23 (Laura Kinney)" hidden="false" collective="false" import="true" targetId="7dd0-e00b-4f36-2c83" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="5c73-96a7-10cd-4266" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="3459-14a2-b83a-2edd" name="HAND NINJAS [ELEKTRA, SHADOWLAND DAREDEVIL] {BETA}" hidden="false" collective="false" import="true" targetId="0036-82f8-1c18-a61d" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="541b-9e79-dd18-dd44" name="New CategoryLink" hidden="false" targetId="efe0-86c9-4b57-7046" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -1159,13 +1209,10 @@ If the roll contains at least one {FAIL}, the interacting character is placed wi
             <characteristic name="Threat" typeId="7b62-cfc6-5ac5-5df5">1</characteristic>
             <characteristic name="Type" typeId="8fc1-cd21-57e8-aa34">Active</characteristic>
             <characteristic name="Cost" typeId="728e-e299-5ab5-c7ae">2</characteristic>
-            <characteristic name="Rules" typeId="4338-8264-f993-6b14">Choose an Enemy within {Rng} 3 and advance it {S}. This superpower may be used only once per turn.</characteristic>
+            <characteristic name="Rules" typeId="4338-8264-f993-6b14">Choose an Enemy within {RNG} 3 and advance it {S}. This superpower may be used only once per turn.</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <categoryLinks>
-        <categoryLink id="8747-5e78-8e8c-54bb" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
-      </categoryLinks>
       <costs>
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="1.0"/>
       </costs>
@@ -1180,13 +1227,10 @@ If the roll contains at least one {FAIL}, the interacting character is placed wi
             <characteristic name="Threat" typeId="7b62-cfc6-5ac5-5df5">1</characteristic>
             <characteristic name="Type" typeId="8fc1-cd21-57e8-aa34">Innate</characteristic>
             <characteristic name="Cost" typeId="728e-e299-5ab5-c7ae">-</characteristic>
-            <characteristic name="Rules" typeId="4338-8264-f993-6b14">During the Power Phase, this character gains 2 additional {PWR} instead of the normal 1 for having an Infinity Gem.</characteristic>
+            <characteristic name="Rules" typeId="4338-8264-f993-6b14">During the Power Phase, this character gains 2 additional {PWR} instead of the normal 1 for having this Infinity Gem.</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <categoryLinks>
-        <categoryLink id="7789-1a22-8f37-e632" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
-      </categoryLinks>
       <costs>
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="1.0"/>
       </costs>
@@ -1205,9 +1249,6 @@ If the roll contains at least one {FAIL}, the interacting character is placed wi
           </characteristics>
         </profile>
       </profiles>
-      <categoryLinks>
-        <categoryLink id="e82e-edf7-ef36-94ea" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
-      </categoryLinks>
       <costs>
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="1.0"/>
       </costs>
@@ -1222,13 +1263,10 @@ If the roll contains at least one {FAIL}, the interacting character is placed wi
             <characteristic name="Threat" typeId="7b62-cfc6-5ac5-5df5">1</characteristic>
             <characteristic name="Type" typeId="8fc1-cd21-57e8-aa34">Innate</characteristic>
             <characteristic name="Cost" typeId="728e-e299-5ab5-c7ae">-</characteristic>
-            <characteristic name="Rules" typeId="4338-8264-f993-6b14">When an enemy character within {RNG} 4 of this character uses an {ACTIVE} or {REACTIVE} superpower, this character gains 1 {PWR} after the effect is resolved.</characteristic>
+            <characteristic name="Rules" typeId="4338-8264-f993-6b14">When an enemy character within {RNG} 4 of this character uses an {ACTIVE} or {REACTIVE} superpower this character gains 1 {PWR} after the effect is resolved.</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <categoryLinks>
-        <categoryLink id="025f-e690-9e20-c27f" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
-      </categoryLinks>
       <costs>
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="1.0"/>
       </costs>
@@ -1247,9 +1285,6 @@ If the roll contains at least one {FAIL}, the interacting character is placed wi
           </characteristics>
         </profile>
       </profiles>
-      <categoryLinks>
-        <categoryLink id="bea5-238b-1e96-4716" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
-      </categoryLinks>
       <costs>
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="1.0"/>
       </costs>
@@ -1262,15 +1297,12 @@ If the roll contains at least one {FAIL}, the interacting character is placed wi
         <profile id="155d-33d4-027c-8889" name="TIME" hidden="false" typeId="08c5-f8c2-0bfe-8bab" typeName="Infinity Gem">
           <characteristics>
             <characteristic name="Threat" typeId="7b62-cfc6-5ac5-5df5">1</characteristic>
-            <characteristic name="Type" typeId="8fc1-cd21-57e8-aa34">Active</characteristic>
+            <characteristic name="Type" typeId="8fc1-cd21-57e8-aa34">Reactive</characteristic>
             <characteristic name="Cost" typeId="728e-e299-5ab5-c7ae">2</characteristic>
             <characteristic name="Rules" typeId="4338-8264-f993-6b14">When this character is attacking, before the Calculate success or failure step, at the end of the Modify Dice step of the attack, it may use this superpower. The attacking and defending characters reroll all of their attack and defense dice, including {FAIL} results.</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <categoryLinks>
-        <categoryLink id="88a8-7e9e-099d-82c2" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
-      </categoryLinks>
       <costs>
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="1.0"/>
       </costs>
@@ -1309,7 +1341,7 @@ When an allied character is defending against an attack this round, add 1 die to
                   <characteristics>
                     <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">A-Force</characteristic>
                     <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
-                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">When an A-Force character with Flight begins a move action within {RNG} 2 of an allied She-Hulk during its activation, they may spend 1 {PWR} each to play this card before moving the miniature.
+                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">When an allied A-Force character with Flight begins a move action within {RNG} 2 of an allied She-Hulk during its activation, they may spend 1 {PWR} each to play this card before moving the miniature.
 When the active character ends this move, place She-Hulk within {RNG} 1 of it. She-Hulk may immediately perform one of her attacks that has a listed {PWR} cost of 0.</characteristic>
                   </characteristics>
                 </profile>
@@ -1353,7 +1385,7 @@ Characters that spent {PWR} to play this card cannot be Pushed or Thrown by enem
               <profiles>
                 <profile id="471e-6b54-c5df-7c2c" name="DOOMED PROPHECY" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
                   <characteristics>
-                    <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
+                    <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Asgard</characteristic>
                     <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
                     <characteristic name="Rules" typeId="3c65-5213-7979-ed33">At the start of the activation phase, an allied Asgard character may spend 3 {PWR} to play this card.
 This character cannot roll defense dice against {PHYS} attacks for the rest of the game. Additionally, this character adds dice to its {PHYS} attacks equal to its {PHYS} defense until the next Cleanup Phase.</characteristic>
@@ -1480,6 +1512,27 @@ Characters that spent {PWR} remove the Stun special condition and remove 1 {DMG}
         </selectionEntryGroup>
         <selectionEntryGroup id="f04d-a7e1-251f-123a" name="Black Order" hidden="false" collective="false" import="true">
           <selectionEntries>
+            <selectionEntry id="6e43-58f9-c225-4dbe" name="BLACK ONSLAUGHT" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f82-9287-0f3a-bb2a" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="d9a6-8852-82e6-c4f8" name="BLACK ONSLAUGHT" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+                  <characteristics>
+                    <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Black Order</characteristic>
+                    <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
+                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">If Black Swan is within {RNG} 2 of an allied Black Dwarf when she uses the Charge {Active} superpower, they may each spend 1 {PWR} to play this card.
+After the Charge movement action is resolved but before making the attack action, you may place Black Dwarf within {RNG} 1 of Black Swan.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="b25c-ce98-86e1-caad" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+              </costs>
+            </selectionEntry>
             <selectionEntry id="bda2-4956-ff6e-5698" name="BLOOD TO SPARE" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a09-d3b9-a365-2802" type="max"/>
@@ -1489,13 +1542,37 @@ Characters that spent {PWR} remove the Stun special condition and remove 1 {DMG}
                   <characteristics>
                     <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Black Order</characteristic>
                     <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
-                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">When a Black Order character would be Dazed by an enemy effect, it may spend 3 {PWR} to play this card.
+                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">When an allied Black Order character would be Dazed by an enemy effect, it may spend 3 {PWR} to play this card.
 The character immediately performs an attack before gaining the Dazed token. If this attack results in the character removing damage, it is not Dazed.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <categoryLinks>
                 <categoryLink id="2a74-f354-a544-0e5b" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2615-02cf-aa83-b291" name="FIRST OF THE BLACK ORDER" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ffbb-237a-d1cb-f5e2" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="d87e-418d-1f4a-e4f6" name="FIRST OF THE BLACK ORDER" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+                  <characteristics>
+                    <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Black Order</characteristic>
+                    <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
+                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">If your squad does not contain Thanos, The Mad Titan, after deployment when you would normally select your Leadership ability, Corvus Glaive may play this card.
+Corvus Glaive gains the following Leadership ability.
+
+{LDR} RIGHT-HAND MAN (AFFILIATION: BLACK ORDER)
+When an allied Black Order character Dazes or KOs an enemy character, all other allied Black Order characters gain 1 {PWR}.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="0483-34b5-2e9f-d65d" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
@@ -1924,8 +2001,9 @@ The next attack made by this character this turn adds 3 dice to its attack roll.
                     <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Criminal Syndicate</characteristic>
                     <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
                     <characteristic name="Rules" typeId="3c65-5213-7979-ed33">{MYST} TWIST THE KNIFE {RNG} 5 {STR} 5 {COST} 0
+
 If an allied character damages an enemy character with an attack during its activation, after the attack is resolved, the attacking character may spend 2 {PWR} to play this card.
-The attacking character immediately performs the attack listed above targetting the damaged character.
+The attacking character immediately performs the attack listed above targeting the damaged character.
 This attack can only have dice added to the attack from {CRIT} results, and this character cannot modify its attack dice during this attack.</characteristic>
                   </characteristics>
                 </profile>
@@ -2108,8 +2186,8 @@ Each character that played this card rolls 1 die. If they roll a {CRIT} or {WILD
                   <characteristics>
                     <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Inhumans</characteristic>
                     <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
-                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">Any injured Inhuman character may play this card.
-All allied Inhuman characters gain one {PWR} for each allied injured Inhuman character.</characteristic>
+                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">An Injured Inhuman character may play this card.
+All allied Inhuman characters gain one {PWR} for each allied Injured Inhuman character.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2150,7 +2228,7 @@ Once this round, each character that spent {PWR} to play this card may reroll an
                   <characteristics>
                     <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Inhumans</characteristic>
                     <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
-                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">Any Inhuman character may spend 3 {PWR} to play this card.
+                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">An Inhuman character may spend 3 {PWR} to play this card.
 Choose an enemy character holding a Civilian token within {RNG} 3 of this character and roll 4 dice. Deal 1 {DMG} to the enemy character for each {CRIT}, {WILD}, and {HIT} rolled. If the enemy character is Dazed or KO&apos;d by this damage, you score 2 VPs.</characteristic>
                   </characteristics>
                 </profile>
@@ -2917,7 +2995,7 @@ Rocket Raccoon may immediately perform up to three Plasma Rifle attacks. Each at
                   <characteristics>
                     <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
                     <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
-                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">If Ghost Rider is KO&apos;d, he may spend 4 {PWR} to play this card before he is removed from the battlefield.
+                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">If an allied Ghost Rider is KO&apos;d, after the effect is resolved, he may spend 4 {PWR} to play this card before he is removed from the battlefield.
 Choose another allied character. Ghost Rider removes all special conditions, removes all {DMG} and Activated tokens, drops all objective tokens, and is then placed within {RNG} 1 of the chosen character. If the chosen character was Healthy, flip Ghost Rider&apos;s card to the Healthy Side. Enemy characters within {RNG} 2 of Ghost Rider then suffer the Incinerate special condition. The chosen character is KO&apos;d.</characteristic>
                   </characteristics>
                 </profile>
@@ -3044,8 +3122,8 @@ Until this character is Dazed or until the end of the round, when an enemy chara
                   <characteristics>
                     <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
                     <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
-                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">When an enemy character targets an allied character, another allied character within {RNG} 3 of the targeted character may spend 3 {PWR} to play this card.
-Push the targeted allied character toward the other allied character {S}. If at the end of the push the targeted character is outside of the attack&apos;s range or the attacker&apos;s LOS, the attack action ends. If it is the attacker&apos;s activation, and the attack did not target multiple characters, they may make another action.</characteristic>
+                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">When an enemy character targets an allied character with an attack, another allied character within {RNG} 3 of the targeted character may spend 3 {PWR} to play this card.
+Push the targeted allied character toward the other allied character {S}. If at the end of the push the targeted character is outside of the attack&apos;s range or the attacker&apos;s LOS, the attack ends. If it is the attacker&apos;s activation, and the attack did not target multiple characters, they may make another action.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3065,7 +3143,7 @@ Push the targeted allied character toward the other allied character {S}. If at 
                   <characteristics>
                     <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
                     <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
-                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">When Corvus Glaive targets an enemy character with an attack that is within {RNG} 1 of an allied Proxima Midnight, or when Proxima Midnight targets an enemy character with an attack that is within {RNG} 1 of an allied Corvus Glaive, both characters may spend 2 {PWR} to play this card.
+                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">When an allied Corvus Glaive targets an enemy character with an attack that is within {RNG} 1 of an allied Proxima Midnight, or when an allied Proxima Midnight targets an enemy character with an attack that is within {RNG} 1 of an allied Corvus Glaive, both characters may spend 2 {PWR} to play this card.
 The enemy character rolls no defense dice during this attack.</characteristic>
                   </characteristics>
                 </profile>
@@ -3280,7 +3358,7 @@ Remove a Dazed token and 1 {DMG} from the allied character.</characteristic>
                     <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
                     <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
                     <characteristic name="Rules" typeId="3c65-5213-7979-ed33">The active character may spend 6 {PWR} to play this card at the end of its activation.
-Choose another allied chaaracter within {RNG} 3 of the active character. The chosen character immediately activates.</characteristic>
+Choose another allied character within {RNG} 3 of the active character. The chosen character immediately activates.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3914,8 +3992,10 @@ This round when an enemy character is choosing the target character for a non-ar
                     <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
                     <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active / Reactive</characteristic>
                     <characteristic name="Rules" typeId="3c65-5213-7979-ed33">Active: An active character holding an Asset or Civilian token may spend 2 {PWR} to play this card.
-Reactive: When an allied character holding an Asset or Civilian token would drop it, they may spend 2 {PWR} to play this card.
-Place one Asset or Civilian token held by this character on another allied character within {RNG} 2. The other character is now holding the token. This tactic does not allow a character to hold more tokens than the crisis specifies.</characteristic>
+
+Reactive: When an allied character holding an Asset or Civilian token is dazed or would drop that token, they may spend 2 {PWR} to play this card.
+
+Place one Asset or Civilian token held by this character on another allied character within {RNG} 2. The other character is now holding the token. This card does not allow a character to hold more tokens than the crisis specifies.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3979,7 +4059,7 @@ Before the move is resolved, roll 4 dice. Deal 1 {DMG} to the enemy character fo
                   <characteristics>
                     <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
                     <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
-                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">When a character declares an attack action during their activation, it may suffer 1 to 3 {DMG} to play this card.
+                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">When an allied character declares an attack action during their activation, it may suffer 1 to 3 {DMG} to play this card.
 Reduce the {PWR} cost of the attack by the amount of damage suffered.</characteristic>
                   </characteristics>
                 </profile>
@@ -4091,6 +4171,7 @@ Remove {DMG} from the chosen character equal to the {PWR} spent to play this car
                     <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
                     <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
                     <characteristic name="Rules" typeId="3c65-5213-7979-ed33">{ENRG} POWER OF THE COSMOS {RNG} A1 {STR} 6 {COST} 0
+
 During his activation, Thanos may spend 4 {PWR} to play this card.
 Thanos may use the Power of the Cosmos attack shown above once this activation. Add 1 to the {RNG} of this attack for each Infinity Gem this character has, to a maximum of A5.
 An enemy character damaged by this attack is pushed {S} away from this character.</characteristic>
@@ -4167,6 +4248,28 @@ This round, while within {RNG} X of this character (X is equal to the {PWR} spen
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="6abb-48eb-66bf-96f8" name="PSYCHIC SHOCKWAVE" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8ef-d512-2a02-5fab" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="bb7c-d2ce-8b76-ca63" name="PSYCHIC SHOCKWAVE" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+                  <characteristics>
+                    <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
+                    <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
+                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">Supergiant and Ebony Maw may each spend 3 {PWR} to play this card.
+Roll 5 dice for each enemy character holding an objective token. The enemy character suffers 1 {DMG} for each {CRIT} and {WILD} result rolled.
+A character damaged in this way drops all objective tokens it is holding. The player playing this card chooses the order in which characters are affected.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="44ca-cc0f-80db-1ebb" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+              </costs>
+            </selectionEntry>
             <selectionEntry id="7f6e-1d9f-714f-1423" name="PYM PARTICLES" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="acb1-35a7-dc0a-39cc" type="max"/>
@@ -4197,7 +4300,7 @@ Choose another allied character within {RNG} 3 of this character. Then, choose a
                   <characteristics>
                     <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
                     <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
-                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">When an allied character is attacking or defending, before the Calculate success or failure step, at the end of the Modify Dice step of the attack, it may spend 3 {PWR} to play this card.
+                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">When an allied character is attacking or defending, at the end of the Modify Dice step of the attack, before the Calculate Success or Failure step, it may spend 3 {PWR} to play this card.
 The attacking and defending characters reroll all of their attack and defense dice.</characteristic>
                   </characteristics>
                 </profile>
@@ -4283,8 +4386,10 @@ Roll 4 dice. Deal 1 {DMG} to the attacker for each {CRIT} and each {WILD} rolled
                     <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
                     <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
                     <characteristic name="Rules" typeId="3c65-5213-7979-ed33">{ENRG} RICOCHET BLAST {RNG} 4 {STR} 7 {COST} 0
+
 If it is Iron Man&apos;s activation and he is within {RNG} 4 of an allied Captain America, they may spend 1 {PWR} each to play this card.
 While within {RNG} 4 of Captain America, Iron Man may use the Ricochet Blast attack shown above once this activation. Range and LOS are measured from Captain America instead of Iron Man when making this attack.
+
 Iron Man may reroll any number of attack dice during this attack.</characteristic>
                   </characteristics>
                 </profile>
@@ -4390,6 +4495,7 @@ After the enemy effect is resolved, this character may make an attack against th
                     <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
                     <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
                     <characteristic name="Rules" typeId="3c65-5213-7979-ed33">{ENRG} SEVEN SUNS OF CINNIBUS {RNG} B5 {STR} 8 {COST} 0
+
 If it is Doctor Strange&apos;s activation and there are two other non dazed allied characters within {RNG} 2 of him, he may spend 3 {PWR} to play this card.
 Doctor Strange may use the Seven Suns of Cinnibus attack shown above once this turn.
 If this attack deals {DMG}, after the attack is resolved the target enemy character gains the Incinerate special condition.</characteristic>
@@ -4563,9 +4669,10 @@ Reroll all of the defense dice.</characteristic>
                   <characteristics>
                     <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
                     <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
-                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">If Ultron is KO&apos;d, he may spend 8 {PWR} to play this card before removing the miniature from the battlefield.
+                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">If Ultron is KO&apos;d, after the effect is resolved, he may spend 8 {PWR} to play this card before removing the miniature from the battlefield.
+
 Ultron is not removed from the battlefield.
-Instead, he removes all special conditions, flips his card to the Healthy side, removes all {DMG}, drops all objective tokens, and may be placed anywhere within {RNG} 3 of his current location.</characteristic>
+Instead, he removes all special conditions, flips his card to the Healthy side, removes all {DMG}, drops all objective tokens, and may be placed within {RNG} 3 of his current location.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4716,7 +4823,9 @@ Choose one enemy character within {RNG} 3 of Carnage for each {PWR} spent. The c
                     <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
                     <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
                     <characteristic name="Rules" typeId="3c65-5213-7979-ed33">{ENRG} THUNDERWAVE {RNG} B5 {STR} 6 {COST} 0
+
 If it is Thor, Prince of Asgard&apos;s activation and he is within {RNG} 1 of an allied Captain America, they may spend 1 {PWR} each to play this card.
+
 While within {RNG} 1 of Captain America, Thor, Prince of Asgard may use the Thunderwave attack shown above once. {RNG} and LOS are measured from Captain America instead of Thor, Prince of Asgard when making this attack.</characteristic>
                   </characteristics>
                 </profile>
@@ -4780,7 +4889,7 @@ Place a Demolition Charge token within {RNG} 3 of this character. During the nex
                     <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
                     <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
                     <characteristic name="Rules" typeId="3c65-5213-7979-ed33">When an allied character targets an enemy charactger with an attack during its activation and the target character is within {RNG} 2 of another allied character, the allied characters may spend 1 {PWR} each to play this card.
-If the target character is dealt {DMG} by this attack, after the attack is resolved it suffers the Stun and Stagger special conditions.</characteristic>
+If the target character is dealt {DMG} by this attack, after the attack is resolved it gains the Stun and Stagger special conditions.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4821,7 +4930,7 @@ This activation, if the character is within {RNG} 2 of two or more enemy charact
                   <characteristics>
                     <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
                     <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
-                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">During their activation, when Spider-Man or Venom targets an enemy character with an attack that is within {RNG} 2 of the other allied character, both characters may suffer 1 {DMG} to play this card.
+                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">During their activation, when an allied Spider-Man or an allied Venom targets an enemy character with an attack that is within {RNG} 2 of the other allied character, both characters may suffer 1 {DMG} to play this card.
 Add 3 dice to the attack roll.</characteristic>
                   </characteristics>
                 </profile>
@@ -5151,7 +5260,7 @@ For each 1 {PWR} spent to play this card, one allied Uncanny X-Men character may
                     <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Wakanda</characteristic>
                     <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
                     <characteristic name="Rules" typeId="3c65-5213-7979-ed33">Any number of allied Wakanda characters may spend 1 {PWR} to play this card.
-Each character that spend {PWR} may immediately perform an attack with a {PWR} cost of 0.</characteristic>
+Each character that spent {PWR} may immediately perform an attack with a {PWR} cost of 0.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5174,6 +5283,7 @@ Each character that spend {PWR} may immediately perform an attack with a {PWR} c
                     <characteristic name="Rules" typeId="3c65-5213-7979-ed33">Black Panther or Shuri may spend X {PWR} to play this card. X must be at least 1 and no more than 5.
 This round, this character and allied characters while they are within {RNG} X of this character, gain the Invulnerability Innate superpower.
 X is equal to the amount of {PWR} spent to play this card.
+
 {INNATE} INVULNERABILITY - When this character would suffer {DMG} from an enemy effect, reduce the amount suffered by 1, to a minimum of 1.</characteristic>
                   </characteristics>
                 </profile>
@@ -5823,6 +5933,17 @@ Additionally, during the Power Phase, this character gains 1 additional {PWR}.</
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="3.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="c465-2cca-c4c9-2c6e" name="ARNIM ZOLA (x) {BETA}" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8085-1846-45fc-87db" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="2f01-b2a8-0c08-3cfa" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
+    </selectionEntry>
     <selectionEntry id="9e14-b2dd-0b1f-5a78" name="BARON MORDO (Karl Amadeus Mordo)" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9cd3-745c-c2c8-2a7c" type="max"/>
@@ -5922,6 +6043,17 @@ Additionally, during the Power Phase, this character gains 1 additional {PWR}.</
       </categoryLinks>
       <costs>
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="42b9-24cc-b7bd-cd38" name="BARON STRUCKER (x) {BETA}" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b53-d639-70c9-43e3" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="b404-2cd2-8952-4b78" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6c63-776e-a7a4-64e0" name="BARON ZEMO (Helmut Zemo)" hidden="false" collective="false" import="true" type="model">
@@ -6458,6 +6590,117 @@ Additionally, during the Power Phase, this character gains 1 additional {PWR}.</
         <categoryLink id="840a-2720-5039-c4d3" name="Avengers" hidden="false" targetId="d6c4-f011-cd8c-5451" primary="false"/>
         <categoryLink id="2755-a109-fa78-d8ca" name="Wakanda" hidden="false" targetId="f26a-4939-f603-307c" primary="false"/>
       </categoryLinks>
+      <costs>
+        <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="13ce-a33d-62a3-ed2f" name="BLACK SWAN (Black Swan)" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3096-09ef-d4ad-8cef" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="2d84-41df-bfdb-3141" name="Healthy" hidden="false" typeId="fde4-96d9-2028-2529" typeName="    Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">6</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">M</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">2</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">4</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">4</characteristic>
+            <characteristic name="Energy Defense" typeId="0509-5c52-7571-39ad">4</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f153-b49f-9fac-47e3" name="Injured" hidden="false" typeId="fde4-96d9-2028-2529" typeName="    Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">6</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">M</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">2</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">4</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">4</characteristic>
+            <characteristic name="Energy Defense" typeId="0509-5c52-7571-39ad">4</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c405-a55f-4f2b-61e6" name="  STRIKE" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="   Attacks">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Phys</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">2</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">5</characteristic>
+            <characteristic name="Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">- After this attack is resolved, this character gains {PWR} equal to the {DMG} dealt.
+- {WILD} Push: If the target character is Size 4 or less, before {DMG} is dealt, it may be pushed away from this character {S}.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="dee2-164e-a0fd-4182" name=" EYE BEAM" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="   Attacks">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Enrg</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">3</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">5</characteristic>
+            <characteristic name="Cost" typeId="711d-c2bc-e2d4-f398">1</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">- After this attack is resolved, the target character gains the Incinerate special condition.
+- {WILD} Pierce: Change one of the defending character&apos;s {CRIT}, {WILD}, or {BLOCK} results to a blank.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d4d7-3f74-11c8-0916" name="EVERYTHING DIES" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="   Attacks">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Phys</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">2</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">8</characteristic>
+            <characteristic name="Cost" typeId="711d-c2bc-e2d4-f398">4</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">- {WILD} Throw: After this attack is resolved, the target character is thrown {S}.
+- {HIT} Follow-Up: After this attack is resolved, this character may make an Eye Beam attack without paying the {PWR} cost. The additional Eye Beam attack must target the original target character and ignores range and LOS.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b219-c03e-83fc-859c" name="CHARGE" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="  Active Superpowers">
+          <characteristics>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">2</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Action: This character immediately makes a move action followed by an attack action. This superpower can be used only once per turn.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4fa3-5723-2701-a865" name="MIDNIGHT FIELD" hidden="false" typeId="5648-8d63-d440-21b0" typeName="  Reactive Superpowers">
+          <characteristics>
+            <characteristic name="Type" typeId="f59f-a16c-8938-4be1">Reactive</characteristic>
+            <characteristic name="Cost" typeId="3a1f-904d-3b3e-abfb">X</characteristic>
+            <characteristic name="Special Rules" typeId="e05d-5a10-9d52-550c">When this character is defending, it may spend any amount of {PWR} to use this superpower during the Modify Opponent&apos;s Dice step of the attack. For each {PWR} spent to use this superpower, this character may change 1 {WILD} in the attack roll to a blank.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9580-1b61-8505-b0e5" name="TELEPATHIC SUGGESTION" hidden="false" typeId="5648-8d63-d440-21b0" typeName="  Reactive Superpowers">
+          <characteristics>
+            <characteristic name="Type" typeId="f59f-a16c-8938-4be1">Reactive</characteristic>
+            <characteristic name="Cost" typeId="3a1f-904d-3b3e-abfb">1</characteristic>
+            <characteristic name="Special Rules" typeId="e05d-5a10-9d52-550c">When this character is attacking, it can use this superpower during the Modify Opponent&apos;s Dice step of the attack. If it does, it may reroll 1 opposing defense die.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b4a4-25be-88c3-fe3b" name="FLIGHT" hidden="false" typeId="6b81-fb1a-574f-32e2" typeName=" Innate Superpowers">
+          <characteristics>
+            <characteristic name="Type" typeId="e9b9-de48-7a91-1e15">Innate</characteristic>
+            <characteristic name="Cost" typeId="f183-829f-8371-8b7c">-</characteristic>
+            <characteristic name="Special Rules" typeId="052f-28a4-12f9-0691">When placing the movement tool during an advance, this character counts as Size 5.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b2b9-3a7c-20cb-e4a8" name="GEM BEARER [POWER]" hidden="false" typeId="6b81-fb1a-574f-32e2" typeName=" Innate Superpowers">
+          <characteristics>
+            <characteristic name="Type" typeId="e9b9-de48-7a91-1e15">Innate</characteristic>
+            <characteristic name="Cost" typeId="f183-829f-8371-8b7c">-</characteristic>
+            <characteristic name="Special Rules" typeId="052f-28a4-12f9-0691">This superpower indicates which Infinity Gem the character may have. Each character may only have one Infinity Gem at a time.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="9d85-3615-4ba3-6f6d" name="Black Order" hidden="false" targetId="01c6-f9aa-a521-8f23" primary="false"/>
+        <categoryLink id="b075-57f4-5a4c-b15f" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="ffbb-4771-051a-d6d4" name="Infinity Gems" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a655-f6db-9e8e-0d2a" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="4431-5ff4-a526-8889" name=" INFINITY GEM - POWER" hidden="false" collective="false" import="true" targetId="d0f5-7273-3cd7-c9d6" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="4.0"/>
       </costs>
@@ -7178,6 +7421,17 @@ If, at any time, this is the only character you control, you lose the game.</cha
       </categoryLinks>
       <costs>
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4745-6f0e-59f6-1b58" name="CAPTAIN AMERICA 2 (Steve Rogers) {BETA}" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f06b-8a3f-6c7d-809a" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="7002-2105-8665-dcb8" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="006c-18c4-9121-0cb0" name="CAPTAIN MARVEL (Carol Danvers)" hidden="false" collective="false" import="true" type="model">
@@ -8922,7 +9176,7 @@ Additionally, when calculating successes or failure of this character&apos;s att
         </profile>
         <profile id="2a1d-fab4-75e4-dc2f" name="Injured" hidden="false" typeId="fde4-96d9-2028-2529" typeName="    Character">
           <characteristics>
-            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">4</characteristic>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">6</characteristic>
             <characteristic name="Speed" typeId="ba74-030d-982e-7e70">M</characteristic>
             <characteristic name="Size" typeId="40df-7d54-a856-5953">2</characteristic>
             <characteristic name="Threat" typeId="b915-b25f-cb12-b651">5</characteristic>
@@ -9294,7 +9548,7 @@ Additionally, when calculating successes or failure of this character&apos;s att
       <profiles>
         <profile id="83ff-02dc-86b5-75e3" name="Healthy" hidden="false" typeId="fde4-96d9-2028-2529" typeName="    Character">
           <characteristics>
-            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">5</characteristic>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">6</characteristic>
             <characteristic name="Speed" typeId="ba74-030d-982e-7e70">L</characteristic>
             <characteristic name="Size" typeId="40df-7d54-a856-5953">2</characteristic>
             <characteristic name="Threat" typeId="b915-b25f-cb12-b651">4</characteristic>
@@ -9894,6 +10148,90 @@ Additionally, when calculating successes or failure of this character&apos;s att
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="3.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="6b9f-d96e-a477-5609" name="HEIMDALL, THE ALL-SEEING (Heimdall) {BETA}" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2f6-f109-df10-f350" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="312c-3205-6d50-6ebd" name="Healthy" hidden="false" typeId="fde4-96d9-2028-2529" typeName="    Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">6</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">M</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">2</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">3</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">3</characteristic>
+            <characteristic name="Energy Defense" typeId="0509-5c52-7571-39ad">3</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="74da-3dd6-e689-35bd" name="Injured" hidden="false" typeId="fde4-96d9-2028-2529" typeName="    Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">5</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">M</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">2</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">3</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">3</characteristic>
+            <characteristic name="Energy Defense" typeId="0509-5c52-7571-39ad">3</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="38c6-ad3e-e5ce-cf87" name=" STRIKE" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="   Attacks">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Phys</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">2</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">5</characteristic>
+            <characteristic name="Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">- After this attack is resolved, this character gains {PWR} equal to the {DMG} dealt.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e9dd-cc80-ce70-ffa3" name="HORFUND" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="   Attacks">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Phys</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">2</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">7</characteristic>
+            <characteristic name="Cost" typeId="711d-c2bc-e2d4-f398">3</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">- If this attack deals {DMG}, after this attack is resolved, this character may push the target character away {M}.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f5bf-6cb4-3d4c-fb2a" name="GUARDIAN OF THE BIFROST" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="  Active Superpowers">
+          <characteristics>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">3</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Choose this character or another allied character within {RNG} 4 and place it within {RNG} 2 of its current position. A character can be placed by this superpower only once per turn.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b9c1-62de-bb2b-2f06" name="ALL-SEEING EYES" hidden="false" typeId="5648-8d63-d440-21b0" typeName="  Reactive Superpowers">
+          <characteristics>
+            <characteristic name="Type" typeId="f59f-a16c-8938-4be1">Reactive</characteristic>
+            <characteristic name="Cost" typeId="3a1f-904d-3b3e-abfb">2</characteristic>
+            <characteristic name="Special Rules" typeId="e05d-5a10-9d52-550c">When an allied character within {RNG} 3 is attacking, defending, or dodging, during the Modify Dice step, this character may use this superpower. The allied character may reroll up to 2 of its own dice.
+
+Alternatively, when an allied character within {RNG} 3 rolls dice for a Crisis Card or Team Tactic card, this character may use this superpower. The allied character may reroll up to 2 of its own dice.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1920-f2d9-f4b3-6f9c" name="FOREFEND" hidden="false" typeId="5648-8d63-d440-21b0" typeName="  Reactive Superpowers">
+          <characteristics>
+            <characteristic name="Type" typeId="f59f-a16c-8938-4be1">Reactive</characteristic>
+            <characteristic name="Cost" typeId="3a1f-904d-3b3e-abfb">2</characteristic>
+            <characteristic name="Special Rules" typeId="e05d-5a10-9d52-550c">When an enemy character ends a movement within {RNG} 2 of this character, this character may use this superpower. Immediately make a Strike attack against the enemy character. This superpower can be used only once per turn.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="001c-9bb8-2162-f153" name="ASGARDIAN" hidden="false" typeId="6b81-fb1a-574f-32e2" typeName=" Innate Superpowers">
+          <characteristics>
+            <characteristic name="Type" typeId="e9b9-de48-7a91-1e15">Innate</characteristic>
+            <characteristic name="Cost" typeId="f183-829f-8371-8b7c">-</characteristic>
+            <characteristic name="Special Rules" typeId="052f-28a4-12f9-0691">During the Power Phase, this character gains 1 additional {PWR}.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="8ae3-f120-1f78-3ae6" name="Asgard" hidden="false" targetId="a554-55ad-02b3-3342" primary="false"/>
+        <categoryLink id="5fda-6c9b-0bbb-2be7" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="3.0"/>
+      </costs>
+    </selectionEntry>
     <selectionEntry id="f53f-79d4-bab3-d91e" name="HELA, QUEEN OF HEL (Hela)" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0116-738d-1393-26e6" type="max"/>
@@ -10296,7 +10634,7 @@ Additionally, when calculating successes or failure of this character&apos;s att
           <characteristics>
             <characteristic name="Type" typeId="e9b9-de48-7a91-1e15">Innate</characteristic>
             <characteristic name="Cost" typeId="f183-829f-8371-8b7c">-</characteristic>
-            <characteristic name="Special Rules" typeId="052f-28a4-12f9-0691">During the Power Phase, this character gains an additional 2 {PWR}.</characteristic>
+            <characteristic name="Special Rules" typeId="052f-28a4-12f9-0691">During the Power Phase, this character gains 2 additional {PWR}.</characteristic>
           </characteristics>
         </profile>
         <profile id="7e8d-8f13-a15a-34d8" name=" YOU WON&apos;T LIKE ME WHEN I&apos;M ANGRY" hidden="false" typeId="6b81-fb1a-574f-32e2" typeName=" Innate Superpowers">
@@ -10449,6 +10787,7 @@ Additionally, during the Power Phase, this character gains 1 additional {PWR}.</
       </profiles>
       <categoryLinks>
         <categoryLink id="fc26-4da4-8bea-c553" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
+        <categoryLink id="3002-8dfc-00f2-2195" name="Avengers" hidden="false" targetId="d6c4-f011-cd8c-5451" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="6.0"/>
@@ -10580,7 +10919,7 @@ Additionally, during the Power Phase, this character gains 1 additional {PWR}.</
             <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">5</characteristic>
             <characteristic name="Cost" typeId="711d-c2bc-e2d4-f398">2</characteristic>
             <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">- This attack ignores LOS, and the defending character does not benefit from Cover.
-- {WILD} Explosive: Before damage is dealt, other enemy characters within {RNG} 2 of the target character suffer 1 {DMG}</characteristic>
+- {WILD} Explosive: Before damage is dealt, other enemy characters within {RNG} 2 of the target character suffer 1 {DMG}.</characteristic>
           </characteristics>
         </profile>
         <profile id="92e2-3d5f-80d0-c4d0" name="UNIBEAM - Injured" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="   Attacks">
@@ -11701,6 +12040,17 @@ Additionally, each Healthy non-Grunt allied character contesting an objective to
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="6.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="b81f-bec9-4452-0b2e" name="MALEKITH (x) {BETA}" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a9d-2387-82cd-7a1d" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="aab6-78e6-98e6-912d" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
+    </selectionEntry>
     <selectionEntry id="c80e-29f4-3ac1-7e9a" name="MEDUSA (Medusalith Amaquelin-Boltagon)" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6cc1-963f-5e7b-17f3" type="max"/>
@@ -11746,7 +12096,7 @@ Additionally, each Healthy non-Grunt allied character contesting an objective to
             <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">7</characteristic>
             <characteristic name="Cost" typeId="711d-c2bc-e2d4-f398">6</characteristic>
             <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">- Before damage is dealt, if the target character is Size 3 or less, place the target character within {RNG} 1 of this character.
-- {WILD} Bleed: After this attack is resolved, the target character gains the Bleed special condition.</characteristic>
+- {WILD} Bleed: After each attack is resolved, the target character gains the Bleed special condition.</characteristic>
           </characteristics>
         </profile>
         <profile id="777d-afcc-66ca-c777" name="HAIR FLIP" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="  Active Superpowers">
@@ -11760,7 +12110,7 @@ Additionally, each Healthy non-Grunt allied character contesting an objective to
           <characteristics>
             <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
             <characteristic name="Cost" typeId="2b18-3d86-a415-5584">2</characteristic>
-            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Choose another allied character within {RNG} 2 of this character. Place this character within {RNG} 1 of the chosen character or place the chosen character within {RNG} 1 of this character. A character can be placed by this superpower only once per turn.</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Choose another allied character within {RNG} 2 of this character. Place this character within {RNG} 1 of the chosen character or place the chosen character within {RNG} 1 of this character. A character may be placed by this superpower only once per turn.</characteristic>
           </characteristics>
         </profile>
         <profile id="2923-817a-b745-5608" name=" INHUMAN" hidden="false" typeId="6b81-fb1a-574f-32e2" typeName=" Innate Superpowers">
@@ -12111,6 +12461,8 @@ Additionally, at the end of this character&apos;s activation, it transforms into
       </profiles>
       <categoryLinks>
         <categoryLink id="0366-6cfe-1665-1f19" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
+        <categoryLink id="52cf-d5e7-3766-c5d6" name="Avengers" hidden="false" targetId="d6c4-f011-cd8c-5451" primary="false"/>
+        <categoryLink id="d723-cfcf-5daa-5a8f" name="Inhumans" hidden="false" targetId="44ea-115a-c4be-377a" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="3.0"/>
@@ -12474,6 +12826,17 @@ If you have an equal number or more VPs than your opponent when an enemy charact
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="4.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="e80b-298b-60eb-bf2f" name="NICK FURY AND HOWLING COMMANDOS (x) {BETA}" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ece-8755-835c-f82b" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="e599-25c3-3673-0963" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
+    </selectionEntry>
     <selectionEntry id="7fb4-8fe8-33a3-9c9c" name="OKOYE (Okoye)" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b911-9e9f-1f48-cae8" type="max"/>
@@ -12651,6 +13014,17 @@ Additionally, at the end of this character&apos;s activation, enemy characters w
       </categoryLinks>
       <costs>
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7dce-e382-7bd9-a029" name="ORIGINAL HUMAN TORCH (Jim Hammond) {BETA}" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="710e-59eb-e07e-a0f0" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="3463-eb7d-017f-1905" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5e5d-bb7a-efd1-f888" name="PROXIMA MIDNIGHT (Proxima Midnight)" hidden="false" collective="false" import="true" type="model">
@@ -13348,7 +13722,6 @@ Additionally, at the end of this character&apos;s activation, enemy characters w
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="5ec7-d145-ec20-37e5" name="S.H.I.E.L.D." hidden="false" targetId="44da-2d91-089d-8aad" primary="false"/>
         <categoryLink id="3f73-aabf-b166-3587" name="Grunts" hidden="false" targetId="efe0-86c9-4b57-7046" primary="false"/>
       </categoryLinks>
       <costs>
@@ -13910,6 +14283,90 @@ Additionally, at the end of this character&apos;s activation, enemy characters w
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="3.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="ce87-940d-e58a-5d98" name="SKURGE, THE EXECUTIONER (Skurge) {BETA}" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a890-a51b-5d8a-91ad" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="93d3-c217-2ea5-d6de" name="Healthy" hidden="false" typeId="fde4-96d9-2028-2529" typeName="    Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">6</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">M</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">2</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">3</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">4</characteristic>
+            <characteristic name="Energy Defense" typeId="0509-5c52-7571-39ad">3</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7058-4df6-3129-b1c0" name="Injured" hidden="false" typeId="fde4-96d9-2028-2529" typeName="    Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">5</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">M</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">2</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">3</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">4</characteristic>
+            <characteristic name="Energy Defense" typeId="0509-5c52-7571-39ad">3</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9622-1ce4-e1a8-5c55" name="BATTLE-AXE" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="   Attacks">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Phys</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">2</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">6</characteristic>
+            <characteristic name="Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">- After this attack is resolved, this character gains 1 {PWR}.
+- {WILD} Bleed: After this attack is resolved, the target character gains the Bleed special condition.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="47f9-4215-84c4-c951" name="THE EXECUTIONER" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="   Attacks">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Phys</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">3</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">8</characteristic>
+            <characteristic name="Cost" typeId="711d-c2bc-e2d4-f398">4</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">- If the target character has the Bleed special condition, you may reroll up to 2 attack dice during this attack.
+- {WILD} Bleed: After this attack is resolved, the target character gains the Bleed special condition.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ee69-2e2c-6337-cae8" name="STORM GIANT STRENGTH" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="  Active Superpowers">
+          <characteristics>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">3</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Choose an interactive terrain feature of Size 3 or less within {RNG} 2 and throw it {S}. This superpower can be used only once per turn.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="01f0-65b7-40e0-9040" name="RIGHT-HAND MAN" hidden="false" typeId="5648-8d63-d440-21b0" typeName="  Reactive Superpowers">
+          <characteristics>
+            <characteristic name="Type" typeId="f59f-a16c-8938-4be1">Reactive</characteristic>
+            <characteristic name="Cost" typeId="3a1f-904d-3b3e-abfb">2</characteristic>
+            <characteristic name="Special Rules" typeId="e05d-5a10-9d52-550c">When an enemy character within {RNG} 2 of this character targets another allied character with an attack, this character may use this superpower. This character becomes the target of the attack regardless of range and LOS.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="bb66-83f2-c2e6-419c" name="AGGRESSIVE" hidden="false" typeId="6b81-fb1a-574f-32e2" typeName=" Innate Superpowers">
+          <characteristics>
+            <characteristic name="Type" typeId="e9b9-de48-7a91-1e15">Innate</characteristic>
+            <characteristic name="Cost" typeId="f183-829f-8371-8b7c">-</characteristic>
+            <characteristic name="Special Rules" typeId="052f-28a4-12f9-0691">After an attack targeting this character is resolved, if this character suffered {DMG}, it may advance {S} toward the attacking character.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a3af-7a71-883e-07a9" name="ASGARDIAN" hidden="false" typeId="6b81-fb1a-574f-32e2" typeName=" Innate Superpowers">
+          <characteristics>
+            <characteristic name="Type" typeId="e9b9-de48-7a91-1e15">Innate</characteristic>
+            <characteristic name="Cost" typeId="f183-829f-8371-8b7c">-</characteristic>
+            <characteristic name="Special Rules" typeId="052f-28a4-12f9-0691">During the Power Phase, this character gains 1 additional {PWR}.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="2549-b856-d84c-e287" name="Asgard" hidden="false" targetId="a554-55ad-02b3-3342" primary="false"/>
+        <categoryLink id="a46e-23d1-3218-b2cd" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="3.0"/>
+      </costs>
+    </selectionEntry>
     <selectionEntry id="d581-f6da-ba25-1af7" name="SPIDER-MAN (Miles Morales)" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3df9-dd32-3af8-ab1b" type="max"/>
@@ -14293,6 +14750,109 @@ Additionally, when an allied character is targeted by an attack and the attacker
         <categoryLink id="46f4-65ad-b420-966a" name="Uncanny X-Men" hidden="false" targetId="60b3-f8b0-e59a-faca" primary="false"/>
         <categoryLink id="996d-8835-b4ac-e408" name="Wakanda" hidden="false" targetId="f26a-4939-f603-307c" primary="false"/>
       </categoryLinks>
+      <costs>
+        <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d457-508d-3c3c-c7b1" name="SUPERGIANT (Supergiant)" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f5d-fb32-65a1-9182" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="400e-251a-20d0-f7ef" name="Healthy" hidden="false" typeId="fde4-96d9-2028-2529" typeName="    Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">5</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">S</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">2</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">3</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">1</characteristic>
+            <characteristic name="Energy Defense" typeId="0509-5c52-7571-39ad">3</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">4</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="eda9-f747-61aa-7221" name="Injured" hidden="false" typeId="fde4-96d9-2028-2529" typeName="    Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">5</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">S</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">2</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">3</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">1</characteristic>
+            <characteristic name="Energy Defense" typeId="0509-5c52-7571-39ad">3</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">4</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a97c-165f-194b-30b5" name=" MENTAL VAMPIRE" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="   Attacks">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Myst</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">3</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">5</characteristic>
+            <characteristic name="Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">- After this attack is resolved, this character gains 1 {PWR}.
+- Drain Life: After this attack is resolved, if it dealt damage, remove 1 {DMG} from this character.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="cb48-2adf-9e6b-4a65" name="DEVASTATE INTELLECT" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="   Attacks">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Myst</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">2</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">8</characteristic>
+            <characteristic name="Cost" typeId="711d-c2bc-e2d4-f398">8</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">- If this attack would deal {DMG}, it does not and the target character loses that much {PWR} instead.
+- {WILD} Stun: After this attack is resolved, the target character gains the Stun special condition.
+- {WILD} {WILD} Stagger: After this attack is resolved, the target character gains the Stagger special condition.
+- {CRIT} {WILD} {HIT} {HIT} {FAIL} {FAIL} Devour Mind: After this attack is resolved, if the target character is Healthy, it becomes Dazed. If the target character is Injured, it becomes KO&apos;d.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7a67-e82f-d252-67b5" name="SUBMIT!" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="  Active Superpowers">
+          <characteristics>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">X</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">This character may spend up to 5 {PWR} to use this superpower. Choose a Civilian token within {RNG} X of this character, where X is the amount of {PWR} spent to use this superpower. This character may interact with the chosen token without paying the Power Cost.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2902-198f-3e12-3784" name="SUPREME CONTROL" hidden="false" typeId="5648-8d63-d440-21b0" typeName="  Reactive Superpowers">
+          <characteristics>
+            <characteristic name="Type" typeId="f59f-a16c-8938-4be1">Reactive</characteristic>
+            <characteristic name="Cost" typeId="3a1f-904d-3b3e-abfb">2</characteristic>
+            <characteristic name="Special Rules" typeId="e05d-5a10-9d52-550c">When an allied character within {RNG} 4 of this character would be pushed, this character may use this superpower. The allied character is not pushed.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0efd-3c58-6a34-5499" name=" ETHEREAL" hidden="false" typeId="6b81-fb1a-574f-32e2" typeName=" Innate Superpowers">
+          <characteristics>
+            <characteristic name="Type" typeId="e9b9-de48-7a91-1e15">Innate</characteristic>
+            <characteristic name="Cost" typeId="f183-829f-8371-8b7c">-</characteristic>
+            <characteristic name="Special Rules" typeId="052f-28a4-12f9-0691">If this character would suffer two or more {DMG} from a {PHYS} attack or collision, it suffers 1 {DMG} instead. Additionally, if this character suffers damage from a {PHYS} attack or collision, it drops all objective tokens it is holding.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5e9c-52af-f105-1f82" name=" OMNIPATHY" hidden="false" typeId="6b81-fb1a-574f-32e2" typeName=" Innate Superpowers">
+          <characteristics>
+            <characteristic name="Type" typeId="e9b9-de48-7a91-1e15">Innate</characteristic>
+            <characteristic name="Cost" typeId="f183-829f-8371-8b7c">-</characteristic>
+            <characteristic name="Special Rules" typeId="052f-28a4-12f9-0691">When an enemy character within {RNG} 3 of this character rolls one or more {CRIT} in any roll, after the effect is resolved, this character gains 1 {PWR}.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c98b-2962-db0f-6cf2" name="GEM BEARER [SOUL]" hidden="false" typeId="6b81-fb1a-574f-32e2" typeName=" Innate Superpowers">
+          <characteristics>
+            <characteristic name="Type" typeId="e9b9-de48-7a91-1e15">Innate</characteristic>
+            <characteristic name="Cost" typeId="f183-829f-8371-8b7c">-</characteristic>
+            <characteristic name="Special Rules" typeId="052f-28a4-12f9-0691">This superpower indicates which Infinity Gem the character may have. Each character may only have one Infinity Gem at a time.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="2e89-3dff-32e9-ce66" name="Black Order" hidden="false" targetId="01c6-f9aa-a521-8f23" primary="false"/>
+        <categoryLink id="8e83-0a50-d8f5-cc70" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="096a-deda-63be-41b1" name="Infinity Gems" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4fb7-c254-7a88-43c4" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="ae60-3a51-f8dd-f9b7" name=" INFINITY GEM - SOUL" hidden="false" collective="false" import="true" targetId="09a8-5bfb-f7cc-fdc6" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="3.0"/>
       </costs>
@@ -15482,7 +16042,6 @@ Phased: This character rolls three additional dice when defending against {ENRG}
       </profiles>
       <categoryLinks>
         <categoryLink id="48db-ef8b-a0ce-6824" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
-        <categoryLink id="d490-aa7f-4f7a-b37f" name="Unaffiliated" hidden="false" targetId="8ded-f44e-e059-108b" primary="false"/>
         <categoryLink id="822b-3dcd-2204-001d" name="S.H.I.E.L.D." hidden="false" targetId="44da-2d91-089d-8aad" primary="false"/>
       </categoryLinks>
       <costs>
