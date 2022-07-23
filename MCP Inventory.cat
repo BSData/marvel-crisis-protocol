@@ -1244,6 +1244,7 @@ If the roll contains at least one {FAIL}, the interacting character is placed wi
               </profiles>
               <categoryLinks>
                 <categoryLink id="5333-87d4-7450-dd97" name="Set - XMen Crisis" hidden="false" targetId="e90e-5e69-79ef-61b0" primary="false"/>
+                <categoryLink id="01c8-2a7b-c74f-4a8f" name="Crisis - Secure" hidden="false" targetId="75ba-74ce-7452-509c" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
