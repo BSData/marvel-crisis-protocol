@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="9c66-3ecf-4508-3b47" name="Marvel Crisis Protocol" revision="2208" battleScribeVersion="2.03" authorName="Uplink" authorContact="Uplink.MCP@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="9c66-3ecf-4508-3b47" name="Marvel Crisis Protocol" revision="2209" battleScribeVersion="2.03" authorName="Uplink" authorContact="Uplink.MCP@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>*VERSION INFO*
 Core Rules: 3/31/2022
-FAQ &amp; Errata: 8/12/2022
-Base Sizes: 8/12/2022
-Affiliations: 8/12/2022
-Ban/Restricted: 6/30/2022
+FAQ &amp; Errata: 9/9/2022
+Base Sizes: 9/9/2022
+Affiliations: 9/9/2022
+Ban/Restricted: 9/9/2022
 Challenger: 6/30/2022
 
 *UPDATES*
-- Added P2P data for Steve Rogers, The Original Human Torch, and Arnim Zola.
-- Added Preview data for Red Skull, Master of Hydra and Hydra Troopers.
-- Added Hydra Tactic Cards category.
-- Added upcoming Tactic Cards previews.
-- Finalized Malekith and Winter Guard Stat and Tactic Cards.
-
+- Finalized Arnim Zola, Baron Strucker, Nick Fury &amp; The Howling Commandos, Steve Rogers Captain America, and The Original Human Torch.
+- Added P2P data for Red Skull - Master of Hydra, Hydra Troopers, and Sentinels.
+- Added Sentinel Affiliation &amp; Tactics Groups.
 
 *DATAFILE REFERENCE*
 - Any entries listed as {Beta} are ones I do not own, have not seen in person, or which have not been officially published in AMG living documents (Rules / FAQ / etc.). Panel to Play (P2P) data is considered Beta.
@@ -154,6 +151,7 @@ If you find any incorrect data, please send correction requests to the address a
     <categoryEntry id="37b0-7fc2-32e0-345f" name="Restricted - Timeline Extended" hidden="false"/>
     <categoryEntry id="3351-762c-1152-6a79" name="Restricted - Timeline Standard" hidden="false"/>
     <categoryEntry id="44da-2d91-089d-8aad" name="S.H.I.E.L.D." hidden="false"/>
+    <categoryEntry id="00d3-7664-9c6d-2322" name="Sentinels" hidden="false"/>
     <categoryEntry id="c979-e2ae-244c-cb8b" name="Set - City Crisis" hidden="false"/>
     <categoryEntry id="0e17-e603-4d9b-981f" name="Set - City Gem" hidden="false"/>
     <categoryEntry id="45bd-7f44-9608-4abe" name="Set - City Tactic" hidden="false"/>

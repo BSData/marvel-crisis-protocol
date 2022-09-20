@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b5fb-20f9-0dce-3f02" name="MCP Inventory" revision="2208" battleScribeVersion="2.03" authorName="Uplink" authorContact="Uplink.MCP@gmail.com" library="false" gameSystemId="9c66-3ecf-4508-3b47" gameSystemRevision="2208" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b5fb-20f9-0dce-3f02" name="MCP Inventory" revision="2209" battleScribeVersion="2.03" authorName="Uplink" authorContact="Uplink.MCP@gmail.com" library="false" gameSystemId="9c66-3ecf-4508-3b47" gameSystemRevision="2209" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="cc3a-be8e-3248-8036" name=" Affiliations (Future Use)" hidden="true" collective="false" import="true" targetId="1537-dd64-b659-3a8e" type="selectionEntry"/>
     <entryLink id="add7-cf4a-08e3-6cf3" name=" Crisis Cards - Extraction" hidden="false" collective="false" import="true" targetId="aade-9898-c12d-e090" type="selectionEntry">
@@ -530,6 +530,16 @@
     <entryLink id="cc50-f62d-a2ef-c7a0" name="SCARLET WITCH (Wanda Maximoff)" hidden="false" collective="false" import="true" targetId="497f-8ccc-a720-d7c6" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="90c5-7045-34e5-1815" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="2caa-b551-bf8a-2ac1" name="SENTINEL MK4 (Sentinel MK4) {BETA}" hidden="false" collective="false" import="true" targetId="604e-a788-a944-9993" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="c749-0164-134d-873b" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="2682-2156-97fa-946d" name="SENTINEL PRIME MK4 (Sentinel Prime MK4) {BETA}" hidden="false" collective="false" import="true" targetId="b3d3-e360-9c32-fe45" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="a073-c40b-c339-38ce" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="6e6f-47f9-4ae2-6d00" name="SHADOWLAND DAREDEVIL (MATT MURDOCK)" hidden="false" collective="false" import="true" targetId="6474-0172-5646-8388" type="selectionEntry">
@@ -2558,16 +2568,16 @@ Each character that played this card rolls 1 die. If they roll a {CRIT} or {WILD
         </selectionEntryGroup>
         <selectionEntryGroup id="9254-6f5b-bda8-6838" name="Hydra" hidden="false" collective="false" import="true">
           <selectionEntries>
-            <selectionEntry id="1ca6-4057-61d8-a5cd" name="SCIENTIFIC METHOD {BETA}" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="1ca6-4057-61d8-a5cd" name="SCIENTIFIC METHOD" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aeb9-88f2-edde-d070" type="max"/>
               </constraints>
               <profiles>
-                <profile id="4870-ed61-cef9-7ef5" name="SCIENTIFIC METHOD {BETA}" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+                <profile id="4870-ed61-cef9-7ef5" name="SCIENTIFIC METHOD" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
                   <characteristics>
                     <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Hydra</characteristic>
                     <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
-                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">Arnim Zola may spend 2 {PWR} to play this card. Choose another allied character that is Threat Value 3 or less and within {RNG} 3 of Arnim Zola. The chosen character suffers 2 {DMG}. For the rest of the game, the chosen character may use the ESP Leakage attack and gains the Innatural Mutation superpower.
+                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">Arnim Zola may spend 2 {PWR} to play this card. Choose another allied character that is Threat Value 3 or less and within {RNG} 3 of Arnim Zola. The chosen character suffers 2 {DMG}. For the rest of the game, the chosen character may use the ESP Leakage attack and gains the Unnatural Mutation superpower.
 
 {MYST} ESP LEAKAGE {RNG} 2 {STR} 6 {COST} 1
 - Before damage is dealt, the target character suffers 1 {DMG} for each {FAIL} in the defense roll.
@@ -2586,12 +2596,12 @@ When an enemy character targets this character with an attack, this character ad
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="e7b1-f7a2-549d-7487" name="THE HIGH COUNCIL {BETA}" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="e7b1-f7a2-549d-7487" name="THE HIGH COUNCIL" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d1c-de93-0453-a2f2" type="max"/>
               </constraints>
               <profiles>
-                <profile id="5241-5d6a-85f5-5b5b" name="THE HIGH COUNCIL {BETA}" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+                <profile id="5241-5d6a-85f5-5b5b" name="THE HIGH COUNCIL" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
                   <characteristics>
                     <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Hydra</characteristic>
                     <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
@@ -2764,6 +2774,29 @@ Each character that spent {PWR} may immediately perform an attack with a {PWR} c
         </selectionEntryGroup>
         <selectionEntryGroup id="a6a9-8778-981a-74a9" name="S.H.I.E.L.D." hidden="false" collective="false" import="true">
           <selectionEntries>
+            <selectionEntry id="9d02-a199-8cc7-9a03" name="A NEW AGE" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e6ea-8b32-61b2-3bd2" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="036f-435d-e404-0344" name="A NEW AGE" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+                  <characteristics>
+                    <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">S.H.I.E.L.D.</characteristic>
+                    <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
+                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">Jim Hammond may spend 3 {PWR} to play this card.
+Each enemy character within {RNG} 3 of Jim Hammond gains the Incinerate special condition. This round, when an allied S.H.I.E.L.D. character is attacking a character with the Incinerate special condition, if the attack type is {ENRG}, add 2 dice to the attack roll.</characteristic>
+                    <characteristic name="Set" typeId="72f3-9912-65f3-e142">{HAMR}</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="4447-7aae-147c-2d98" name="Set - Hammer Tactic" hidden="false" targetId="45e3-39e2-340b-9e14" primary="false"/>
+                <categoryLink id="4ab2-49fb-1711-3f4e" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+              </costs>
+            </selectionEntry>
             <selectionEntry id="f29e-63f2-426d-e2a2" name="BATTLEFIELD MEDICINE" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b28a-30eb-f485-f2a3" type="max"/>
@@ -2935,6 +2968,7 @@ This character gains the Flight {INNATE} superpower this round. It immediately a
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="45ae-c11a-74ed-59e6" name="Sentinels" hidden="false" collective="false" import="true"/>
         <selectionEntryGroup id="0428-1739-bfe3-0cd3" name="Spider-Foes" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="21b4-54ab-7029-ce9a" name="NEOGENETIC RECOMBINATOR" hidden="false" collective="false" import="true" type="upgrade">
@@ -3964,7 +3998,7 @@ Remove a Dazed token and 1 {DMG} from the allied character.</characteristic>
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="2681-a3c9-92ff-ffea" name="FOLLOW ME" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="2681-a3c9-92ff-ffea" name="FOLLOW ME {Restricted - Standard}" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1f8-569a-58ea-0a95" type="max"/>
               </constraints>
@@ -3982,6 +4016,7 @@ Choose another allied character within {RNG} 3 of the active character. The chos
               <categoryLinks>
                 <categoryLink id="c6cc-4f85-6655-7669" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
                 <categoryLink id="c7f0-05ac-9868-edcc" name="Set - Hammer Tactic" hidden="false" targetId="45e3-39e2-340b-9e14" primary="false"/>
+                <categoryLink id="4ced-cafa-b44d-e993" name="Restricted - Timeline Standard" hidden="false" targetId="3351-762c-1152-6a79" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
@@ -4327,12 +4362,12 @@ The allied character is not thrown or pushed.</characteristic>
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="e3dc-6f3c-290c-005f" name="INFILTRATION {BETA}" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="e3dc-6f3c-290c-005f" name="INFILTRATION" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dab6-2eff-1947-3f1d" type="max"/>
               </constraints>
               <profiles>
-                <profile id="c60b-364d-b905-8012" name="INFILTRATION {BETA}" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+                <profile id="c60b-364d-b905-8012" name="INFILTRATION" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
                   <characteristics>
                     <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
                     <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
@@ -4667,7 +4702,7 @@ Remove up to 3 {DMG} from this character or an allied character without a Dazed 
                   <characteristics>
                     <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
                     <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
-                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">When another allied character would suffer a collision, Enchantress may spend 2 {PWR} to play this card.
+                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">When an allied non-Skurge character would suffer a collision, an allied Enchantress may spend 2 {PWR} to play this card.
 Place an allied Skurge, the Executioner within {RNG} 1 of the character suffering a collision.
 Skurge, the Executioner suffers the collision instead. During this collision, if Skurge, the Executioner would suffer damage, reduce the amount he suffers by 1.</characteristic>
                     <characteristic name="Set" typeId="72f3-9912-65f3-e142">{HAMR}</characteristic>
@@ -4898,12 +4933,12 @@ Add two dice to the attack roll.</characteristic>
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="a112-a88f-7c4f-ed29" name="OVER THE TOP {BETA}" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="a112-a88f-7c4f-ed29" name="OVER THE TOP" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="420b-3343-e486-b60e" type="max"/>
               </constraints>
               <profiles>
-                <profile id="dd46-a630-2119-0801" name="OVER THE TOP {BETA}" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+                <profile id="dd46-a630-2119-0801" name="OVER THE TOP" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
                   <characteristics>
                     <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
                     <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
@@ -6927,7 +6962,7 @@ Additionally, during the Power Phase, this character gains 1 additional {PWR}.</
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="3.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c465-2cca-c4c9-2c6e" name="ARNIM ZOLA (Arnim Zola) {BETA}" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="c465-2cca-c4c9-2c6e" name="ARNIM ZOLA (Arnim Zola)" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8085-1846-45fc-87db" type="max"/>
       </constraints>
@@ -6960,7 +6995,7 @@ Additionally, during the Power Phase, this character gains 1 additional {PWR}.</
             <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">4</characteristic>
             <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">4</characteristic>
             <characteristic name="Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
-            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">- Before choosing a target, this character chooses whether this attack&apos;sw type is {PHYS}, {ENRG}, or {MYST}.
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">- Before choosing a target, this character chooses whether this attack&apos;s type is {PHYS}, {ENRG}, or {MYST}.
 - After this attack is resolved, this character gains 1 {PWR}.
 - {WILD} Hydra Ingenuity: After this attack is resolved, for each {WILD} in the attack roll the defending character gains one of the following special conditions: Bleed, Shock, Slow, or Stun.</characteristic>
           </characteristics>
@@ -7009,6 +7044,7 @@ After the attack is resolved, if the allied roll contained one or more {FAIL} re
       <categoryLinks>
         <categoryLink id="2f01-b2a8-0c08-3cfa" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
         <categoryLink id="18e6-59c2-fd76-7517" name="Hydra" hidden="false" targetId="a097-6b33-a91a-b908" primary="false"/>
+        <categoryLink id="93ed-a77d-4005-a817" name="Cabal" hidden="false" targetId="54a5-69c1-3540-3c6e" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="3.0"/>
@@ -7115,7 +7151,7 @@ After the attack is resolved, if the allied roll contained one or more {FAIL} re
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="3.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="42b9-24cc-b7bd-cd38" name="BARON STRUCKER (Wolfgang von Strucker) {BETA}" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="42b9-24cc-b7bd-cd38" name="BARON STRUCKER (Wolfgang von Strucker)" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b53-d639-70c9-43e3" type="max"/>
       </constraints>
@@ -7200,6 +7236,7 @@ Additionally, once per turn, when an enemy character gains a special condition, 
       <categoryLinks>
         <categoryLink id="b404-2cd2-8952-4b78" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
         <categoryLink id="0bf6-e3ae-8366-0302" name="Hydra" hidden="false" targetId="a097-6b33-a91a-b908" primary="false"/>
+        <categoryLink id="77ca-1125-2309-e6cb" name="Cabal" hidden="false" targetId="54a5-69c1-3540-3c6e" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="3.0"/>
@@ -7284,6 +7321,7 @@ Additionally, once per turn, when an enemy character gains a special condition, 
       <categoryLinks>
         <categoryLink id="d7a8-7139-40f9-ff88" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
         <categoryLink id="2ca8-0ec4-c6a2-dd30" name="Cabal" hidden="false" targetId="54a5-69c1-3540-3c6e" primary="false"/>
+        <categoryLink id="2e06-7e95-bd35-4850" name="Hydra" hidden="false" targetId="a097-6b33-a91a-b908" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="3.0"/>
@@ -8242,6 +8280,7 @@ If, at any time, this is the only character you control, you lose the game.</cha
       <categoryLinks>
         <categoryLink id="7074-fbc7-903f-3ea3" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
         <categoryLink id="7add-1576-a516-1fef" name="Cabal" hidden="false" targetId="54a5-69c1-3540-3c6e" primary="false"/>
+        <categoryLink id="efbd-d19f-a36b-a94e" name="Hydra" hidden="false" targetId="a097-6b33-a91a-b908" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="2.0"/>
@@ -9364,6 +9403,7 @@ When an allied character is contesting a Secure objective and would be pushed, i
         <categoryLink id="0e84-6e5f-2f53-f519" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
         <categoryLink id="60b2-3657-4ae2-1389" name="Cabal" hidden="false" targetId="54a5-69c1-3540-3c6e" primary="false"/>
         <categoryLink id="59a6-7701-3fd5-f275" name="Criminal Syndicate" hidden="false" targetId="62e3-8aa2-ed7a-9e44" primary="false"/>
+        <categoryLink id="9fac-a03a-3a78-7d86" name="Hydra" hidden="false" targetId="a097-6b33-a91a-b908" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="3.0"/>
@@ -12189,16 +12229,16 @@ Additionally, during the Power Phase, this character gains 1 additional {PWR}.</
         </profile>
         <profile id="dd1f-e188-a9d2-7641" name=" OCCUPATION FORCE" hidden="false" typeId="6b81-fb1a-574f-32e2" typeName=" Innate Superpowers">
           <characteristics>
-            <characteristic name="Type" typeId="e9b9-de48-7a91-1e15">Iinnate</characteristic>
+            <characteristic name="Type" typeId="e9b9-de48-7a91-1e15">Innate</characteristic>
             <characteristic name="Cost" typeId="f183-829f-8371-8b7c">-</characteristic>
-            <characteristic name="Special Rules" typeId="052f-28a4-12f9-0691">This character can not pick up, hold, or interact with Extract objective tokens. This character does not have to pay {PWR} to interact with Secure Objective tokens.</characteristic>
+            <characteristic name="Special Rules" typeId="052f-28a4-12f9-0691">This character cannot pick up, hold, or interact with Extract objective tokens. This character does not have to pay {PWR} to interact with Secure Objective tokens.</characteristic>
           </characteristics>
         </profile>
         <profile id="84c4-2c75-8a03-ca9f" name="GRUNTS [RED SKULL, MASTER OF HYDRA]" hidden="false" typeId="6b81-fb1a-574f-32e2" typeName=" Innate Superpowers">
           <characteristics>
             <characteristic name="Type" typeId="e9b9-de48-7a91-1e15">Innate</characteristic>
             <characteristic name="Cost" typeId="f183-829f-8371-8b7c">-</characteristic>
-            <characteristic name="Special Rules" typeId="052f-28a4-12f9-0691">This character cannot be included in Rosters and otherwise can only be put into play as a result of the Cut Off One Head... superpower.</characteristic>
+            <characteristic name="Special Rules" typeId="052f-28a4-12f9-0691"/>
           </characteristics>
         </profile>
       </profiles>
@@ -14335,7 +14375,7 @@ If you have an equal number or more VPs than your opponent when an enemy charact
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="4.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e80b-298b-60eb-bf2f" name="NICK FURY &amp; THE HOWLING COMMANDOS (Nicholas Fury, Sr., Timothy &quot;Dum Dum&quot; Dugan, Gabriel Jones) {BETA}" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="e80b-298b-60eb-bf2f" name="NICK FURY &amp; THE HOWLING COMMANDOS (Nicholas Fury, Sr., Timothy &quot;Dum Dum&quot; Dugan, Gabriel Jones)" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ece-8755-835c-f82b" type="max"/>
       </constraints>
@@ -15057,6 +15097,7 @@ Additionally, at the end of this character&apos;s activation, enemy characters w
       <categoryLinks>
         <categoryLink id="f92a-b29b-7362-3627" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
         <categoryLink id="e347-bc2f-3ced-245d" name="Cabal" hidden="false" targetId="54a5-69c1-3540-3c6e" primary="false"/>
+        <categoryLink id="3250-daa7-499a-44ce" name="Hydra" hidden="false" targetId="a097-6b33-a91a-b908" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="4.0"/>
@@ -15080,13 +15121,13 @@ Additionally, at the end of this character&apos;s activation, enemy characters w
         </profile>
         <profile id="4cc9-af16-4895-428c" name="Injured" hidden="false" typeId="fde4-96d9-2028-2529" typeName="    Character">
           <characteristics>
-            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363"/>
-            <characteristic name="Speed" typeId="ba74-030d-982e-7e70"/>
-            <characteristic name="Size" typeId="40df-7d54-a856-5953"/>
-            <characteristic name="Threat" typeId="b915-b25f-cb12-b651"/>
-            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335"/>
-            <characteristic name="Energy Defense" typeId="0509-5c52-7571-39ad"/>
-            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292"/>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">6</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">M</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">2</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">5</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">4</characteristic>
+            <characteristic name="Energy Defense" typeId="0509-5c52-7571-39ad">2</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">2</characteristic>
           </characteristics>
         </profile>
         <profile id="3226-0962-ef40-b8c1" name="BLITZ STRIKE" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="   Attacks">
@@ -15107,7 +15148,7 @@ Additionally, at the end of this character&apos;s activation, enemy characters w
             <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">9</characteristic>
             <characteristic name="Cost" typeId="711d-c2bc-e2d4-f398">5</characteristic>
             <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">- Before choosing a target, this character chooses whether this attack&apos;s type is {ENRG} or {MYST}.
-- {WILD} Throw: After this attack is resolved, if the target character is Size 4 or less, this character may throw the target character away M.</characteristic>
+- {WILD} Throw: After this attack is resolved, if the target character is Size 4 or less, this character may throw the target character away {M}.</characteristic>
           </characteristics>
         </profile>
         <profile id="9a1e-48c0-0761-9a2a" name="WORLD DOMINATION (AFFILIATION: HYDRA)" hidden="false" typeId="aa85-0b33-2742-db0e" typeName="   Leadership">
@@ -15688,6 +15729,229 @@ Additionally, at the end of this character&apos;s activation, enemy characters w
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="5.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="604e-a788-a944-9993" name="SENTINEL MK4 (Sentinel MK4) {BETA}" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af74-d559-fbec-ea04" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="de66-6e6f-ed15-5e9f" name="Healthy" hidden="false" typeId="fde4-96d9-2028-2529" typeName="    Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">7</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">S</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">5</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">4</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">3</characteristic>
+            <characteristic name="Energy Defense" typeId="0509-5c52-7571-39ad">4</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">4</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b42f-bd31-73a3-aa4b" name="Injured" hidden="false" typeId="fde4-96d9-2028-2529" typeName="    Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">6</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">S</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">5</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">4</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">3</characteristic>
+            <characteristic name="Energy Defense" typeId="0509-5c52-7571-39ad">4</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">4</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2a5b-8be0-770b-e9dc" name="PLASMA BLAST - Healthy" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="   Attacks">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Enrg</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">3</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">4</characteristic>
+            <characteristic name="Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">- After this attack is resolved, this character gains {PWR} equal to the {DMG} dealt.
+- When this attack is chosen, during the Pay {PWR} Cost step of the attack, this character may spend up to 3 additional {PWR}. Add one die to the attack for each {PWR} spent this way.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="142e-3b23-8e40-e0a5" name="PLASMA LEAK - Injured" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="   Attacks">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Enrg</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">2</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">4</characteristic>
+            <characteristic name="Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">- Systems Overloading: When rolling additional dice for {CRIT} results during this attack, roll 2 additional dice instead of 1 for each {CRIT} in the attack roll.
+- Systems Critical: After this attack is resolved, this character suffers 1 {DMG} for each {CRIT} in the attack roll.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8aaa-4099-db77-f946" name="SUPPRESSION PROTOCOLS" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="   Attacks">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Phys</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">3</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">8</characteristic>
+            <characteristic name="Cost" typeId="711d-c2bc-e2d4-f398">3</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">- {WILD} Suppression: After this attack is resolved, for each {WILD} in the attack roll the defending character gains one of the following special conditions: Incinerate, Shock, or Slow.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a995-db1b-6fe6-a9ac" name="RESTRAINT CABLES" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="  Active Superpowers">
+          <characteristics>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">2</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Choose an enemy character within {RNG} 4 and in LOS. The chosen character is pushed toward this character {S}. This superpower can be used only once per turn.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ed99-6d2c-c4d8-6d4f" name=" DAMAGED POWER MATRIX - Injured" hidden="false" typeId="6b81-fb1a-574f-32e2" typeName=" Innate Superpowers">
+          <characteristics>
+            <characteristic name="Type" typeId="e9b9-de48-7a91-1e15">Innate</characteristic>
+            <characteristic name="Cost" typeId="f183-829f-8371-8b7c">-</characteristic>
+            <characteristic name="Special Rules" typeId="052f-28a4-12f9-0691">At the end of this character&apos;s activation it gains 1 {PWR}.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="793f-3924-a7ca-af68" name=" MASTER MOLD" hidden="false" typeId="6b81-fb1a-574f-32e2" typeName=" Innate Superpowers">
+          <characteristics>
+            <characteristic name="Type" typeId="e9b9-de48-7a91-1e15">Innate</characteristic>
+            <characteristic name="Cost" typeId="f183-829f-8371-8b7c">-</characteristic>
+            <characteristic name="Special Rules" typeId="052f-28a4-12f9-0691">When building a Roster or a Squad, a player may include 2 of this character instead of the normal 1.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9efa-8f85-3fe1-f3c2" name=" POWER MATRIX - Healthy" hidden="false" typeId="6b81-fb1a-574f-32e2" typeName=" Innate Superpowers">
+          <characteristics>
+            <characteristic name="Type" typeId="e9b9-de48-7a91-1e15">Innate</characteristic>
+            <characteristic name="Cost" typeId="f183-829f-8371-8b7c">-</characteristic>
+            <characteristic name="Special Rules" typeId="052f-28a4-12f9-0691">At the end of this character&apos;s activation it gains 2 {PWR}.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1915-1268-73ed-6cf8" name=" SENTINEL PROGRAMMING" hidden="false" typeId="6b81-fb1a-574f-32e2" typeName=" Innate Superpowers">
+          <characteristics>
+            <characteristic name="Type" typeId="e9b9-de48-7a91-1e15">Innate</characteristic>
+            <characteristic name="Cost" typeId="f183-829f-8371-8b7c">-</characteristic>
+            <characteristic name="Special Rules" typeId="052f-28a4-12f9-0691">This character cannot be advanced or pushed by {MYST} attacks or superpowers. When defending against {MYST} attacks this character counts {WILD} results in the defense roll as 2 successes.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="95a0-fe7b-fe0a-a7f8" name="FLIGHT" hidden="false" typeId="6b81-fb1a-574f-32e2" typeName=" Innate Superpowers">
+          <characteristics>
+            <characteristic name="Type" typeId="e9b9-de48-7a91-1e15">Innate</characteristic>
+            <characteristic name="Cost" typeId="f183-829f-8371-8b7c">-</characteristic>
+            <characteristic name="Special Rules" typeId="052f-28a4-12f9-0691">When placing the movement tool during an advance, this character counts as Size 5.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="936c-2ec8-5f7d-0028" name="IMMUNITY [BLEED, POISON]" hidden="false" typeId="6b81-fb1a-574f-32e2" typeName=" Innate Superpowers">
+          <characteristics>
+            <characteristic name="Type" typeId="e9b9-de48-7a91-1e15">Innate</characteristic>
+            <characteristic name="Cost" typeId="f183-829f-8371-8b7c">-</characteristic>
+            <characteristic name="Special Rules" typeId="052f-28a4-12f9-0691">This character can’t suffer the [BLEED] or [POISON] special condition. If it has the special condition and gains Immunity to it, the character removes the special condition.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="e24c-e64b-5c8f-1f51" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
+        <categoryLink id="2d36-609b-32c4-c584" name="Sentinels" hidden="false" targetId="00d3-7664-9c6d-2322" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b3d3-e360-9c32-fe45" name="SENTINEL PRIME MK4 (Sentinel Prime MK4) {BETA}" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b83d-0451-6d68-ff73" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="0a60-3821-dbcc-2a20" name="Healthy" hidden="false" typeId="fde4-96d9-2028-2529" typeName="    Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">10</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">S</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">5</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">5</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">3</characteristic>
+            <characteristic name="Energy Defense" typeId="0509-5c52-7571-39ad">4</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">4</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0210-2d0a-4f9a-5619" name="Injured" hidden="false" typeId="fde4-96d9-2028-2529" typeName="    Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">8</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">S</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">5</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">5</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">3</characteristic>
+            <characteristic name="Energy Defense" typeId="0509-5c52-7571-39ad">4</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">4</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4743-7cac-384c-f88a" name="PLASMA BLAST MK 2" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="   Attacks">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Enrg</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">3</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">5</characteristic>
+            <characteristic name="Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">- After this attack is resolved, this character gains {PWR} equal to the {DMG} dealt.
+- When this attack is chosen, during the Pay {PWR} Cost step of the attack, this character may spend up to 3 additional {PWR}. Add one die to the attack for each {PWR} spent this way.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="fb07-a570-415f-8a62" name="SUPPRESSION PROTOCOLS MK 2" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="   Attacks">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Phys</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">3</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">9</characteristic>
+            <characteristic name="Cost" typeId="711d-c2bc-e2d4-f398">4</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">- {WILD} Suppression: After this attack is resolved, for each {WILD} in the attack roll the defending character gains one of the following special conditions: Incinerate, Shock, or Slow.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4445-7b0c-0104-cbd8" name="MUTANT HUNTERS (AFFILIATION: SENTINELS)" hidden="false" typeId="aa85-0b33-2742-db0e" typeName="   Leadership">
+          <characteristics>
+            <characteristic name="Special Rules" typeId="c95d-3ead-781d-3833">When an enemy character is Dazed, after the effect is resolved, choose a number of allied characters up to the Dazed character&apos;s Threat Value. Each chosen character gains 1 {PWR}. A character cannot gain more than 1 {PWR} as a result of this Leadership ability each turn.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="92c2-91dc-ef99-b6bf" name="RESTRAINT CABLES" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="  Active Superpowers">
+          <characteristics>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">2</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Choose an enemy character within {RNG} 4 and in LOS. The chosen character is pushed toward this character {S}. This superpower can be used only once per turn.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0a4d-19d2-0052-2ba1" name="PATTERN ANALYSIS" hidden="false" typeId="5648-8d63-d440-21b0" typeName="  Reactive Superpowers">
+          <characteristics>
+            <characteristic name="Type" typeId="f59f-a16c-8938-4be1">Reactive</characteristic>
+            <characteristic name="Cost" typeId="3a1f-904d-3b3e-abfb">X</characteristic>
+            <characteristic name="Special Rules" typeId="e05d-5a10-9d52-550c">While this character or an allied character within {RNG} 4 is attacking or defending, during the Modify Dice step of the attack, this character may spend up to 3 {PWR} to use this superpower. For each 1 {PWR} spent, this character or the allied character may reroll 1 die.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="cb7e-2364-afb4-cd8a" name="  POWER MATRIX - Healthy" hidden="false" typeId="6b81-fb1a-574f-32e2" typeName=" Innate Superpowers">
+          <characteristics>
+            <characteristic name="Type" typeId="e9b9-de48-7a91-1e15">Innate</characteristic>
+            <characteristic name="Cost" typeId="f183-829f-8371-8b7c">-</characteristic>
+            <characteristic name="Special Rules" typeId="052f-28a4-12f9-0691">At the end of this character&apos;s activation it gains 2 {PWR}.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="bdc5-3ef4-d9a7-e1e5" name=" OVERLOADING POWER CORE - Injured" hidden="false" typeId="6b81-fb1a-574f-32e2" typeName=" Innate Superpowers">
+          <characteristics>
+            <characteristic name="Type" typeId="e9b9-de48-7a91-1e15">Innate</characteristic>
+            <characteristic name="Cost" typeId="f183-829f-8371-8b7c">-</characteristic>
+            <characteristic name="Special Rules" typeId="052f-28a4-12f9-0691">During the Power Phase, roll 5 dice. For each {CRIT}, and {HIT} rolled, this character gains 1 {PWR}. If at least 1 {FAIL} was rolled, this character suffers 1 {DMG}.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6fe4-7d57-a353-c3a4" name=" SENTINEL PROGRAMMING" hidden="false" typeId="6b81-fb1a-574f-32e2" typeName=" Innate Superpowers">
+          <characteristics>
+            <characteristic name="Type" typeId="e9b9-de48-7a91-1e15">Innate</characteristic>
+            <characteristic name="Cost" typeId="f183-829f-8371-8b7c">-</characteristic>
+            <characteristic name="Special Rules" typeId="052f-28a4-12f9-0691">This character cannot be advanced or pushed by {MYST} attacks or superpowers. When defending against {MYST} attacks this character counts {WILD} results in the defense roll as 2 successes.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a392-2975-e46c-9be2" name="FLIGHT" hidden="false" typeId="6b81-fb1a-574f-32e2" typeName=" Innate Superpowers">
+          <characteristics>
+            <characteristic name="Type" typeId="e9b9-de48-7a91-1e15">Innate</characteristic>
+            <characteristic name="Cost" typeId="f183-829f-8371-8b7c">-</characteristic>
+            <characteristic name="Special Rules" typeId="052f-28a4-12f9-0691">When placing the movement tool during an advance, this character counts as Size 5.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d321-b23c-4f92-4299" name="IMMUNITY [BLEED, POISON]" hidden="false" typeId="6b81-fb1a-574f-32e2" typeName=" Innate Superpowers">
+          <characteristics>
+            <characteristic name="Type" typeId="e9b9-de48-7a91-1e15">Innate</characteristic>
+            <characteristic name="Cost" typeId="f183-829f-8371-8b7c">-</characteristic>
+            <characteristic name="Special Rules" typeId="052f-28a4-12f9-0691">This character can’t suffer the [BLEED] or [POISON] special condition. If it has the special condition and gains Immunity to it, the character removes the special condition.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="344d-7550-9786-c686" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
+        <categoryLink id="7bbe-9e7c-4104-ffd9" name="Sentinels" hidden="false" targetId="00d3-7664-9c6d-2322" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="5.0"/>
+      </costs>
+    </selectionEntry>
     <selectionEntry id="6474-0172-5646-8388" name="SHADOWLAND DAREDEVIL (MATT MURDOCK)" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cb6-5b8b-4d8b-7c77" type="max"/>
@@ -16058,6 +16322,7 @@ Additionally, at the end of this character&apos;s activation, enemy characters w
         <categoryLink id="5b4a-7ed3-7054-a556" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
         <categoryLink id="74e4-b6fd-765b-a555" name="Cabal" hidden="false" targetId="54a5-69c1-3540-3c6e" primary="false"/>
         <categoryLink id="6457-c22b-4e06-3fe7" name="Criminal Syndicate" hidden="false" targetId="62e3-8aa2-ed7a-9e44" primary="false"/>
+        <categoryLink id="cce5-ef55-f0f4-a75a" name="Hydra" hidden="false" targetId="a097-6b33-a91a-b908" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="3.0"/>
@@ -16426,7 +16691,7 @@ Additionally, at the end of this character&apos;s activation, enemy characters w
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="3.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4745-6f0e-59f6-1b58" name="STEVE ROGERS, CAPTAIN AMERICA (Steve Rogers) {BETA}" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="4745-6f0e-59f6-1b58" name="STEVE ROGERS, CAPTAIN AMERICA (Steve Rogers)" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f06b-8a3f-6c7d-809a" type="max"/>
       </constraints>
@@ -16497,6 +16762,7 @@ Additionally, at the end of this character&apos;s activation, enemy characters w
       </profiles>
       <categoryLinks>
         <categoryLink id="7002-2105-8665-dcb8" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
+        <categoryLink id="9ab2-64f5-2296-ed18" name="S.H.I.E.L.D." hidden="false" targetId="44da-2d91-089d-8aad" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="4.0"/>
@@ -16804,6 +17070,7 @@ Additionally, when an allied character is targeted by an attack and the attacker
         <categoryLink id="11bc-821a-11ca-8da2" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
         <categoryLink id="171a-e6d6-3439-75da" name="Criminal Syndicate" hidden="false" targetId="62e3-8aa2-ed7a-9e44" primary="false"/>
         <categoryLink id="5352-75b4-01f5-8b41" name="S.H.I.E.L.D." hidden="false" targetId="44da-2d91-089d-8aad" primary="false"/>
+        <categoryLink id="5342-66e8-d857-333e" name="Hydra" hidden="false" targetId="a097-6b33-a91a-b908" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="3.0"/>
@@ -16944,7 +17211,7 @@ Additionally, when an allied character is targeted by an attack and the attacker
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="6.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7dce-e382-7bd9-a029" name="THE ORIGINAL HUMAN TORCH (Jim Hammond) {BETA}" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="7dce-e382-7bd9-a029" name="THE ORIGINAL HUMAN TORCH (Jim Hammond)" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="710e-59eb-e07e-a0f0" type="max"/>
       </constraints>
@@ -17037,6 +17304,7 @@ Additionally, when an allied character is targeted by an attack and the attacker
       </profiles>
       <categoryLinks>
         <categoryLink id="3463-eb7d-017f-1905" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
+        <categoryLink id="eb28-d0af-aec5-9f03" name="S.H.I.E.L.D." hidden="false" targetId="44da-2d91-089d-8aad" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="3.0"/>
@@ -17666,6 +17934,7 @@ Additionally, when an allied character is targeted by an attack and the attacker
       <categoryLinks>
         <categoryLink id="afb8-88fb-8ebb-b476" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
         <categoryLink id="3080-1013-bd97-1f77" name="Cabal" hidden="false" targetId="54a5-69c1-3540-3c6e" primary="false"/>
+        <categoryLink id="f180-fb9d-ba92-67e2" name="Hydra" hidden="false" targetId="a097-6b33-a91a-b908" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="3.0"/>
