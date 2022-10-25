@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="9c66-3ecf-4508-3b47" name="Marvel Crisis Protocol" revision="2209" battleScribeVersion="2.03" authorName="Uplink" authorContact="Uplink.MCP@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="9c66-3ecf-4508-3b47" name="Marvel Crisis Protocol" revision="2210" battleScribeVersion="2.03" authorName="Uplink" authorContact="Uplink.MCP@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>*VERSION INFO*
 Core Rules: 3/31/2022
-FAQ &amp; Errata: 9/9/2022
-Base Sizes: 9/9/2022
-Affiliations: 9/9/2022
+FAQ &amp; Errata: 10/14/2022
+Base Sizes: 10/14/2022
+Affiliations: 10/14/2022
 Ban/Restricted: 9/9/2022
-Challenger: 6/30/2022
+Challenger: 10/18/2022
 
 *UPDATES*
-- Finalized Arnim Zola, Baron Strucker, Nick Fury &amp; The Howling Commandos, Steve Rogers Captain America, and The Original Human Torch.
-- Added P2P data for Red Skull - Master of Hydra, Hydra Troopers, and Sentinels.
-- Added Sentinel Affiliation &amp; Tactics Groups.
+- Updated to 10/18/2022 docs.
+- Finalized Red Skull, Master of Hydra, Hydra Troopers, Sentinels data.
+- Added P2P data for Blob, Pyro, and Logan, the Wolverine.
+- Added additional X2 logo set symbol (introduced in Sentinels set) for cards.
 
 *DATAFILE REFERENCE*
 - Any entries listed as {Beta} are ones I do not own, have not seen in person, or which have not been officially published in AMG living documents (Rules / FAQ / etc.). Panel to Play (P2P) data is considered Beta.
@@ -164,6 +165,9 @@ If you find any incorrect data, please send correction requests to the address a
     <categoryEntry id="e90e-5e69-79ef-61b0" name="Set - XMen Crisis" hidden="false"/>
     <categoryEntry id="d06c-7214-8931-55a5" name="Set - XMen Gem" hidden="false"/>
     <categoryEntry id="c49c-152c-b64a-3450" name="Set - XMen Tactic" hidden="false"/>
+    <categoryEntry id="f600-d032-ecee-709b" name="Set - XMen2 Crisis" hidden="false"/>
+    <categoryEntry id="0c60-4b55-c63a-76ee" name="Set - XMen2 Gem" hidden="false"/>
+    <categoryEntry id="63ae-a2af-e912-f2bb" name="Set - XMen2 Tactic" hidden="false"/>
     <categoryEntry id="71ff-5d57-e3a0-5322" name="Spider-Foes" hidden="false"/>
     <categoryEntry id="d643-5175-ae87-9385" name="Team Tactics" hidden="false"/>
     <categoryEntry id="7de0-86ce-229b-637e" name="Team Tactics Cards" hidden="false"/>
