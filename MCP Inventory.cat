@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b5fb-20f9-0dce-3f02" name="MCP Inventory" revision="2211" battleScribeVersion="2.03" authorName="Uplink" authorContact="Uplink.MCP@gmail.com" library="false" gameSystemId="9c66-3ecf-4508-3b47" gameSystemRevision="2211" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b5fb-20f9-0dce-3f02" name="MCP Inventory" revision="2210" battleScribeVersion="2.03" authorName="Uplink" authorContact="Uplink.MCP@gmail.com" library="false" gameSystemId="9c66-3ecf-4508-3b47" gameSystemRevision="2210" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="cc3a-be8e-3248-8036" name=" Affiliations (Future Use)" hidden="true" collective="false" import="true" targetId="1537-dd64-b659-3a8e" type="selectionEntry"/>
     <entryLink id="add7-cf4a-08e3-6cf3" name=" Crisis Cards - Extraction" hidden="false" collective="false" import="true" targetId="aade-9898-c12d-e090" type="selectionEntry">
@@ -30,11 +30,6 @@
     <entryLink id="d00b-0feb-873b-5fec" name=" Timelines" hidden="false" collective="false" import="true" targetId="919d-d0ca-7ccf-d13a" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="6379-3d32-f64f-87a8" name="New CategoryLink" hidden="false" targetId="c34e-b4ff-8bc1-6216" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="7367-c2b5-cc8a-1cee" name="AGENT VENOM () {BETA}" hidden="true" collective="false" import="true" targetId="9756-24cf-86fc-4501" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="982a-9d5c-f1c4-beb3" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="f7eb-1ffb-77ba-703e" name="AMAZING SPIDER-MAN (Peter Parker)" hidden="false" collective="false" import="true" targetId="aa0b-95f1-62fc-2838" type="selectionEntry">
@@ -80,11 +75,6 @@
     <entryLink id="c4cf-5e96-3ab8-a241" name="BEAST (Henry McCoy)" hidden="false" collective="false" import="true" targetId="b6cc-1a57-b76c-a395" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="178a-8ac6-9ef6-c070" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="0420-ba07-010c-07a1" name="Beta Ray Bill () {BETA}" hidden="true" collective="false" import="true" targetId="8a08-6143-b83f-4f6f" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="df78-383d-56de-5bce" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="5416-0387-18f8-72d2" name="BLACK BOLT (Blackagar Boltagon)" hidden="false" collective="false" import="true" targetId="f4e6-3af1-3da2-2f89" type="selectionEntry">
@@ -172,7 +162,7 @@
         <categoryLink id="5174-423e-b644-e247" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="00fd-9fb8-3387-1554" name="CLEA (Clea)" hidden="false" collective="false" import="true" targetId="2a7c-33d6-e1a9-b44b" type="selectionEntry">
+    <entryLink id="00fd-9fb8-3387-1554" name="CLEA (Clea) {BETA}" hidden="false" collective="false" import="true" targetId="2a7c-33d6-e1a9-b44b" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="addd-6463-7b48-720b" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
       </categoryLinks>
@@ -392,7 +382,7 @@
         <categoryLink id="1c37-241c-50b8-2f5e" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="6483-5b9f-1432-75d9" name="LOGAN, THE WOLVERINE (James Logan Howlett)" hidden="false" collective="false" import="true" targetId="94c4-14c6-4121-81cd" type="selectionEntry">
+    <entryLink id="6483-5b9f-1432-75d9" name="LOGAN, THE WOLVERINE (James Logan Howlett) {BETA}" hidden="false" collective="false" import="true" targetId="94c4-14c6-4121-81cd" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="f85a-4a0b-129f-a29e" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
       </categoryLinks>
@@ -492,7 +482,7 @@
         <categoryLink id="f67f-f6cc-a0c4-3a19" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="a431-d599-612f-9466" name="PYRO (St. John Allerdyce)" hidden="false" collective="false" import="true" targetId="0e55-46a4-99de-3b3f" type="selectionEntry">
+    <entryLink id="a431-d599-612f-9466" name="PYRO (St. John Allerdyce) {BETA}" hidden="false" collective="false" import="true" targetId="0e55-46a4-99de-3b3f" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="20ba-f8ff-c9ca-1abf" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
       </categoryLinks>
@@ -512,14 +502,9 @@
         <categoryLink id="5a86-7cdc-cff4-0f5a" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="3877-9b33-5df5-bfb6" name="RED SKULL, MASTER OF HYDRA (Johann Schmidt)" hidden="false" collective="false" import="true" targetId="a2c9-bb78-7ce9-7e97" type="selectionEntry">
+    <entryLink id="3877-9b33-5df5-bfb6" name="RED SKULL, MASTER OF HYDRA (Johann Schmidt) {BETA}" hidden="false" collective="false" import="true" targetId="a2c9-bb78-7ce9-7e97" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="c661-4748-133b-c68e" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="9052-6cd6-8e4c-bf9c" name="RHINO (Aleksei Sytsevich) {BETA}" hidden="false" collective="false" import="true" targetId="5c99-3463-6cd6-b8f2" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="cb51-c72b-38d7-db8e" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="9900-748a-3740-08af" name="ROCKET RACCOON (Rocket Raccoon)" hidden="false" collective="false" import="true" targetId="1e85-c3b6-04db-a2f2" type="selectionEntry">
@@ -545,11 +530,6 @@
     <entryLink id="6d94-c0cb-7ef5-4ed1" name="SABRETOOTH (Victor Creed)" hidden="false" collective="false" import="true" targetId="c20e-27fc-5125-7597" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="c172-98f6-529f-894b" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="1bac-f161-bc25-eef3" name="SABRETOOTH, APEX PREDATOR (Victor Creed)" hidden="false" collective="false" import="true" targetId="7eb4-4340-36f6-d152" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="22d8-3fca-06a5-414a" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="cc50-f62d-a2ef-c7a0" name="SCARLET WITCH (Wanda Maximoff)" hidden="false" collective="false" import="true" targetId="497f-8ccc-a720-d7c6" type="selectionEntry">
@@ -600,11 +580,6 @@
     <entryLink id="f12f-5e24-a962-263c" name="SPIDER-MAN (Peter Parker)" hidden="false" collective="false" import="true" targetId="f17b-1995-5420-41a3" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="b7dd-6859-3ce9-9f73" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="3117-96c1-db6e-601b" name="SPIDER-WOMAN () {BETA}" hidden="true" collective="false" import="true" targetId="55c2-ad56-c7a1-3d76" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="244d-e28b-ed9e-9cf0" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="3109-488d-6c8f-e746" name="STAR-LORD (Peter Quill)" hidden="false" collective="false" import="true" targetId="2a8c-8430-ec88-e1c9" type="selectionEntry">
@@ -723,6 +698,32 @@
       <selectionEntryGroups>
         <selectionEntryGroup id="516d-6043-e6a9-06d4" name="Crisis Cards - Extraction" hidden="false" collective="false" import="true">
           <selectionEntries>
+            <selectionEntry id="d163-42fa-b850-2d9b" name="(14) MUTANT EXTREMISTS TARGET U.S. SENATORS!" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7400-4e9b-2563-5cbd" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="afaf-1a6d-ea3c-71f0" name="(14) MUTANT EXTREMISTS TARGET U.S. SENATORS!" hidden="false" typeId="e274-6fe8-7f95-a012" typeName="Crisis">
+                  <characteristics>
+                    <characteristic name="Type" typeId="99b3-ec42-38d9-2d3a">Extraction</characteristic>
+                    <characteristic name="Threat" typeId="3561-4e9e-55ca-a37d">14</characteristic>
+                    <characteristic name="Setup" typeId="7116-4232-08b5-42bc">Randomly place three Safe Houses (Target of Opportunity) face down as shown on map C.</characteristic>
+                    <characteristic name="Scoring" typeId="81f5-e239-dd2d-2b7c">Players score 2 VPs if a character they control is holding the Senator during the Cleanup Phase.</characteristic>
+                    <characteristic name="Details" typeId="fc23-59e6-7090-77fa">Interact (Safe House): Flip over the Safe House token. If it is empty, remove the token from the game. If it shows the Senator (Civilian), this character picks up the Senator (Civilian) token.
+Interact (Senator): Pick up the Senator.
+The Speed of the character holding the Senator becomes {S} and it rolls one less dice on defense and dodge rolls.</characteristic>
+                    <characteristic name="Set" typeId="7f1d-2583-eaf2-10ff">{XMEN}</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="09ed-5acb-c605-5f29" name="Crisis - Extraction" hidden="false" targetId="67a0-a10a-a572-55c8" primary="false"/>
+                <categoryLink id="9c3b-4279-f274-0b99" name="Set - XMen Crisis" hidden="false" targetId="e90e-5e69-79ef-61b0" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+              </costs>
+            </selectionEntry>
             <selectionEntry id="9fe9-5d80-1446-f3d5" name="(15) MYSTIC WAKANDAN HERBS: FACT OR FICTION? {Banned - Standard}" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c34e-ca59-32af-f4f9" type="max"/>
@@ -750,81 +751,52 @@ Herbs placed farthest from a player&apos;s board edge and Vessels placed closest
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="321f-d389-bded-3b0d" name="(15) RESEARCH STATION ATTACKED!" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="321f-d389-bded-3b0d" name="(16) RESEARCH STATION ATTACKED!" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11b8-9154-6c00-7539" type="max"/>
               </constraints>
               <profiles>
-                <profile id="084d-1e1f-d3bf-474b" name="(15) RESEARCH STATION ATTACKED!" hidden="false" typeId="e274-6fe8-7f95-a012" typeName="Crisis">
+                <profile id="084d-1e1f-d3bf-474b" name="(16) RESEARCH STATION ATTACKED!" hidden="false" typeId="e274-6fe8-7f95-a012" typeName="Crisis">
                   <characteristics>
                     <characteristic name="Type" typeId="99b3-ec42-38d9-2d3a">Extraction</characteristic>
-                    <characteristic name="Threat" typeId="3561-4e9e-55ca-a37d">15</characteristic>
-                    <characteristic name="Setup" typeId="7116-4232-08b5-42bc">Place 1 Researcher token (Civilian) onto the central point on Map E. Place 2 Evac Point tokens (Asset) onto the other points on Map E.</characteristic>
-                    <characteristic name="Scoring" typeId="81f5-e239-dd2d-2b7c">A player scores 2 VPs if they are securing the Researcher during the Cleanup Phase. Then they score 1 additional VP if the Researcher is within {RNG} 1 of their Evac Point.</characteristic>
-                    <characteristic name="Details" typeId="fc23-59e6-7090-77fa">During the Power Phase, the Researcher may move. If a player is securing the Researcher, they may Place it within {RNG} 2 of its current location.
-
-The Evac Point farthest from a player’s battlefield edge is their Evac Point.</characteristic>
-                    <characteristic name="Set" typeId="7f1d-2583-eaf2-10ff">{FLUP}</characteristic>
+                    <characteristic name="Threat" typeId="3561-4e9e-55ca-a37d">16</characteristic>
+                    <characteristic name="Setup" typeId="7116-4232-08b5-42bc">Place one Researcher (Civilian) onto the central point on map E. Place two Evac Points (Target of Opportunity) on the other two points.</characteristic>
+                    <characteristic name="Scoring" typeId="81f5-e239-dd2d-2b7c">A player scores 2 VPs if they are securing the Researcher during the Cleanup Phase. Then, a player scores 2 VPs if the Researcher is within {RNG} 1 of their Evac Point during the Cleanup Phase.</characteristic>
+                    <characteristic name="Details" typeId="fc23-59e6-7090-77fa">During the Power Phase, the Researcher may move. If a player is securing the Researcher, they may place it within {RNG} 2 of its current position.
+The Evac Point farthest from a player&apos;s battlefield edge is their Evac Point.</characteristic>
+                    <characteristic name="Set" typeId="7f1d-2583-eaf2-10ff">{XMEN}</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <categoryLinks>
                 <categoryLink id="91dd-135e-a3ee-71cb" name="Crisis - Extraction" hidden="false" targetId="67a0-a10a-a572-55c8" primary="false"/>
-                <categoryLink id="e84c-4262-26c6-01cf" name="Set - Flup Crisis" hidden="false" targetId="e5bc-27a3-d353-54a3" primary="false"/>
+                <categoryLink id="5e61-3e22-8865-f6ef" name="Set - XMen Crisis" hidden="false" targetId="e90e-5e69-79ef-61b0" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="90e6-dbdf-20cb-44c1" name="(16) PARANOIA PUMMELS POPULACE!" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="6b75-5654-8fab-b42a" name="(17) SKRULLS INFILTRATE WORLD LEADERSHIP" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2872-62c7-8670-0b36" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c596-1aad-566b-f701" type="max"/>
               </constraints>
               <profiles>
-                <profile id="eee0-ce05-5bbf-3033" name="(16) PARANOIA PUMMELS POPULACE!" hidden="false" typeId="e274-6fe8-7f95-a012" typeName="Crisis">
-                  <characteristics>
-                    <characteristic name="Type" typeId="99b3-ec42-38d9-2d3a">Extraction</characteristic>
-                    <characteristic name="Threat" typeId="3561-4e9e-55ca-a37d">16</characteristic>
-                    <characteristic name="Setup" typeId="7116-4232-08b5-42bc">Place 4 Disturbance tokens (Asset) as shown on Map K.</characteristic>
-                    <characteristic name="Scoring" typeId="81f5-e239-dd2d-2b7c">Players score 1 VP for each Disturbance a character they control is holding during the Cleanup Phase.</characteristic>
-                    <characteristic name="Details" typeId="fc23-59e6-7090-77fa">Interact (Disturbance): Pick up this Disturbance. A character can hold only 1 Disturbance at a time.
-
-When a character picks up a Disturbance, if there is not another allied character within {RNG} 2 of it, it suffers 1 {DMG}.
-
-During the Cleanup Phase, if one or more characters holding a Disturbance are within {RNG} 2 of another allied character, those characters’ controlling player scores 1 VP.</characteristic>
-                    <characteristic name="Set" typeId="7f1d-2583-eaf2-10ff">{FLUP}</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <categoryLinks>
-                <categoryLink id="9eaa-5191-57f7-f732" name="Crisis - Extraction" hidden="false" targetId="67a0-a10a-a572-55c8" primary="false"/>
-                <categoryLink id="bb44-3cda-e6db-ca22" name="Set - Flup Crisis" hidden="false" targetId="e5bc-27a3-d353-54a3" primary="false"/>
-              </categoryLinks>
-              <costs>
-                <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="a236-a395-bd08-6421" name="(17) ALIEN SHIP CRASHES IN DOWNTOWN!" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f61-593e-8738-b00b" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="419f-6ac5-ec49-f2a8" name="(17) ALIEN SHIP CRASHES IN DOWNTOWN!" hidden="false" typeId="e274-6fe8-7f95-a012" typeName="Crisis">
+                <profile id="a30e-71d3-de66-3338" name="(17) SKRULLS INFILTRATE WORLD LEADERSHIP" hidden="false" typeId="e274-6fe8-7f95-a012" typeName="Crisis">
                   <characteristics>
                     <characteristic name="Type" typeId="99b3-ec42-38d9-2d3a">Extraction</characteristic>
                     <characteristic name="Threat" typeId="3561-4e9e-55ca-a37d">17</characteristic>
-                    <characteristic name="Setup" typeId="7116-4232-08b5-42bc">Place 3 Power Core tokens (Asset) as shown on Map C.</characteristic>
-                    <characteristic name="Scoring" typeId="81f5-e239-dd2d-2b7c">Players score 1 VP for each character they control that is holding a Power Core during the Cleanup Phase.</characteristic>
-                    <characteristic name="Details" typeId="fc23-59e6-7090-77fa">Interact (Power Core): Pick up this Power Core. A character can hold only 1 Power Core at a time.
-
-During the Cleanup Phase, each character with 3 or more {PWR} holding a Power Core rolls 3 dice. For each {FAIL} and {WILD} in the result, the character holding the Power Core and all characters within {RNG} 2 of it suffer 1 {DMG}.</characteristic>
-                    <characteristic name="Set" typeId="7f1d-2583-eaf2-10ff">{FLUP}</characteristic>
+                    <characteristic name="Setup" typeId="7116-4232-08b5-42bc">Place three Decoys (Civilians) as shown on map C.</characteristic>
+                    <characteristic name="Scoring" typeId="81f5-e239-dd2d-2b7c">Players score 2 VPs if a character they control is holding the Skrull Agent during the Cleanup Phase.</characteristic>
+                    <characteristic name="Details" typeId="fc23-59e6-7090-77fa">Interact (Decoy): Roll two dice. If either die is a {CRIT}, that character picks up the Skrull Agent (Civilian) and removes all Decoy tokens from the battlefield.
+Interact (Skrull Agent): Pick up the Skrull Agent.
+The Speed of the character holding the Skrull Agent becomes {S}.</characteristic>
+                    <characteristic name="Set" typeId="7f1d-2583-eaf2-10ff">{SPDY}</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <categoryLinks>
-                <categoryLink id="a650-2e64-d602-6d3f" name="Crisis - Extraction" hidden="false" targetId="67a0-a10a-a572-55c8" primary="false"/>
-                <categoryLink id="e5c1-6de2-ebb1-817a" name="Set - Flup Crisis" hidden="false" targetId="e5bc-27a3-d353-54a3" primary="false"/>
+                <categoryLink id="fe8d-1adc-948f-f998" name="Crisis - Extraction" hidden="false" targetId="67a0-a10a-a572-55c8" primary="false"/>
+                <categoryLink id="646e-ab0f-1668-f836" name="Set - Spidey Crisis" hidden="false" targetId="baa7-603b-44e2-95ac" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
@@ -839,18 +811,17 @@ During the Cleanup Phase, each character with 3 or more {PWR} holding a Power Co
                   <characteristics>
                     <characteristic name="Type" typeId="99b3-ec42-38d9-2d3a">Extraction</characteristic>
                     <characteristic name="Threat" typeId="3561-4e9e-55ca-a37d">17</characteristic>
-                    <characteristic name="Setup" typeId="7116-4232-08b5-42bc">Place 5 Spider-Infected tokens (Civilian) as shown on Map F.</characteristic>
-                    <characteristic name="Scoring" typeId="81f5-e239-dd2d-2b7c">Players score 1 VP for each Spider-Infected held by a character they control during the Cleanup Phase.</characteristic>
-                    <characteristic name="Details" typeId="fc23-59e6-7090-77fa">Interact (Spider-Infected): Pick up this SpiderInfected. A character can hold only 1 Spider-Infected at a time.
-
-During the Power Phase, starting with the player with Priority, players roll 1 die for each character they control holding a Spider-Infected. If the result is a {CRIT}, {WILD}, or {HIT}, that character Advances {S} before rolling for the next character. The opposing player resolves this Advance.</characteristic>
-                    <characteristic name="Set" typeId="7f1d-2583-eaf2-10ff">{FLUP}</characteristic>
+                    <characteristic name="Setup" typeId="7116-4232-08b5-42bc">Place five Spider-Virus Infected (Civilians) as shown on map F.</characteristic>
+                    <characteristic name="Scoring" typeId="81f5-e239-dd2d-2b7c">Players score 1 VP for each Infected held by a character they control during the Cleanup Phase.</characteristic>
+                    <characteristic name="Details" typeId="fc23-59e6-7090-77fa">Interact (Spider-Virus Infected): Pick up an Infected. A character cannot hold more than one Infected.
+During the Power Phase, starting with the player with priority, players roll a die for each character they control holding an Infected. If the result is a {CRIT}, {WILD}, or {HIT}, that character advances {S} before rolling for the next character. The opposing player resolves this advance.</characteristic>
+                    <characteristic name="Set" typeId="7f1d-2583-eaf2-10ff">{SPDY}</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <categoryLinks>
                 <categoryLink id="1829-0fbd-8519-92e6" name="Crisis - Extraction" hidden="false" targetId="67a0-a10a-a572-55c8" primary="false"/>
-                <categoryLink id="407e-5cf8-95f7-8e42" name="Set - Flup Crisis" hidden="false" targetId="e5bc-27a3-d353-54a3" primary="false"/>
+                <categoryLink id="d78f-541e-738c-7c46" name="Set - Spidey Crisis" hidden="false" targetId="baa7-603b-44e2-95ac" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
@@ -865,18 +836,43 @@ During the Power Phase, starting with the player with Priority, players roll 1 d
                   <characteristics>
                     <characteristic name="Type" typeId="99b3-ec42-38d9-2d3a">Extraction</characteristic>
                     <characteristic name="Threat" typeId="3561-4e9e-55ca-a37d">17</characteristic>
-                    <characteristic name="Setup" typeId="7116-4232-08b5-42bc">Place 5 Cosmic Cube Fragment tokens (Asset) as shown on Map F.</characteristic>
-                    <characteristic name="Scoring" typeId="81f5-e239-dd2d-2b7c">Players score 1 VP for each Cosmic Cube Fragment held by a character they control during the Cleanup Phase.</characteristic>
-                    <characteristic name="Details" typeId="fc23-59e6-7090-77fa">Interact (Cosmic Cube Fragment): Pick up this Cosmic Cube Fragment.
-
-During the Cleanup Phase, each character suffers 1 {DMG} for each Cosmic Cube Fragment it is holding. Characters gain 1 {PWR} for each {DMG} they suffered this way.</characteristic>
-                    <characteristic name="Set" typeId="7f1d-2583-eaf2-10ff">{FLUP}</characteristic>
+                    <characteristic name="Setup" typeId="7116-4232-08b5-42bc">Place five Cosmic Cube Fragments (Assets) as shown on map F.</characteristic>
+                    <characteristic name="Scoring" typeId="81f5-e239-dd2d-2b7c">Players score 1 VP for each Fragment held by a character they control during the Cleanup Phase.</characteristic>
+                    <characteristic name="Details" typeId="fc23-59e6-7090-77fa">Interact (Cosmic Cube Fragment): Pick up a Cosmic Cube Fragment.
+During the Power Phase, each character suffers 1 {DMG} for each Cosmic Cube Fragment it holds. Characters gain {PWR} equal to the {DMG} they suffered this way.</characteristic>
+                    <characteristic name="Set" typeId="7f1d-2583-eaf2-10ff">{SPDY}</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <categoryLinks>
                 <categoryLink id="4e7c-8653-28d5-c6d0" name="Crisis - Extraction" hidden="false" targetId="67a0-a10a-a572-55c8" primary="false"/>
-                <categoryLink id="87a9-7ccc-3244-d7e8" name="Set - Flup Crisis" hidden="false" targetId="e5bc-27a3-d353-54a3" primary="false"/>
+                <categoryLink id="a0e5-0e3e-8681-793a" name="Set - Spidey Crisis" hidden="false" targetId="baa7-603b-44e2-95ac" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0b31-8210-494c-fe2b" name="(17) THE MONTESI FORMULA FOUND" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="734a-cc40-1acb-3fea" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="1091-ab92-25da-7931" name="(17) THE MONTESI FORMULA FOUND" hidden="false" typeId="e274-6fe8-7f95-a012" typeName="Crisis">
+                  <characteristics>
+                    <characteristic name="Type" typeId="99b3-ec42-38d9-2d3a">Extraction</characteristic>
+                    <characteristic name="Threat" typeId="3561-4e9e-55ca-a37d">17</characteristic>
+                    <characteristic name="Setup" typeId="7116-4232-08b5-42bc">Place three Spellbooks (Asset) as indicated on map E.</characteristic>
+                    <characteristic name="Scoring" typeId="81f5-e239-dd2d-2b7c">Players score 1 VP for each Spellbook held by a character they control during the Cleanup Phase.</characteristic>
+                    <characteristic name="Details" typeId="fc23-59e6-7090-77fa">Interact (Spellbook): Pick up a Spellbook.
+A character cannot hold more than one Spellbook. A character holding a Spellbook can use the following attack once per turn:
+{ENRG} MYSTIC BEAM {RNG} B3 {STR} 6 {COST} 0</characteristic>
+                    <characteristic name="Set" typeId="7f1d-2583-eaf2-10ff">{SPDY}</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="76be-2166-0208-48fe" name="Crisis - Extraction" hidden="false" targetId="67a0-a10a-a572-55c8" primary="false"/>
+                <categoryLink id="1693-cd39-af52-d867" name="Set - Spidey Crisis" hidden="false" targetId="baa7-603b-44e2-95ac" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
@@ -891,47 +887,17 @@ During the Cleanup Phase, each character suffers 1 {DMG} for each Cosmic Cube Fr
                   <characteristics>
                     <characteristic name="Type" typeId="99b3-ec42-38d9-2d3a">Extraction</characteristic>
                     <characteristic name="Threat" typeId="3561-4e9e-55ca-a37d">18</characteristic>
-                    <characteristic name="Setup" typeId="7116-4232-08b5-42bc">Place 4 Celestial Hammer tokens (Asset) as shown on Map D.</characteristic>
+                    <characteristic name="Setup" typeId="7116-4232-08b5-42bc">Place four Celestial Hammers (Asset) as shown on map D.</characteristic>
                     <characteristic name="Scoring" typeId="81f5-e239-dd2d-2b7c">Players score 1 VP for each Celestial Hammer held by a character they control during the Cleanup Phase.</characteristic>
-                    <characteristic name="Details" typeId="fc23-59e6-7090-77fa">Interact (Celestial Hammer): Pick up this Celestial Hammer.
-
-Characters add 1 die to their attack rolls for each Celestial Hammer they are holding. Characters holding one or more Celestial Hammers must pay
-1 {PWR} before playing a Team Tactic Card.</characteristic>
-                    <characteristic name="Set" typeId="7f1d-2583-eaf2-10ff">{FLUP}</characteristic>
+                    <characteristic name="Details" typeId="fc23-59e6-7090-77fa">Interact (Celestial Hammer): Pick up a Celestial Hammer.
+Characters add one die to their attack rolls for each Celestial Hammer they are holding. When a character plays a Team Tactic card, they must pay 1 additional {PWR} for each Celestial Hammer they are holding.</characteristic>
+                    <characteristic name="Set" typeId="7f1d-2583-eaf2-10ff">{SPDY}</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <categoryLinks>
                 <categoryLink id="7e7d-9e24-8ea5-b7cc" name="Crisis - Extraction" hidden="false" targetId="67a0-a10a-a572-55c8" primary="false"/>
-                <categoryLink id="87b1-77c9-8338-57f3" name="Set - Flup Crisis" hidden="false" targetId="e5bc-27a3-d353-54a3" primary="false"/>
-              </categoryLinks>
-              <costs>
-                <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="0b31-8210-494c-fe2b" name="(18) THE MONTESI FORMULA FOUND" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="734a-cc40-1acb-3fea" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="1091-ab92-25da-7931" name="(18) THE MONTESI FORMULA FOUND" hidden="false" typeId="e274-6fe8-7f95-a012" typeName="Crisis">
-                  <characteristics>
-                    <characteristic name="Type" typeId="99b3-ec42-38d9-2d3a">Extraction</characteristic>
-                    <characteristic name="Threat" typeId="3561-4e9e-55ca-a37d">18</characteristic>
-                    <characteristic name="Setup" typeId="7116-4232-08b5-42bc">Place 3 Spellbook tokens (Asset) as shown on Map E.</characteristic>
-                    <characteristic name="Scoring" typeId="81f5-e239-dd2d-2b7c">Players score 1 VP for each Spellbook held by a character they control during the Cleanup Phase.</characteristic>
-                    <characteristic name="Details" typeId="fc23-59e6-7090-77fa">{MYST} MYSTIC BEAM {RNG} B3 {STR} 6 {COST} 0
-
-Interact (Spellbook): Pick up this Spellbook. A character can hold only 1 Spellbook at a time.
-
-A character holding a Spellbook may use the attack shown above once per turn. It cannot add additional dice to this attack or modify its dice during this attack.</characteristic>
-                    <characteristic name="Set" typeId="7f1d-2583-eaf2-10ff">{FLUP}</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <categoryLinks>
-                <categoryLink id="76be-2166-0208-48fe" name="Crisis - Extraction" hidden="false" targetId="67a0-a10a-a572-55c8" primary="false"/>
-                <categoryLink id="7c68-c635-b1d9-bdd0" name="Set - Flup Crisis" hidden="false" targetId="e5bc-27a3-d353-54a3" primary="false"/>
+                <categoryLink id="e7ad-0991-ce8b-04ce" name="Set - Spidey Crisis" hidden="false" targetId="baa7-603b-44e2-95ac" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
@@ -946,44 +912,18 @@ A character holding a Spellbook may use the attack shown above once per turn. It
                   <characteristics>
                     <characteristic name="Type" typeId="99b3-ec42-38d9-2d3a">Extraction</characteristic>
                     <characteristic name="Threat" typeId="3561-4e9e-55ca-a37d">19</characteristic>
-                    <characteristic name="Setup" typeId="7116-4232-08b5-42bc">Place 3 Legacy Cure tokens (Asset) as shown on Map C.</characteristic>
-                    <characteristic name="Scoring" typeId="81f5-e239-dd2d-2b7c">Players score 1 VP for each Legacy Cure held by a character they control during the Cleanup Phase.</characteristic>
-                    <characteristic name="Details" typeId="fc23-59e6-7090-77fa">Interact (Legacy Cure): Pick up this Legacy Cure. A character must spend 1 {PWR} per Legacy Cure it is holding before using this Interact.
-
-During the Cleanup Phase, if a non-Grunt character is holding all 3 Legacy Cures, its controlling player does not score VPs from this Crisis as normal. Instead, remove all Legacy Cures from the game. Then the character is KO’d and its controlling player scores 6 VPs.</characteristic>
-                    <characteristic name="Set" typeId="7f1d-2583-eaf2-10ff">{FLUP}</characteristic>
+                    <characteristic name="Setup" typeId="7116-4232-08b5-42bc">Place three Legacy Cures (Asset) as shown on map C.</characteristic>
+                    <characteristic name="Scoring" typeId="81f5-e239-dd2d-2b7c">A player scores 1 VP for each Legacy Cure held by a character they control during the Cleanup Phase.</characteristic>
+                    <characteristic name="Details" typeId="fc23-59e6-7090-77fa">Interact (Legacy Cure): Pick up a Legacy Cure. A character must spend 1 {PWR} for each Legacy Cure it is holding before using this Interact.
+At the end of a character&apos;s activation, if it is holding one or more Legacy Cures, it may remove one special condition from itself.
+If at any time a character is holding all three Legacy Cures, the character is immediately KO&apos;d and its controlling player scores 8 VPs. Remove all of the Legacy Cures from the game.</characteristic>
+                    <characteristic name="Set" typeId="7f1d-2583-eaf2-10ff">{XMEN}</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <categoryLinks>
                 <categoryLink id="a3ca-21d1-02da-e47f" name="Crisis - Extraction" hidden="false" targetId="67a0-a10a-a572-55c8" primary="false"/>
-                <categoryLink id="6ce6-f3c4-a476-9c61" name="Set - Flup Crisis" hidden="false" targetId="e5bc-27a3-d353-54a3" primary="false"/>
-              </categoryLinks>
-              <costs>
-                <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="d163-42fa-b850-2d9b" name="(19) MUTANT EXTREMISTS TARGET U.S. SENATORS!" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7400-4e9b-2563-5cbd" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="afaf-1a6d-ea3c-71f0" name="(19) MUTANT EXTREMISTS TARGET U.S. SENATORS!" hidden="false" typeId="e274-6fe8-7f95-a012" typeName="Crisis">
-                  <characteristics>
-                    <characteristic name="Type" typeId="99b3-ec42-38d9-2d3a">Extraction</characteristic>
-                    <characteristic name="Threat" typeId="3561-4e9e-55ca-a37d">19</characteristic>
-                    <characteristic name="Setup" typeId="7116-4232-08b5-42bc">Place 6 Senator tokens (Civilian) as shown on Map L.</characteristic>
-                    <characteristic name="Scoring" typeId="81f5-e239-dd2d-2b7c">Players score 1 VP per character they control holding a Senator during the Cleanup Phase.</characteristic>
-                    <characteristic name="Details" typeId="fc23-59e6-7090-77fa">Interact (Senator): Pick up this Senator. A character can hold only 1 Senator at a time.
-
-A character holding a Senator can make only 1 move action per turn.</characteristic>
-                    <characteristic name="Set" typeId="7f1d-2583-eaf2-10ff">{FLUP}</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <categoryLinks>
-                <categoryLink id="09ed-5acb-c605-5f29" name="Crisis - Extraction" hidden="false" targetId="67a0-a10a-a572-55c8" primary="false"/>
-                <categoryLink id="b3f0-510f-eb65-2b0e" name="Set - Flup Crisis" hidden="false" targetId="e5bc-27a3-d353-54a3" primary="false"/>
+                <categoryLink id="f3d4-13c1-f512-a7df" name="Set - XMen Crisis" hidden="false" targetId="e90e-5e69-79ef-61b0" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
@@ -1016,25 +956,27 @@ During its activation, a character holding a Citizen may evacuate the Citizen by
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="6b75-5654-8fab-b42a" name="(20) SKRULLS INFILTRATE WORLD LEADERSHIP" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="a236-a395-bd08-6421" name="(20) ALIEN SHIP CRASHES IN DOWNTOWN!" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c596-1aad-566b-f701" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f61-593e-8738-b00b" type="max"/>
               </constraints>
               <profiles>
-                <profile id="a30e-71d3-de66-3338" name="(20) SKRULLS INFILTRATE WORLD LEADERSHIP" hidden="false" typeId="e274-6fe8-7f95-a012" typeName="Crisis">
+                <profile id="419f-6ac5-ec49-f2a8" name="(20) ALIEN SHIP CRASHES IN DOWNTOWN!" hidden="false" typeId="e274-6fe8-7f95-a012" typeName="Crisis">
                   <characteristics>
                     <characteristic name="Type" typeId="99b3-ec42-38d9-2d3a">Extraction</characteristic>
                     <characteristic name="Threat" typeId="3561-4e9e-55ca-a37d">20</characteristic>
-                    <characteristic name="Setup" typeId="7116-4232-08b5-42bc">Place 4 Skrull Agent tokens (Civilian) as shown on Map J.</characteristic>
-                    <characteristic name="Scoring" typeId="81f5-e239-dd2d-2b7c">Players score 1 VP for each Skrull Agent held by a character they control during the Cleanup Phase.</characteristic>
-                    <characteristic name="Details" typeId="fc23-59e6-7090-77fa">Interact (Skrull Agent): Pick up this Skrull Agent. A character can hold only 1 Skrull Agent at a time. Then roll dice equal to this character’s {PHYS} defense. If the result does not contain one or more {CRIT} or {WILD} results, the opposing player Pushes this character {S}.</characteristic>
-                    <characteristic name="Set" typeId="7f1d-2583-eaf2-10ff">{FLUP}</characteristic>
+                    <characteristic name="Setup" typeId="7116-4232-08b5-42bc">Place three Rubble Piles (Target of Opportunity) as shown on map C.</characteristic>
+                    <characteristic name="Scoring" typeId="81f5-e239-dd2d-2b7c">Players score 2 VPs if a character they control is holding the Core during the Cleanup Phase.</characteristic>
+                    <characteristic name="Details" typeId="fc23-59e6-7090-77fa">Interact (Rubble Pile): Roll two dice. If either die is a {CRIT}, that character picks up the Kree Power Core (Asset) and removes all Rubble Pile tokens from the battlefield.
+Interact (Kree Power Core): Pick up the Core.
+A character holding the Core cannot perform more than one move action per turn. When a character ends its activation while holding the Core, it suffers 1 {DMG} if it did not make an attack that activation.</characteristic>
+                    <characteristic name="Set" typeId="7f1d-2583-eaf2-10ff">{SPDY}</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <categoryLinks>
-                <categoryLink id="fe8d-1adc-948f-f998" name="Crisis - Extraction" hidden="false" targetId="67a0-a10a-a572-55c8" primary="false"/>
-                <categoryLink id="c8b4-1c80-5e86-e2b7" name="Set - Flup Crisis" hidden="false" targetId="e5bc-27a3-d353-54a3" primary="false"/>
+                <categoryLink id="a650-2e64-d602-6d3f" name="Crisis - Extraction" hidden="false" targetId="67a0-a10a-a572-55c8" primary="false"/>
+                <categoryLink id="340c-a26b-fd07-510f" name="Set - Spidey Crisis" hidden="false" targetId="baa7-603b-44e2-95ac" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
@@ -1051,6 +993,31 @@ During its activation, a character holding a Citizen may evacuate the Citizen by
       <selectionEntryGroups>
         <selectionEntryGroup id="f2fe-a04d-989a-a107" name="Crisis Cards - Secure" hidden="false" collective="false" import="true">
           <selectionEntries>
+            <selectionEntry id="5c03-51aa-d070-0b5b" name="(14) S.W.O.R.D. ESTABLISHES BASE ON MOON&apos;S BLUE AREA" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c531-7885-22a7-f0e3" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="f34f-1d17-8293-0a20" name="(14) S.W.O.R.D. ESTABLISHES BASE ON MOON&apos;S BLUE AREA" hidden="false" typeId="e274-6fe8-7f95-a012" typeName="Crisis">
+                  <characteristics>
+                    <characteristic name="Type" typeId="99b3-ec42-38d9-2d3a">Secure</characteristic>
+                    <characteristic name="Threat" typeId="3561-4e9e-55ca-a37d">14</characteristic>
+                    <characteristic name="Setup" typeId="7116-4232-08b5-42bc">Place three Consoles (Target of Opportunity) as shown on map C.</characteristic>
+                    <characteristic name="Scoring" typeId="81f5-e239-dd2d-2b7c">The player controlling the most Consoles scores 3 VPs during the Cleanup Phase.</characteristic>
+                    <characteristic name="Details" typeId="fc23-59e6-7090-77fa">Interact (Console): If no enemy characters are contesting the Console, you are now controlling the Console. If one or more enemy characters are contesting the Console, roll a die. If the result is a {CRIT}, {WILD}, or {HIT}, you are now controlling the Console.
+If a player controls more Consoles during the Power Phase than their opponent, they control the security systems in the base and may choose an enemy character. The chosen character is pushed {S}.</characteristic>
+                    <characteristic name="Set" typeId="7f1d-2583-eaf2-10ff">{XMEN}</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="bcd8-c109-e98a-6e5f" name="Crisis - Secure" hidden="false" targetId="75ba-74ce-7452-509c" primary="false"/>
+                <categoryLink id="81b1-7664-1786-b595" name="Set - XMen Crisis" hidden="false" targetId="e90e-5e69-79ef-61b0" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+              </costs>
+            </selectionEntry>
             <selectionEntry id="32d2-485a-b4bc-77a4" name="(15) GAMMA WAVE SWEEPS ACROSS MIDWEST" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f656-4e2b-72ad-767e" type="max"/>
@@ -1060,44 +1027,17 @@ During its activation, a character holding a Citizen may evacuate the Citizen by
                   <characteristics>
                     <characteristic name="Type" typeId="99b3-ec42-38d9-2d3a">Secure</characteristic>
                     <characteristic name="Threat" typeId="3561-4e9e-55ca-a37d">15</characteristic>
-                    <characteristic name="Setup" typeId="7116-4232-08b5-42bc">Place 3 Gamma Shelter tokens (Point of Interest) as shown on Map E.</characteristic>
-                    <characteristic name="Scoring" typeId="81f5-e239-dd2d-2b7c">Players score 1 VP for Securing their Close, 1 VP for the Mid, and 2 VPs for Securing their Far Gamma Shelter during the Cleanup Phase.</characteristic>
+                    <characteristic name="Setup" typeId="7116-4232-08b5-42bc">Place three Gamma Shelters (Target of Opportunity) on the battlefield as shown on map E.</characteristic>
+                    <characteristic name="Scoring" typeId="81f5-e239-dd2d-2b7c">Players score 1 VP for securing the close, 2 VPs for the central, and 3 VPs for the far Shelter during the Cleanup Phase.</characteristic>
                     <characteristic name="Details" typeId="fc23-59e6-7090-77fa">During the Cleanup Phase, each character that is not within {RNG} 2 of a Gamma Shelter suffers 1 {DMG}.
-
-The Gamma Shelter closest to a player’s battlefield edge is their Close Shelter. The Gamma Shelter in the center is both players’ Mid Shelter. The Gamma Shelter farthest from a player’s battlefield edge is their Far Shelter.</characteristic>
-                    <characteristic name="Set" typeId="7f1d-2583-eaf2-10ff">{FLUP}</characteristic>
+The Gamma Shelter closest to a player&apos;s battlefield edge is their Close Shelter. The center Gamma Shelter is the Central Shelter. The Gamma Shelter farthest from their battlefield edge is their Far Shelter.</characteristic>
+                    <characteristic name="Set" typeId="7f1d-2583-eaf2-10ff">{SPDY}</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <categoryLinks>
                 <categoryLink id="65fd-d129-7507-9206" name="Crisis - Secure" hidden="false" targetId="75ba-74ce-7452-509c" primary="false"/>
-                <categoryLink id="a667-2df9-f053-ea9b" name="Set - Flup Crisis" hidden="false" targetId="e5bc-27a3-d353-54a3" primary="false"/>
-              </categoryLinks>
-              <costs>
-                <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="5c03-51aa-d070-0b5b" name="(15) S.W.O.R.D. ESTABLISHES BASE ON MOON&apos;S BLUE AREA" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c531-7885-22a7-f0e3" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="f34f-1d17-8293-0a20" name="(15) S.W.O.R.D. ESTABLISHES BASE ON MOON&apos;S BLUE AREA" hidden="false" typeId="e274-6fe8-7f95-a012" typeName="Crisis">
-                  <characteristics>
-                    <characteristic name="Type" typeId="99b3-ec42-38d9-2d3a">Secure</characteristic>
-                    <characteristic name="Threat" typeId="3561-4e9e-55ca-a37d">15</characteristic>
-                    <characteristic name="Setup" typeId="7116-4232-08b5-42bc">Place 4 Console tokens (Point of Interest) as shown on Map G.</characteristic>
-                    <characteristic name="Scoring" typeId="81f5-e239-dd2d-2b7c">Players score 1 VP for each Console they Control during the Cleanup Phase.</characteristic>
-                    <characteristic name="Details" typeId="fc23-59e6-7090-77fa">Interact (Console): If no enemy characters are Contesting this Console, this character’s controlling player now Controls this Console. Otherwise roll 1 die. If the result is a {CRIT}, {WILD}, or {HIT}, this character’s controlling player now Controls this Console.
-
-During the Power Phase, if a player Controls more Consoles than their opponent, they command the base’s security system and may choose an enemy character. The chosen character is Pushed {S}. The opposing player resolves this Push.</characteristic>
-                    <characteristic name="Set" typeId="7f1d-2583-eaf2-10ff">{FLUP}</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <categoryLinks>
-                <categoryLink id="bcd8-c109-e98a-6e5f" name="Crisis - Secure" hidden="false" targetId="75ba-74ce-7452-509c" primary="false"/>
-                <categoryLink id="b34d-ee68-4912-9616" name="Set - Flup Crisis" hidden="false" targetId="e5bc-27a3-d353-54a3" primary="false"/>
+                <categoryLink id="b630-a0b3-48f7-8b11" name="Set - Spidey Crisis" hidden="false" targetId="baa7-603b-44e2-95ac" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
@@ -1112,16 +1052,16 @@ During the Power Phase, if a player Controls more Consoles than their opponent, 
                   <characteristics>
                     <characteristic name="Type" typeId="99b3-ec42-38d9-2d3a">Secure</characteristic>
                     <characteristic name="Threat" typeId="3561-4e9e-55ca-a37d">16</characteristic>
-                    <characteristic name="Setup" typeId="7116-4232-08b5-42bc">Place 4 Cosmic Vault tokens (Point of Interest) as shown on Map D.</characteristic>
-                    <characteristic name="Scoring" typeId="81f5-e239-dd2d-2b7c">Players score 1 VP for each Cosmic Vault they are Securing during the Cleanup Phase.</characteristic>
-                    <characteristic name="Details" typeId="fc23-59e6-7090-77fa">During the Power Phase, some Cosmic Vaults will radiate cosmic energy. Starting with the player with Priority, players roll 1 die for each character they control within {RNG} 1 of a Cosmic Vault. If the result is a {CRIT} or {WILD}, that character gains 2 {PWR} and is Pushed {S}. The opposing player resolves this Push.</characteristic>
-                    <characteristic name="Set" typeId="7f1d-2583-eaf2-10ff">{FLUP}</characteristic>
+                    <characteristic name="Setup" typeId="7116-4232-08b5-42bc">Place four Cosmic Vaults (Target of Opportunity) onto the battlefield as indicated on map D.</characteristic>
+                    <characteristic name="Scoring" typeId="81f5-e239-dd2d-2b7c">Players score 1 VP for each Cosmic Vault they secure during the Cleanup Phase.</characteristic>
+                    <characteristic name="Details" typeId="fc23-59e6-7090-77fa">During the Power Phase, some Cosmic Vaults will radiate cosmic energy. Starting with the player with Priority, players roll a die for each character they control within {RNG} 1 of a Cosmic Vault. If the result is a {CRIT} or {WILD}, that character gains 2 {PWR} and is pushed away from the Vault {S} before rolling for the next character. The opposing player resolves this push.</characteristic>
+                    <characteristic name="Set" typeId="7f1d-2583-eaf2-10ff">{SPDY}</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <categoryLinks>
                 <categoryLink id="3355-f2b5-07a2-9138" name="Crisis - Secure" hidden="false" targetId="75ba-74ce-7452-509c" primary="false"/>
-                <categoryLink id="bcac-61f1-9866-f640" name="Set - Flup Crisis" hidden="false" targetId="e5bc-27a3-d353-54a3" primary="false"/>
+                <categoryLink id="88c1-84e6-3032-8c02" name="Set - Spidey Crisis" hidden="false" targetId="baa7-603b-44e2-95ac" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
@@ -1136,18 +1076,16 @@ During the Power Phase, if a player Controls more Consoles than their opponent, 
                   <characteristics>
                     <characteristic name="Type" typeId="99b3-ec42-38d9-2d3a">Secure</characteristic>
                     <characteristic name="Threat" typeId="3561-4e9e-55ca-a37d">16</characteristic>
-                    <characteristic name="Setup" typeId="7116-4232-08b5-42bc">Place 2 Witness tokens (Target of Opportunity) as shown on the Map H.</characteristic>
-                    <characteristic name="Scoring" typeId="81f5-e239-dd2d-2b7c">Players score 2 VPs for each Witness they Secure during the Cleanup Phase.</characteristic>
-                    <characteristic name="Details" typeId="fc23-59e6-7090-77fa">During the Cleanup Phase, each of the Witnesses may flee. Starting with the player with priority, each player Places all Witnesses Secured by their opponent within {RNG} 2 of their current position. Each Witness may be Placed this way only once per Round.
-
-After a Witness is Placed, each character within {RNG} 1 of it suffers 1 {DMG} and gains the Stun special condition.</characteristic>
-                    <characteristic name="Set" typeId="7f1d-2583-eaf2-10ff">{FLUP}</characteristic>
+                    <characteristic name="Setup" typeId="7116-4232-08b5-42bc">Place two Witnesses (Civilian) on the points near each board edge as shown on map C.</characteristic>
+                    <characteristic name="Scoring" typeId="81f5-e239-dd2d-2b7c">Players score 2 VPs for each Witness they are securing during the Cleanup Phase.</characteristic>
+                    <characteristic name="Details" typeId="fc23-59e6-7090-77fa">During the Cleanup Phase, each of the Witnesses may flee. Starting with the player with priority, each player places all Witness tokens secured by their opponent within {RNG} 2 of their current position. Each token may be placed in this way only once per round. Then each character within {RNG} 1 of a Witness suffers 1 {DMG} and gains the Stun special condition.</characteristic>
+                    <characteristic name="Set" typeId="7f1d-2583-eaf2-10ff">{SPDY}</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <categoryLinks>
                 <categoryLink id="423a-eb5a-23b6-a283" name="Crisis - Secure" hidden="false" targetId="75ba-74ce-7452-509c" primary="false"/>
-                <categoryLink id="5478-77d5-5382-38d2" name="Set - Flup Crisis" hidden="false" targetId="e5bc-27a3-d353-54a3" primary="false"/>
+                <categoryLink id="bf19-a1fd-7543-0658" name="Set - Spidey Crisis" hidden="false" targetId="baa7-603b-44e2-95ac" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
@@ -1162,16 +1100,16 @@ After a Witness is Placed, each character within {RNG} 1 of it suffers 1 {DMG} a
                   <characteristics>
                     <characteristic name="Type" typeId="99b3-ec42-38d9-2d3a">Secure</characteristic>
                     <characteristic name="Threat" typeId="3561-4e9e-55ca-a37d">17</characteristic>
-                    <characteristic name="Setup" typeId="7116-4232-08b5-42bc">Place 3 Origin Bomb tokens (Point of Interest) as shown on Map I.</characteristic>
-                    <characteristic name="Scoring" typeId="81f5-e239-dd2d-2b7c">Players score 1 VP for each Origin Bomb they Control during the Cleanup Phase.</characteristic>
-                    <characteristic name="Details" typeId="fc23-59e6-7090-77fa">Interact (Origin Bomb): Roll dice equal to this character’s {ENRG} Defense. If the roll contains more {CRIT}, {WILD}, and {HIT} results than the number of Healthy enemy characters Contesting this Origin Bomb, this character’s controlling player now Controls this Origin Bomb. If the roll contains at least 1 {FAIL}, this character suffers 1 {DMG}.</characteristic>
-                    <characteristic name="Set" typeId="7f1d-2583-eaf2-10ff">{FLUP}</characteristic>
+                    <characteristic name="Setup" typeId="7116-4232-08b5-42bc">Place three Origin Bombs (Target of Opportunity) as shown on map C.</characteristic>
+                    <characteristic name="Scoring" typeId="81f5-e239-dd2d-2b7c">The player controlling the most Origin Bombs scores 3 VPs during the Cleanup Phase.</characteristic>
+                    <characteristic name="Details" typeId="fc23-59e6-7090-77fa">Interact (Origin Bomb): Roll dice equal to the interacting character&apos;s {ENRG} Defense. If the roll contains more {CRIT}, {WILD}, and {HIT} results than the number of Healthy enemy characters contesting this Origin Bomb, the interacting character&apos;s controlling player now controls the Origin Bomb. If the roll contains at least one {FAIL}, the interacting character suffers 1 {DMG}.</characteristic>
+                    <characteristic name="Set" typeId="7f1d-2583-eaf2-10ff">{SPDY}</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <categoryLinks>
                 <categoryLink id="f4ac-7d5f-3bb9-f073" name="Crisis - Secure" hidden="false" targetId="75ba-74ce-7452-509c" primary="false"/>
-                <categoryLink id="6b1e-1bb7-9928-098a" name="Set - Flup Crisis" hidden="false" targetId="e5bc-27a3-d353-54a3" primary="false"/>
+                <categoryLink id="52ef-caa9-f7d1-16c4" name="Set - Spidey Crisis" hidden="false" targetId="baa7-603b-44e2-95ac" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
@@ -1186,16 +1124,16 @@ After a Witness is Placed, each character within {RNG} 1 of it suffers 1 {DMG} a
                   <characteristics>
                     <characteristic name="Type" typeId="99b3-ec42-38d9-2d3a">Secure</characteristic>
                     <characteristic name="Threat" typeId="3561-4e9e-55ca-a37d">17</characteristic>
-                    <characteristic name="Setup" typeId="7116-4232-08b5-42bc">Place 4 Serum Canister tokens (Point of Interest) as shown on Map B.</characteristic>
-                    <characteristic name="Scoring" typeId="81f5-e239-dd2d-2b7c">Players score 1 VP for each Serum Canister they Secure during the Cleanup Phase.</characteristic>
-                    <characteristic name="Details" typeId="fc23-59e6-7090-77fa">During the Power Phase, characters Contesting a Serum Canister gain 1 {PWR}.</characteristic>
-                    <characteristic name="Set" typeId="7f1d-2583-eaf2-10ff">{FLUP}</characteristic>
+                    <characteristic name="Setup" typeId="7116-4232-08b5-42bc">Place four Serum Canisters (Target of Opportunity) as shown on map B.</characteristic>
+                    <characteristic name="Scoring" typeId="81f5-e239-dd2d-2b7c">Players score 1 VP for each Serum Canister they are securing during the Cleanup Phase.</characteristic>
+                    <characteristic name="Details" typeId="fc23-59e6-7090-77fa">During the Power Phase, characters contesting a Serum Canister gain 1 {PWR}.</characteristic>
+                    <characteristic name="Set" typeId="7f1d-2583-eaf2-10ff">{SPDY}</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <categoryLinks>
                 <categoryLink id="6976-2403-480f-378e" name="Crisis - Secure" hidden="false" targetId="75ba-74ce-7452-509c" primary="false"/>
-                <categoryLink id="c765-30ad-dc0c-040f" name="Set - Flup Crisis" hidden="false" targetId="e5bc-27a3-d353-54a3" primary="false"/>
+                <categoryLink id="ab26-1bd6-6f39-9152" name="Set - Spidey Crisis" hidden="false" targetId="baa7-603b-44e2-95ac" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
@@ -1210,16 +1148,16 @@ After a Witness is Placed, each character within {RNG} 1 of it suffers 1 {DMG} a
                   <characteristics>
                     <characteristic name="Type" typeId="99b3-ec42-38d9-2d3a">Secure</characteristic>
                     <characteristic name="Threat" typeId="3561-4e9e-55ca-a37d">17</characteristic>
-                    <characteristic name="Setup" typeId="7116-4232-08b5-42bc">Place 4 Extremis Console tokens (Point of Interest) as shown on Map D.</characteristic>
-                    <characteristic name="Scoring" typeId="81f5-e239-dd2d-2b7c">Players score 1 VP for each Extremis Console they Control during the Cleanup Phase.</characteristic>
-                    <characteristic name="Details" typeId="fc23-59e6-7090-77fa">Interact (Extremis Console): Remove 1 {DMG} from a non-Dazed character within {RNG} 2 of this Extremis Console.</characteristic>
-                    <characteristic name="Set" typeId="7f1d-2583-eaf2-10ff">{FLUP}</characteristic>
+                    <characteristic name="Setup" typeId="7116-4232-08b5-42bc">Place four Extremis Consoles (Target of Opportunity) as shown on map D.</characteristic>
+                    <characteristic name="Scoring" typeId="81f5-e239-dd2d-2b7c">Players score 1 VP for each Extremis Console they secure during the Cleanup Phase.</characteristic>
+                    <characteristic name="Details" typeId="fc23-59e6-7090-77fa">Interact (Extremis Console): Remove 1 {DMG} from a non-dazed character within {RNG} 2 of the Extremis Console.</characteristic>
+                    <characteristic name="Set" typeId="7f1d-2583-eaf2-10ff">{SPDY}</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <categoryLinks>
                 <categoryLink id="9cef-2948-13f2-e04b" name="Crisis - Secure" hidden="false" targetId="75ba-74ce-7452-509c" primary="false"/>
-                <categoryLink id="55e3-6f5d-1419-81c2" name="Set - Flup Crisis" hidden="false" targetId="e5bc-27a3-d353-54a3" primary="false"/>
+                <categoryLink id="dd99-d3a4-1baf-b705" name="Set - Spidey Crisis" hidden="false" targetId="baa7-603b-44e2-95ac" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
@@ -1234,18 +1172,17 @@ After a Witness is Placed, each character within {RNG} 1 of it suffers 1 {DMG} a
                   <characteristics>
                     <characteristic name="Type" typeId="99b3-ec42-38d9-2d3a">Secure</characteristic>
                     <characteristic name="Threat" typeId="3561-4e9e-55ca-a37d">18</characteristic>
-                    <characteristic name="Setup" typeId="7116-4232-08b5-42bc">Place 4 Trap tokens (Point of Interest) as shown on Map B.</characteristic>
-                    <characteristic name="Scoring" typeId="81f5-e239-dd2d-2b7c">Players score 1 VP for each Trap they are Controlling during the Cleanup Phase.</characteristic>
-                    <characteristic name="Details" typeId="fc23-59e6-7090-77fa">Interact (Trap): Roll dice equal to this character’s {PHYS} Defense. If the roll contains more {CRIT}, {HIT}, and {WILD} results than the number of Healthy enemy characters Contesting this Trap, this character’s controlling player now Controls this Trap.
-
-During the Cleanup Phase, each player Controlling a Trap chooses an enemy character within {RNG} 2 of each Trap they Control. The chosen character suffers 1 {DMG} and gains 1 {PWR}. Resolve each Trap completely before resolving the next.</characteristic>
-                    <characteristic name="Set" typeId="7f1d-2583-eaf2-10ff">{FLUP}</characteristic>
+                    <characteristic name="Setup" typeId="7116-4232-08b5-42bc">Place four Traps (Target of Opportunity) as indicated on map B.</characteristic>
+                    <characteristic name="Scoring" typeId="81f5-e239-dd2d-2b7c">Players score 1 VP for each Trap they control during the Cleanup Phase.</characteristic>
+                    <characteristic name="Details" typeId="fc23-59e6-7090-77fa">Interact (Trap): Roll dice equal to the interacting character&apos;s {PHYS} Defense. If the roll contains more {CRIT}, {WILD}, and {HIT} results than the number of Healthy contesting enemy characters, the interacting character&apos;s controlling player now controls the Trap.
+During the Cleanup Phase, each player controlling a Trap chooses an enemy character within {RNG} 2 of each Trap they control. The chosen character suffers 1 {DMG} and gains 1 {PWR}. Resolve each Trap completely before moving on to the next.</characteristic>
+                    <characteristic name="Set" typeId="7f1d-2583-eaf2-10ff">{XMEN}</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <categoryLinks>
                 <categoryLink id="be22-4a42-0d3c-e559" name="Crisis - Secure" hidden="false" targetId="75ba-74ce-7452-509c" primary="false"/>
-                <categoryLink id="2deb-8c5d-a674-2b79" name="Set - Flup Crisis" hidden="false" targetId="e5bc-27a3-d353-54a3" primary="false"/>
+                <categoryLink id="854e-d18f-4a94-cb12" name="Set - XMen Crisis" hidden="false" targetId="e90e-5e69-79ef-61b0" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
@@ -1260,16 +1197,17 @@ During the Cleanup Phase, each player Controlling a Trap chooses an enemy charac
                   <characteristics>
                     <characteristic name="Type" typeId="99b3-ec42-38d9-2d3a">Secure</characteristic>
                     <characteristic name="Threat" typeId="3561-4e9e-55ca-a37d">18</characteristic>
-                    <characteristic name="Setup" typeId="7116-4232-08b5-42bc">Place 4 Inheritor Portals (Point of Interest) as shown on Map D.</characteristic>
-                    <characteristic name="Scoring" typeId="81f5-e239-dd2d-2b7c">Players score 1 VP for each Inheritor Portal they Control during the Cleanup Phase.</characteristic>
-                    <characteristic name="Details" typeId="fc23-59e6-7090-77fa">Interact (Inheritor Portal): Roll dice equal to this character’s {ENRG} Defense. If the roll contains more {CRIT}, {HIT}, and {WILD} results than the number of Healthy enemy characters Contesting this Inheritor Portal, this character’s controlling player now Controls this Inheritor Portal. If the roll contains at least 1 {FAIL}, this character is Placed within {RNG} 2 of its current position. The opposing player resolves this Place.</characteristic>
-                    <characteristic name="Set" typeId="7f1d-2583-eaf2-10ff">{FLUP}</characteristic>
+                    <characteristic name="Setup" typeId="7116-4232-08b5-42bc">Place four Inheritor Portals (Target of Opportunity) as indicated on map D.</characteristic>
+                    <characteristic name="Scoring" typeId="81f5-e239-dd2d-2b7c">Players score 1 VP for each Portal they Control during the Cleanup Phase.</characteristic>
+                    <characteristic name="Details" typeId="fc23-59e6-7090-77fa">Interact (Inheritor Portal): Roll dice equal to the interacting character&apos;s {ENRG} Defense. If the roll contains more {CRIT}, {WILD}, and {HIT} results than the number of Healthy contesting enemy characters, the interacting character&apos;s controlling player now controls the Portal.
+If the roll contains at least one {FAIL}, the interacting character is placed within {RNG} 2 of its current position. The opposing player resolves this placement.</characteristic>
+                    <characteristic name="Set" typeId="7f1d-2583-eaf2-10ff">{SPDY}</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <categoryLinks>
                 <categoryLink id="2059-65f2-d9a0-d801" name="Crisis - Secure" hidden="false" targetId="75ba-74ce-7452-509c" primary="false"/>
-                <categoryLink id="4bde-9f7d-14f6-4be8" name="Set - Flup Crisis" hidden="false" targetId="e5bc-27a3-d353-54a3" primary="false"/>
+                <categoryLink id="7b12-102f-c462-7fdf" name="Set - Spidey Crisis" hidden="false" targetId="baa7-603b-44e2-95ac" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
@@ -1284,16 +1222,16 @@ During the Cleanup Phase, each player Controlling a Trap chooses an enemy charac
                   <characteristics>
                     <characteristic name="Type" typeId="99b3-ec42-38d9-2d3a">Secure</characteristic>
                     <characteristic name="Threat" typeId="3561-4e9e-55ca-a37d">19</characteristic>
-                    <characteristic name="Setup" typeId="7116-4232-08b5-42bc">Place 3 Flaming Portal tokens (Point of Interest) as shown on Map E.</characteristic>
-                    <characteristic name="Scoring" typeId="81f5-e239-dd2d-2b7c">Players score 1 VP for each Flaming Portal they are Securing during the Cleanup Phase.</characteristic>
-                    <characteristic name="Details" typeId="fc23-59e6-7090-77fa">During the Power Phase, characters within {RNG} 1 of a Flaming Portal gain the Incinerate special condition.</characteristic>
-                    <characteristic name="Set" typeId="7f1d-2583-eaf2-10ff">{FLUP}</characteristic>
+                    <characteristic name="Setup" typeId="7116-4232-08b5-42bc">Place three Flaming Portals (Target of Opportunity) as indicated on map E.</characteristic>
+                    <characteristic name="Scoring" typeId="81f5-e239-dd2d-2b7c">Players score 1 VP for each Flaming Portal they are securing during the Cleanup Phase.</characteristic>
+                    <characteristic name="Details" typeId="fc23-59e6-7090-77fa">During the Power Phase, all characters within {RNG} 1 of a Flaming Portal gain the Incinerate special condition.</characteristic>
+                    <characteristic name="Set" typeId="7f1d-2583-eaf2-10ff">{SPDY}</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <categoryLinks>
                 <categoryLink id="3054-8590-79c3-1199" name="Crisis - Secure" hidden="false" targetId="75ba-74ce-7452-509c" primary="false"/>
-                <categoryLink id="85a5-ee41-8901-f4b7" name="Set - Flup Crisis" hidden="false" targetId="e5bc-27a3-d353-54a3" primary="false"/>
+                <categoryLink id="a05d-c302-9176-c4b8" name="Set - Spidey Crisis" hidden="false" targetId="baa7-603b-44e2-95ac" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
@@ -1308,16 +1246,16 @@ During the Cleanup Phase, each player Controlling a Trap chooses an enemy charac
                   <characteristics>
                     <characteristic name="Type" typeId="99b3-ec42-38d9-2d3a">Secure</characteristic>
                     <characteristic name="Threat" typeId="3561-4e9e-55ca-a37d">19</characteristic>
-                    <characteristic name="Setup" typeId="7116-4232-08b5-42bc">Place 3 Dark Portal tokens (Point of Interest) as shown on Map C.</characteristic>
-                    <characteristic name="Scoring" typeId="81f5-e239-dd2d-2b7c">Players score 1 VP for each Dark Portal they Secure during the Cleanup Phase.</characteristic>
-                    <characteristic name="Details" typeId="fc23-59e6-7090-77fa">Interact (Dark Portal): This character drops all objective tokens it is holding. Then roll 1 die. If the result is a {CRIT}, {WILD}, {HIT}, or {BLOCK}, Place this character within {RNG} 1 of another Dark Portal. Otherwise, the opposing player Places this character within {RNG} 1 of another Dark Portal.</characteristic>
-                    <characteristic name="Set" typeId="7f1d-2583-eaf2-10ff">{FLUP}</characteristic>
+                    <characteristic name="Setup" typeId="7116-4232-08b5-42bc">Place three Dark Portals (Target of Opportunity) as indicated on map C.</characteristic>
+                    <characteristic name="Scoring" typeId="81f5-e239-dd2d-2b7c">Players score 1 VP for each Dark Portal they Secure during the Cleanup Phase</characteristic>
+                    <characteristic name="Details" typeId="fc23-59e6-7090-77fa">Interact (Dark Portal): This character drops all objective tokens it is holding, if any. Then roll a die. If the result is {CRIT}, {WILD}, {HIT}, or {BLOCK}, place this character within {RNG} 1 of another Dark Portal. Otherwise, your opponent places this character within {RNG} 1 of another Dark Portal. After being placed, this character suffers 1 {DMG}.</characteristic>
+                    <characteristic name="Set" typeId="7f1d-2583-eaf2-10ff">{CITY}</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <categoryLinks>
                 <categoryLink id="df79-2244-b199-cb5d" name="Crisis - Secure" hidden="false" targetId="75ba-74ce-7452-509c" primary="false"/>
-                <categoryLink id="5cab-6b42-e599-7295" name="Set - Flup Crisis" hidden="false" targetId="e5bc-27a3-d353-54a3" primary="false"/>
+                <categoryLink id="c97a-c853-49e0-bd7b" name="Set - City Crisis" hidden="false" targetId="c979-e2ae-244c-cb8b" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
@@ -1332,16 +1270,16 @@ During the Cleanup Phase, each player Controlling a Trap chooses an enemy charac
                   <characteristics>
                     <characteristic name="Type" typeId="99b3-ec42-38d9-2d3a">Secure</characteristic>
                     <characteristic name="Threat" typeId="3561-4e9e-55ca-a37d">20</characteristic>
-                    <characteristic name="Setup" typeId="7116-4232-08b5-42bc">Place 5 Ambush tokens (Point of Interest) as shown on Map F.</characteristic>
-                    <characteristic name="Scoring" typeId="81f5-e239-dd2d-2b7c">Players score 1 VP for each Ambush they Secure during the Cleanup Phase.</characteristic>
-                    <characteristic name="Details" typeId="fc23-59e6-7090-77fa">Characters Contesting an Ambush have Cover from characters not Contesting the same Ambush.</characteristic>
-                    <characteristic name="Set" typeId="7f1d-2583-eaf2-10ff">{FLUP}</characteristic>
+                    <characteristic name="Setup" typeId="7116-4232-08b5-42bc">Place 5 Ambush Tokens (Target of Opportunity) as shown on map F.</characteristic>
+                    <characteristic name="Scoring" typeId="81f5-e239-dd2d-2b7c">Players score 1 VP for each Ambush they secure during the Cleanup Phase.</characteristic>
+                    <characteristic name="Details" typeId="fc23-59e6-7090-77fa">Characters contesting an Ambush token have cover from attacks made by characters not contesting the same Ambush token.</characteristic>
+                    <characteristic name="Set" typeId="7f1d-2583-eaf2-10ff">{XMEN}</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <categoryLinks>
+                <categoryLink id="5333-87d4-7450-dd97" name="Set - XMen Crisis" hidden="false" targetId="e90e-5e69-79ef-61b0" primary="false"/>
                 <categoryLink id="01c8-2a7b-c74f-4a8f" name="Crisis - Secure" hidden="false" targetId="75ba-74ce-7452-509c" primary="false"/>
-                <categoryLink id="e5c2-39c9-afb2-b353" name="Set - Flup Crisis" hidden="false" targetId="e5bc-27a3-d353-54a3" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
@@ -1601,11 +1539,6 @@ During the Cleanup Phase, each player Controlling a Trap chooses an enemy charac
             <characteristic name="Description" typeId="8fd3-ce00-57ad-8474">Failure &quot;Skull&quot; die symbol.</characteristic>
           </characteristics>
         </profile>
-        <profile id="28de-b08a-049a-87c2" name="{FLUP}" hidden="false" typeId="7659-1ab3-23f3-7c64" typeName="Symbol">
-          <characteristics>
-            <characteristic name="Description" typeId="8fd3-ce00-57ad-8474">Fluppy (Damage Control Bulldog) card Set symbol.</characteristic>
-          </characteristics>
-        </profile>
         <profile id="0ba7-633c-dadd-1c9a" name="{HAMR}" hidden="false" typeId="7659-1ab3-23f3-7c64" typeName="Symbol">
           <characteristics>
             <characteristic name="Description" typeId="8fd3-ce00-57ad-8474">Hammer card Set symbol.</characteristic>
@@ -1659,11 +1592,6 @@ During the Cleanup Phase, each player Controlling a Trap chooses an enemy charac
         <profile id="bdb7-3925-c879-a024" name="{WILD}" hidden="false" typeId="7659-1ab3-23f3-7c64" typeName="Symbol">
           <characteristics>
             <characteristic name="Description" typeId="8fd3-ce00-57ad-8474">Wild &quot;Whirlwind&quot; die symbol</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="d727-b9cb-ea1d-d576" name="{X2}" hidden="false" typeId="7659-1ab3-23f3-7c64" typeName="Symbol">
-          <characteristics>
-            <characteristic name="Description" typeId="8fd3-ce00-57ad-8474">X-Men2 (Sentinels Update) card Set symbol.</characteristic>
           </characteristics>
         </profile>
         <profile id="f61a-399e-8afa-28bd" name="{XMEN}" hidden="false" typeId="7659-1ab3-23f3-7c64" typeName="Symbol">
@@ -2805,7 +2733,7 @@ Choose two allied characters with Hydra or Cabal Leadership abilities. Both chos
                   <characteristics>
                     <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Hydra</characteristic>
                     <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
-                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">If you are securing all Secure objective tokens, an allied Hydra character may play this card.
+                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">If you control all Secure objective tokens, an allied Hydra character may play this card.
 You gain 1 VP for every 2 Secure objective tokens you are securing. Additionally, each character you control gains 1 {PWR} for every 2 Secure objective tokens you are securing.</characteristic>
                     <characteristic name="Set" typeId="72f3-9912-65f3-e142">{HAMR}</characteristic>
                   </characteristics>
@@ -3601,14 +3529,14 @@ Each time an enemy character is KO&apos;d this round, this character&apos;s cont
                     <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
                     <characteristic name="Rules" typeId="3c65-5213-7979-ed33">If one or more allied characters would suffer a collision, they may each spend 1 {PWR} to play this card.
 Characters that spent {PWR} do not suffer damage from this collision.</characteristic>
-                    <characteristic name="Set" typeId="72f3-9912-65f3-e142">{X2}</characteristic>
+                    <characteristic name="Set" typeId="72f3-9912-65f3-e142">{HAMR}</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <categoryLinks>
                 <categoryLink id="95be-efe1-9864-a45f" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
                 <categoryLink id="a17a-087a-f986-23b6" name="Restricted - Timeline Standard" hidden="false" targetId="3351-762c-1152-6a79" primary="false"/>
-                <categoryLink id="ffba-cd12-18d7-f5fe" name="Set - XMen2 Tactic" hidden="false" targetId="63ae-a2af-e912-f2bb" primary="false"/>
+                <categoryLink id="b5ec-3eef-c5f5-ea2d" name="Set - Hammer Tactic" hidden="false" targetId="45e3-39e2-340b-9e14" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
@@ -4387,29 +4315,6 @@ Place the other allied character within {RNG} 5 of its current position.</charac
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="0b11-334e-ec15-a7f7" name="GOTTA GET SOME AIR" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8dfc-917b-20a9-f1df" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="d819-237d-03fd-73a0" name="GOTTA GET SOME AIR" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
-                  <characteristics>
-                    <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
-                    <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
-                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">When any character ends an Advance or is Placed within {RNG} 2 of an allied Logan, the Wolverine, after the effect is resolved, Logan, the Wolverine may play this card.
-Logan, the Wolverine Advances his speed Away from the character that triggered this effect. He may not contest objective tokens this Round.</characteristic>
-                    <characteristic name="Set" typeId="72f3-9912-65f3-e142">{X2}</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <categoryLinks>
-                <categoryLink id="7f9c-27fc-fc0b-2227" name="Set - XMen2 Tactic" hidden="false" targetId="63ae-a2af-e912-f2bb" primary="false"/>
-                <categoryLink id="076f-6007-2301-7e3c" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
-              </categoryLinks>
-              <costs>
-                <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
-              </costs>
-            </selectionEntry>
             <selectionEntry id="4663-fb4f-08e5-0692" name="GRIEVOUS WOUNDS" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e95-cced-bdde-fed7" type="max"/>
@@ -4428,34 +4333,6 @@ If the target character is dealt {DMG} by this attack, the target character cann
               <categoryLinks>
                 <categoryLink id="136e-7d41-386b-f54f" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
                 <categoryLink id="fc7e-2040-cb99-e5b2" name="Set - XMen Tactic" hidden="false" targetId="c49c-152c-b64a-3450" primary="false"/>
-              </categoryLinks>
-              <costs>
-                <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="a04b-82f0-d3d8-5c40" name="HAPPY BIRTHDAY, RUNT!" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8c4-eb78-7b17-8a70" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="9aea-b348-be74-8334" name="HAPPY BIRTHDAY, RUNT!" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
-                  <characteristics>
-                    <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
-                    <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
-                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">{PHYS} AMBUSH {RNG} 3 {STR} 6 {COST} 0
-- The defending character does not benefit from Cover.
-- Enemy characters cannot use {REACT} superpowers or Reactive Team Tactic Cards during this attack.
-- If this attack targets James Logan Howlett, after this attack is resolved, the target character drops all objective tokens it is holding.
-
-Victor Creed may spend 3 {PWR} to play this card.
-Choose an enemy character within {RNG} 3 and LOS and with an Activated token. Victor Creed immediately makes the attack shown above targeting the chosen character.</characteristic>
-                    <characteristic name="Set" typeId="72f3-9912-65f3-e142">{X2}</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <categoryLinks>
-                <categoryLink id="e9d2-05c7-533f-091f" name="Set - XMen2 Tactic" hidden="false" targetId="63ae-a2af-e912-f2bb" primary="false"/>
-                <categoryLink id="f514-9498-e5f0-3cbb" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
@@ -4888,29 +4765,6 @@ The allied character removes 1 {DMG}, is not KO&apos;d, and is placed within {RN
               <categoryLinks>
                 <categoryLink id="8deb-4c3b-96db-f7b7" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
                 <categoryLink id="cb21-0b03-e902-8b4d" name="Set - Hammer Tactic" hidden="false" targetId="45e3-39e2-340b-9e14" primary="false"/>
-              </categoryLinks>
-              <costs>
-                <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="8605-9327-4a94-1bdf" name="LEAPFROG" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c732-0de2-0639-40c7" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="c772-ac21-8d07-c14a" name="LEAPFROG" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
-                  <characteristics>
-                    <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
-                    <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
-                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">After an allied Toad deals {DMG} with an attack, an allied The Blob and Toad may each spend 1 {PWR} to play this card.
-The Blob may Advance {S} and make a Strike attack.</characteristic>
-                    <characteristic name="Set" typeId="72f3-9912-65f3-e142">{X2}</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <categoryLinks>
-                <categoryLink id="0cac-bd06-7f07-1e4b" name="Set - XMen2 Tactic" hidden="false" targetId="63ae-a2af-e912-f2bb" primary="false"/>
-                <categoryLink id="653b-3f54-a9aa-592f" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
@@ -5511,29 +5365,6 @@ Choose another allied character within {RNG} 3 of this character. Then, choose a
               <categoryLinks>
                 <categoryLink id="8030-c0e1-6f5a-ec8d" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
                 <categoryLink id="eb3e-f25e-6419-34da" name="Set - Hammer Tactic" hidden="false" targetId="45e3-39e2-340b-9e14" primary="false"/>
-              </categoryLinks>
-              <costs>
-                <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="42c8-fe3b-a003-8829" name="PYROTECHNICS" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="191d-4975-c31d-b1c0" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="d671-f771-021e-b37b" name="PYROTECHNICS" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
-                  <characteristics>
-                    <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
-                    <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
-                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">Pyro may spend X {PWR} to play this card.
-For each {PWR} spent, choose an enemy character with the Incinerate special condition and within {RNG} 3 of Pyro. Each chosen character drops 1 objective token it is holding and is Pushed {S} Away from Pyro.</characteristic>
-                    <characteristic name="Set" typeId="72f3-9912-65f3-e142">{X2}</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <categoryLinks>
-                <categoryLink id="ad2e-7de6-5cf1-9fb7" name="Set - XMen2 Tactic" hidden="false" targetId="63ae-a2af-e912-f2bb" primary="false"/>
-                <categoryLink id="e6ba-ad6c-0315-b9b4" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
@@ -6571,15 +6402,15 @@ While James Logan Howlett and Laura Kinney are within {RNG} 2 of each other, the
                   <characteristics>
                     <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
                     <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
-                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">When an allied character with the Healing Factor {INNATE} superpower would be damaged by an enemy effect, it may spend 3 {PWR} to play this card.
+                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">When an allied character with the Healing Factor superpower would be damaged by an enemy effect, it may spend 3 {PWR} to play this card.
 Reduce the amount of damage suffered to 1.</characteristic>
-                    <characteristic name="Set" typeId="72f3-9912-65f3-e142">{X2}</characteristic>
+                    <characteristic name="Set" typeId="72f3-9912-65f3-e142">{XMEN}</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <categoryLinks>
                 <categoryLink id="a3a1-3dd1-a33f-1588" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
-                <categoryLink id="0ae8-db86-17df-430f" name="Set - XMen2 Tactic" hidden="false" targetId="63ae-a2af-e912-f2bb" primary="false"/>
+                <categoryLink id="b270-118e-7184-676f" name="Set - XMen Tactic" hidden="false" targetId="c49c-152c-b64a-3450" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
@@ -6733,90 +6564,6 @@ X is equal to the amount of {PWR} spent to play this card.
               <categoryLinks>
                 <categoryLink id="cfdd-ad68-92ae-26a2" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
                 <categoryLink id="01cb-4b45-7556-32bc" name="Set - Hammer Tactic" hidden="false" targetId="45e3-39e2-340b-9e14" primary="false"/>
-              </categoryLinks>
-              <costs>
-                <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="6df2-a5bc-c13b-e3f8" name="Weapon X" hidden="false" collective="false" import="true">
-          <selectionEntries>
-            <selectionEntry id="4f0d-6243-2d63-028f" name="ARE YOU SURE YOU WANT TO REMEMBER?" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8989-b9b1-89ff-861f" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="1a2f-c490-d31d-a17c" name="ARE YOU SURE YOU WANT TO REMEMBER?" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
-                  <characteristics>
-                    <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Weapon X</characteristic>
-                    <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
-                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">After Deployment, Laura Kinney or James Logan Howlett may play this card.
-The character that played this card gains 3 Memory tokens and the following Leadership Ability:
-
-{LDR} IT WAS YOU!!! (AFFILIATION: WEAPON X)
-When an allied Weapon X character is targeted by an attack, it may remove 1 Memory token from this character. If it does, it adds 2 dice to its defense roll. Then, after the attack is resolved, if no {DMG} was suffered as a result of the attack, the allied character may Advance {S} Toward the attacking character.
-
-Additionally, when an allied character is Dazed or KO&apos;d by an enemy effect, this character gains a Memory token. This character may have a maximum of 3 Memory tokens.</characteristic>
-                    <characteristic name="Set" typeId="72f3-9912-65f3-e142">{X2}</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <categoryLinks>
-                <categoryLink id="4adf-51bb-d081-4935" name="Set - XMen2 Tactic" hidden="false" targetId="63ae-a2af-e912-f2bb" primary="false"/>
-                <categoryLink id="ec59-1a97-cdfe-df4f" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
-              </categoryLinks>
-              <costs>
-                <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="5301-2a58-a885-0910" name="CALL THE PACK" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78e3-1469-fd32-b002" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="5760-4570-3ce9-f1ca" name="CALL THE PACK" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
-                  <characteristics>
-                    <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Weapon X</characteristic>
-                    <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
-                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">When an allied Weapon X character removes {DMG} from itself, it may spend 2 {PWR} to play this card.
-The character that played this card Advances {S}. Then all allied characters within {RNG} 3 of it may Advance {S} toward the character that played this card.</characteristic>
-                    <characteristic name="Set" typeId="72f3-9912-65f3-e142">{X2}</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <categoryLinks>
-                <categoryLink id="3e95-f125-2427-3d89" name="Set - XMen2 Tactic" hidden="false" targetId="63ae-a2af-e912-f2bb" primary="false"/>
-                <categoryLink id="1da7-aeb1-e709-b133" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
-              </categoryLinks>
-              <costs>
-                <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="ee88-1041-83df-0ad0" name="DOSSIER" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e44-2acb-6ec3-71b4" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="c097-15cd-5bbb-f358" name="DOSSIER" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
-                  <characteristics>
-                    <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Weapon X</characteristic>
-                    <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
-                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">During the first Power Phase, an allied Logan, The Wolverine, Sabretooth, Apex Predator, or X-23 character may play this card.
-
-Your opponent chooses one of their characters. It is now holding the Dossier (Asset) objective token. If an allied Weapon X character is holding this token, its movement speed becomes {L} and it adds 2 dice to its attack rolls. Any character may use the following Interact ability:
-Interact (Dossier): Pick up this token.
-Additionally, the character that played this card gains the superpower shown below.
-
-{INNATE} GIVE ME THAT!!!
-When attacking the character holding the Dossier token, this character may modify or reroll {FAIL} results and may reroll any number of attack dice. At the start of this character&apos;s activation, if there is an enemy character holding the Dossier token within {RNG} 2 of this character, this character&apos;s first action must be an attack action targeting that character, if able.</characteristic>
-                    <characteristic name="Set" typeId="72f3-9912-65f3-e142">{X2}</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <categoryLinks>
-                <categoryLink id="6725-4aaa-9f30-c746" name="Set - XMen2 Tactic" hidden="false" targetId="63ae-a2af-e912-f2bb" primary="false"/>
-                <categoryLink id="04e7-8961-a2b7-d088" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
@@ -7091,41 +6838,6 @@ BANNED:
           </characteristics>
         </profile>
       </profiles>
-      <costs>
-        <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="9756-24cf-86fc-4501" name="AGENT VENOM () {BETA}" hidden="false" collective="false" import="true" type="model">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1112-a59c-2d32-2bb1" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="a9c1-820e-0a2e-303f" name="Healthy" hidden="false" typeId="fde4-96d9-2028-2529" typeName="    Character">
-          <characteristics>
-            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363"/>
-            <characteristic name="Speed" typeId="ba74-030d-982e-7e70"/>
-            <characteristic name="Size" typeId="40df-7d54-a856-5953"/>
-            <characteristic name="Threat" typeId="b915-b25f-cb12-b651"/>
-            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335"/>
-            <characteristic name="Energy Defense" typeId="0509-5c52-7571-39ad"/>
-            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292"/>
-          </characteristics>
-        </profile>
-        <profile id="0fb3-5b4f-24d6-9e3e" name="Injured" hidden="false" typeId="fde4-96d9-2028-2529" typeName="    Character">
-          <characteristics>
-            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363"/>
-            <characteristic name="Speed" typeId="ba74-030d-982e-7e70"/>
-            <characteristic name="Size" typeId="40df-7d54-a856-5953"/>
-            <characteristic name="Threat" typeId="b915-b25f-cb12-b651"/>
-            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335"/>
-            <characteristic name="Energy Defense" typeId="0509-5c52-7571-39ad"/>
-            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <categoryLinks>
-        <categoryLink id="cfe9-248d-60ec-b8fa" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
-      </categoryLinks>
       <costs>
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
       </costs>
@@ -7999,41 +7711,6 @@ Additionally, once per turn, when an enemy character gains a special condition, 
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="3.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8a08-6143-b83f-4f6f" name="BETA RAY BILL () {BETA}" hidden="false" collective="false" import="true" type="model">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a73-fb70-6126-209a" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="d2ef-1fbc-41db-cd5c" name="Healthy" hidden="false" typeId="fde4-96d9-2028-2529" typeName="    Character">
-          <characteristics>
-            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363"/>
-            <characteristic name="Speed" typeId="ba74-030d-982e-7e70"/>
-            <characteristic name="Size" typeId="40df-7d54-a856-5953"/>
-            <characteristic name="Threat" typeId="b915-b25f-cb12-b651"/>
-            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335"/>
-            <characteristic name="Energy Defense" typeId="0509-5c52-7571-39ad"/>
-            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292"/>
-          </characteristics>
-        </profile>
-        <profile id="9d32-7cb8-31ca-ed1a" name="Injured" hidden="false" typeId="fde4-96d9-2028-2529" typeName="    Character">
-          <characteristics>
-            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363"/>
-            <characteristic name="Speed" typeId="ba74-030d-982e-7e70"/>
-            <characteristic name="Size" typeId="40df-7d54-a856-5953"/>
-            <characteristic name="Threat" typeId="b915-b25f-cb12-b651"/>
-            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335"/>
-            <characteristic name="Energy Defense" typeId="0509-5c52-7571-39ad"/>
-            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <categoryLinks>
-        <categoryLink id="9add-8904-ef01-44e8" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
-      </categoryLinks>
-      <costs>
-        <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="f4e6-3af1-3da2-2f89" name="BLACK BOLT (Blackagar Boltagon)" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b43c-1f82-ff0a-638f" type="max"/>
@@ -8783,6 +8460,83 @@ Additionally, once per turn, when an enemy character gains a special condition, 
       </categoryLinks>
       <costs>
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a150-fab7-f4b9-f8f3" name="BLOB (Fred Dukes) {BETA}" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0828-6355-62a1-3739" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="55ac-1efa-900b-cbd6" name="Healthy" hidden="false" typeId="fde4-96d9-2028-2529" typeName="    Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">6</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">S</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">3</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">3</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">4</characteristic>
+            <characteristic name="Energy Defense" typeId="0509-5c52-7571-39ad">2</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7e20-144b-29ef-09ca" name="Injured" hidden="false" typeId="fde4-96d9-2028-2529" typeName="    Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">6</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">S</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">3</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">3</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">4</characteristic>
+            <characteristic name="Energy Defense" typeId="0509-5c52-7571-39ad">2</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7963-baac-e51e-5149" name="STRIKE" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="   Attacks">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Phys</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">2</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">5</characteristic>
+            <characteristic name="Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">- After this attack is resolved this character gains {PWR} equal to the {DMG} dealt.
+- {WILD} Push: After this attack is resolved, if the target character is Size 3 or less, this character may push the target character away {S}.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c9b1-3aa9-b5dd-0403" name="THUNDEROUS SPLASH" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="   Attacks">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Phys</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">3</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">7</characteristic>
+            <characteristic name="Cost" typeId="711d-c2bc-e2d4-f398">3</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">- Before {DMG} is dealt, place this character within {RNG} 1 of the target character.
+- {WILD} Explosive Force: After this attack is resolved, other characters within {RNG} 2 of this character are pushed away from this character {S}. Characters pushed this way suffer 1 {DMG}.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8f3f-7b5e-8f04-3c4b" name="CATCH LITTLE MAN!" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="  Active Superpowers">
+          <characteristics>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">3</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Choose an interactive terrain feature of Size 3 or less within {RNG} 2 and throw it {M}. This superpower can be used only once per turn.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="69aa-3da0-5166-b07b" name="HA, HA, HA, THAT TICKLES!" hidden="false" typeId="5648-8d63-d440-21b0" typeName="  Reactive Superpowers">
+          <characteristics>
+            <characteristic name="Type" typeId="f59f-a16c-8938-4be1">Reactive</characteristic>
+            <characteristic name="Cost" typeId="3a1f-904d-3b3e-abfb">1</characteristic>
+            <characteristic name="Special Rules" typeId="e05d-5a10-9d52-550c">If this character would suffer {DMG} from an attack, it may use this superpower. Reduce the amount of {DMG} suffered by 1 to a minimum of 1. After the attack is resolved, if the attacking character is within {RNG} 3 of this character, this character may push the attacking character away {S}.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="53be-59d8-2b8f-f564" name="NOTHING CAN MOVE THE BLOB!" hidden="false" typeId="6b81-fb1a-574f-32e2" typeName=" Innate Superpowers">
+          <characteristics>
+            <characteristic name="Type" typeId="e9b9-de48-7a91-1e15">Innate</characteristic>
+            <characteristic name="Cost" typeId="f183-829f-8371-8b7c">-</characteristic>
+            <characteristic name="Special Rules" typeId="052f-28a4-12f9-0691">This character cannot be pushed or thrown as a result of attack special rules.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="7a55-3099-3672-0046" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
+        <categoryLink id="c376-9ecb-657b-2180" name="Brotherhood of Mutants" hidden="false" targetId="ece5-46c6-abdb-39d6" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="3.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="32c1-0f9e-9021-8c9b" name="BOB, AGENT OF HYDRA (Robert Dobalina)" hidden="false" collective="false" import="true" type="model">
@@ -10464,7 +10218,6 @@ When an allied character is contesting a Secure objective and would be pushed, i
         <categoryLink id="70d4-432f-8c0b-999e" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
         <categoryLink id="a211-398e-d033-2b2a" name="Avengers" hidden="false" targetId="d6c4-f011-cd8c-5451" primary="false"/>
         <categoryLink id="fb65-4dad-2dd4-f885" name="X-Force" hidden="false" targetId="3d7a-617a-f22e-cec6" primary="false"/>
-        <categoryLink id="d7d1-c494-f35e-a039" name="Weapon X" hidden="false" targetId="3fcf-8ffb-d039-d614" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="3.0"/>
@@ -10944,7 +10697,6 @@ Whenever this character rolls dice, after the effect is resolved it gains 1 {PWR
         <categoryLink id="5a95-e280-ded5-1209" name="A-Force" hidden="false" targetId="55c4-9af0-608a-49ab" primary="false"/>
         <categoryLink id="0e8a-2ccb-80e4-8881" name="Uncanny X-Men" hidden="false" targetId="60b3-f8b0-e59a-faca" primary="false"/>
         <categoryLink id="ea9c-cba3-b56c-c567" name="X-Force" hidden="false" targetId="3d7a-617a-f22e-cec6" primary="false"/>
-        <categoryLink id="03b7-9e02-e554-016e" name="Weapon X" hidden="false" targetId="3fcf-8ffb-d039-d614" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="3.0"/>
@@ -12381,7 +12133,6 @@ Alternatively, when an allied character within {RNG} 3 rolls dice for a Crisis C
         <categoryLink id="0f8a-90a7-37f7-d9bc" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
         <categoryLink id="9e21-6bdd-de25-e11d" name="Uncanny X-Men" hidden="false" targetId="60b3-f8b0-e59a-faca" primary="false"/>
         <categoryLink id="3fdf-abf4-d0c8-259d" name="X-Force" hidden="false" targetId="3d7a-617a-f22e-cec6" primary="false"/>
-        <categoryLink id="964f-b2ac-5866-a39b" name="Weapon X" hidden="false" targetId="3fcf-8ffb-d039-d614" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="2.0"/>
@@ -13627,7 +13378,7 @@ Additionally, each Healthy non-Grunt allied character contesting an objective to
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="3.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="94c4-14c6-4121-81cd" name="LOGAN, THE WOLVERINE (James Logan Howlett)" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="94c4-14c6-4121-81cd" name="LOGAN, THE WOLVERINE (James Logan Howlett) {BETA}" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb1e-297d-e577-5806" type="max"/>
       </constraints>
@@ -13721,8 +13472,6 @@ Additionally, each Healthy non-Grunt allied character contesting an objective to
       </profiles>
       <categoryLinks>
         <categoryLink id="8aa1-a38c-522e-bc0d" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
-        <categoryLink id="aea9-3901-b6a5-2537" name="Uncanny X-Men" hidden="false" targetId="60b3-f8b0-e59a-faca" primary="false"/>
-        <categoryLink id="603a-ba76-467e-1983" name="Weapon X" hidden="false" targetId="3fcf-8ffb-d039-d614" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="4.0"/>
@@ -14251,7 +14000,7 @@ Additionally, each Healthy non-Grunt allied character contesting an objective to
         <profile id="2e18-2876-9d28-0fab" name="FEROCITY" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="  Active Superpowers">
           <characteristics>
             <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
-            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">3</characteristic>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">2</characteristic>
             <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Action: This character immediately makes a move action followed by a Blade of Midnight attack action. If this attack deals damage, after the attack is resolved, this character may throw the target character {S}. This superpower can be used only once per turn.</characteristic>
           </characteristics>
         </profile>
@@ -14266,7 +14015,8 @@ Additionally, each Healthy non-Grunt allied character contesting an objective to
           <characteristics>
             <characteristic name="Type" typeId="e9b9-de48-7a91-1e15">Innate</characteristic>
             <characteristic name="Cost" typeId="f183-829f-8371-8b7c">-</characteristic>
-            <characteristic name="Special Rules" typeId="052f-28a4-12f9-0691">During the Power Phase, this character gains 1 additional {PWR}.</characteristic>
+            <characteristic name="Special Rules" typeId="052f-28a4-12f9-0691">During the Power Phase, this character gains 1 additional {PWR}.
+Additionally, characters cannot modify their attack dice when targeting this character with attacks.</characteristic>
           </characteristics>
         </profile>
         <profile id="fec3-3068-0554-ab03" name="FLIGHT" hidden="false" typeId="6b81-fb1a-574f-32e2" typeName=" Innate Superpowers">
@@ -15502,7 +15252,7 @@ Additionally, at the end of this character&apos;s activation, enemy characters w
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="3.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0e55-46a4-99de-3b3f" name="PYRO (St. John Allerdyce)" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="0e55-46a4-99de-3b3f" name="PYRO (St. John Allerdyce) {BETA}" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a52-6113-84fd-c524" type="max"/>
       </constraints>
@@ -15535,7 +15285,7 @@ Additionally, at the end of this character&apos;s activation, enemy characters w
             <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">4</characteristic>
             <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">5</characteristic>
             <characteristic name="Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
-            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">- After this attack is resolved, this character gains 1 {PWR}.
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">- After this attack is resolved this character gains 1 {PWR}.
 - {WILD} Incinerate: After this attack is resolved, the target character gains the Incinerate special condition.</characteristic>
           </characteristics>
         </profile>
@@ -15545,7 +15295,7 @@ Additionally, at the end of this character&apos;s activation, enemy characters w
             <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">B3</characteristic>
             <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">4</characteristic>
             <characteristic name="Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
-            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">- After each attack is resolved, this character gains 1 {PWR}.
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">- After each attack is resolved this character gains 1 {PWR}.
 - {WILD} Incinerate: After each attack is resolved, the target character gains the Incinerate special condition.</characteristic>
           </characteristics>
         </profile>
@@ -15938,86 +15688,6 @@ Additionally, at the end of this character&apos;s activation, enemy characters w
       </categoryLinks>
       <costs>
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="5.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="5c99-3463-6cd6-b8f2" name="RHINO (Aleksei Sytsevich) {BETA}" hidden="false" collective="false" import="true" type="model">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d8b-1321-689e-9719" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="2563-5dfa-ba32-4935" name="Healthy" hidden="false" typeId="fde4-96d9-2028-2529" typeName="    Character">
-          <characteristics>
-            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">7</characteristic>
-            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">S</characteristic>
-            <characteristic name="Size" typeId="40df-7d54-a856-5953">4</characteristic>
-            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">4</characteristic>
-            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">3</characteristic>
-            <characteristic name="Energy Defense" typeId="0509-5c52-7571-39ad">3</characteristic>
-            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">2</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="9aab-39a1-97e7-32e9" name="Injured" hidden="false" typeId="fde4-96d9-2028-2529" typeName="    Character">
-          <characteristics>
-            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">6</characteristic>
-            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">S</characteristic>
-            <characteristic name="Size" typeId="40df-7d54-a856-5953">4</characteristic>
-            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">4</characteristic>
-            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">3</characteristic>
-            <characteristic name="Energy Defense" typeId="0509-5c52-7571-39ad">3</characteristic>
-            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">2</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="c148-b3c8-e4dc-42f7" name="GORE" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="   Attacks">
-          <characteristics>
-            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Phys</characteristic>
-            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">3</characteristic>
-            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">5</characteristic>
-            <characteristic name="Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
-            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">- After this attack is resolved, this character gains {PWR} equal to the {DMG} dealt.
-- Before {DMG} is dealt, Place this character within {RNG} 1 of the target character.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="6c7d-ccb6-2800-8400" name=" STAMPEDE" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="  Active Superpowers">
-          <characteristics>
-            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
-            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">3</characteristic>
-            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">This character is Pushed {M}. It does not stop its movement if it contacts a Size 2 or smaller interactive terrain feature. Instead, the contacted terrain feature is destroyed, then this character continues being Pushed. The next time it makes a Gore attack this turn, add 2 dice to the attack roll. This superpower can be used only once per turn.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="13c2-cca9-fc7d-1b61" name="NOBODY EVER ACCUSED THE RHINO OF GOOD MANNERS" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="  Active Superpowers">
-          <characteristics>
-            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
-            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">3</characteristic>
-            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Choose an intereactive terrain feature of Size 4 or less and within {RNG} 2 and Throw it {M}. This superpower can be used only once per turn.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="30fa-54cb-ffa4-ecff" name="AGGRESSIVE" hidden="false" typeId="6b81-fb1a-574f-32e2" typeName=" Innate Superpowers">
-          <characteristics>
-            <characteristic name="Type" typeId="e9b9-de48-7a91-1e15">Innate</characteristic>
-            <characteristic name="Cost" typeId="f183-829f-8371-8b7c">-</characteristic>
-            <characteristic name="Special Rules" typeId="052f-28a4-12f9-0691">After an attack targeting this character is resolved, if this character suffered {DMG}, it may Advance {S} Toward the attacking character.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="91b6-f317-a9f7-b3b4" name="ORNERY" hidden="false" typeId="6b81-fb1a-574f-32e2" typeName=" Innate Superpowers">
-          <characteristics>
-            <characteristic name="Type" typeId="e9b9-de48-7a91-1e15">Innate</characteristic>
-            <characteristic name="Cost" typeId="f183-829f-8371-8b7c">-</characteristic>
-            <characteristic name="Special Rules" typeId="052f-28a4-12f9-0691">When this character is damaged by an enemy or allied effect, after the effect is resolved, if it is not Dazed, it gains 1 {PWR}.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="4e18-d9cb-ad43-5224" name="RHINO HIDE" hidden="false" typeId="6b81-fb1a-574f-32e2" typeName=" Innate Superpowers">
-          <characteristics>
-            <characteristic name="Type" typeId="e9b9-de48-7a91-1e15">Innate</characteristic>
-            <characteristic name="Cost" typeId="f183-829f-8371-8b7c">-</characteristic>
-            <characteristic name="Special Rules" typeId="052f-28a4-12f9-0691">When this character would suffer {DMG} from an enemy effect, reduce the amount suffered by 1, to a minimum of 1.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <categoryLinks>
-        <categoryLink id="ff52-02b4-cad6-922b" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
-      </categoryLinks>
-      <costs>
-        <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="4.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1e85-c3b6-04db-a2f2" name="ROCKET RACCOON (Rocket Raccoon)" hidden="false" collective="false" import="true" type="model">
@@ -16455,93 +16125,6 @@ Additionally, at the end of this character&apos;s activation, enemy characters w
         <categoryLink id="ab68-6ed9-8898-fc2b" name="Brotherhood of Mutants" hidden="false" targetId="ece5-46c6-abdb-39d6" primary="false"/>
         <categoryLink id="1831-b053-675c-503c" name="Cabal" hidden="false" targetId="54a5-69c1-3540-3c6e" primary="false"/>
         <categoryLink id="54cf-2195-10d1-8128" name="X-Force" hidden="false" targetId="3d7a-617a-f22e-cec6" primary="false"/>
-      </categoryLinks>
-      <costs>
-        <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="4.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="7eb4-4340-36f6-d152" name="SABRETOOTH, APEX PREDATOR (Victor Creed)" hidden="false" collective="false" import="true" type="model">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b38-9583-eb8e-27ed" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="bc3f-96aa-ebd0-0aee" name="Healthy" hidden="false" typeId="fde4-96d9-2028-2529" typeName="    Character">
-          <characteristics>
-            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">7</characteristic>
-            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">M</characteristic>
-            <characteristic name="Size" typeId="40df-7d54-a856-5953">3</characteristic>
-            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">4</characteristic>
-            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">4</characteristic>
-            <characteristic name="Energy Defense" typeId="0509-5c52-7571-39ad">3</characteristic>
-            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">4</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="0990-3945-b5f2-fa31" name="Injured" hidden="false" typeId="fde4-96d9-2028-2529" typeName="    Character">
-          <characteristics>
-            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">6</characteristic>
-            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">M</characteristic>
-            <characteristic name="Size" typeId="40df-7d54-a856-5953">3</characteristic>
-            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">4</characteristic>
-            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">4</characteristic>
-            <characteristic name="Energy Defense" typeId="0509-5c52-7571-39ad">3</characteristic>
-            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">4</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="488e-54f3-8a31-5e08" name=" CLAW SLASH" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="   Attacks">
-          <characteristics>
-            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Phys</characteristic>
-            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">2</characteristic>
-            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">5</characteristic>
-            <characteristic name="Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
-            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">- After this attack is resolved, this character gains {PWR} equal to the {DMG} dealt.
-- {WILD} Pierce: Change one of the defending character&apos;s {CRIT}, {WILD}, or {BLOCK} results to a Blank.
-- {WILD} Bleed: After this attack is resolved, the target character gains the Bleed special condition.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="6d7e-51c8-c97a-6543" name="BLOODTHIRSTY ONSLAUGHT" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="   Attacks">
-          <characteristics>
-            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Phys</characteristic>
-            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">3</characteristic>
-            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">6</characteristic>
-            <characteristic name="Cost" typeId="711d-c2bc-e2d4-f398">2</characteristic>
-            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">- After this attack is resolved, Place this character within {RNG} 1 of the target character.
-- {WILD} Pierce: Change one of the defending character&apos;s {CRIT}, {WILD}, or {BLOCK} results to a Blank.
-- {WILD} Bleed: After this attack is resolved, the target character gains the Bleed special condition.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="7b70-0161-6ab0-af4c" name="CATCH, RUNT!" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="  Active Superpowers">
-          <characteristics>
-            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
-            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">3</characteristic>
-            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Choose an enemy character within {RNG} 2 and of Size 3 or less and Throw it {M}. This superpower can be used only once per turn.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="d37e-5844-8557-29b4" name="PRIMAL POUNCE" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="  Active Superpowers">
-          <characteristics>
-            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
-            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">3</characteristic>
-            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">This character is Thrown {M}. It does not suffer {DMG} if it collides with a character or terrain feature. This superpower can be used only once per turn.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="2126-0cea-2c85-7a7d" name="STOP SQUEALING AND DIE" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="  Active Superpowers">
-          <characteristics>
-            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
-            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">4</characteristic>
-            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">The next Claw Slash or Bloodthirsty Onslaught attack made by this character this turn adds 3 dice to its attack roll.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="6350-0afe-90a0-69f8" name="HEALING FACTOR [1]" hidden="false" typeId="6b81-fb1a-574f-32e2" typeName=" Innate Superpowers">
-          <characteristics>
-            <characteristic name="Type" typeId="e9b9-de48-7a91-1e15">Innate</characteristic>
-            <characteristic name="Cost" typeId="f183-829f-8371-8b7c">-</characteristic>
-            <characteristic name="Special Rules" typeId="052f-28a4-12f9-0691">At the end of each of this character’s activations it may remove [1] damage from itself.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <categoryLinks>
-        <categoryLink id="cae1-c40a-3449-71c0" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
-        <categoryLink id="776c-3695-1bef-25b2" name="Brotherhood of Mutants" hidden="false" targetId="ece5-46c6-abdb-39d6" primary="false"/>
-        <categoryLink id="c79c-25db-c475-c75e" name="Weapon X" hidden="false" targetId="3fcf-8ffb-d039-d614" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="4.0"/>
@@ -17506,41 +17089,6 @@ Additionally, at the end of this character&apos;s activation, enemy characters w
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="4.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="55c2-ad56-c7a1-3d76" name="SPIDER-WOMAN () {BETA}" hidden="false" collective="false" import="true" type="model">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad1c-dead-eed3-b438" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="fee8-7d17-8394-5cba" name="Healthy" hidden="false" typeId="fde4-96d9-2028-2529" typeName="    Character">
-          <characteristics>
-            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363"/>
-            <characteristic name="Speed" typeId="ba74-030d-982e-7e70"/>
-            <characteristic name="Size" typeId="40df-7d54-a856-5953"/>
-            <characteristic name="Threat" typeId="b915-b25f-cb12-b651"/>
-            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335"/>
-            <characteristic name="Energy Defense" typeId="0509-5c52-7571-39ad"/>
-            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292"/>
-          </characteristics>
-        </profile>
-        <profile id="ee1a-6fdd-0016-d068" name="Injured" hidden="false" typeId="fde4-96d9-2028-2529" typeName="    Character">
-          <characteristics>
-            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363"/>
-            <characteristic name="Speed" typeId="ba74-030d-982e-7e70"/>
-            <characteristic name="Size" typeId="40df-7d54-a856-5953"/>
-            <characteristic name="Threat" typeId="b915-b25f-cb12-b651"/>
-            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335"/>
-            <characteristic name="Energy Defense" typeId="0509-5c52-7571-39ad"/>
-            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <categoryLinks>
-        <categoryLink id="e2d7-983f-8dfb-9435" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
-      </categoryLinks>
-      <costs>
-        <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="2a8c-8430-ec88-e1c9" name="STAR-LORD (Peter Quill)" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac0f-61eb-4991-89be" type="max"/>
@@ -18156,83 +17704,6 @@ Additionally, when an allied character is targeted by an attack and the attacker
       </selectionEntryGroups>
       <costs>
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="6.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="a150-fab7-f4b9-f8f3" name="THE BLOB (Fred Dukes)" hidden="false" collective="false" import="true" type="model">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0828-6355-62a1-3739" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="55ac-1efa-900b-cbd6" name="Healthy" hidden="false" typeId="fde4-96d9-2028-2529" typeName="    Character">
-          <characteristics>
-            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">6</characteristic>
-            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">S</characteristic>
-            <characteristic name="Size" typeId="40df-7d54-a856-5953">3</characteristic>
-            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">3</characteristic>
-            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">4</characteristic>
-            <characteristic name="Energy Defense" typeId="0509-5c52-7571-39ad">2</characteristic>
-            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">2</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="7e20-144b-29ef-09ca" name="Injured" hidden="false" typeId="fde4-96d9-2028-2529" typeName="    Character">
-          <characteristics>
-            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">6</characteristic>
-            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">S</characteristic>
-            <characteristic name="Size" typeId="40df-7d54-a856-5953">3</characteristic>
-            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">3</characteristic>
-            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">4</characteristic>
-            <characteristic name="Energy Defense" typeId="0509-5c52-7571-39ad">2</characteristic>
-            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">2</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="7963-baac-e51e-5149" name="STRIKE" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="   Attacks">
-          <characteristics>
-            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Phys</characteristic>
-            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">2</characteristic>
-            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">5</characteristic>
-            <characteristic name="Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
-            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">- After this attack is resolved, this character gains {PWR} equal to the {DMG} dealt.
-- {WILD} Push: After this attack is resolved, if the target character is Size 3 or less, this character may Push the target character away {S}.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="c9b1-3aa9-b5dd-0403" name="THUNDEROUS SPLASH" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="   Attacks">
-          <characteristics>
-            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Phys</characteristic>
-            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">3</characteristic>
-            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">7</characteristic>
-            <characteristic name="Cost" typeId="711d-c2bc-e2d4-f398">3</characteristic>
-            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">- Before {DMG} is dealt, Place this character within {RNG} 1 of the target character.
-- {WILD} Explosive Force: After this attack is resolved, other characters within {RNG} 2 of this character are Pushed Away from this character {S}. Characters Pushed this way suffer 1 {DMG}.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="8f3f-7b5e-8f04-3c4b" name="CATCH LITTLE MAN!" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="  Active Superpowers">
-          <characteristics>
-            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
-            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">3</characteristic>
-            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Choose an interactive terrain feature of Size 3 or less within {RNG} 2 and Throw it {M}. This superpower can be used only once per turn.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="69aa-3da0-5166-b07b" name="HA, HA, HA, THAT TICKLES!" hidden="false" typeId="5648-8d63-d440-21b0" typeName="  Reactive Superpowers">
-          <characteristics>
-            <characteristic name="Type" typeId="f59f-a16c-8938-4be1">Reactive</characteristic>
-            <characteristic name="Cost" typeId="3a1f-904d-3b3e-abfb">1</characteristic>
-            <characteristic name="Special Rules" typeId="e05d-5a10-9d52-550c">If this character would suffer {DMG} from an attack, it may use this superpower. Reduce the amount of {DMG} suffered by 1 to a minimum of 1. After the attack is resolved, if the attacking character is within {RNG} 3 of this character, this character may Push the attacking character Away {S}.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="53be-59d8-2b8f-f564" name="NOTHING CAN MOVE THE BLOB!" hidden="false" typeId="6b81-fb1a-574f-32e2" typeName=" Innate Superpowers">
-          <characteristics>
-            <characteristic name="Type" typeId="e9b9-de48-7a91-1e15">Innate</characteristic>
-            <characteristic name="Cost" typeId="f183-829f-8371-8b7c">-</characteristic>
-            <characteristic name="Special Rules" typeId="052f-28a4-12f9-0691">This character cannot be Pushed or Thrown as a result of attack special rules.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <categoryLinks>
-        <categoryLink id="7a55-3099-3672-0046" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
-        <categoryLink id="c376-9ecb-657b-2180" name="Brotherhood of Mutants" hidden="false" targetId="ece5-46c6-abdb-39d6" primary="false"/>
-      </categoryLinks>
-      <costs>
-        <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="3.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7dce-e382-7bd9-a029" name="THE ORIGINAL HUMAN TORCH (Jim Hammond)" hidden="false" collective="false" import="true" type="model">
@@ -19632,7 +19103,6 @@ Phased: This character rolls three additional dice when defending against {ENRG}
         <categoryLink id="d173-3283-889d-4a11" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
         <categoryLink id="304d-3151-03e1-8723" name="Uncanny X-Men" hidden="false" targetId="60b3-f8b0-e59a-faca" primary="false"/>
         <categoryLink id="6463-ea62-5813-4676" name="X-Force" hidden="false" targetId="3d7a-617a-f22e-cec6" primary="false"/>
-        <categoryLink id="bacb-2e8e-85b7-0cf5" name="Weapon X" hidden="false" targetId="3fcf-8ffb-d039-d614" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="3.0"/>
