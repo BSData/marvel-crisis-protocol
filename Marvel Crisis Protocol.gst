@@ -1,18 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="9c66-3ecf-4508-3b47" name="Marvel Crisis Protocol" revision="2210" battleScribeVersion="2.03" authorName="Uplink" authorContact="Uplink.MCP@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="9c66-3ecf-4508-3b47" name="Marvel Crisis Protocol" revision="2211" battleScribeVersion="2.03" authorName="Uplink" authorContact="Uplink.MCP@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>*VERSION INFO*
 Core Rules: 3/31/2022
-FAQ &amp; Errata: 10/14/2022
-Base Sizes: 10/14/2022
-Affiliations: 10/14/2022
+FAQ &amp; Errata: 12/9/2022
+Base Sizes: 12/9/2022
+Affiliations: 12/9/2022
 Ban/Restricted: 9/9/2022
-Challenger: 10/18/2022
+Challenger: 12/9/2022
 
 *UPDATES*
-- Updated to 10/18/2022 docs.
-- Finalized Red Skull, Master of Hydra, Hydra Troopers, Sentinels data.
-- Added P2P data for Blob, Pyro, and Logan, the Wolverine.
-- Added additional X2 logo set symbol (introduced in Sentinels set) for cards.
+- Updated to 12/9/2022 docs.
+- Added 2022 Crisis Card Update.
+- Added Weapon X Affiliation.
+- Finalized data for Blob, Pyro, Logan the Wolverine, and Sabretooth Apex Predator.
+- Added Fluppy {FLUP} (Damage Control Dog) Set Symbols.
+- Updated Standard Timeline Roster/Squad symbol restrictions.
+- Added P2P info for Rhino.
+- Prepped for Agent Venom, Spider-Woman, and Beta Ray Bill.
 
 *DATAFILE REFERENCE*
 - Any entries listed as {Beta} are ones I do not own, have not seen in person, or which have not been officially published in AMG living documents (Rules / FAQ / etc.). Panel to Play (P2P) data is considered Beta.
@@ -156,6 +160,9 @@ If you find any incorrect data, please send correction requests to the address a
     <categoryEntry id="c979-e2ae-244c-cb8b" name="Set - City Crisis" hidden="false"/>
     <categoryEntry id="0e17-e603-4d9b-981f" name="Set - City Gem" hidden="false"/>
     <categoryEntry id="45bd-7f44-9608-4abe" name="Set - City Tactic" hidden="false"/>
+    <categoryEntry id="e5bc-27a3-d353-54a3" name="Set - Flup Crisis" hidden="false"/>
+    <categoryEntry id="46a3-b3fb-46ae-4a0e" name="Set - Flup Gem" hidden="false"/>
+    <categoryEntry id="5702-4196-97f0-695a" name="Set - Flup Tactic" hidden="false"/>
     <categoryEntry id="7cdf-3645-3a8a-067b" name="Set - Hammer Crisis" hidden="false"/>
     <categoryEntry id="24e0-2c06-1601-09a4" name="Set - Hammer Gem" hidden="false"/>
     <categoryEntry id="45e3-39e2-340b-9e14" name="Set - Hammer Tactic" hidden="false"/>
@@ -174,6 +181,7 @@ If you find any incorrect data, please send correction requests to the address a
     <categoryEntry id="8ded-f44e-e059-108b" name="Unaffiliated" hidden="false"/>
     <categoryEntry id="60b3-f8b0-e59a-faca" name="Uncanny X-Men" hidden="false"/>
     <categoryEntry id="f26a-4939-f603-307c" name="Wakanda" hidden="false"/>
+    <categoryEntry id="3fcf-8ffb-d039-d614" name="Weapon X" hidden="false"/>
     <categoryEntry id="d7f0-71df-050d-5c5e" name="Web Warriors" hidden="false"/>
     <categoryEntry id="b5a7-c6a5-ae6f-29ba" name="Winter Guard" hidden="false"/>
     <categoryEntry id="3d7a-617a-f22e-cec6" name="X-Force" hidden="false"/>
@@ -263,6 +271,9 @@ If you find any incorrect data, please send correction requests to the address a
         <categoryLink id="2d9a-fbf5-8de5-e80c" name="Set - City Crisis" hidden="false" targetId="c979-e2ae-244c-cb8b" primary="false"/>
         <categoryLink id="1394-11f0-e32c-dc3d" name="Set - City Gem" hidden="false" targetId="0e17-e603-4d9b-981f" primary="false"/>
         <categoryLink id="8721-0ca6-6304-178a" name="Set - City Tactic" hidden="false" targetId="45bd-7f44-9608-4abe" primary="false"/>
+        <categoryLink id="eb96-0c48-3dbc-818f" name="Set - Flup Crisis" hidden="false" targetId="e5bc-27a3-d353-54a3" primary="false"/>
+        <categoryLink id="2007-9146-3252-7367" name="Set - Flup Gem" hidden="false" targetId="46a3-b3fb-46ae-4a0e" primary="false"/>
+        <categoryLink id="2e73-0a42-d125-002c" name="Set - Flup Tactic" hidden="false" targetId="5702-4196-97f0-695a" primary="false"/>
         <categoryLink id="7ca7-c0a8-7b57-7eaa" name="Set - Hammer Crisis" hidden="false" targetId="7cdf-3645-3a8a-067b" primary="false"/>
         <categoryLink id="b465-a6d7-d934-8367" name="Set - Hammer Gem" hidden="false" targetId="24e0-2c06-1601-09a4" primary="false"/>
         <categoryLink id="9f7e-7d20-7cfd-4f5e" name="Set - Hammer Tactic" hidden="false" targetId="45e3-39e2-340b-9e14" primary="false"/>
@@ -331,6 +342,17 @@ If you find any incorrect data, please send correction requests to the address a
           </constraints>
         </categoryLink>
         <categoryLink id="7dfa-118e-a5a1-71d4" name="Set - City Tactic" hidden="false" targetId="45bd-7f44-9608-4abe" primary="false"/>
+        <categoryLink id="9742-dbc9-b163-8f80" name="Set - Flup Crisis" hidden="false" targetId="e5bc-27a3-d353-54a3" primary="false"/>
+        <categoryLink id="729d-3af3-9f5b-1e4d" name="Set - Flup Gem" hidden="false" targetId="46a3-b3fb-46ae-4a0e" primary="false">
+          <constraints>
+            <constraint field="selections" scope="d091-5be8-a8a4-8f52" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d627-cf94-bb8d-723d" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="301c-965d-ec47-1099" name="Set - Flup Tactic" hidden="false" targetId="5702-4196-97f0-695a" primary="false">
+          <constraints>
+            <constraint field="selections" scope="d091-5be8-a8a4-8f52" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9ca5-d86f-d8bd-0055" type="max"/>
+          </constraints>
+        </categoryLink>
         <categoryLink id="ae19-99c1-379a-7552" name="Set - Hammer Crisis" hidden="false" targetId="7cdf-3645-3a8a-067b" primary="false"/>
         <categoryLink id="9201-e06c-2494-bdba" name="Set - Hammer Gem" hidden="false" targetId="24e0-2c06-1601-09a4" primary="false"/>
         <categoryLink id="f1c8-bb8f-2712-a183" name="Set - Hammer Tactic" hidden="false" targetId="45e3-39e2-340b-9e14" primary="false"/>
@@ -449,6 +471,9 @@ If you find any incorrect data, please send correction requests to the address a
         <categoryLink id="14ca-5b14-29e0-ad3f" name="Set - City Crisis" hidden="false" targetId="c979-e2ae-244c-cb8b" primary="false"/>
         <categoryLink id="7cbb-fbc0-5dfc-e143" name="Set - City Gem" hidden="false" targetId="0e17-e603-4d9b-981f" primary="false"/>
         <categoryLink id="81dd-74d3-7e23-c718" name="Set - City Tactic" hidden="false" targetId="45bd-7f44-9608-4abe" primary="false"/>
+        <categoryLink id="34e5-28b9-b44a-a381" name="Set - Flup Crisis" hidden="false" targetId="e5bc-27a3-d353-54a3" primary="false"/>
+        <categoryLink id="91d2-9902-a4ee-0eb2" name="Set - Flup Gem" hidden="false" targetId="46a3-b3fb-46ae-4a0e" primary="false"/>
+        <categoryLink id="9abc-976b-d534-f653" name="Set - Flup Tactic" hidden="false" targetId="5702-4196-97f0-695a" primary="false"/>
         <categoryLink id="0150-8f9e-eba9-9c9d" name="Set - Hammer Crisis" hidden="false" targetId="7cdf-3645-3a8a-067b" primary="false"/>
         <categoryLink id="8af2-2074-6896-1bbd" name="Set - Hammer Gem" hidden="false" targetId="24e0-2c06-1601-09a4" primary="false"/>
         <categoryLink id="a06d-2d0e-04ec-be81" name="Set - Hammer Tactic" hidden="false" targetId="45e3-39e2-340b-9e14" primary="false"/>
@@ -517,6 +542,17 @@ If you find any incorrect data, please send correction requests to the address a
           </constraints>
         </categoryLink>
         <categoryLink id="9980-f3ea-c9d1-e9f2" name="Set - City Tactic" hidden="false" targetId="45bd-7f44-9608-4abe" primary="false"/>
+        <categoryLink id="ed4f-68c1-d947-4568" name="Set - Flup Crisis" hidden="false" targetId="e5bc-27a3-d353-54a3" primary="false"/>
+        <categoryLink id="2849-2050-bf7b-8838" name="Set - Flup Gem" hidden="false" targetId="46a3-b3fb-46ae-4a0e" primary="false">
+          <constraints>
+            <constraint field="selections" scope="d631-c89c-47d6-ec9e" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="572a-083e-7188-23f1" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="2d0b-5cd2-f779-365b" name="Set - Flup Tactic" hidden="false" targetId="5702-4196-97f0-695a" primary="false">
+          <constraints>
+            <constraint field="selections" scope="d631-c89c-47d6-ec9e" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ee5f-388d-d68b-28f7" type="max"/>
+          </constraints>
+        </categoryLink>
         <categoryLink id="d876-a33d-6116-0b13" name="Set - Hammer Crisis" hidden="false" targetId="7cdf-3645-3a8a-067b" primary="false"/>
         <categoryLink id="66b5-dc74-b07b-9310" name="Set - Hammer Gem" hidden="false" targetId="24e0-2c06-1601-09a4" primary="false"/>
         <categoryLink id="6e91-8fff-3f42-9b00" name="Set - Hammer Tactic" hidden="false" targetId="45e3-39e2-340b-9e14" primary="false"/>
