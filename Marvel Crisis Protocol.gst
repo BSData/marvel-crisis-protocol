@@ -1,22 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="9c66-3ecf-4508-3b47" name="Marvel Crisis Protocol" revision="2211" battleScribeVersion="2.03" authorName="Uplink" authorContact="Uplink.MCP@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="9c66-3ecf-4508-3b47" name="Marvel Crisis Protocol" revision="2301" battleScribeVersion="2.03" authorName="Uplink" authorContact="Uplink.MCP@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>*VERSION INFO*
 Core Rules: 3/31/2022
-FAQ &amp; Errata: 12/9/2022
-Base Sizes: 12/9/2022
-Affiliations: 12/9/2022
+FAQ &amp; Errata: 1/6/2023
+Base Sizes: 1/6/2023
+Affiliations: 1/6/2023
 Ban/Restricted: 9/9/2022
 Challenger: 12/9/2022
 
 *UPDATES*
-- Updated to 12/9/2022 docs.
-- Added 2022 Crisis Card Update.
-- Added Weapon X Affiliation.
-- Finalized data for Blob, Pyro, Logan the Wolverine, and Sabretooth Apex Predator.
-- Added Fluppy {FLUP} (Damage Control Dog) Set Symbols.
-- Updated Standard Timeline Roster/Squad symbol restrictions.
-- Added P2P info for Rhino.
-- Prepped for Agent Venom, Spider-Woman, and Beta Ray Bill.
+- Updated to 1/6/2023 docs.
+- Finalized Rhino data &amp; Tactic Cards.
+- Added P2P info for Agent Venom, Beta Ray Bill, and Spider-Woman.
+- Prepped for Emma Frost &amp; Psylocke.
 
 *DATAFILE REFERENCE*
 - Any entries listed as {Beta} are ones I do not own, have not seen in person, or which have not been officially published in AMG living documents (Rules / FAQ / etc.). Panel to Play (P2P) data is considered Beta.
