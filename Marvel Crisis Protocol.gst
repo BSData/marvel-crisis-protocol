@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="9c66-3ecf-4508-3b47" name="Marvel Crisis Protocol" revision="2301" battleScribeVersion="2.03" authorName="Uplink" authorContact="Uplink.MCP@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="9c66-3ecf-4508-3b47" name="Marvel Crisis Protocol" revision="2302" battleScribeVersion="2.03" authorName="Uplink" authorContact="Uplink.MCP@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>*VERSION INFO*
 Core Rules: 3/31/2022
-FAQ &amp; Errata: 1/6/2023
-Base Sizes: 1/6/2023
-Affiliations: 1/6/2023
+FAQ &amp; Errata: 2/3/2023
+Base Sizes: 2/3/2023
+Affiliations: 2/3/2023
 Ban/Restricted: 9/9/2022
 Challenger: 12/9/2022
 
 *UPDATES*
-- Updated to 1/6/2023 docs.
-- Finalized Rhino data &amp; Tactic Cards.
-- Added P2P info for Agent Venom, Beta Ray Bill, and Spider-Woman.
-- Prepped for Emma Frost &amp; Psylocke.
+- Fixed error in Timeline filters.
+- Removed legacy {BETA} tags.
+- Updated to 2/3/2023 docs.
+- Finalized Data for Agent Venom, Spider-Woman, Beta Ray Bill, and Ulik Character and Tactic Cards.
+- Added P2P info for Emma Frost and Psylocke.
+- Prepped for Immortal Hulk and M.O.D.O.K. Scientist Supreme
 
 *DATAFILE REFERENCE*
 - Any entries listed as {Beta} are ones I do not own, have not seen in person, or which have not been officially published in AMG living documents (Rules / FAQ / etc.). Panel to Play (P2P) data is considered Beta.
@@ -279,6 +281,9 @@ If you find any incorrect data, please send correction requests to the address a
         <categoryLink id="4add-fc95-c1e3-66bf" name="Set - XMen Crisis" hidden="false" targetId="e90e-5e69-79ef-61b0" primary="false"/>
         <categoryLink id="4a27-6227-ff9d-85d9" name="Set - XMen Gem" hidden="false" targetId="d06c-7214-8931-55a5" primary="false"/>
         <categoryLink id="73cb-35b7-05b2-1d73" name="Set - XMen Tactic" hidden="false" targetId="c49c-152c-b64a-3450" primary="false"/>
+        <categoryLink id="39af-61e2-d3a0-5fbd" name="Set - XMen2 Crisis" hidden="false" targetId="f600-d032-ecee-709b" primary="false"/>
+        <categoryLink id="c08a-3c2b-fcbd-8fd8" name="Set - XMen2 Gem" hidden="false" targetId="0c60-4b55-c63a-76ee" primary="false"/>
+        <categoryLink id="b9a6-08e9-0395-9724" name="Set - XMen2 Tactic" hidden="false" targetId="63ae-a2af-e912-f2bb" primary="false"/>
         <categoryLink id="02e4-de9e-feff-3afd" name="Team Tactics" hidden="false" targetId="d643-5175-ae87-9385" primary="false">
           <constraints>
             <constraint field="selections" scope="769c-d9fa-1613-b8ce" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="edf0-64ef-31a7-8334" type="max"/>
@@ -331,7 +336,11 @@ If you find any incorrect data, please send correction requests to the address a
             <constraint field="selections" scope="d091-5be8-a8a4-8f52" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ab01-cb71-0f60-2ea6" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="7dd7-2596-8358-fe8e" name="Set - City Crisis" hidden="false" targetId="c979-e2ae-244c-cb8b" primary="false"/>
+        <categoryLink id="7dd7-2596-8358-fe8e" name="Set - City Crisis" hidden="false" targetId="c979-e2ae-244c-cb8b" primary="false">
+          <constraints>
+            <constraint field="selections" scope="d091-5be8-a8a4-8f52" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c351-84d9-49d1-c832" type="max"/>
+          </constraints>
+        </categoryLink>
         <categoryLink id="b3ac-b9e0-4cae-0582" name="Set - City Gem" hidden="false" targetId="0e17-e603-4d9b-981f" primary="false">
           <constraints>
             <constraint field="selections" scope="d091-5be8-a8a4-8f52" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8883-8906-c18f-f004" type="max"/>
@@ -349,10 +358,18 @@ If you find any incorrect data, please send correction requests to the address a
             <constraint field="selections" scope="d091-5be8-a8a4-8f52" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9ca5-d86f-d8bd-0055" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="ae19-99c1-379a-7552" name="Set - Hammer Crisis" hidden="false" targetId="7cdf-3645-3a8a-067b" primary="false"/>
+        <categoryLink id="ae19-99c1-379a-7552" name="Set - Hammer Crisis" hidden="false" targetId="7cdf-3645-3a8a-067b" primary="false">
+          <constraints>
+            <constraint field="selections" scope="d091-5be8-a8a4-8f52" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fdf7-4931-4270-9907" type="max"/>
+          </constraints>
+        </categoryLink>
         <categoryLink id="9201-e06c-2494-bdba" name="Set - Hammer Gem" hidden="false" targetId="24e0-2c06-1601-09a4" primary="false"/>
         <categoryLink id="f1c8-bb8f-2712-a183" name="Set - Hammer Tactic" hidden="false" targetId="45e3-39e2-340b-9e14" primary="false"/>
-        <categoryLink id="b15a-af00-25b4-5f10" name="Set - Spidey Crisis" hidden="false" targetId="baa7-603b-44e2-95ac" primary="false"/>
+        <categoryLink id="b15a-af00-25b4-5f10" name="Set - Spidey Crisis" hidden="false" targetId="baa7-603b-44e2-95ac" primary="false">
+          <constraints>
+            <constraint field="selections" scope="d091-5be8-a8a4-8f52" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a2f1-997f-8dfa-1813" type="max"/>
+          </constraints>
+        </categoryLink>
         <categoryLink id="5c2e-87fb-152e-b25d" name="Set - Spidey Gem" hidden="false" targetId="680e-ab3b-8fce-33dd" primary="false">
           <constraints>
             <constraint field="selections" scope="d091-5be8-a8a4-8f52" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0db5-fc46-cc56-11e8" type="max"/>
@@ -363,13 +380,28 @@ If you find any incorrect data, please send correction requests to the address a
             <constraint field="selections" scope="d091-5be8-a8a4-8f52" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="710a-4ffe-4b85-e903" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="b42f-6f77-2504-1691" name="Set - XMen Crisis" hidden="false" targetId="e90e-5e69-79ef-61b0" primary="false"/>
+        <categoryLink id="b42f-6f77-2504-1691" name="Set - XMen Crisis" hidden="false" targetId="e90e-5e69-79ef-61b0" primary="false">
+          <constraints>
+            <constraint field="selections" scope="d091-5be8-a8a4-8f52" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="77a3-ee2b-509a-b78c" type="max"/>
+          </constraints>
+        </categoryLink>
         <categoryLink id="d219-81cb-e3ac-cdee" name="Set - XMen Gem" hidden="false" targetId="d06c-7214-8931-55a5" primary="false">
           <constraints>
             <constraint field="selections" scope="d091-5be8-a8a4-8f52" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4879-5134-8767-87da" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="8a48-6b6a-8342-f2ac" name="Set - XMen Tactic" hidden="false" targetId="c49c-152c-b64a-3450" primary="false"/>
+        <categoryLink id="70fa-c354-156b-ccb0" name="Set - XMen2 Crisis" hidden="false" targetId="f600-d032-ecee-709b" primary="false">
+          <constraints>
+            <constraint field="selections" scope="d091-5be8-a8a4-8f52" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="78b8-5eb0-e4ce-f0b8" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="b113-6bca-b9bb-84f9" name="Set - XMen2 Gem" hidden="false" targetId="0c60-4b55-c63a-76ee" primary="false">
+          <constraints>
+            <constraint field="selections" scope="d091-5be8-a8a4-8f52" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8425-01a6-c51a-7b8a" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="5cd3-3151-234c-1c57" name="Set - XMen2 Tactic" hidden="false" targetId="63ae-a2af-e912-f2bb" primary="false"/>
         <categoryLink id="4484-2498-f812-1fbf" name="Team Tactics" hidden="false" targetId="d643-5175-ae87-9385" primary="false">
           <constraints>
             <constraint field="selections" scope="d091-5be8-a8a4-8f52" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05a8-e54d-94f6-0196" type="max"/>
@@ -479,6 +511,9 @@ If you find any incorrect data, please send correction requests to the address a
         <categoryLink id="4855-33d8-e442-0560" name="Set - XMen Crisis" hidden="false" targetId="e90e-5e69-79ef-61b0" primary="false"/>
         <categoryLink id="4d45-ff5a-3a05-f833" name="Set - XMen Gem" hidden="false" targetId="d06c-7214-8931-55a5" primary="false"/>
         <categoryLink id="e197-f76f-a8cf-7c2d" name="Set - XMen Tactic" hidden="false" targetId="c49c-152c-b64a-3450" primary="false"/>
+        <categoryLink id="d861-13d7-6e6b-87c2" name="Set - XMen2 Crisis" hidden="false" targetId="f600-d032-ecee-709b" primary="false"/>
+        <categoryLink id="ee7f-6f9b-e470-74f9" name="Set - XMen2 Gem" hidden="false" targetId="0c60-4b55-c63a-76ee" primary="false"/>
+        <categoryLink id="d286-5483-64cd-7db2" name="Set - XMen2 Tactic" hidden="false" targetId="63ae-a2af-e912-f2bb" primary="false"/>
         <categoryLink id="a4d1-9f49-c2ff-faf6" name="Team Tactics" hidden="false" targetId="d643-5175-ae87-9385" primary="false">
           <constraints>
             <constraint field="selections" scope="7bbb-0b8c-189c-73ab" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="afb1-5584-7e2f-d336" type="max"/>
@@ -531,7 +566,11 @@ If you find any incorrect data, please send correction requests to the address a
             <constraint field="selections" scope="d631-c89c-47d6-ec9e" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="958d-5341-df05-0d68" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="7765-51d9-76b2-30e2" name="Set - City Crisis" hidden="false" targetId="c979-e2ae-244c-cb8b" primary="false"/>
+        <categoryLink id="7765-51d9-76b2-30e2" name="Set - City Crisis" hidden="false" targetId="c979-e2ae-244c-cb8b" primary="false">
+          <constraints>
+            <constraint field="selections" scope="d631-c89c-47d6-ec9e" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3809-3f37-45a0-e401" type="max"/>
+          </constraints>
+        </categoryLink>
         <categoryLink id="96d2-45de-2797-11c6" name="Set - City Gem" hidden="false" targetId="0e17-e603-4d9b-981f" primary="false">
           <constraints>
             <constraint field="selections" scope="d631-c89c-47d6-ec9e" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4b45-96a4-812e-ce2e" type="max"/>
@@ -549,10 +588,18 @@ If you find any incorrect data, please send correction requests to the address a
             <constraint field="selections" scope="d631-c89c-47d6-ec9e" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ee5f-388d-d68b-28f7" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="d876-a33d-6116-0b13" name="Set - Hammer Crisis" hidden="false" targetId="7cdf-3645-3a8a-067b" primary="false"/>
+        <categoryLink id="d876-a33d-6116-0b13" name="Set - Hammer Crisis" hidden="false" targetId="7cdf-3645-3a8a-067b" primary="false">
+          <constraints>
+            <constraint field="selections" scope="d631-c89c-47d6-ec9e" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="67bc-5824-3708-6b33" type="max"/>
+          </constraints>
+        </categoryLink>
         <categoryLink id="66b5-dc74-b07b-9310" name="Set - Hammer Gem" hidden="false" targetId="24e0-2c06-1601-09a4" primary="false"/>
         <categoryLink id="6e91-8fff-3f42-9b00" name="Set - Hammer Tactic" hidden="false" targetId="45e3-39e2-340b-9e14" primary="false"/>
-        <categoryLink id="3ca3-d1a9-3c78-3de3" name="Set - Spidey Crisis" hidden="false" targetId="baa7-603b-44e2-95ac" primary="false"/>
+        <categoryLink id="3ca3-d1a9-3c78-3de3" name="Set - Spidey Crisis" hidden="false" targetId="baa7-603b-44e2-95ac" primary="false">
+          <constraints>
+            <constraint field="selections" scope="d631-c89c-47d6-ec9e" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ba17-3097-fb9c-0e44" type="max"/>
+          </constraints>
+        </categoryLink>
         <categoryLink id="5837-52a7-3b39-4204" name="Set - Spidey Gem" hidden="false" targetId="680e-ab3b-8fce-33dd" primary="false">
           <constraints>
             <constraint field="selections" scope="d631-c89c-47d6-ec9e" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="40ad-1eeb-e747-39de" type="max"/>
@@ -563,13 +610,28 @@ If you find any incorrect data, please send correction requests to the address a
             <constraint field="selections" scope="d631-c89c-47d6-ec9e" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8e8b-cfdd-c003-dd35" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="b85d-d9e7-8878-93c5" name="Set - XMen Crisis" hidden="false" targetId="e90e-5e69-79ef-61b0" primary="false"/>
+        <categoryLink id="b85d-d9e7-8878-93c5" name="Set - XMen Crisis" hidden="false" targetId="e90e-5e69-79ef-61b0" primary="false">
+          <constraints>
+            <constraint field="selections" scope="d631-c89c-47d6-ec9e" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c9fa-2676-bbc4-913c" type="max"/>
+          </constraints>
+        </categoryLink>
         <categoryLink id="e9a3-5194-5c9e-d12e" name="Set - XMen Gem" hidden="false" targetId="d06c-7214-8931-55a5" primary="false">
           <constraints>
             <constraint field="selections" scope="d631-c89c-47d6-ec9e" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3897-0f48-439b-d5ac" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="822b-0544-4de3-1240" name="Set - XMen Tactic" hidden="false" targetId="c49c-152c-b64a-3450" primary="false"/>
+        <categoryLink id="c767-bd21-461a-d8af" name="Set - XMen2 Crisis" hidden="false" targetId="f600-d032-ecee-709b" primary="false">
+          <constraints>
+            <constraint field="selections" scope="d631-c89c-47d6-ec9e" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6a9e-d34f-9038-d96c" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="f44d-e99b-66a3-7a5a" name="Set - XMen2 Gem" hidden="false" targetId="0c60-4b55-c63a-76ee" primary="false">
+          <constraints>
+            <constraint field="selections" scope="d631-c89c-47d6-ec9e" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="914f-b634-9bc1-dccb" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="93ca-d8d1-beea-af3d" name="Set - XMen2 Tactic" hidden="false" targetId="63ae-a2af-e912-f2bb" primary="false"/>
         <categoryLink id="a208-7309-2290-1d37" name="Team Tactics" hidden="false" targetId="d643-5175-ae87-9385" primary="false">
           <constraints>
             <constraint field="selections" scope="d631-c89c-47d6-ec9e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7213-5d1e-df5f-5b5a" type="max"/>
