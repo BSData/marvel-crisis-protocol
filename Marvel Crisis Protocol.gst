@@ -14,7 +14,8 @@ Challenger: 12/9/2022
 - Updated to 2/3/2023 docs.
 - Finalized Data for Agent Venom, Spider-Woman, Beta Ray Bill, and Ulik Character and Tactic Cards.
 - Added P2P info for Emma Frost and Psylocke.
-- Prepped for Immortal Hulk and M.O.D.O.K. Scientist Supreme
+- Added Emma Frost and Psylock Tactic Card reveals.
+- Prepped for Immortal Hulk and M.O.D.O.K. Scientist Supreme.
 
 *DATAFILE REFERENCE*
 - Any entries listed as {Beta} are ones I do not own, have not seen in person, or which have not been officially published in AMG living documents (Rules / FAQ / etc.). Panel to Play (P2P) data is considered Beta.

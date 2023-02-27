@@ -3908,6 +3908,33 @@ Place Red Guardian within {RNG} 2 of the allied character. Red Guardian becomes 
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="385f-f407-7b19-929c" name="CRIMSON DAWN {BETA}" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="756f-e2d2-306a-4d55" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="2094-ecf4-d99e-5ba7" name="CRIMSON DAWN {BETA}" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+                  <characteristics>
+                    <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
+                    <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
+                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">When an allied Psylocke flips her Stat Card to its Injured side, she may spend 3 {PWR} to play this card. Psylocke gains the superpower shown below.
+
+{INNATE} MARK OF THE CRIMSON DAWN
+At the beginning of this character&apos;s Activation and after each of its actions, this character may Place itself within {RNG} 1.
+
+Additionally, this character gains Healing Factor [1].</characteristic>
+                    <characteristic name="Set" typeId="72f3-9912-65f3-e142">{X2}</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="3cdd-5c44-e943-5a05" name="Set - XMen2 Tactic" hidden="false" targetId="63ae-a2af-e912-f2bb" primary="false"/>
+                <categoryLink id="822c-dab2-764f-5202" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+              </costs>
+            </selectionEntry>
             <selectionEntry id="711f-0fb1-12a7-4d28" name="DARK AURA MANIFESTATION" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="243c-4074-ed6b-dc8a" type="max"/>
@@ -4540,18 +4567,18 @@ Logan, the Wolverine Advances his speed Away from the character that triggered t
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="4663-fb4f-08e5-0692" name="GRIEVOUS WOUNDS" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="4663-fb4f-08e5-0692" name="GRIEVOUS WOUNDS {BETA}" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e95-cced-bdde-fed7" type="max"/>
               </constraints>
               <profiles>
-                <profile id="2f21-3308-f6e8-c619" name="GRIEVOUS WOUNDS" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+                <profile id="2f21-3308-f6e8-c619" name="GRIEVOUS WOUNDS {BETA}" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
                   <characteristics>
                     <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
                     <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
-                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">During a character&apos;s activation, when it targets an enemy character with an attack it may spend 1 {PWR} to play this card.
+                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">During a character&apos;s Activation, when it targets an enemy character with an attack, it may spend 1 {PWR} to play this card.
 If the target character is dealt {DMG} by this attack, the target character cannot have damage removed from it this Activation Phase.</characteristic>
-                    <characteristic name="Set" typeId="72f3-9912-65f3-e142">{XMEN}</characteristic>
+                    <characteristic name="Set" typeId="72f3-9912-65f3-e142">{X2}</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5286,6 +5313,29 @@ This round when an enemy character is choosing the target character for a non-ar
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="6730-0be8-7d9f-b47c" name="MIND TRANSFER {BETA}" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="421e-9a1c-93d2-ce8c" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="d890-72a1-394a-0561" name="MIND TRANSFER {BETA}" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+                  <characteristics>
+                    <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
+                    <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
+                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">During Emma Frost&apos;s Activation, she may spend 4 {PWR} to play this card.
+Choose an enemy character with an Activated token within {RNG} 3 of Emma Frost. Move an Activated token from the chosen character to another enemy character that does not have an Activated token within {RNG} 2 of the chosen character.</characteristic>
+                    <characteristic name="Set" typeId="72f3-9912-65f3-e142">{X2}</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="1c22-5414-ba5f-0273" name="Set - XMen2 Tactic" hidden="false" targetId="63ae-a2af-e912-f2bb" primary="false"/>
+                <categoryLink id="287a-dc84-98d1-8795" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+              </costs>
+            </selectionEntry>
             <selectionEntry id="6f48-9f97-87b3-37ce" name="MISSION OBJECTIVE" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15d7-3e8b-6a38-7f1c" type="max"/>
@@ -5332,6 +5382,32 @@ After each attack is resolved, the target character is pushed away from this cha
               <categoryLinks>
                 <categoryLink id="f44b-f818-1e10-86d3" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
                 <categoryLink id="d74b-2582-6d8a-4476" name="Set - City Tactic" hidden="false" targetId="45bd-7f44-9608-4abe" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1283-3b69-9621-d7e6" name="MY HELLFIRE CLUB {BETA}" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db01-4232-b852-99ce" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="79a6-84ba-6f60-b554" name="MY HELLFIRE CLUB {BETA}" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+                  <characteristics>
+                    <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
+                    <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
+                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">When this card is included in your Squad, if your Squad is Unaffiliated and includes Emma Frost and this card, you may play this card.
+Your Squad is now using the Hellfire Club affiliation regardless of other affiliated characters. Emma Frost gains the following Leadership ability. It is your active Leadership.
+
+{LDR} WHITE QUEEN&apos;S PAWNS (AFFILIATION: HELLFIRE CLUB)
+Once per Round, at the end of an allied character&apos;s Activation, Emma Frost may use this Leadership ability. When she does, all other allied characters contesting or holding objective tokens gain 1 {PWR} and remove 1 {DMG}. All other allied characters not contesting or holding an objective token lose 1 {PWR} and suffer 1 {DMG}. Emma Frost gains 1 {PWR} for each {PWR} lost in this way and may remove 1 {DMG} for each {DMG} suffered in this way.</characteristic>
+                    <characteristic name="Set" typeId="72f3-9912-65f3-e142">{X2}</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="a9f4-d109-b5e2-109a" name="Set - XMen2 Tactic" hidden="false" targetId="63ae-a2af-e912-f2bb" primary="false"/>
+                <categoryLink id="318c-6f6a-8d2a-069f" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
@@ -5571,6 +5647,29 @@ If Clinton Barton damages a character with an attack this round and Natasha Roma
               <categoryLinks>
                 <categoryLink id="1911-2aeb-9aa1-57da" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
                 <categoryLink id="0c6b-7435-f15c-3b12" name="Set - Hammer Tactic" hidden="false" targetId="45e3-39e2-340b-9e14" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="49c1-65eb-fd0e-8fbb" name="PSIONIC CONSTRUCTS {BETA}" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6370-e24f-1496-7eaf" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="21ff-53a3-2ed7-81cb" name="PSIONIC CONSTRUCTS {BETA}" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+                  <characteristics>
+                    <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
+                    <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
+                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">When an allied character within {RNG} 3 of an allied Psylocke targets an enemy character with an attack, Psylocke may spend 2 {PWR} to play this card.
+The attack&apos;s type is now {MYST}. The allied character may reroll any number of dice during this attack.</characteristic>
+                    <characteristic name="Set" typeId="72f3-9912-65f3-e142">{X2}</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="272d-b116-b72b-4442" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
+                <categoryLink id="b836-cbb0-afd2-9214" name="Set - XMen2 Tactic" hidden="false" targetId="63ae-a2af-e912-f2bb" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
@@ -6908,6 +7007,28 @@ Each allied Uncanny X-Men character does not have to spend {PWR} the first time 
               <categoryLinks>
                 <categoryLink id="1f9b-fb40-b172-eacf" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
                 <categoryLink id="9053-b0e3-2831-d8b2" name="Set - XMen Tactic" hidden="false" targetId="c49c-152c-b64a-3450" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="77ff-6560-9e91-ad47" name="HEADMISTRESS {BETA}" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0cb7-c03e-4179-6119" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="b0b7-4dc0-4bee-f61a" name="HEADMISTRESS {BETA}" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+                  <characteristics>
+                    <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Uncanny X-Men</characteristic>
+                    <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
+                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">During Emma Frost&apos;s Activation, she may spend X {PWR} to play this card. For each {PWR} spent, an allied Uncanny X-Men character that is not holding an objective token may Advance {M}.</characteristic>
+                    <characteristic name="Set" typeId="72f3-9912-65f3-e142">{X2}</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="3abe-e131-093a-d9d0" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
+                <categoryLink id="1556-19d9-9ddf-ff36" name="Set - XMen2 Tactic" hidden="false" targetId="63ae-a2af-e912-f2bb" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
@@ -14606,24 +14727,24 @@ Additionally, each Healthy non-Grunt allied character contesting an objective to
       <profiles>
         <profile id="2115-1cec-d17f-a4dd" name="Healthy" hidden="false" typeId="fde4-96d9-2028-2529" typeName="    Character">
           <characteristics>
-            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363"></characteristic>
-            <characteristic name="Speed" typeId="ba74-030d-982e-7e70"></characteristic>
-            <characteristic name="Size" typeId="40df-7d54-a856-5953"></characteristic>
-            <characteristic name="Threat" typeId="b915-b25f-cb12-b651"></characteristic>
-            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335"></characteristic>
-            <characteristic name="Energy Defense" typeId="0509-5c52-7571-39ad"></characteristic>
-            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292"></characteristic>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363"/>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70"/>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953"/>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651"/>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335"/>
+            <characteristic name="Energy Defense" typeId="0509-5c52-7571-39ad"/>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292"/>
           </characteristics>
         </profile>
         <profile id="a14a-4e1e-23fd-1eab" name="Injured" hidden="false" typeId="fde4-96d9-2028-2529" typeName="    Character">
           <characteristics>
-            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363"></characteristic>
-            <characteristic name="Speed" typeId="ba74-030d-982e-7e70"></characteristic>
-            <characteristic name="Size" typeId="40df-7d54-a856-5953"></characteristic>
-            <characteristic name="Threat" typeId="b915-b25f-cb12-b651"></characteristic>
-            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335"></characteristic>
-            <characteristic name="Energy Defense" typeId="0509-5c52-7571-39ad"></characteristic>
-            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292"></characteristic>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363"/>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70"/>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953"/>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651"/>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335"/>
+            <characteristic name="Energy Defense" typeId="0509-5c52-7571-39ad"/>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292"/>
           </characteristics>
         </profile>
       </profiles>
