@@ -127,11 +127,6 @@
         <categoryLink id="12bd-167e-30a7-c728" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="3a75-30e0-3edf-276a" name="THE BLOB (Fred Dukes)" hidden="false" collective="false" import="true" targetId="a150-fab7-f4b9-f8f3" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="0387-6b6d-0990-3706" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
-      </categoryLinks>
-    </entryLink>
     <entryLink id="b338-d255-8bd4-2568" name="BOB, AGENT OF HYDRA (Robert Dobalina)" hidden="false" collective="false" import="true" targetId="32c1-0f9e-9021-8c9b" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="113d-d311-37e9-3609" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
@@ -350,11 +345,6 @@
     <entryLink id="df74-b15e-6243-427b" name="HYDRA TROOPERS [RED SKULL, MASTER OF HYDRA]" hidden="false" collective="false" import="true" targetId="598d-0b00-4567-ccae" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="20d6-9937-d043-c462" name="New CategoryLink" hidden="false" targetId="efe0-86c9-4b57-7046" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="aa12-208b-de5e-e69c" name="IMMORTAL HULK (Immortal Hulk) {BETA}" hidden="true" collective="false" import="true" targetId="4e28-8815-2e78-2fbe" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="d30b-fb1a-60d3-d9ba" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="c9f8-dd3d-bc14-38ae" name="IRON FIST (Danny Rand)" hidden="false" collective="false" import="true" targetId="14a8-ca9e-816b-963c" type="selectionEntry">
@@ -655,6 +645,16 @@
     <entryLink id="e1c5-32db-9981-159c" name="THANOS, THE MAD TITAN (Thanos)" hidden="false" collective="false" import="true" targetId="54fe-5b4a-d7dd-e1dc" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="ed56-074d-994d-cec9" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="3a75-30e0-3edf-276a" name="THE BLOB (Fred Dukes)" hidden="false" collective="false" import="true" targetId="a150-fab7-f4b9-f8f3" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="0387-6b6d-0990-3706" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="aa12-208b-de5e-e69c" name="THE IMMORTAL HULK (Bruce Banner) {BETA}" hidden="false" collective="false" import="true" targetId="4e28-8815-2e78-2fbe" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="d30b-fb1a-60d3-d9ba" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="dfbc-9090-0e82-8f07" name="THE ORIGINAL HUMAN TORCH (Jim Hammond)" hidden="false" collective="false" import="true" targetId="7dce-e382-7bd9-a029" type="selectionEntry">
@@ -13219,17 +13219,6 @@ Alternatively, when an allied character within {RNG} 3 rolls dice for a Crisis C
             <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">3</characteristic>
           </characteristics>
         </profile>
-        <profile id="f029-577f-648b-371b" name="Injured" hidden="false" typeId="fde4-96d9-2028-2529" typeName="    Character">
-          <characteristics>
-            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">-</characteristic>
-            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">-</characteristic>
-            <characteristic name="Size" typeId="40df-7d54-a856-5953">-</characteristic>
-            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">-</characteristic>
-            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">-</characteristic>
-            <characteristic name="Energy Defense" typeId="0509-5c52-7571-39ad">-</characteristic>
-            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">-</characteristic>
-          </characteristics>
-        </profile>
         <profile id="7d15-e1e5-1994-2dd9" name=" STRIKE" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="   Attacks">
           <characteristics>
             <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Phys</characteristic>
@@ -13507,38 +13496,6 @@ Additionally, during the Power Phase, this character gains 1 additional {PWR}.</
       <categoryLinks>
         <categoryLink id="836c-04e1-bdc6-6bae" name="Grunts" hidden="false" targetId="efe0-86c9-4b57-7046" primary="false"/>
       </categoryLinks>
-      <costs>
-        <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="4e28-8815-2e78-2fbe" name="IMMORTAL HULK (Immortal Hulk) {BETA}" hidden="false" collective="false" import="true" type="model">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="359b-32ce-fa59-3332" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="66df-d5c5-06b5-88ae" name="Healthy" hidden="false" typeId="fde4-96d9-2028-2529" typeName="    Character">
-          <characteristics>
-            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363"/>
-            <characteristic name="Speed" typeId="ba74-030d-982e-7e70"/>
-            <characteristic name="Size" typeId="40df-7d54-a856-5953"/>
-            <characteristic name="Threat" typeId="b915-b25f-cb12-b651"/>
-            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335"/>
-            <characteristic name="Energy Defense" typeId="0509-5c52-7571-39ad"/>
-            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292"/>
-          </characteristics>
-        </profile>
-        <profile id="12b7-b751-328a-d6f1" name="Injured" hidden="false" typeId="fde4-96d9-2028-2529" typeName="    Character">
-          <characteristics>
-            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363"/>
-            <characteristic name="Speed" typeId="ba74-030d-982e-7e70"/>
-            <characteristic name="Size" typeId="40df-7d54-a856-5953"/>
-            <characteristic name="Threat" typeId="b915-b25f-cb12-b651"/>
-            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335"/>
-            <characteristic name="Energy Defense" typeId="0509-5c52-7571-39ad"/>
-            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292"/>
-          </characteristics>
-        </profile>
-      </profiles>
       <costs>
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
       </costs>
@@ -17823,17 +17780,6 @@ Additionally, at the end of this character&apos;s activation, enemy characters w
             <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">3</characteristic>
           </characteristics>
         </profile>
-        <profile id="ed0f-52ea-8e9a-30cd" name="Injured" hidden="false" typeId="fde4-96d9-2028-2529" typeName="    Character">
-          <characteristics>
-            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">-</characteristic>
-            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">-</characteristic>
-            <characteristic name="Size" typeId="40df-7d54-a856-5953">-</characteristic>
-            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">-</characteristic>
-            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">-</characteristic>
-            <characteristic name="Energy Defense" typeId="0509-5c52-7571-39ad">-</characteristic>
-            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">-</characteristic>
-          </characteristics>
-        </profile>
         <profile id="5006-604a-1167-40d9" name="SENSATIONAL UPPERCUT" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="   Attacks">
           <characteristics>
             <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Phys</characteristic>
@@ -19135,6 +19081,94 @@ Additionally, when an allied character is targeted by an attack and the attacker
       </categoryLinks>
       <costs>
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4e28-8815-2e78-2fbe" name="THE IMMORTAL HULK (Bruce Banner) {BETA}" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="359b-32ce-fa59-3332" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="66df-d5c5-06b5-88ae" name="Healthy" hidden="false" typeId="fde4-96d9-2028-2529" typeName="    Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">15</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">S</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">4</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">7</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">4</characteristic>
+            <characteristic name="Energy Defense" typeId="0509-5c52-7571-39ad">3</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">5</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c272-e0b8-451b-d060" name=" SMASH" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="   Attacks">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Phys</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">2</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">7</characteristic>
+            <characteristic name="Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">- After this attack is resolved, this character gains {PWR} equal to the {DMG} dealt.
+- {WILD} Throw: After this attack is resolved, if the target character is Size 4 or less, this character may Throw the target character {S}.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f929-3626-f3ee-c3dd" name="GAMMA BURST" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="   Attacks">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Phys</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">3</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">10</characteristic>
+            <characteristic name="Cost" typeId="711d-c2bc-e2d4-f398">5</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">- Before {DMG} is dealt, this character may Throw the target character {S}.
+- The target character does not gain {PWR} for {DMG} dealt by this attack.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="98e5-217f-b165-f481" name="GAMMA LEAP" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="  Active Superpowers">
+          <characteristics>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">3</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Place this character within {RNG} 2 of its current position. This superpower can be used only once per turn.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c69c-5fa8-dfe1-6d31" name="LEAVE HULK ALONE!!!" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="  Active Superpowers">
+          <characteristics>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">3</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Choose an interactive terrain feature or an enemy character, both of Size 4 or less and within {RNG} 2, and Throw it {M}. This superpower can be used only once per turn.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7927-caf5-cbea-3089" name=" ENDLESS RAGE" hidden="false" typeId="6b81-fb1a-574f-32e2" typeName=" Innate Superpowers">
+          <characteristics>
+            <characteristic name="Type" typeId="e9b9-de48-7a91-1e15">Innate</characteristic>
+            <characteristic name="Cost" typeId="f183-829f-8371-8b7c">-</characteristic>
+            <characteristic name="Special Rules" typeId="052f-28a4-12f9-0691">During the Power Phase, this character gains 2 additional {PWR}.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="32d0-2981-056f-64b0" name=" IMMORTALITY" hidden="false" typeId="6b81-fb1a-574f-32e2" typeName=" Innate Superpowers">
+          <characteristics>
+            <characteristic name="Type" typeId="e9b9-de48-7a91-1e15">Innate</characteristic>
+            <characteristic name="Cost" typeId="f183-829f-8371-8b7c">-</characteristic>
+            <characteristic name="Special Rules" typeId="052f-28a4-12f9-0691">During the Cleanup Phase, if this character has a Dazed token and an Immortality token, it is KO&apos;d.
+
+Otherwise, during the Cleanup Phase, while this character is Dazed, if this character does not have an Immortality token, it removes all special conditions and all {PWR} from itself. For each {PWR} removed this way, it removes 1 {DMG} from itself. It then removes its Dazed token and gains an Immortality token.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="fef4-e0da-4804-2af7" name=" THE GREEN DOOR" hidden="false" typeId="6b81-fb1a-574f-32e2" typeName=" Innate Superpowers">
+          <characteristics>
+            <characteristic name="Type" typeId="e9b9-de48-7a91-1e15">Innate</characteristic>
+            <characteristic name="Cost" typeId="f183-829f-8371-8b7c">-</characteristic>
+            <characteristic name="Special Rules" typeId="052f-28a4-12f9-0691">At the end of each turn, if this character has an Immortality token, it may remove 1 {DMG} from itself. If this character ever has no {DMG} it removes its Immortality token.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5d92-41f2-7904-3f89" name="IMMUNITY [HEX, POISON, STUN]" hidden="false" typeId="6b81-fb1a-574f-32e2" typeName=" Innate Superpowers">
+          <characteristics>
+            <characteristic name="Type" typeId="e9b9-de48-7a91-1e15">Innate</characteristic>
+            <characteristic name="Cost" typeId="f183-829f-8371-8b7c">-</characteristic>
+            <characteristic name="Special Rules" typeId="052f-28a4-12f9-0691">This character can’t suffer the [HEX], [POISON], or [STUN] special condition. If it has the special condition and gains Immunity to it, the character removes the special condition.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="d14e-2050-7ccd-b855" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="7.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7dce-e382-7bd9-a029" name="THE ORIGINAL HUMAN TORCH (Jim Hammond)" hidden="false" collective="false" import="true" type="model">
