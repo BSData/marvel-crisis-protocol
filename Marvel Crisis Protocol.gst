@@ -1,22 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="9c66-3ecf-4508-3b47" name="Marvel Crisis Protocol" revision="2302" battleScribeVersion="2.03" authorName="Uplink" authorContact="Uplink.MCP@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="9c66-3ecf-4508-3b47" name="Marvel Crisis Protocol" revision="2303" battleScribeVersion="2.03" authorName="Uplink" authorContact="Uplink.MCP@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>*VERSION INFO*
 Core Rules: 3/31/2022
 FAQ &amp; Errata: 2/3/2023
-Base Sizes: 2/3/2023
-Affiliations: 2/3/2023
+Base Sizes: 3/3/2023
+Affiliations: 3/3/2023
 Ban/Restricted: 9/9/2022
 Challenger: 12/9/2022
 
 *UPDATES*
-- Fixed error in Timeline filters.
-- Removed legacy {BETA} tags.
-- Removed unnecessary Hulk / She-Hulk Injured Side data fields.
-- Updated to 2/3/2023 docs.
-- Finalized Data for Agent Venom, Spider-Woman, Beta Ray Bill, and Ulik Character and Tactic Cards.
-- Added P2P info for Emma Frost, Psylocke, and The Immortal Hulk.
-- Added Emma Frost and Psylock Tactic Card reveals.
-- Prepped for M.O.D.O.K. Scientist Supreme.
+- Updated to 3/3/2023 docs.
+- Finalized Data for Emma Frost / Psylocke Character and Team Tactic cards.
+- Fixed Hellfire Club Affiliation Tag.
+- Added P2P info for M.O.D.O.K. Scientist Supreme.
 
 *DATAFILE REFERENCE*
 - Any entries listed as {Beta} are ones I do not own, have not seen in person, or which have not been officially published in AMG living documents (Rules / FAQ / etc.). Panel to Play (P2P) data is considered Beta.
@@ -149,6 +145,7 @@ If you find any incorrect data, please send correction requests to the address a
     <categoryEntry id="c34e-b4ff-8bc1-6216" name="Game Rules" hidden="false"/>
     <categoryEntry id="efe0-86c9-4b57-7046" name="Grunts" hidden="false"/>
     <categoryEntry id="41a5-1f4b-b6f9-bf19" name="Guardians of the Galaxy" hidden="false"/>
+    <categoryEntry id="b01b-7bc5-8696-16d1" name="Hellfire Club" hidden="false"/>
     <categoryEntry id="a097-6b33-a91a-b908" name="Hydra" hidden="false"/>
     <categoryEntry id="e7d2-fc4f-e67b-f877" name="Infinity Gems" hidden="false"/>
     <categoryEntry id="44ea-115a-c4be-377a" name="Inhumans" hidden="false"/>

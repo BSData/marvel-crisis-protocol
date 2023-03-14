@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b5fb-20f9-0dce-3f02" name="MCP Inventory" revision="2302" battleScribeVersion="2.03" authorName="Uplink" authorContact="Uplink.MCP@gmail.com" library="false" gameSystemId="9c66-3ecf-4508-3b47" gameSystemRevision="2302" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b5fb-20f9-0dce-3f02" name="MCP Inventory" revision="2303" battleScribeVersion="2.03" authorName="Uplink" authorContact="Uplink.MCP@gmail.com" library="false" gameSystemId="9c66-3ecf-4508-3b47" gameSystemRevision="2303" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="cc3a-be8e-3248-8036" name=" Affiliations (Future Use)" hidden="true" collective="false" import="true" targetId="1537-dd64-b659-3a8e" type="selectionEntry"/>
     <entryLink id="add7-cf4a-08e3-6cf3" name=" Crisis Cards - Extraction" hidden="false" collective="false" import="true" targetId="aade-9898-c12d-e090" type="selectionEntry">
@@ -412,7 +412,7 @@
         <categoryLink id="f273-327d-405f-ef8d" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="4d2e-e265-fd24-41f7" name="M.O.D.O.K. SCIENTIST SUPREME (George Tarleton) {BETA}" hidden="true" collective="false" import="true" targetId="b186-91ba-0005-3b2e" type="selectionEntry">
+    <entryLink id="4d2e-e265-fd24-41f7" name="M.O.D.O.K. SCIENTIST SUPREME (George Tarleton) {BETA}" hidden="false" collective="false" import="true" targetId="b186-91ba-0005-3b2e" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="f64b-62b9-a61b-f7d1" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
       </categoryLinks>
@@ -492,7 +492,7 @@
         <categoryLink id="ff63-6f5f-925e-5a3a" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="0540-cbb6-1590-077f" name="PSYLOCKE (Betsy Braddock) {BETA}" hidden="false" collective="false" import="true" targetId="f97a-c96a-6aa9-27eb" type="selectionEntry">
+    <entryLink id="0540-cbb6-1590-077f" name="PSYLOCKE (Elizabeth Braddock)" hidden="false" collective="false" import="true" targetId="f97a-c96a-6aa9-27eb" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="3916-95ed-1dd3-51f4" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
       </categoryLinks>
@@ -3908,12 +3908,12 @@ Place Red Guardian within {RNG} 2 of the allied character. Red Guardian becomes 
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="385f-f407-7b19-929c" name="CRIMSON DAWN {BETA}" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="385f-f407-7b19-929c" name="CRIMSON DAWN" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="756f-e2d2-306a-4d55" type="max"/>
               </constraints>
               <profiles>
-                <profile id="2094-ecf4-d99e-5ba7" name="CRIMSON DAWN {BETA}" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+                <profile id="2094-ecf4-d99e-5ba7" name="CRIMSON DAWN" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
                   <characteristics>
                     <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
                     <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
@@ -4567,12 +4567,12 @@ Logan, the Wolverine Advances his speed Away from the character that triggered t
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="4663-fb4f-08e5-0692" name="GRIEVOUS WOUNDS {BETA}" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="4663-fb4f-08e5-0692" name="GRIEVOUS WOUNDS" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e95-cced-bdde-fed7" type="max"/>
               </constraints>
               <profiles>
-                <profile id="2f21-3308-f6e8-c619" name="GRIEVOUS WOUNDS {BETA}" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+                <profile id="2f21-3308-f6e8-c619" name="GRIEVOUS WOUNDS" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
                   <characteristics>
                     <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
                     <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
@@ -4584,7 +4584,7 @@ If the target character is dealt {DMG} by this attack, the target character cann
               </profiles>
               <categoryLinks>
                 <categoryLink id="136e-7d41-386b-f54f" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
-                <categoryLink id="fc7e-2040-cb99-e5b2" name="Set - XMen Tactic" hidden="false" targetId="c49c-152c-b64a-3450" primary="false"/>
+                <categoryLink id="2fe9-3093-0257-72f3" name="Set - XMen2 Tactic" hidden="false" targetId="63ae-a2af-e912-f2bb" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
@@ -5313,12 +5313,12 @@ This round when an enemy character is choosing the target character for a non-ar
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="6730-0be8-7d9f-b47c" name="MIND TRANSFER {BETA}" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="6730-0be8-7d9f-b47c" name="MIND TRANSFER" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="421e-9a1c-93d2-ce8c" type="max"/>
               </constraints>
               <profiles>
-                <profile id="d890-72a1-394a-0561" name="MIND TRANSFER {BETA}" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+                <profile id="d890-72a1-394a-0561" name="MIND TRANSFER" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
                   <characteristics>
                     <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
                     <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
@@ -5387,12 +5387,12 @@ After each attack is resolved, the target character is pushed away from this cha
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="1283-3b69-9621-d7e6" name="MY HELLFIRE CLUB {BETA}" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="1283-3b69-9621-d7e6" name="MY HELLFIRE CLUB" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db01-4232-b852-99ce" type="max"/>
               </constraints>
               <profiles>
-                <profile id="79a6-84ba-6f60-b554" name="MY HELLFIRE CLUB {BETA}" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+                <profile id="79a6-84ba-6f60-b554" name="MY HELLFIRE CLUB" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
                   <characteristics>
                     <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
                     <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
@@ -5652,12 +5652,12 @@ If Clinton Barton damages a character with an attack this round and Natasha Roma
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="49c1-65eb-fd0e-8fbb" name="PSIONIC CONSTRUCTS {BETA}" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="49c1-65eb-fd0e-8fbb" name="PSIONIC CONSTRUCTS" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6370-e24f-1496-7eaf" type="max"/>
               </constraints>
               <profiles>
-                <profile id="21ff-53a3-2ed7-81cb" name="PSIONIC CONSTRUCTS {BETA}" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+                <profile id="21ff-53a3-2ed7-81cb" name="PSIONIC CONSTRUCTS" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
                   <characteristics>
                     <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
                     <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
@@ -7012,12 +7012,12 @@ Each allied Uncanny X-Men character does not have to spend {PWR} the first time 
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="77ff-6560-9e91-ad47" name="HEADMISTRESS {BETA}" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="77ff-6560-9e91-ad47" name="HEADMISTRESS" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0cb7-c03e-4179-6119" type="max"/>
               </constraints>
               <profiles>
-                <profile id="b0b7-4dc0-4bee-f61a" name="HEADMISTRESS {BETA}" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+                <profile id="b0b7-4dc0-4bee-f61a" name="HEADMISTRESS" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
                   <characteristics>
                     <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Uncanny X-Men</characteristic>
                     <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
@@ -11842,7 +11842,7 @@ Additionally, when calculating successes or failure of this character&apos;s att
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="4.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="822f-dc23-c5d4-5018" name="EMMA FROST (Emma Frost) {BETA}" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="822f-dc23-c5d4-5018" name="EMMA FROST (Emma Frost)" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d85a-ebd7-b84f-dca0" type="max"/>
       </constraints>
@@ -11998,6 +11998,9 @@ Additionally, when defending against {MYST} attacks, this character counts Blank
       </profiles>
       <categoryLinks>
         <categoryLink id="11d7-efb1-ea5f-ab0f" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
+        <categoryLink id="314b-da35-8ae4-89a0" name="Brotherhood of Mutants" hidden="false" targetId="ece5-46c6-abdb-39d6" primary="false"/>
+        <categoryLink id="6e68-8693-89d8-7080" name="Uncanny X-Men" hidden="false" targetId="60b3-f8b0-e59a-faca" primary="false"/>
+        <categoryLink id="ad35-e50d-7375-6739" name="Hellfire Club" hidden="false" targetId="b01b-7bc5-8696-16d1" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="4.0"/>
@@ -14684,32 +14687,94 @@ Additionally, each Healthy non-Grunt allied character contesting an objective to
       <profiles>
         <profile id="2115-1cec-d17f-a4dd" name="Healthy" hidden="false" typeId="fde4-96d9-2028-2529" typeName="    Character">
           <characteristics>
-            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363"/>
-            <characteristic name="Speed" typeId="ba74-030d-982e-7e70"/>
-            <characteristic name="Size" typeId="40df-7d54-a856-5953"/>
-            <characteristic name="Threat" typeId="b915-b25f-cb12-b651"/>
-            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335"/>
-            <characteristic name="Energy Defense" typeId="0509-5c52-7571-39ad"/>
-            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292"/>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">7</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">S</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">3</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">4</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">3</characteristic>
+            <characteristic name="Energy Defense" typeId="0509-5c52-7571-39ad">3</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">5</characteristic>
           </characteristics>
         </profile>
         <profile id="a14a-4e1e-23fd-1eab" name="Injured" hidden="false" typeId="fde4-96d9-2028-2529" typeName="    Character">
           <characteristics>
-            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363"/>
-            <characteristic name="Speed" typeId="ba74-030d-982e-7e70"/>
-            <characteristic name="Size" typeId="40df-7d54-a856-5953"/>
-            <characteristic name="Threat" typeId="b915-b25f-cb12-b651"/>
-            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335"/>
-            <characteristic name="Energy Defense" typeId="0509-5c52-7571-39ad"/>
-            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292"/>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">5</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">S</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">3</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">4</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">3</characteristic>
+            <characteristic name="Energy Defense" typeId="0509-5c52-7571-39ad">3</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">5</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4549-7286-8269-a3c3" name="DOOMSDAY CHAIR ARSENAL" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="   Attacks">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Phys</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">4</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">5</characteristic>
+            <characteristic name="Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">- Before choosing a target, this character chooses whether the attack type is {PHYS} or {ENRG}.
+- After this attack is resolved, this character gains {PWR} equal to the {DMG} dealt.
+- {WILD} Incinerate: After this attack is resolved, the target character gains the Incinerate special condition.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="73e8-7a75-a22c-df6e" name="PSIONIC ASSAULT" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="   Attacks">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Myst</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">3</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">7</characteristic>
+            <characteristic name="Cost" typeId="711d-c2bc-e2d4-f398">4</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">- Before {DMG} is dealt, this character may Advance the target character {S}.
+- {WILD} Disorient: Before {DMG} is dealt, the target character gains the Stun special condition.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f04c-e5ff-0ae8-b380" name="ADVANCED IDEA MECHANICS (AFFILIATION: CRIMINAL SYNDICATE)" hidden="false" typeId="aa85-0b33-2742-db0e" typeName="   Leadership">
+          <characteristics>
+            <characteristic name="Special Rules" typeId="c95d-3ead-781d-3833">Once per turn, when an allied character is attacking or defending, if it is holding or contesting an objective token and has 1 or more {WILD} results in its roll, it may change 1 of its dice to a {HIT} or {BLOCK}.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a6cf-d0d4-8b6f-a385" name="BY MY CALCULATIONS, YOU&apos;LL BE DEAD IN SECONDS!" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="  Active Superpowers">
+          <characteristics>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">3</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Choose an interactive terrain feature of Size 4 or less within {RNG} 3 and Throw it {S}. This superpower can be used only once per turn.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="448b-f928-8439-9682" name="ALL IN THIS WORLD ARE BENEATH ME!" hidden="false" typeId="5648-8d63-d440-21b0" typeName="  Reactive Superpowers">
+          <characteristics>
+            <characteristic name="Type" typeId="f59f-a16c-8938-4be1">Reactive</characteristic>
+            <characteristic name="Cost" typeId="3a1f-904d-3b3e-abfb">X</characteristic>
+            <characteristic name="Special Rules" typeId="e05d-5a10-9d52-550c">While this character is attacking, during the Modify Dice step of the attack, if there is another allied character within {RNG} 3 of it, this character may use this superpower. The allied character may spend up to 3 {PWR}. For each {PWR} spent this way, this character may reroll 1 attack die.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8821-3efe-a24f-427c" name="GENIUS REQUIRES SACRIFICE; YOUR SACRIFICE TO BE PRECISE! - Healthy" hidden="false" typeId="5648-8d63-d440-21b0" typeName="  Reactive Superpowers">
+          <characteristics>
+            <characteristic name="Type" typeId="f59f-a16c-8938-4be1">Reactive</characteristic>
+            <characteristic name="Cost" typeId="3a1f-904d-3b3e-abfb">2</characteristic>
+            <characteristic name="Special Rules" typeId="e05d-5a10-9d52-550c">When this character is targeted by an enemy attack, it may use this superpower. Choose another allied character within {RNG} 2. The chosen character becomes the target of the attack regardless of Range and LOS.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1de8-74c1-c50f-2a8a" name="GENIUS REQUIRES SACRIFICE; YOUR SACRIFICE TO BE PRECISE! - Injured" hidden="false" typeId="5648-8d63-d440-21b0" typeName="  Reactive Superpowers">
+          <characteristics>
+            <characteristic name="Type" typeId="f59f-a16c-8938-4be1">Reactive</characteristic>
+            <characteristic name="Cost" typeId="3a1f-904d-3b3e-abfb">0</characteristic>
+            <characteristic name="Special Rules" typeId="e05d-5a10-9d52-550c">When this character is targeted by an enemy attack, it may use this superpower. Choose another allied character within {RNG} 2. The chosen character becomes the target of the attack regardless of Range and LOS.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="58d8-9838-dbf8-535a" name="I AM M.O.D.O.K., MASTER OF THE MENTAL ARTS!" hidden="false" typeId="6b81-fb1a-574f-32e2" typeName=" Innate Superpowers">
+          <characteristics>
+            <characteristic name="Type" typeId="e9b9-de48-7a91-1e15">Innate</characteristic>
+            <characteristic name="Cost" typeId="f183-829f-8371-8b7c">-</characteristic>
+            <characteristic name="Special Rules" typeId="052f-28a4-12f9-0691">While this character is defending against a {MYST} attack, it adds Blanks in its roll to its total successes. Additionally, this character cannot be Pushed or Advanced by effects of enemy {MYST} attacks or enemy superpowers.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <categoryLinks>
         <categoryLink id="3438-78d8-d9a7-94c6" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
+        <categoryLink id="0c11-ed75-e695-d041" name="Criminal Syndicate" hidden="false" targetId="62e3-8aa2-ed7a-9e44" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+        <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="4.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2a33-a95b-077e-ca00" name="MAGIK (Illyana Rasputin)" hidden="false" collective="false" import="true" type="model">
@@ -16115,7 +16180,7 @@ Additionally, at the end of this character&apos;s activation, enemy characters w
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="3.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f97a-c96a-6aa9-27eb" name="PSYLOCKE (Betsy Braddock) {BETA}" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="f97a-c96a-6aa9-27eb" name="PSYLOCKE (Elizabeth Braddock)" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ab6-c142-df34-1556" type="max"/>
       </constraints>
@@ -16203,6 +16268,8 @@ Additionally, at the end of this character&apos;s activation, enemy characters w
       </profiles>
       <categoryLinks>
         <categoryLink id="1086-49af-aa1b-4332" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
+        <categoryLink id="8b8a-d2c3-5d44-2028" name="Uncanny X-Men" hidden="false" targetId="60b3-f8b0-e59a-faca" primary="false"/>
+        <categoryLink id="94a8-9a87-ba52-d0f7" name="X-Force" hidden="false" targetId="3d7a-617a-f22e-cec6" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="4.0"/>
