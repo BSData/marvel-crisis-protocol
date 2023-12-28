@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="9c66-3ecf-4508-3b47" name="Marvel Crisis Protocol" revision="2303" battleScribeVersion="2.03" authorName="Uplink" authorContact="Uplink.MCP@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="9c66-3ecf-4508-3b47" name="Marvel Crisis Protocol" revision="2304" battleScribeVersion="2.03" authorName="Uplink" authorContact="Uplink.MCP@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>*VERSION INFO*
-Core Rules: 3/31/2022
-FAQ &amp; Errata: 2/3/2023
-Base Sizes: 3/3/2023
-Affiliations: 3/3/2023
-Ban/Restricted: 9/9/2022
-Challenger: 12/9/2022
+Core Rules: 10/02/2023
+FAQ &amp; Errata: 10/01/2023
+Base Sizes: 10/01/2023
+Affiliations: 10/01/2023
+Ban/Restricted: 09/22/2023
+Challenger: 12/09/2022
 
 *UPDATES*
-- Updated to 3/3/2023 docs.
-- Finalized Data for Emma Frost / Psylocke Character and Team Tactic cards.
-- Fixed Hellfire Club Affiliation Tag.
-- Added P2P info for M.O.D.O.K. Scientist Supreme.
+- Updated to 10/02/2023 docs.
+- Finalized Data for Immortal Hulk, M.O.D.O.K. Scientist Supreme, Squirrel Girl, Gwenpool,Cosmic Ghost Rider, Klaw, and M&apos;baku Character, Team Tactic cards and Affiliations.
+- Finalized Data for Earth&apos;s Mightiest Core Set.
+- Finalized Data for 2023 Crisis Card Pack
+- Added 2023 Character Updates - Print and Play Data
+- Corrected text formatting on Crimson Dynamo.
+- Added Ministravaganza reveals - King T&apos;Challa, Killmonger - Usurper, Nightcrawler, Shadowcat, Shadow King
 
 *DATAFILE REFERENCE*
 - Any entries listed as {Beta} are ones I do not own, have not seen in person, or which have not been officially published in AMG living documents (Rules / FAQ / etc.). Panel to Play (P2P) data is considered Beta.
