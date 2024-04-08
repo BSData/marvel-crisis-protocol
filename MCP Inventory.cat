@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b5fb-20f9-0dce-3f02" name="MCP Inventory" revision="2304" battleScribeVersion="2.03" authorName="Uplink" authorContact="Uplink.MCP@gmail.com" library="false" gameSystemId="9c66-3ecf-4508-3b47" gameSystemRevision="2304" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b5fb-20f9-0dce-3f02" name="MCP Inventory" revision="2401" battleScribeVersion="2.03" authorName="Uplink" authorContact="Uplink.MCP@gmail.com" library="false" gameSystemId="9c66-3ecf-4508-3b47" gameSystemRevision="2401" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="cc3a-be8e-3248-8036" name=" Affiliations (Future Use)" hidden="true" collective="false" import="true" targetId="1537-dd64-b659-3a8e" type="selectionEntry"/>
-    <entryLink id="add7-cf4a-08e3-6cf3" name=" Crisis Cards - Extraction" hidden="false" collective="false" import="true" targetId="aade-9898-c12d-e090" type="selectionEntry">
+    <entryLink id="add7-cf4a-08e3-6cf3" name="  Crisis Cards - Extraction" hidden="false" collective="false" import="true" targetId="aade-9898-c12d-e090" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="eda2-b97f-2ab2-df24" name="New CategoryLink" hidden="false" targetId="b9d7-42e4-5e93-7858" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="d481-1f1d-0832-8e0e" name=" Crisis Cards - Secure" hidden="false" collective="false" import="true" targetId="a661-ec93-5a2e-c1fc" type="selectionEntry">
+    <entryLink id="d481-1f1d-0832-8e0e" name="  Crisis Cards - Secure" hidden="false" collective="false" import="true" targetId="a661-ec93-5a2e-c1fc" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="dcf4-1aa7-1ba3-2e30" name="New CategoryLink" hidden="false" targetId="b9d7-42e4-5e93-7858" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="04a9-df2b-0ca8-05c4" name="  One-Shots" hidden="false" collective="false" import="true" targetId="893f-294b-b6e5-f667" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="466b-83d7-9222-cac7" name="New CategoryLink" hidden="false" targetId="44de-652b-319c-1e49" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="9ae6-889c-a5c8-ad70" name=" Special Conditions" hidden="false" collective="false" import="true" targetId="4405-8d28-8c18-5f43" type="selectionEntry">
@@ -90,6 +95,11 @@
     <entryLink id="0420-ba07-010c-07a1" name="BETA RAY BILL (Bill)" hidden="false" collective="false" import="true" targetId="8a08-6143-b83f-4f6f" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="df78-383d-56de-5bce" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="2fdc-0215-a142-cb0f" name="BISHOP (Lucas Bishop)" hidden="false" collective="false" import="true" targetId="a67b-8e8d-6096-a0e3" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="4049-117f-da7f-7e19" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="5416-0387-18f8-72d2" name="BLACK BOLT (Blackagar Boltagon)" hidden="false" collective="false" import="true" targetId="f4e6-3af1-3da2-2f89" type="selectionEntry">
@@ -382,6 +392,11 @@
         <categoryLink id="20d6-9937-d043-c462" name="New CategoryLink" hidden="false" targetId="efe0-86c9-4b57-7046" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="b184-6296-ee29-77bf" name="ICEMAN (Bobby Drake)" hidden="false" collective="false" import="true" targetId="6f85-4f70-8697-514e" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="6dbb-df6b-c703-77e0" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
+      </categoryLinks>
+    </entryLink>
     <entryLink id="8220-8b5f-3923-e1ee" name="INVINCIBLE IRON MAN (Tony Stark)" hidden="false" collective="false" import="true" targetId="acff-41f7-3117-c5af" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="10a2-d314-7b80-5225" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
@@ -412,12 +427,12 @@
         <categoryLink id="ec12-575c-882a-2900" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="997d-02b2-a2b0-64c8" name="KILLMONGER, USURPER (N&apos;Jadaka) {BETA}" hidden="false" collective="false" import="true" targetId="daf1-1136-f2e1-8431" type="selectionEntry">
+    <entryLink id="997d-02b2-a2b0-64c8" name="KILLMONGER, USURPER (N&apos;Jadaka)" hidden="false" collective="false" import="true" targetId="daf1-1136-f2e1-8431" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="ec2c-07ae-53c2-73f9" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="5d0f-0f36-3db6-8e0c" name="KING T&apos;CHALLA (T&apos;Challa) {BETA}" hidden="false" collective="false" import="true" targetId="762a-1976-31dc-559d" type="selectionEntry">
+    <entryLink id="5d0f-0f36-3db6-8e0c" name="KING T&apos;CHALLA (T&apos;Challa)" hidden="false" collective="false" import="true" targetId="762a-1976-31dc-559d" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="7078-01a4-cd93-66c0" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
       </categoryLinks>
@@ -537,7 +552,7 @@
         <categoryLink id="2b98-c4f6-2f50-fb72" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="c3b6-0805-19bd-b76a" name="NIGHTCRAWLER (Kurt Wagner) {BETA}" hidden="false" collective="false" import="true" targetId="5d5e-a242-1dbc-07ae" type="selectionEntry">
+    <entryLink id="c3b6-0805-19bd-b76a" name="NIGHTCRAWLER (Kurt Wagner)" hidden="false" collective="false" import="true" targetId="5d5e-a242-1dbc-07ae" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="7491-7f03-a822-4345" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
       </categoryLinks>
@@ -550,6 +565,11 @@
     <entryLink id="6c85-4f4d-57d6-52de" name="OMEGA RED (Arkady Gregorivich Rossovich)" hidden="false" collective="false" import="true" targetId="1e19-2e04-14db-ec3e" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="0ea0-06c7-a396-7ca5" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="bf37-6ff1-9059-4b8c" name="PROFESSOR X (Charles Xavier)" hidden="false" collective="false" import="true" targetId="8362-a91d-52f5-f375" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="9067-054e-f7eb-1f75" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="a2d4-e70a-90fd-3320" name="PROXIMA MIDNIGHT (Proxima Midnight)" hidden="false" collective="false" import="true" targetId="5e5d-bb7a-efd1-f888" type="selectionEntry">
@@ -647,17 +667,17 @@
         <categoryLink id="a073-c40b-c339-38ce" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="66fb-649b-ea5f-cb7e" name="SHADOW KING (Amahl Farouk) {BETA}" hidden="false" collective="false" import="true" targetId="70f0-5acb-6711-5010" type="selectionEntry">
+    <entryLink id="66fb-649b-ea5f-cb7e" name="SHADOW KING (Amahl Farouk)" hidden="false" collective="false" import="true" targetId="70f0-5acb-6711-5010" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="1819-33c9-afb6-a747" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="ce3a-61d0-0475-0cf2" name="SHADOWCAT (Katherine &quot;Kitty&quot; Pryde) {BETA}" hidden="false" collective="false" import="true" targetId="4261-4522-23f1-6523" type="selectionEntry">
+    <entryLink id="ce3a-61d0-0475-0cf2" name="SHADOWCAT (Katherine &quot;Kitty&quot; Pryde)" hidden="false" collective="false" import="true" targetId="4261-4522-23f1-6523" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="1c8a-2688-91eb-eaa6" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="6e6f-47f9-4ae2-6d00" name="SHADOWLAND DAREDEVIL (MATT MURDOCK)" hidden="false" collective="false" import="true" targetId="6474-0172-5646-8388" type="selectionEntry">
+    <entryLink id="6e6f-47f9-4ae2-6d00" name="SHADOWLAND DAREDEVIL (Matt Murdock)" hidden="false" collective="false" import="true" targetId="6474-0172-5646-8388" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="09f8-af56-099d-2524" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
       </categoryLinks>
@@ -665,6 +685,11 @@
     <entryLink id="c2a7-631f-7e80-79db" name="SHE-HULK (Jennifer Walters)" hidden="false" collective="false" import="true" targetId="d846-ff11-c193-7fa9" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="fe36-e8ce-1f9c-7d1b" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="ca1c-6714-9ce3-5a4e" name="SHOCKER (Herman Schultz) {BETA}" hidden="false" collective="false" import="true" targetId="7b11-22ef-2273-40ca" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="26d5-b4c6-eb77-9514" name="New CategoryLink" hidden="false" targetId="5c80-c1cf-82bb-b5de" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="b54f-4909-b4d1-f9d2" name="SHURI (Shuri)" hidden="false" collective="false" import="true" targetId="9171-df7a-8885-f92e" type="selectionEntry">
@@ -849,12 +874,12 @@
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="1537-dd64-b659-3a8e" name=" Affiliations (Future Use)" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="1537-dd64-b659-3a8e" name="  Affiliations (Future Use)" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="aade-9898-c12d-e090" name=" Crisis Cards - Extraction" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="aade-9898-c12d-e090" name="  Crisis Cards - Extraction" hidden="false" collective="false" import="true" type="upgrade">
       <selectionEntryGroups>
         <selectionEntryGroup id="516d-6043-e6a9-06d4" name="Crisis Cards - Extraction" hidden="false" collective="false" import="true">
           <selectionEntries>
@@ -1182,7 +1207,7 @@ During its activation, a character holding a Citizen may evacuate the Citizen by
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a661-ec93-5a2e-c1fc" name=" Crisis Cards - Secure" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="a661-ec93-5a2e-c1fc" name="  Crisis Cards - Secure" hidden="false" collective="false" import="true" type="upgrade">
       <selectionEntryGroups>
         <selectionEntryGroup id="f2fe-a04d-989a-a107" name="Crisis Cards - Secure" hidden="false" collective="false" import="true">
           <selectionEntries>
@@ -1501,6 +1526,71 @@ During the Cleanup Phase, each player Controlling a Trap chooses an enemy charac
               <categoryLinks>
                 <categoryLink id="1013-2cd5-3986-1024" name="Crisis - Secure" hidden="false" targetId="75ba-74ce-7452-509c" primary="false"/>
                 <categoryLink id="c511-f312-56c4-fb94" name="Set - Spidey Crisis" hidden="false" targetId="baa7-603b-44e2-95ac" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="893f-294b-b6e5-f667" name="  One-Shots" hidden="false" collective="false" import="true" type="upgrade">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="90fc-343c-750d-b7e9" name="One-Shots" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="fd7f-3cf4-7343-b76b" name="THE PANTHERS STOOD WATCH" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64f7-e5e9-0a67-93f8" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="e24c-d2a2-6080-32e2" name="THE PANTHERS STOOD WATCH" hidden="false" typeId="6e60-06f4-84dd-44f8" typeName="One-Shot">
+                  <characteristics>
+                    <characteristic name="Threat" typeId="87ab-2189-4743-0722">-1</characteristic>
+                    <characteristic name="Description" typeId="6d49-5ac8-29c0-c21f">As combatants slam into the dirt, their weary eyes re-focus onto the majestic panther statue keeping solemn vigil. Was that there before...?</characteristic>
+                    <characteristic name="Setup" typeId="e890-d7b7-97b5-e708">If not already on the battlefield, place one or more Small Panther Statues on the battlefield not within {RNG} 2 of another terrain feature.</characteristic>
+                    <characteristic name="Rules" typeId="ac5f-7cbd-2584-2858">Eyes of the Gods: While within {RNG} 3 and LOS of a Panther Statue, when a character suffers {DMG}, it gains 1 additional {PWR}.
+
+On the Prowl: When a character would become Dazed or KO&apos;d, before it is removed from the battlefield, its controlling player may Place one of the Panther Statues within {RNG} 2 of the Dazed or KO&apos;d character. This special rule may place a Panther Statue that has been removed from the battlefield back onto the battlefield. Then the character is Dazed or KO&apos;d.</characteristic>
+                    <characteristic name="Set" typeId="c919-28b7-7096-5e8c">{FLUP}</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="27ea-9ffe-922a-2b67" name="One-Shot" hidden="false" targetId="468e-df9e-6498-fdb6" primary="false"/>
+                <categoryLink id="b5fa-89c4-234a-7edd" name="Set - Flup One-Shot" hidden="false" targetId="d78d-e36c-6eb0-ae3c" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a007-27be-d976-1054" name="VIBRANIUM SPILL" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e380-909e-170d-4563" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="9732-9324-1f63-4c3f" name="VIBRANIUM SPILL" hidden="false" typeId="6e60-06f4-84dd-44f8" typeName="One-Shot">
+                  <characteristics>
+                    <characteristic name="Threat" typeId="87ab-2189-4743-0722">+0</characteristic>
+                    <characteristic name="Description" typeId="6d49-5ac8-29c0-c21f">With the squeal of tires and telltale clang of hollow metal, the Vibranium Hauler is derailed from its course. As its unstable contents spill across the road, the gleam of an idea passes through the combatants. Stealing the malformed canisters is too obvious. But returning them might well curry favor with the powerful Wakanda...</characteristic>
+                    <characteristic name="Setup" typeId="e890-d7b7-97b5-e708">If not already on the battlefield, place the Vibranium Hauler and all 6 Vibranium Canisters onto the battlefield.</characteristic>
+                    <characteristic name="Rules" typeId="ac5f-7cbd-2584-2858">Unyielding Alloy: The Vibranium Hauler is not destroyed when it is Thrown or collided with by characters and terrain features. Instead, after the collision is resolved, Place the Vibranium Hauler within {RNG} 1 of the character or terrain feature it collided with. The player that caused the effect resolves this Place.
+
+Unstable Vibranium: A character holding at least one Vibranium Canister loses 1 {PWR} per Vibranium Canister it is holding during the Power Phase.
+
+Interact (Vibranium Canister): This character picks up this Vibranium Canister and places it on its Stat Card. This character is now holding this Vibranium Canister.
+
+Interact (Vibranium Hauler): Remove all Vibranium Canisters this character is holding from its Stat Card. This character adds 1 die to its attack rolls this Round per Canister removed this way.</characteristic>
+                    <characteristic name="Set" typeId="c919-28b7-7096-5e8c">{FLUP}</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="8dcb-9116-a669-8db7" name="One-Shot" hidden="false" targetId="468e-df9e-6498-fdb6" primary="false"/>
+                <categoryLink id="33af-c04c-9381-9874" name="Set - Flup One-Shot" hidden="false" targetId="d78d-e36c-6eb0-ae3c" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
@@ -3710,6 +3800,29 @@ They do not gain an activated token, your turn does not end, and you must activa
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="8890-6340-9165-0e17" name="ASTRAL PLANE" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0694-ef98-f0d2-73dd" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="4cf4-6ab0-0c71-c12e" name="ASTRAL PLANE" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+                  <characteristics>
+                    <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
+                    <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
+                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">During the Power Phase, Shadow King may spend 1 {PWR} to play this card. Choose a Secure objective token and place an Astral Incursion token on it. Enemy characters suffer 1 {DMG} when they end an Activation within {RNG} 1 of the Astral Incursion, and when they Interact with the objective token marked by the Astral Incursion.
+During the next Cleanup Phase, remove all Astral Incursion tokens.</characteristic>
+                    <characteristic name="Set" typeId="72f3-9912-65f3-e142">{X2}</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="78b3-1775-1606-d918" name="Set - XMen2 Tactic" hidden="false" targetId="63ae-a2af-e912-f2bb" primary="false"/>
+                <categoryLink id="7849-ad47-0670-684f" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+              </costs>
+            </selectionEntry>
             <selectionEntry id="c382-3a9f-5540-20e1" name="BATTLE LUST" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3475-b3d4-83b8-da8b" type="max"/>
@@ -4585,6 +4698,33 @@ Choose an enemy character within {RNG} 4 of this character. Advance the enemy ch
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="bcfc-d5f4-13ae-2d7f" name="FAITHFUL COMPANION" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e78d-8da5-3091-6c9f" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="eb12-4baf-bc40-19d5" name="FAITHFUL COMPANION" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+                  <characteristics>
+                    <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
+                    <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
+                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">{ENRG} GUARDIAN DRAGON {RNG} - {STR} 5 {COST} 0
+- This attack ignores Range and LOS.
+- {WILD} Incinerate: After this attack is resolved, the target character gains the Incinerate special condition.
+
+When an allied Shadowcat or Magik is dealt {DMG} by an enemy attack or superpower, after the effect is resolved, she may play this card.
+The character that played this card immediately makes the attack shown above targeting the enemy character that dealt her {DMG}.</characteristic>
+                    <characteristic name="Set" typeId="72f3-9912-65f3-e142">{X2}</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="31b8-ce94-12a5-2a85" name="Set - XMen2 Tactic" hidden="false" targetId="63ae-a2af-e912-f2bb" primary="false"/>
+                <categoryLink id="a148-90e2-0615-609c" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+              </costs>
+            </selectionEntry>
             <selectionEntry id="04ab-a101-df9f-aa87" name="FALL BACK" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1690-b911-a31d-ea2a" type="max"/>
@@ -5114,6 +5254,33 @@ Each Civilian token within {RNG} 3 of this character is placed within {RNG} 2 of
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="c653-cfd0-ea2b-eb33" name="HOLD STILL" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36cb-2e31-0d48-fe6b" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="fdaf-fee5-b4b8-641e" name="HOLD STILL" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+                  <characteristics>
+                    <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
+                    <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active: Action</characteristic>
+                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">{ENRG} PHASE DISRUPTION {RNG} 1 {STR} 6 {COST} 0
+- {WILD} Nerve Damage: Before {DMG} is dealt, the target character drops all objective tokens it is holding.
+- {WILD} {WILD} Shifted: After this attack is resolved, Place the target character within {RNG} 1 of this character.
+
+Shadowcat may spend 3 {PWR} to play this card.
+Choose an enemy character within {RNG} 3 of Shadowcat. Place Shadowcat within {RNG} 1 of the chosen enemy character. Shadowcat makes the attack shown above targeting the chosen character.</characteristic>
+                    <characteristic name="Set" typeId="72f3-9912-65f3-e142">{X2}</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="01f3-1e27-6b69-446b" name="Set - XMen2 Tactic" hidden="false" targetId="63ae-a2af-e912-f2bb" primary="false"/>
+                <categoryLink id="77f3-8c2a-046c-bd7c" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+              </costs>
+            </selectionEntry>
             <selectionEntry id="cdf3-fd2a-9dc9-8b40" name="HOOD&apos;S GANG" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d44f-314d-1fb3-09ea" type="max"/>
@@ -5618,6 +5785,30 @@ This round, the enemy character loses and cannot gain Stealth, its speed becomes
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="607c-d7dc-3581-6f14" name="MASS TRANSIT" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7eb7-5a2b-7bf8-4d0a" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="07c4-e9ab-0d49-c2c7" name="MASS TRANSIT" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+                  <characteristics>
+                    <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
+                    <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active: Action</characteristic>
+                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">Nightcrawler may spend 3 {PWR} to play this card.
+Choose up to three other allied characters within {RNG} 2 of Nightcrawler. Place Nightcrawler within {RNG} 3 of himself. Then Place each chosen character within {RNG} 1 of Nightcrawler.
+After this effect is resolved, Nightcrawler gains the Stagger special condition.</characteristic>
+                    <characteristic name="Set" typeId="72f3-9912-65f3-e142">{X2}</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="ad17-9db8-ac55-be8b" name="Set - XMen2 Tactic" hidden="false" targetId="63ae-a2af-e912-f2bb" primary="false"/>
+                <categoryLink id="400e-33f9-5d6e-7d18" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+              </costs>
+            </selectionEntry>
             <selectionEntry id="ecb6-f8b9-18ef-16c1" name="MEDPACK" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="278d-f568-621d-396a" type="max"/>
@@ -5832,6 +6023,34 @@ After each attack is resolved, the target character is pushed away from this cha
               <categoryLinks>
                 <categoryLink id="f44b-f818-1e10-86d3" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
                 <categoryLink id="d74b-2582-6d8a-4476" name="Set - City Tactic" hidden="false" targetId="45bd-7f44-9608-4abe" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="37bc-cd63-c622-fce1" name="MUTANT TRAITOR" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a461-c834-3ec6-1c4a" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="a477-eef0-04b8-58a4" name="MUTANT TRAITOR" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+                  <characteristics>
+                    <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
+                    <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active: Action</characteristic>
+                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">{ENRG} AMPLIFIED AMMUNITION {RNG} B3 {STR} 6 {COST} 0
+- {WILD} Kinetic: After each attack is resolved, this character Pushes the target character Away {S}.
+- {WILD} {WILD} Overcharged: This character counts all {WILD} results in this attack roll as 2 successes. After all attacks are resolved from this beam attack, this character suffers 1 {DMG}.
+- {CRIT} {FAIL} Gambit&apos;s Grace: During the Modify Dice step of each attack, this character may change all {FAIL} results in the attack roll to {WILD} results.
+
+During Gambit&apos;s Activation, he may play this card while within {RNG} 3 of an allied Lucas Bishop.
+The allied Lucas Bishop immediately makes the attack shown above.</characteristic>
+                    <characteristic name="Set" typeId="72f3-9912-65f3-e142">{X2}</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="c60f-3de1-3c3b-ff5d" name="Set - XMen2 Tactic" hidden="false" targetId="63ae-a2af-e912-f2bb" primary="false"/>
+                <categoryLink id="81ff-0998-fa5e-6dff" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
@@ -6900,6 +7119,32 @@ Klaw may use the attack shown above once this Activation.</characteristic>
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="ef35-db9c-0caf-8928" name="SYNTHETIC HEART-SHAPED HERBS" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2e3-2b98-74e4-9ae5" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="ace7-98bc-7a67-97ad" name="SYNTHETIC HEART-SHAPED HERBS" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+                  <characteristics>
+                    <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
+                    <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
+                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">N&apos;Jadaka may spend 1 {PWR} to play this card.
+N&apos;Jadaka gains the Poison special condition and the following superpower.
+
+{ACTIVE} PANTHER&apos;S POWER {COST} 3
+- Choose an interactive terrain feature or an enemy character, both of Size 3 or less and within {RNG} 2, and Throw it {S}. This superpower can be used only once per turn.</characteristic>
+                    <characteristic name="Set" typeId="72f3-9912-65f3-e142">{FLUP}</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="f6b2-bc8f-c555-160b" name="Set - Flup Tactic" hidden="false" targetId="5702-4196-97f0-695a" primary="false"/>
+                <categoryLink id="9d2f-bc68-7eff-c8f9" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+              </costs>
+            </selectionEntry>
             <selectionEntry id="ac11-97cc-7118-67ec" name="TACTICAL ANALYSIS" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6668-4135-9a53-c0f8" type="max"/>
@@ -7349,6 +7594,31 @@ Add 3 dice to the attack roll.</characteristic>
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="dd43-bed9-da83-2800" name="UNTAPPED POTENTIAL" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b2d-6b39-3825-8893" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="8f3d-98bb-8636-af40" name="UNTAPPED POTENTIAL" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+                  <characteristics>
+                    <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Unaffiliated</characteristic>
+                    <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
+                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">If it is Iceman&apos;s Activation, Emma Frost may play this card.
+During this Activation, superpowers and attacks used by Iceman may spend {PWR} from either Iceman or Emma Frost. Attacks made by Iceman this Activation add 1 die to their attack rolls.
+
+Additionally, during this Activation, Iceman may use superpowers on his Stat Card any number of times, even if they say they can be used only once.</characteristic>
+                    <characteristic name="Set" typeId="72f3-9912-65f3-e142">{X2}</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="8b6f-e7db-65ba-07af" name="Set - XMen2 Tactic" hidden="false" targetId="63ae-a2af-e912-f2bb" primary="false"/>
+                <categoryLink id="5e15-4026-53b1-db35" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+              </costs>
+            </selectionEntry>
             <selectionEntry id="13b6-e380-87a4-e461" name="USURP THE THRONE" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2aa9-e0d0-b062-76ad" type="max"/>
@@ -7687,6 +7957,30 @@ Select ONE of the following effects:
         </selectionEntryGroup>
         <selectionEntryGroup id="1459-bdf3-2ff2-e8a7" name="Uncanny X-Men" hidden="false" collective="false" import="true">
           <selectionEntries>
+            <selectionEntry id="140c-a29b-9b66-4a68" name="CEREBRO" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73f7-ee82-8ddc-5806" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="00f4-1368-1546-9208" name="CEREBRO" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+                  <characteristics>
+                    <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Uncanny X-Men</characteristic>
+                    <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
+                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">During its Activation, an Uncanny X-Men character with at least one {MYST} attack and at least 5 {MYST} Defense may play this card.
+For the rest of this Round, the character that played this card increases the Range of its {MYST} attacks by 1 (to a maximum of 5), adds 1 die to its {MYST} attacks, and adds 1 die to its {MYST} defense rolls.
+Additionally, this character&apos;s attacks do not require LOS and ignore the Stealth {INNATE} superpower for the rest of this Round.</characteristic>
+                    <characteristic name="Set" typeId="72f3-9912-65f3-e142">{X2}</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="a66f-36e7-c8be-568d" name="Set - XMen2 Tactic" hidden="false" targetId="63ae-a2af-e912-f2bb" primary="false"/>
+                <categoryLink id="08e2-4033-77d7-38d8" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+              </costs>
+            </selectionEntry>
             <selectionEntry id="766d-81fa-491b-f421" name="CHILDREN OF THE ATOM" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74e1-b524-628b-9b33" type="max"/>
@@ -7697,14 +7991,14 @@ Select ONE of the following effects:
                     <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Uncanny X-Men</characteristic>
                     <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
                     <characteristic name="Rules" typeId="3c65-5213-7979-ed33">An Uncanny X-Men character may play this card.
-Remove all special conditions from this character. It gains 1 {PWR} for each special condition removed in this way.</characteristic>
-                    <characteristic name="Set" typeId="72f3-9912-65f3-e142">{XMEN}</characteristic>
+Remove all special conditions from the character that played this card. It gains 1 {PWR} for each special condition removed in this way.</characteristic>
+                    <characteristic name="Set" typeId="72f3-9912-65f3-e142">{X2}</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <categoryLinks>
                 <categoryLink id="12d2-68aa-35fd-f3ba" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
-                <categoryLink id="6327-8da2-c3c2-9f23" name="Set - XMen Tactic" hidden="false" targetId="c49c-152c-b64a-3450" primary="false"/>
+                <categoryLink id="b043-d30e-d3dd-48b3" name="Set - XMen2 Tactic" hidden="false" targetId="63ae-a2af-e912-f2bb" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
@@ -7755,6 +8049,35 @@ Each allied Uncanny X-Men character does not have to spend {PWR} the first time 
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="0429-7e39-15ae-00b2" name="MIND WIPE" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8114-1813-52e1-659b" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="365a-ad3c-121f-eb94" name="MIND WIPE" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+                  <characteristics>
+                    <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Uncanny X-Men</characteristic>
+                    <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
+                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">{MYST} ENOUGH! {RNG} - {STR} 3 {COST} 0
+- This attack ignores Range and LOS.
+- The target of this attack cannot be changed.
+- Add dice to this attack equal to the {DMG} dealt to the Dazed or KO&apos;d allied character.
+- If this attack deals {DMG}, after the attack is resolved, the target character gains an Activated token. If the target character was active, its Activation immediately ends.
+
+When another allied character is Dazed or KO&apos;d by an enemy attack or superpower, Professor X may spend 3 {PWR} to play this card.
+Professor X immediately makes the attack shown above targeting the enemy character that made the attack.</characteristic>
+                    <characteristic name="Set" typeId="72f3-9912-65f3-e142">{X2}</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="b407-4bc6-0a84-f48d" name="Set - XMen2 Tactic" hidden="false" targetId="63ae-a2af-e912-f2bb" primary="false"/>
+                <categoryLink id="d969-143d-de5b-6f5e" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+              </costs>
+            </selectionEntry>
             <selectionEntry id="bc13-e3dc-c245-24bc" name="TO ME, MY X-MEN!" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19ed-7dc8-911f-5c90" type="max"/>
@@ -7778,10 +8101,60 @@ For each 1 {PWR} spent to play this card, one allied Uncanny X-Men character may
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="efd6-0faf-33bb-fbb7" name="XAVIER&apos;S DREAM" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb0c-3ea8-84b0-5fb2" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="231a-6baa-3b87-1503" name="XAVIER&apos;S DREAM" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+                  <characteristics>
+                    <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Uncanny X-Men</characteristic>
+                    <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
+                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">When an allied character would suffer {DMG}, any number of other allied characters may each spend 1 {PWR} to play this card.
+For each {PWR} spent to play this card, reduce the amount of {DMG} the allied character would suffer by 1.</characteristic>
+                    <characteristic name="Set" typeId="72f3-9912-65f3-e142">{X2}</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="141f-f157-92be-08e9" name="Set - XMen2 Tactic" hidden="false" targetId="63ae-a2af-e912-f2bb" primary="false"/>
+                <categoryLink id="2dd3-a63d-2eb6-2363" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="2b0e-9297-49c2-537f" name="Wakanda" hidden="false" collective="false" import="true">
           <selectionEntries>
+            <selectionEntry id="b22f-a080-8df5-2d27" name="BAST&apos;S BLESSING" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0189-b25b-1d8a-468e" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="c0d8-7435-a1a5-09d3" name="BAST&apos;S BLESSING" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+                  <characteristics>
+                    <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Wakanda</characteristic>
+                    <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active: Action</characteristic>
+                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">{MYST} POWER OF THE MOTHER GOD {RNG} 3 {STR} 6 {COST} 0
+- Before {DMG} is dealt, Place this character within {RNG} 1 of the target character.
+- {WILD} {WILD} Hunter&apos;s Joy: Choose an enemy character within {RNG} 2 of the target character that has not been targeted by Power of the Mother God this turn. This character makes a Power of the Mother God attack targeting the chosen character.
+
+T&apos;Challa may spend 3 {PWR} to play this card.
+T&apos;Challa makes the attack shown above.</characteristic>
+                    <characteristic name="Set" typeId="72f3-9912-65f3-e142">{FLUP}</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="6fef-8cb2-932c-da19" name="Set - Flup Tactic" hidden="false" targetId="5702-4196-97f0-695a" primary="false"/>
+                <categoryLink id="8c38-8c4e-fdaa-afca" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+              </costs>
+            </selectionEntry>
             <selectionEntry id="93b8-be16-2022-b1d3" name="JABARI CHIEFTAIN" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a656-fc1e-c161-bfcc" type="max"/>
@@ -7800,6 +8173,32 @@ M&apos;Baku Advances Towards the active allied character {M}. The active allied 
               <categoryLinks>
                 <categoryLink id="67c9-37f4-7390-a890" name="Set - Hammer Tactic" hidden="false" targetId="45e3-39e2-340b-9e14" primary="false"/>
                 <categoryLink id="75cf-7f03-7487-98e5" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="41d0-5662-1b9d-ed38" name="K&apos;LILUNA&apos;S GLORY" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a30d-54b5-9810-5f21" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="863f-1859-19f5-b239" name="K&apos;LILUNA&apos;S GLORY" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+                  <characteristics>
+                    <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Wakanda</characteristic>
+                    <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active: Action</characteristic>
+                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">{MYST} VENGEANCE OF THE BETRAYER GOD {RNG} 3 {STR} 7 {COST} 0
+- After this attack is resolved, the target character loses {PWR} equal to the {DMG} dealt. For each {PWR} lost this way, an allied character may gain 1 {PWR}.
+
+N&apos;Jadaka may spend 3 {PWR} to play this card.
+N&apos;Jadaka makes the attack shown above.</characteristic>
+                    <characteristic name="Set" typeId="72f3-9912-65f3-e142">{FLUP}</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="704f-86e0-4861-a1dc" name="Set - Flup Tactic" hidden="false" targetId="5702-4196-97f0-695a" primary="false"/>
+                <categoryLink id="77c3-b2b6-102f-5706" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
@@ -7826,6 +8225,30 @@ The character that played this card may immediately use one of the following eff
               <categoryLinks>
                 <categoryLink id="c0ea-7e90-326d-c33d" name="Set - Hammer Tactic" hidden="false" targetId="45e3-39e2-340b-9e14" primary="false"/>
                 <categoryLink id="1f09-0142-407e-38fd" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9991-6191-76d7-b0c6" name="TRIAL BY COMBAT" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ddc6-611b-7e91-6164" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="6c9e-f594-e2d3-a8af" name="TRIAL BY COMBAT" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+                  <characteristics>
+                    <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">Wakanda</characteristic>
+                    <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Active</characteristic>
+                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">An allied Wakanda character with an active Leadership ability may play this card during its Activation.
+Choose an enemy character with an active Leadership ability within {RNG} 3 of the character that played this card. The chosen character and the character that played this card roll dice equal to their remaining Stamina.
+The Leadership ability of the character that rolled fewer {CRIT}, {HIT}, and {WILD} results becomes inactive for the rest of the Round.</characteristic>
+                    <characteristic name="Set" typeId="72f3-9912-65f3-e142">{FLUP}</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="3b2a-9939-70a5-4f46" name="Set - Flup Tactic" hidden="false" targetId="5702-4196-97f0-695a" primary="false"/>
+                <categoryLink id="e977-2181-9bed-55d1" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
@@ -8157,6 +8580,29 @@ If there is a tie for the highest Threat Value, choose one of the tied character
               <categoryLinks>
                 <categoryLink id="413b-3f3b-a991-c01b" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
                 <categoryLink id="61ef-58c0-1c0d-afdc" name="Set - XMen Tactic" hidden="false" targetId="c49c-152c-b64a-3450" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="de48-214d-e3f6-0c77" name="PRESERVE THE DREAM" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e49a-797c-9974-93f8" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="4bb0-771e-ebc0-194a" name="PRESERVE THE DREAM" hidden="false" typeId="1114-24dd-beae-da80" typeName="Team Tactics">
+                  <characteristics>
+                    <characteristic name="Affiliation" typeId="de7e-d80f-659f-c177">X-Force</characteristic>
+                    <characteristic name="Type" typeId="8155-f1de-0a5a-1f71">Reactive</characteristic>
+                    <characteristic name="Rules" typeId="3c65-5213-7979-ed33">When an enemy character targets an allied character with an attack, if it has a higher Threat Value than the allied character, any number of allied characters may spend 1 {PWR} to play this card.
+Characters that spent {PWR} to play this card immediately Advance {S} Toward the attacking enemy character.</characteristic>
+                    <characteristic name="Set" typeId="72f3-9912-65f3-e142">{X2}</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="0d84-f090-15fd-84d6" name="Set - XMen2 Tactic" hidden="false" targetId="63ae-a2af-e912-f2bb" primary="false"/>
+                <categoryLink id="4b71-7aa1-7ba0-a9e9" name="Team Tactics Cards" hidden="false" targetId="7de0-86ce-229b-637e" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
@@ -9406,6 +9852,92 @@ Additionally, once per turn, when an enemy character gains a special condition, 
         <categoryLink id="9add-8904-ef01-44e8" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
         <categoryLink id="40a2-4112-d861-2e8e" name="Asgard" hidden="false" targetId="a554-55ad-02b3-3342" primary="false"/>
         <categoryLink id="157e-ab72-54dc-3001" name="Guardians of the Galaxy" hidden="false" targetId="41a5-1f4b-b6f9-bf19" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a67b-8e8d-6096-a0e3" name="BISHOP (Lucas Bishop)" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d22c-beea-7c43-689b" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="4772-d6dd-6239-d00a" name="Healthy" hidden="false" typeId="fde4-96d9-2028-2529" typeName="    Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">6</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">M</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">2</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">4</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">3</characteristic>
+            <characteristic name="Energy Defense" typeId="0509-5c52-7571-39ad">4</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="756c-3503-0583-ebf8" name="Injured" hidden="false" typeId="fde4-96d9-2028-2529" typeName="    Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">5</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">M</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">2</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">4</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">3</characteristic>
+            <characteristic name="Energy Defense" typeId="0509-5c52-7571-39ad">4</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0987-210f-9f29-b2e7" name=" XSE BLASTER" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="   Attacks">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Enrg</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">4</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">5</characteristic>
+            <characteristic name="Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">- After this attack is resloved, this character gains {PWR} equal to the {DMG} dealt.
+- After this attack is resolved, if the target character is within {RNG} 3, it gains the Incinerate special condition.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2d3f-6fa5-e60f-f93b" name="RETURN WITH INTEREST" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="   Attacks">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Phys</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">A2</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">7</characteristic>
+            <characteristic name="Cost" typeId="711d-c2bc-e2d4-f398">5</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">- When this attack is chosen, before choosing a target, this character chooses whether this attack&apos;s type is {PHYS}, {ENRG}, or {MYST}.
+- When this attack is chosen, during the Pay {PWR} Cost step of the attack, this character may spend up to 3 additional {PWR}. Add one die to each attack for each {PWR} spent this way.
+- {WILD} Extreme Force: After each attack is resolved, this character Pushes the target character Away {S}. The target character then gains the Slow special condition.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4c87-5fee-520f-0105" name="ABSORBED ENERGY CONVERSION" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="  Active Superpowers">
+          <characteristics>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">3</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Choose an interactive terrain feature or an enemy character, both of Size 4 or less and within {RNG} 2, and Throw it {M}. This superpower can be used only once per turn.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1462-76bf-02e8-b15b" name=" MUTANT ENERGY ABSORPTION" hidden="false" typeId="6b81-fb1a-574f-32e2" typeName=" Innate Superpowers">
+          <characteristics>
+            <characteristic name="Type" typeId="e9b9-de48-7a91-1e15">Innate</characteristic>
+            <characteristic name="Cost" typeId="f183-829f-8371-8b7c">-</characteristic>
+            <characteristic name="Special Rules" typeId="052f-28a4-12f9-0691">When this character is defending against an attack, for each {WILD} in the defense roll, it may change one of the attacker&apos;s {CRIT}, {WILD}, or {HIT} results to a Blank. This character gains 1 {PWR} for each die changed this way.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7c57-54eb-6e7b-8aea" name=" OVERLOAD" hidden="false" typeId="6b81-fb1a-574f-32e2" typeName=" Innate Superpowers">
+          <characteristics>
+            <characteristic name="Type" typeId="e9b9-de48-7a91-1e15">Innate</characteristic>
+            <characteristic name="Cost" typeId="f183-829f-8371-8b7c">-</characteristic>
+            <characteristic name="Special Rules" typeId="052f-28a4-12f9-0691">At the start of the Power Phase, if this character has 8 or more {PWR}, it suffers 1 {DMG}.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c7f7-21be-686b-69a5" name="IMMUNITY [INCINERATE, POISON, STUN]" hidden="false" typeId="6b81-fb1a-574f-32e2" typeName=" Innate Superpowers">
+          <characteristics>
+            <characteristic name="Type" typeId="e9b9-de48-7a91-1e15">Innate</characteristic>
+            <characteristic name="Cost" typeId="f183-829f-8371-8b7c">-</characteristic>
+            <characteristic name="Special Rules" typeId="052f-28a4-12f9-0691">This character can’t suffer the [INCINERATE], [POISON], or [STUN] special condition. If it has the special condition and gains Immunity to it, the character removes the special condition.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="df5e-c055-14f0-3f94" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
+        <categoryLink id="8544-e977-8b70-c1fc" name="Uncanny X-Men" hidden="false" targetId="60b3-f8b0-e59a-faca" primary="false"/>
+        <categoryLink id="188c-a873-0d11-b826" name="X-Force" hidden="false" targetId="3d7a-617a-f22e-cec6" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="4.0"/>
@@ -11497,7 +12029,7 @@ Additionally, this character cannot be Pushed by enemy effects.</characteristic>
             <characteristic name="Type" typeId="4fe1-64e5-293e-f679">MYST</characteristic>
             <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">2</characteristic>
             <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">12</characteristic>
-            <characteristic name="Cost" typeId="711d-c2bc-e2d4-f398">6</characteristic>
+            <characteristic name="Cost" typeId="711d-c2bc-e2d4-f398">8</characteristic>
             <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">- The target character does not gain {PWR} for {DMG} dealt by this attack.
 - {CRIT} {WILD} {HIT} {BLOCK} {FAIL} Dust to Dust: Change each of the target character&apos;s {BLOCK} results to a {FAIL}.</characteristic>
           </characteristics>
@@ -11513,7 +12045,7 @@ Additionally, this character cannot be Pushed by enemy effects.</characteristic>
           <characteristics>
             <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
             <characteristic name="Cost" typeId="2b18-3d86-a415-5584">2</characteristic>
-            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Choose a character within {RNG} 3 of this character and Push it Toward this character {S}. Then the chosen character gains the Incinerate special condition. A character can be affected by this superpower only once per turn.</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Choose a character within {RNG} 3 of this character and Push it Toward this character {S}. Then the chosen character gains the Incinerate special condition. This superpower can be used only once per turn.</characteristic>
           </characteristics>
         </profile>
         <profile id="8daf-55fb-7e8f-82dc" name="COSMIC JUSTICE ON WHEELS" hidden="false" typeId="5648-8d63-d440-21b0" typeName="  Reactive Superpowers">
@@ -11527,14 +12059,14 @@ Additionally, this character cannot be Pushed by enemy effects.</characteristic>
           <characteristics>
             <characteristic name="Type" typeId="e9b9-de48-7a91-1e15">Innate</characteristic>
             <characteristic name="Cost" typeId="f183-829f-8371-8b7c">-</characteristic>
-            <characteristic name="Special Rules" typeId="052f-28a4-12f9-0691">During the Power Phase, this character rolls 5 dice. For each {CRIT}, {WILD}, and {HIT} rolled, this character gains 1 {PWR}. Then, if this character has 5 or more {PWR}, this character gains a Psychosis token and drops all objective tokens it is holding. At the start of the next Power Phase, remove all Psychosis tokens from this character.</characteristic>
+            <characteristic name="Special Rules" typeId="052f-28a4-12f9-0691">During the Cleanup Phase, remove all Psychosis tokens from this character. Then, this character rolls 5 dice. For each {CRIT}, {WILD}, and {HIT} results rolled, this character gains 1 {PWR}. Then, if this character has 5 or more {PWR}, this character gains a Psychosis token and drops all objective tokens it is holding.</characteristic>
           </characteristics>
         </profile>
         <profile id="97c1-a2b6-37f6-b24e" name=" READY TO ROLL" hidden="false" typeId="6b81-fb1a-574f-32e2" typeName=" Innate Superpowers">
           <characteristics>
             <characteristic name="Type" typeId="e9b9-de48-7a91-1e15">Innate</characteristic>
             <characteristic name="Cost" typeId="f183-829f-8371-8b7c">-</characteristic>
-            <characteristic name="Special Rules" typeId="052f-28a4-12f9-0691">At the start of the first Power Phase, this character gains a Psychosis token. While it has a Psychosis token, it counts {FAIL} results in its attack, defense, and dodge rolls as successes. While this character has a Psychosis token, it cannot hold, Contest, or Interact with objective tokens.</characteristic>
+            <characteristic name="Special Rules" typeId="052f-28a4-12f9-0691">At the start of the first Power Phase and when this character would be Dazed, this character gains a Psychosis token. While it has a Psychosis token, it counts {FAIL} results in its attack, defense, and dodge rolls as successes. While this character has a Psychosis token, it cannot hold, Contest, or Interact with objective tokens. This character can have a maximum of one Psychosis token at any time.</characteristic>
           </characteristics>
         </profile>
         <profile id="049d-6a3b-e7b4-333d" name="FLIGHT" hidden="false" typeId="6b81-fb1a-574f-32e2" typeName=" Innate Superpowers">
@@ -15008,6 +15540,82 @@ Additionally, during the Power Phase, this character gains 1 additional {PWR}.</
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="6f85-4f70-8697-514e" name="ICEMAN (Bobby Drake)" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90b4-4d75-1355-56a7" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="aa40-3425-5381-46da" name="Healthy" hidden="false" typeId="fde4-96d9-2028-2529" typeName="    Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">5</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">M</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">2</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">3</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">4</characteristic>
+            <characteristic name="Energy Defense" typeId="0509-5c52-7571-39ad">3</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8019-6027-c56e-09f8" name="Injured" hidden="false" typeId="fde4-96d9-2028-2529" typeName="    Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">5</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">M</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">2</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">3</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">4</characteristic>
+            <characteristic name="Energy Defense" typeId="0509-5c52-7571-39ad">3</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f7cf-6b90-f756-baaa" name=" FREEZING BLAST" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="   Attacks">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Enrg</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">B3</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">4</characteristic>
+            <characteristic name="Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">- After each attack is resolved, this character gains 1 {PWR}.
+- {WILD} Slow: After each attack is resolved, the target character gains the Slow special condition.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9390-41e4-1c79-8bc2" name="CHILL" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="   Attacks">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Enrg</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">3</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">7</characteristic>
+            <characteristic name="Cost" typeId="711d-c2bc-e2d4-f398">3</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">- {WILD} Stagger: After this attack is resolved, the target character gains the Stagger special condition.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6ed3-38a8-47db-8c85" name="FREEZE AND FADE" hidden="false" typeId="d5f9-5644-9781-fb49" typeName="  Active Superpowers">
+          <characteristics>
+            <characteristic name="Type" typeId="f37d-f045-0646-cf61">Active</characteristic>
+            <characteristic name="Cost" typeId="2b18-3d86-a415-5584">2</characteristic>
+            <characteristic name="Special Rules" typeId="bc31-0d0b-18f2-a6ef">Action: This character immediately makes an attack action followed by a move action. This character counts as Size 5 during this move action. This superpower can be used only once per turn.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="20fa-f335-a5d0-fca9" name="ICE SLIDE" hidden="false" typeId="5648-8d63-d440-21b0" typeName="  Reactive Superpowers">
+          <characteristics>
+            <characteristic name="Type" typeId="f59f-a16c-8938-4be1">Reactive</characteristic>
+            <characteristic name="Cost" typeId="3a1f-904d-3b3e-abfb">2</characteristic>
+            <characteristic name="Special Rules" typeId="e05d-5a10-9d52-550c">During this character&apos;s Activation, when it begins a move action within {RNG} 2 of another allied character of Size 2 or less, it may use this superpower. After this move action is resolved, Place the allied character within {RNG} 2 of its current position. This superpower can be used only once per turn.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9900-b1e7-4fef-be50" name="COLD SNAP" hidden="false" typeId="6b81-fb1a-574f-32e2" typeName=" Innate Superpowers">
+          <characteristics>
+            <characteristic name="Type" typeId="e9b9-de48-7a91-1e15">Innate</characteristic>
+            <characteristic name="Cost" typeId="f183-829f-8371-8b7c">-</characteristic>
+            <characteristic name="Special Rules" typeId="052f-28a4-12f9-0691">When an enemy character ends a move action or attack action within {RNG} 2 of this character, it gains the Slow special condition. If the enemy character already has the Slow special condition, it suffers 1 {DMG} instead.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="0ab0-7dc9-7ee5-cfe4" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
+        <categoryLink id="1626-63ee-cbf9-14f1" name="Uncanny X-Men" hidden="false" targetId="60b3-f8b0-e59a-faca" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="3.0"/>
+      </costs>
+    </selectionEntry>
     <selectionEntry id="acff-41f7-3117-c5af" name="INVINCIBLE IRON MAN (Tony Stark)" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce2b-d5d8-40c7-2a33" type="max"/>
@@ -15546,7 +16154,7 @@ Additionally, during the Power Phase, this character gains 1 additional {PWR}.</
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="4.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="daf1-1136-f2e1-8431" name="KILLMONGER, USURPER (N&apos;Jadaka) {BETA}" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="daf1-1136-f2e1-8431" name="KILLMONGER, USURPER (N&apos;Jadaka)" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c6c-984d-f2d8-4e6a" type="max"/>
       </constraints>
@@ -15580,7 +16188,7 @@ Additionally, during the Power Phase, this character gains 1 additional {PWR}.</
             <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">5</characteristic>
             <characteristic name="Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
             <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">- After this attack is resolved this character gains {PWR} equal to the {DMG} dealt.
-- {WILD} Pierce: Change 1 of the defending character&apos;s {CRIT}, {WILD}, or {HIT} results to a Blank.</characteristic>
+- {WILD} Pierce: Change 1 of the defending character&apos;s {CRIT}, {WILD}, or {BLOCK} results to a Blank.</characteristic>
           </characteristics>
         </profile>
         <profile id="023a-c593-319b-4e70" name="COVERT ARMAMENT" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="   Attacks">
@@ -15599,7 +16207,7 @@ Additionally, during the Power Phase, this character gains 1 additional {PWR}.</
             <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">3</characteristic>
             <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">6</characteristic>
             <characteristic name="Cost" typeId="711d-c2bc-e2d4-f398">3</characteristic>
-            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">- Add dice to the attack roll equal to this character&apos;s current {DMG}.
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">- Add dice to the attack roll equal to the number of {DMG} this character has.
 - The target character cannot modify its defense dice during this attack.</characteristic>
           </characteristics>
         </profile>
@@ -15625,12 +16233,14 @@ Additionally, during the Power Phase, this character gains 1 additional {PWR}.</
       </profiles>
       <categoryLinks>
         <categoryLink id="dc9e-e99e-3af0-f45a" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
+        <categoryLink id="dfd9-acea-e5d8-c272" name="Criminal Syndicate" hidden="false" targetId="62e3-8aa2-ed7a-9e44" primary="false"/>
+        <categoryLink id="2235-301a-0603-a4d5" name="Wakanda" hidden="false" targetId="f26a-4939-f603-307c" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="4.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="762a-1976-31dc-559d" name="KING T&apos;CHALLA (T&apos;Challa) {BETA}" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="762a-1976-31dc-559d" name="KING T&apos;CHALLA (T&apos;Challa)" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e308-a5a7-0446-5aa4" type="max"/>
       </constraints>
@@ -15706,6 +16316,8 @@ Additionally, during the Power Phase, this character gains 1 additional {PWR}.</
       </profiles>
       <categoryLinks>
         <categoryLink id="9115-f3de-0e7f-520a" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
+        <categoryLink id="d07b-6346-dbce-a718" name="Avengers" hidden="false" targetId="d6c4-f011-cd8c-5451" primary="false"/>
+        <categoryLink id="e962-3970-1533-bee1" name="Wakanda" hidden="false" targetId="f26a-4939-f603-307c" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="5.0"/>
@@ -17865,7 +18477,7 @@ If you have an equal number or more VPs than your opponent when an enemy charact
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="3.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5d5e-a242-1dbc-07ae" name="NIGHTCRAWLER (Kurt Wagner) {BETA}" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="5d5e-a242-1dbc-07ae" name="NIGHTCRAWLER (Kurt Wagner)" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd62-59c6-f1fd-61d1" type="max"/>
       </constraints>
@@ -17950,6 +18562,7 @@ If you have an equal number or more VPs than your opponent when an enemy charact
       </profiles>
       <categoryLinks>
         <categoryLink id="ce58-5483-352b-e7c7" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
+        <categoryLink id="7196-e6d0-63bd-77d4" name="Uncanny X-Men" hidden="false" targetId="60b3-f8b0-e59a-faca" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="4.0"/>
@@ -18130,6 +18743,97 @@ Additionally, at the end of this character&apos;s activation, enemy characters w
         <categoryLink id="d0c8-6327-35a1-4536" name="Cabal" hidden="false" targetId="54a5-69c1-3540-3c6e" primary="false"/>
         <categoryLink id="564b-f2df-22a1-8c2c" name="Criminal Syndicate" hidden="false" targetId="62e3-8aa2-ed7a-9e44" primary="false"/>
         <categoryLink id="4e22-53ce-1a0f-76f2" name="Winter Guard" hidden="false" targetId="b5a7-c6a5-ae6f-29ba" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8362-a91d-52f5-f375" name="PROFESSOR X (Charles Xavier)" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee92-0a05-d3e2-14fc" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="9414-e756-020d-16d6" name="Healthy" hidden="false" typeId="fde4-96d9-2028-2529" typeName="    Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">6</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">M</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">2</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">4</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">2</characteristic>
+            <characteristic name="Energy Defense" typeId="0509-5c52-7571-39ad">2</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">6</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5dfb-b6c8-8070-da1e" name="Injured" hidden="false" typeId="fde4-96d9-2028-2529" typeName="    Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">5</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">M</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">2</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">4</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">2</characteristic>
+            <characteristic name="Energy Defense" typeId="0509-5c52-7571-39ad">2</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">6</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="beb7-fc15-ac7e-c41e" name="  PSYCHIC DART" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="   Attacks">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Myst</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">4</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">5</characteristic>
+            <characteristic name="Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">- After this attack is resolved, this character gains {PWR} equal to the {DMG} dealt.
+- {WILD} Root: After this attack is resolved, the target character gains the Root special condition.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="28f1-8516-685f-d166" name=" MENTAL SUGGESTION" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="   Attacks">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Myst</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">3</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">6</characteristic>
+            <characteristic name="Cost" typeId="711d-c2bc-e2d4-f398">1</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">- After this attack is resolved, if it dealt {DMG}, you may Advance the target character its Speed.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="12c8-6c97-9da2-5dd2" name="ASTRAL DUEL" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="   Attacks">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Myst</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">3</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">4</characteristic>
+            <characteristic name="Cost" typeId="711d-c2bc-e2d4-f398">3</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">- Add dice to the attack roll equal to the target&apos;s {MYST} defense.
+- The target character cannot reroll or modify dice in the defense roll during this attack.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d515-7598-d690-51b7" name="XAVIER&apos;S SCHOOL FOR GIFTED YOUNGSTERS (AFFILIATION: UNCANNY X-MEN)" hidden="false" typeId="aa85-0b33-2742-db0e" typeName="   Leadership">
+          <characteristics>
+            <characteristic name="Special Rules" typeId="c95d-3ead-781d-3833">Once per turn, when an allied character spends 1 or more {PWR} to use an {ACTIVE} or {REACTIVE} superpower, after the effect is resolved, another allied character may gain 1 {PWR}.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a143-b716-a088-92eb" name="PROFESSOR&apos;S GUIDANCE" hidden="false" typeId="5648-8d63-d440-21b0" typeName="  Reactive Superpowers">
+          <characteristics>
+            <characteristic name="Type" typeId="f59f-a16c-8938-4be1">Reactive</characteristic>
+            <characteristic name="Cost" typeId="3a1f-904d-3b3e-abfb">X</characteristic>
+            <characteristic name="Special Rules" typeId="e05d-5a10-9d52-550c">While another allied character within {RNG} 4 is attacking or defending, during the Modify Dice step of the attack, this character may spend 1-3 {PWR} to use this superpower. For each {PWR} spent, the allied attacking or defending character may reroll 1 of its dice. This superpower can be used only once per turn.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5c28-b2e2-ba29-97e1" name=" TELEPATHIC LOCK" hidden="false" typeId="6b81-fb1a-574f-32e2" typeName=" Innate Superpowers">
+          <characteristics>
+            <characteristic name="Type" typeId="e9b9-de48-7a91-1e15">Innate</characteristic>
+            <characteristic name="Cost" typeId="f183-829f-8371-8b7c">-</characteristic>
+            <characteristic name="Special Rules" typeId="052f-28a4-12f9-0691">When an enemy character targets this character with an attack, it may use its {MYST} defense regardless of the attack&apos;s type unless the attacker pays 2 {PWR}.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2f13-5814-b7c6-d39f" name="OMEGA-LEVEL TELEPATH" hidden="false" typeId="6b81-fb1a-574f-32e2" typeName=" Innate Superpowers">
+          <characteristics>
+            <characteristic name="Type" typeId="e9b9-de48-7a91-1e15">Innate</characteristic>
+            <characteristic name="Cost" typeId="f183-829f-8371-8b7c">-</characteristic>
+            <characteristic name="Special Rules" typeId="052f-28a4-12f9-0691">This character cannot be Pushed or Advanced by the effects of {MYST} attacks or enemy superpowers.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="2063-a75b-a1e1-3113" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
+        <categoryLink id="a095-b23f-650a-4f29" name="Uncanny X-Men" hidden="false" targetId="60b3-f8b0-e59a-faca" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="4.0"/>
@@ -19847,7 +20551,7 @@ Additionally, at the end of this character&apos;s activation, enemy characters w
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="70f0-5acb-6711-5010" name="SHADOW KING (Amahl Farouk) {BETA}" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="70f0-5acb-6711-5010" name="SHADOW KING (Amahl Farouk)" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a08-1be1-7d79-74b0" type="max"/>
       </constraints>
@@ -19926,12 +20630,13 @@ Additionally, at the end of this character&apos;s activation, enemy characters w
       </profiles>
       <categoryLinks>
         <categoryLink id="12e6-9034-1494-bc15" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
+        <categoryLink id="b08b-36c4-f4da-ee52" name="Brotherhood of Mutants" hidden="false" targetId="ece5-46c6-abdb-39d6" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4261-4522-23f1-6523" name="SHADOWCAT (Katherine &quot;Kitty&quot; Pryde) {BETA}" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="4261-4522-23f1-6523" name="SHADOWCAT (Katherine &quot;Kitty&quot; Pryde)" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c99-a03b-1b85-47fb" type="max"/>
       </constraints>
@@ -19966,7 +20671,7 @@ Additionally, at the end of this character&apos;s activation, enemy characters w
             <characteristic name="Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
             <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">- After this attack is resolved, this character gains {PWR} equal to the {DMG} dealt.
 - During this attack, the defending character does not add {CRIT} results in its defense roll to its total successes, and cannot add additional dice to the defense roll as a result of {CRIT} results.
-- {WILD} Sidestep: After this attack is resolved, Place this character within {RNG} 1 of itself.</characteristic>
+- {WILD} Sidestep: After this attack is resolved, Place this character within {RNG} 1 of its current position.</characteristic>
           </characteristics>
         </profile>
         <profile id="f702-87b5-e9de-ef79" name="GET &apos;EM LOCKHEED!" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="   Attacks">
@@ -20013,12 +20718,13 @@ Additionally, at the end of this character&apos;s activation, enemy characters w
       </profiles>
       <categoryLinks>
         <categoryLink id="1782-91cb-86b2-e26f" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
+        <categoryLink id="036b-5ed0-89f2-05be" name="Uncanny X-Men" hidden="false" targetId="60b3-f8b0-e59a-faca" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="3.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6474-0172-5646-8388" name="SHADOWLAND DAREDEVIL (MATT MURDOCK)" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="6474-0172-5646-8388" name="SHADOWLAND DAREDEVIL (Matt Murdock)" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cb6-5b8b-4d8b-7c77" type="max"/>
       </constraints>
@@ -20210,6 +20916,81 @@ Additionally, at the end of this character&apos;s activation, enemy characters w
       </categoryLinks>
       <costs>
         <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7b11-22ef-2273-40ca" name="SHOCKER (Herman Schultz) {BETA}" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d63-a41c-0362-918f" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="7dae-9bae-00d6-2ec5" name="Healthy" hidden="false" typeId="fde4-96d9-2028-2529" typeName="    Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">5</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">M</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">2</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">3</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">4</characteristic>
+            <characteristic name="Energy Defense" typeId="0509-5c52-7571-39ad">3</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ff1a-ceb7-79c6-0209" name="Injured" hidden="false" typeId="fde4-96d9-2028-2529" typeName="    Character">
+          <characteristics>
+            <characteristic name="Stamina" typeId="c7b5-640e-9689-f363">5</characteristic>
+            <characteristic name="Speed" typeId="ba74-030d-982e-7e70">M</characteristic>
+            <characteristic name="Size" typeId="40df-7d54-a856-5953">2</characteristic>
+            <characteristic name="Threat" typeId="b915-b25f-cb12-b651">3</characteristic>
+            <characteristic name="Physical Defense" typeId="61c4-a32c-74b4-b335">4</characteristic>
+            <characteristic name="Energy Defense" typeId="0509-5c52-7571-39ad">3</characteristic>
+            <characteristic name="Mystic Defense" typeId="0c10-28cd-4926-f292">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7d73-dc6b-281e-ae00" name=" VIBRO-SHOCK STRIKE" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="   Attacks">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Phys</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">3</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">5</characteristic>
+            <characteristic name="Cost" typeId="711d-c2bc-e2d4-f398">0</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">- After this attack is resolved, this character gains {PWR} equal to the {DMG} dealt.
+- {WILD} Stun: After the attack is resolved, the target character gains the Stun special condition.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a899-6e0f-87bc-fdec" name="SHAKE &apos;EM DOWN" hidden="false" typeId="f568-1385-4cbb-d16b" typeName="   Attacks">
+          <characteristics>
+            <characteristic name="Type" typeId="4fe1-64e5-293e-f679">Enrg</characteristic>
+            <characteristic name="Range" typeId="30a7-a2d1-0001-e2a2">3</characteristic>
+            <characteristic name="Strength" typeId="8341-b3f5-ecc1-0834">7</characteristic>
+            <characteristic name="Cost" typeId="711d-c2bc-e2d4-f398">4</characteristic>
+            <characteristic name="Special Rules" typeId="1bfb-9dd5-42c1-6beb">- {WILD} Stagger: After the attack is resolved, the target character gains the Stagger special condition.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b47a-209f-23e6-2cf5" name="VIBRATIONAL SHIELD" hidden="false" typeId="5648-8d63-d440-21b0" typeName="  Reactive Superpowers">
+          <characteristics>
+            <characteristic name="Type" typeId="f59f-a16c-8938-4be1">Reactive</characteristic>
+            <characteristic name="Cost" typeId="3a1f-904d-3b3e-abfb">2</characteristic>
+            <characteristic name="Special Rules" typeId="e05d-5a10-9d52-550c">When this character is targeted by a {PHYS} or {ENRG} attack, it may use this superpower. Add 2 dice to this character&apos;s defense roll against that attack.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="485a-2a6a-2205-9807" name="IF THE GROUND IS ROCKING..." hidden="false" typeId="6b81-fb1a-574f-32e2" typeName=" Innate Superpowers">
+          <characteristics>
+            <characteristic name="Type" typeId="e9b9-de48-7a91-1e15">Innate</characteristic>
+            <characteristic name="Cost" typeId="f183-829f-8371-8b7c">-</characteristic>
+            <characteristic name="Special Rules" typeId="052f-28a4-12f9-0691">When an enemy character within {RNG} 2 of this character makes an attack, it rolls 1 fewer die on its attack roll.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8a65-d8d8-22a8-0fb9" name="IMMUNITY [STUN]" hidden="false" typeId="6b81-fb1a-574f-32e2" typeName=" Innate Superpowers">
+          <characteristics>
+            <characteristic name="Type" typeId="e9b9-de48-7a91-1e15">Innate</characteristic>
+            <characteristic name="Cost" typeId="f183-829f-8371-8b7c">-</characteristic>
+            <characteristic name="Special Rules" typeId="052f-28a4-12f9-0691">This character can’t suffer the [STUN] special condition. If it has the special condition and gains Immunity to it, the character removes the special condition.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="4283-a47c-a6eb-5975" name="Character" hidden="false" targetId="b2c6-4f4b-967e-2218" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Threat Level" typeId="2de3-a5e2-23d8-2859" value="3.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9171-df7a-8885-f92e" name="SHURI (Shuri)" hidden="false" collective="false" import="true" type="model">

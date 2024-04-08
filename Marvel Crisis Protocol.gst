@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="9c66-3ecf-4508-3b47" name="Marvel Crisis Protocol" revision="2304" battleScribeVersion="2.03" authorName="Uplink" authorContact="Uplink.MCP@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="9c66-3ecf-4508-3b47" name="Marvel Crisis Protocol" revision="2401" battleScribeVersion="2.03" authorName="Uplink" authorContact="Uplink.MCP@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>*VERSION INFO*
 Core Rules: 10/02/2023
-FAQ &amp; Errata: 10/01/2023
-Base Sizes: 10/01/2023
-Affiliations: 10/01/2023
+FAQ &amp; Errata: 02/01/2024
+Base Sizes: 03/01/2024
+Affiliations: 03/01/2024
 Ban/Restricted: 09/22/2023
 Challenger: 12/09/2022
 
 *UPDATES*
-- Updated to 10/02/2023 docs.
-- Finalized Data for Immortal Hulk, M.O.D.O.K. Scientist Supreme, Squirrel Girl, Gwenpool,Cosmic Ghost Rider, Klaw, and M&apos;baku Character, Team Tactic cards and Affiliations.
-- Finalized Data for Earth&apos;s Mightiest Core Set.
-- Finalized Data for 2023 Crisis Card Pack
-- Added 2023 Character Updates - Print and Play Data
-- Corrected text formatting on Crimson Dynamo.
-- Added Ministravaganza reveals - King T&apos;Challa, Killmonger - Usurper, Nightcrawler, Shadowcat, Shadow King
+- Updated to 03/01/2024 docs.
+- Finalized Data for King T&apos;Challa, Killmonger - Usurper Character, Nightcrawler, Shadowcat, Shadow King, Bishop, Professor X, and IceMan Character, Team Tactic cards and Affiliations.
+- Added One-Shot cards.
+- Fixed text formatting on Shadowland Daredevil alias.
+- Added P2P Data for Shocker.
 
 *DATAFILE REFERENCE*
 - Any entries listed as {Beta} are ones I do not own, have not seen in person, or which have not been officially published in AMG living documents (Rules / FAQ / etc.). Panel to Play (P2P) data is considered Beta.
@@ -102,6 +100,15 @@ If you find any incorrect data, please send correction requests to the address a
         <characteristicType id="5689-ade5-a287-7087" name="Set"/>
       </characteristicTypes>
     </profileType>
+    <profileType id="6e60-06f4-84dd-44f8" name="One-Shot">
+      <characteristicTypes>
+        <characteristicType id="87ab-2189-4743-0722" name="Threat"/>
+        <characteristicType id="6d49-5ac8-29c0-c21f" name="Description"/>
+        <characteristicType id="e890-d7b7-97b5-e708" name="Setup"/>
+        <characteristicType id="ac5f-7cbd-2584-2858" name="Rules"/>
+        <characteristicType id="c919-28b7-7096-5e8c" name="Set"/>
+      </characteristicTypes>
+    </profileType>
     <profileType id="814b-cbd0-8af2-895f" name="Special Conditions">
       <characteristicTypes>
         <characteristicType id="6532-3aa9-58e3-43f6" name="Special Rules"/>
@@ -153,6 +160,8 @@ If you find any incorrect data, please send correction requests to the address a
     <categoryEntry id="e7d2-fc4f-e67b-f877" name="Infinity Gems" hidden="false"/>
     <categoryEntry id="44ea-115a-c4be-377a" name="Inhumans" hidden="false"/>
     <categoryEntry id="6a20-2f6b-5867-386a" name="Midnight Sons" hidden="false"/>
+    <categoryEntry id="468e-df9e-6498-fdb6" name="One-Shot" hidden="false"/>
+    <categoryEntry id="44de-652b-319c-1e49" name="One-Shots" hidden="false"/>
     <categoryEntry id="37b0-7fc2-32e0-345f" name="Restricted - Timeline Extended" hidden="false"/>
     <categoryEntry id="3351-762c-1152-6a79" name="Restricted - Timeline Standard" hidden="false"/>
     <categoryEntry id="44da-2d91-089d-8aad" name="S.H.I.E.L.D." hidden="false"/>
@@ -162,6 +171,7 @@ If you find any incorrect data, please send correction requests to the address a
     <categoryEntry id="45bd-7f44-9608-4abe" name="Set - City Tactic" hidden="false"/>
     <categoryEntry id="e5bc-27a3-d353-54a3" name="Set - Flup Crisis" hidden="false"/>
     <categoryEntry id="46a3-b3fb-46ae-4a0e" name="Set - Flup Gem" hidden="false"/>
+    <categoryEntry id="d78d-e36c-6eb0-ae3c" name="Set - Flup One-Shot" hidden="false"/>
     <categoryEntry id="5702-4196-97f0-695a" name="Set - Flup Tactic" hidden="false"/>
     <categoryEntry id="7cdf-3645-3a8a-067b" name="Set - Hammer Crisis" hidden="false"/>
     <categoryEntry id="24e0-2c06-1601-09a4" name="Set - Hammer Gem" hidden="false"/>
