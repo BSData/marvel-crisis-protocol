@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="9c66-3ecf-4508-3b47" name="Marvel Crisis Protocol" revision="2401" battleScribeVersion="2.03" authorName="Uplink" authorContact="Uplink.MCP@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="9c66-3ecf-4508-3b47" name="Marvel Crisis Protocol" revision="2402" battleScribeVersion="2.03" authorName="Uplink" authorContact="Uplink.MCP@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>*VERSION INFO*
-Core Rules: 10/02/2023
-FAQ &amp; Errata: 02/01/2024
-Base Sizes: 03/01/2024
-Affiliations: 03/01/2024
-Ban/Restricted: 09/22/2023
-Challenger: 12/09/2022
+Core Rules: 05/2024 v1.1
+FAQ &amp; Errata: 09/27/2024
+Base Sizes: 11/01/2024
+Affiliations: 11/01/2024
+Ban/Restricted: 09/27/2024
+Challenger: 11/01/2024
 
 *UPDATES*
-- Updated to 03/01/2024 docs.
-- Finalized Data for King T&apos;Challa, Killmonger - Usurper Character, Nightcrawler, Shadowcat, Shadow King, Bishop, Professor X, and IceMan Character, Team Tactic cards and Affiliations.
-- Added One-Shot cards.
-- Fixed text formatting on Shadowland Daredevil alias.
-- Added P2P Data for Shocker.
+- Updated to 11/01/2024 docs (w/ 11/08/2024 addendum).
+- Finalized Data for Gwenom, Electro, Sandman, Scarlet Spider, Vulture, Shocker, Silver Sable, Shang-Chi, Black Panther - Chosen of Bast, Namor the Sub-Mariner, Thor - Hero of Midgard, Loki - Prince of Lies, Lady Sif, The Mighty Thor, Sunspot, Warlock, Angel, Archangel, Apocalypse, Weapon X, Maverick, N&apos;Kantu - The Living Mummy, Frankenstein&apos;s Monster, Werewolf By Night, Dracula, Mephisto, Abomination, and The Wrecking Crew.
+- Added Horsemen cards/mechanic to Apocalypse and Horsemen characters.
+- Added Print &amp; Play One-Shot cards.
+- Added new terrain One-Shot cards.
+- Added 2024 Team Tactic Cards Errata.
+- Added P2P Data for Yondu, Elsa Bloodstone, Nova, and Man-Thing.
+- Added 07/2024 Green Goblin and Doctor Octopus Stat Card Updates.
+- Added Legion of the Lost, Thralls of Dracula, Servants of the Apocalypse affiliations.
 
 *DATAFILE REFERENCE*
 - Any entries listed as {Beta} are ones I do not own, have not seen in person, or which have not been officially published in AMG living documents (Rules / FAQ / etc.). Panel to Play (P2P) data is considered Beta.
@@ -91,6 +95,11 @@ If you find any incorrect data, please send correction requests to the address a
         <characteristicType id="7f1d-2583-eaf2-10ff" name="Set"/>
       </characteristicTypes>
     </profileType>
+    <profileType id="1af7-0ac7-4ace-8863" name="Horsemen Card">
+      <characteristicTypes>
+        <characteristicType id="292f-5ce8-01e5-fd58" name="Description"/>
+      </characteristicTypes>
+    </profileType>
     <profileType id="08c5-f8c2-0bfe-8bab" name="Infinity Gem">
       <characteristicTypes>
         <characteristicType id="7b62-cfc6-5ac5-5df5" name="Threat"/>
@@ -159,13 +168,20 @@ If you find any incorrect data, please send correction requests to the address a
     <categoryEntry id="a097-6b33-a91a-b908" name="Hydra" hidden="false"/>
     <categoryEntry id="e7d2-fc4f-e67b-f877" name="Infinity Gems" hidden="false"/>
     <categoryEntry id="44ea-115a-c4be-377a" name="Inhumans" hidden="false"/>
+    <categoryEntry id="5f98-f675-ab4f-c0f1" name="Legion of the Lost" hidden="false"/>
     <categoryEntry id="6a20-2f6b-5867-386a" name="Midnight Sons" hidden="false"/>
+    <categoryEntry id="59df-b40d-0adf-aa62" name="New Mutants" hidden="false"/>
     <categoryEntry id="468e-df9e-6498-fdb6" name="One-Shot" hidden="false"/>
     <categoryEntry id="44de-652b-319c-1e49" name="One-Shots" hidden="false"/>
     <categoryEntry id="37b0-7fc2-32e0-345f" name="Restricted - Timeline Extended" hidden="false"/>
     <categoryEntry id="3351-762c-1152-6a79" name="Restricted - Timeline Standard" hidden="false"/>
     <categoryEntry id="44da-2d91-089d-8aad" name="S.H.I.E.L.D." hidden="false"/>
     <categoryEntry id="00d3-7664-9c6d-2322" name="Sentinels" hidden="false"/>
+    <categoryEntry id="ded4-2355-7f18-d961" name="Servants of the Apocalypse" hidden="false"/>
+    <categoryEntry id="1c2b-c4b6-d661-4cb4" name="Servants of the Apocalypse - Death" hidden="false"/>
+    <categoryEntry id="dfe6-d2d9-73d5-6e26" name="Servants of the Apocalypse - Famine" hidden="false"/>
+    <categoryEntry id="5afe-4365-dc7c-ccf9" name="Servants of the Apocalypse - Pestilence" hidden="false"/>
+    <categoryEntry id="d396-4f01-3cc3-98dd" name="Servants of the Apocalypse - War" hidden="false"/>
     <categoryEntry id="c979-e2ae-244c-cb8b" name="Set - City Crisis" hidden="false"/>
     <categoryEntry id="0e17-e603-4d9b-981f" name="Set - City Gem" hidden="false"/>
     <categoryEntry id="45bd-7f44-9608-4abe" name="Set - City Tactic" hidden="false"/>
@@ -184,10 +200,12 @@ If you find any incorrect data, please send correction requests to the address a
     <categoryEntry id="c49c-152c-b64a-3450" name="Set - XMen Tactic" hidden="false"/>
     <categoryEntry id="f600-d032-ecee-709b" name="Set - XMen2 Crisis" hidden="false"/>
     <categoryEntry id="0c60-4b55-c63a-76ee" name="Set - XMen2 Gem" hidden="false"/>
+    <categoryEntry id="7ae3-1b16-cb4d-39a5" name="Set - XMen2 One-Shot" hidden="false"/>
     <categoryEntry id="63ae-a2af-e912-f2bb" name="Set - XMen2 Tactic" hidden="false"/>
     <categoryEntry id="71ff-5d57-e3a0-5322" name="Spider-Foes" hidden="false"/>
     <categoryEntry id="d643-5175-ae87-9385" name="Team Tactics" hidden="false"/>
     <categoryEntry id="7de0-86ce-229b-637e" name="Team Tactics Cards" hidden="false"/>
+    <categoryEntry id="6017-2764-96a5-5bc3" name="Thralls of Dracula" hidden="false"/>
     <categoryEntry id="8ded-f44e-e059-108b" name="Unaffiliated" hidden="false"/>
     <categoryEntry id="60b3-f8b0-e59a-faca" name="Uncanny X-Men" hidden="false"/>
     <categoryEntry id="f26a-4939-f603-307c" name="Wakanda" hidden="false"/>
